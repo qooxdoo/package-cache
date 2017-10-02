@@ -4,6 +4,9 @@ node_js:
 cache:
   directories:
     - "node_modules"
+before_install:
+  - git clone https://github.com/qooxdoo/qooxdoo-cli.git
+  - cd qooxdoo-cli
 script:
   - ./qx contrib update --file ./cache.json
   - cat ./cache.json
