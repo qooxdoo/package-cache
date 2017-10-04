@@ -26,6 +26,7 @@ before_install:
 - git config --global user.email "no-reply@qooxdoo.org"
 - git config --global push.default simple
 - git clone git@github.com:qooxdoo/qx-contrib.git
+- git clone git@github.com:qooxdoo/qooxdoo-cli.git
 - cd qooxdoo-cli
 script:
 - "./qx contrib update --file ./cache.json --token $TOKEN"
