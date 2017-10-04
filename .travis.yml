@@ -29,5 +29,11 @@ before_install:
 - git clone git@github.com:qooxdoo/qooxdoo-cli.git
 - cd qooxdoo-cli
 script:
-- "./qx contrib update --file ./cache.json --token $TOKEN"
-- cat ./cache.json
+- "./qx contrib update --file ../qx-contrib/cache.json --token $TOKEN"
+- cd ../qx-contrib
+- |
+  if ! git diff --quiet --exit-code; then
+    git add cache.json && git commit -m "Update catalog" && git push && echo "Updated contrib cache."
+  else
+    echo "No changes."
+  fi
