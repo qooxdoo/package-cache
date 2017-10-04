@@ -1,12 +1,32 @@
 language: node_js
 node_js:
-  - "8"
+- '8'
 cache:
   directories:
-    - "node_modules"
+  - node_modules
+env:
+  global:
+    secure: tkD9nMCCLjjt2KqQzLJjbawETIqMRoLe7hnILDAsurV28F9xqPEYe62K4uoS9KubjvQ/93NkvrZxVyUo+OYPecBSx4KzsN/+o4vYCjhpLdK9POX0T95DDZS9zn0BUEMcU/ruomrm31KgNkTZnOi8VqOdHAp24Di8ug86qiLdOeXalLHA/24ui8WuUTpDc+qbNOJhuOlz7+LGVfqvvYBW4Pwu2uSScjXzdvLUQl9SkOh/W7VyO9COklMszlXGWQm4DYKINlHxu0WgyGe3x7rJU6SAKGOq5Rd9+nEOHZA5Px5jUxShJthq8LLul7+c43TrrPLM7k0rRZ2vYhe/gQADMBtozzTz6qa1uknLIwdDCIo3kxIXot/1qF5XouGUTBUqlPBXt6tz3UKmNEPA6QPuXxUT+6ME84qBQbWb0uDZ72HpDKRuLxu1Q34L8J1IaMzkOm6oYvi6unIH96uc4Hxyy3Gb9cQavjrUQaL1Col5jJXuDZKuPLkBoLyQH/ccmZg5Mv3Zi4R9QCGGfK3w1/4k51bDi8RdJ0jxbCH6sXxbohjfvgDj6FDUS9JFy4rezg/ZId33aOfZdRx8hC4ZdvHByBbJvtIOBK9o1aQvbZAneJrWHj/0ivjS4id9qMDo7yTmAepNnOnCWcxiQAcbZcfC2odrFqZ0M11pnFW0GGaCjXk=
 before_install:
-  - git clone https://github.com/qooxdoo/qooxdoo-cli.git
-  - cd qooxdoo-cli
+- |
+  declare -r SSH_FILE="$(mktemp -u $HOME/.ssh/XXXXX)"
+  openssl aes-256-cbc \
+    -K $encrypted_ae46258a4f3b_key \
+    -iv $encrypted_ae46258a4f3b_iv \
+    -in ".travis/qx-contrib-deploy.enc" \
+    -out "$SSH_FILE" -d
+
+  # Enable SSH authentication
+  chmod 600 "$SSH_FILE" \
+    && printf "%s\n" \
+         "Host github.com" \
+         "  IdentityFile $SSH_FILE" \
+         "  LogLevel ERROR" >> ~/.ssh/config
+- git config --global user.name "Travis CI deploy"
+- git config --global user.email "no-reply@qooxdoo.org"
+- git config --global push.default simple
+- git clone git@github.com:qooxdoo/qx-contrib.git
+- cd qooxdoo-cli
 script:
-  - ./qx contrib update --file ./cache.json
-  - cat ./cache.json
+- "./qx contrib update --file ./cache.json --token $TOKEN"
+- cat ./cache.json
