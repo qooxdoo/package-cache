@@ -1,5 +1,6 @@
 #  qooxdoo contrib 
 [![Build Status](https://travis-ci.org/qooxdoo/qx-contrib.svg?branch=master)](https://travis-ci.org/qooxdoo/qx-contrib)
+
 This repository is part of the qooxdoo contrib(ution) system, qooxdoo's "plugin" architecture. contribs are qooxdoo libraries that 
 can be loaded on-demand, using a [CLI](https://github.com/qooxdoo/qooxdoo-cli#qooxdoo-command-line-interface). 
 
