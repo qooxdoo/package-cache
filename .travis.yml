@@ -27,7 +27,9 @@ before_install:
 - git config --global push.default simple
 - git clone git@github.com:qooxdoo/qx-contrib.git
 - git clone git@github.com:qooxdoo/qooxdoo-cli.git
-- cd qooxdoo-cli
+- git clone git@github.com:qooxdoo/qooxdoo-compiler 
+- cd qooxdoo-compiler && npm install && cd ..
+- cd qooxdoo-cli && npm install && npm link && npm link ../qooxdoo-compiler/
 script:
 - "./qx contrib update --file ../qx-contrib/cache.json --token $TOKEN"
 - cd ../qx-contrib
