@@ -30,8 +30,9 @@ before_install:
 - git clone git@github.com:qooxdoo/qooxdoo-cli.git
 - git clone git@github.com:qooxdoo/qooxdoo-compiler 
 - cd qooxdoo-compiler && npm install && cd ..
-- cd qooxdoo-cli && npm install && npm link && npm link ../qooxdoo-compiler/
+- cd qooxdoo-cli && npm install && npm link 
 script:
+- npm link ../qooxdoo-compiler/ # use qxcompiler from github instead from npm
 - "./qx contrib update --file ../qx-contrib/cache.json --token $TOKEN"
 - cd ../qx-contrib
 - |
