@@ -5,6 +5,7 @@
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
+      "cboulanger/qx-contrib-test",
       "ergobyte/qookery",
       "gonicus/qooxdoo-svg",
       "johnspackman/UploadMgr",
@@ -18,6 +19,227 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "cboulanger/qx-contrib-test": {
+        "description": "This is a test contribution for the qooxdoo contrib system",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
+        "releases": {
+          "list": [
+            "v1.0.28",
+            "v1.0.27",
+            "v1.0.26",
+            "v1.0.25",
+            "v1.0.14",
+            "v1.0.13",
+            "v1.0.12",
+            "v1.0.11",
+            "v1.0.10"
+          ],
+          "data": {
+            "v1.0.28": {
+              "title": "v1.0.28",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.28",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.28.zip"
+            },
+            "v1.0.27": {
+              "title": "v1.0.27",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.27",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
+            },
+            "v1.0.26": {
+              "title": "v1.0.26",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.26",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.26.zip"
+            },
+            "v1.0.25": {
+              "title": "v1.0.25",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.25",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.25.zip"
+            },
+            "v1.0.14": {
+              "title": "v1.0.14",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.14",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.14.zip"
+            },
+            "v1.0.13": {
+              "title": "v1.0.13",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.13",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.13.zip"
+            },
+            "v1.0.12": {
+              "title": "v1.0.12",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.12",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.12.zip"
+            },
+            "v1.0.11": {
+              "title": "v1.0.11",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.11.zip"
+            },
+            "v1.0.10": {
+              "title": "v1.0.10",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
+            }
+          }
+        }
+      },
       "cboulanger/qx-contrib-Dialog": {
         "description": "A set of often used dialog widgets for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
@@ -923,5 +1145,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 22
+  "num_libraries": 29
 }
