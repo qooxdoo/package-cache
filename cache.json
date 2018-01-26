@@ -9,6 +9,7 @@
       "ergobyte/qookery",
       "gonicus/qooxdoo-svg",
       "johnspackman/UploadMgr",
+      "johnspackman/multi-column-tree",
       "oetiker/CanvasCell",
       "oetiker/ComboTable",
       "oetiker/Cropper",
@@ -19,6 +20,14 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "johnspackman/multi-column-tree": {
+        "description": "Multi-Column Tree Contrib for Qooxdoo",
+        "url": "https://api.github.com/repos/johnspackman/multi-column-tree",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "cboulanger/qx-contrib-Dialog": {
         "description": "A set of often used dialog widgets for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
