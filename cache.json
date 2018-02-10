@@ -6,6 +6,8 @@
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
       "cboulanger/qx-contrib-test",
+      "drawstack/qx-contrib-require",
+      "drawstack/qx-contrib-restful",
       "ergobyte/qookery",
       "gonicus/qooxdoo-svg",
       "johnspackman/UploadMgr",
@@ -20,6 +22,22 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "drawstack/qx-contrib-require": {
+        "description": "Allows you to use requirejs/alameda with Qooxdoo",
+        "url": "https://api.github.com/repos/drawstack/qx-contrib-require",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
+      "drawstack/qx-contrib-restful": {
+        "description": "Integrates Restful.js with Qooxdoo",
+        "url": "https://api.github.com/repos/drawstack/qx-contrib-restful",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "johnspackman/multi-column-tree": {
         "description": "Multi-Column Tree Contrib for Qooxdoo",
         "url": "https://api.github.com/repos/johnspackman/multi-column-tree",
