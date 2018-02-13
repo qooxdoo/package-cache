@@ -23,14 +23,6 @@
       "oetiker/UploadWidget"
     ],
     "data": {
-      "drawstack/qxjoint": {
-        "description": "An integration library of JointJS into qooxdoo",
-        "url": "https://api.github.com/repos/drawstack/qxjoint",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
       "drawstack/qx-contrib-require": {
         "description": "Allows you to use requirejs/alameda with Qooxdoo",
         "url": "https://api.github.com/repos/drawstack/qx-contrib-require",
@@ -42,6 +34,14 @@
       "drawstack/qx-contrib-restful": {
         "description": "Integrates Restful.js with Qooxdoo",
         "url": "https://api.github.com/repos/drawstack/qx-contrib-restful",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
+      "drawstack/qxjoint": {
+        "description": "An integration library of JointJS into qooxdoo",
+        "url": "https://api.github.com/repos/drawstack/qxjoint",
         "releases": {
           "list": [],
           "data": {}
