@@ -20,9 +20,18 @@
       "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
       "oetiker/QxTangible",
-      "oetiker/UploadWidget"
+      "oetiker/UploadWidget",
+      "oetiker/qx-osparc-theme"
     ],
     "data": {
+      "oetiker/qx-osparc-theme": {
+        "description": "A material-inspired theme for qooxdoo. (don't use this fork, it is experimental)",
+        "url": "https://api.github.com/repos/oetiker/qx-osparc-theme",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "cboulanger/qx-contrib-Dialog": {
         "description": "A set of often used dialog widgets for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
