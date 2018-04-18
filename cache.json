@@ -29,9 +29,36 @@
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
         "releases": {
           "list": [
+            "v0.0.2",
             "v0.0.1"
           ],
           "data": {
+            "v0.0.2": {
+              "title": "Blacker (is this even a word?)",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.2.zip"
+            },
             "v0.0.1": {
               "title": "Initial Test Release",
               "prerelease": true,
@@ -1438,5 +1465,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 37
+  "num_libraries": 38
 }
