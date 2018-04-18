@@ -1,6 +1,7 @@
 {
   "repos": {
     "list": [
+      "ITISFoundation/qx-osparc-theme",
       "cajus/capture",
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
@@ -20,10 +21,46 @@
       "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
       "oetiker/QxTangible",
-      "oetiker/UploadWidget",
-      "oetiker/qx-osparc-theme"
+      "oetiker/UploadWidget"
     ],
     "data": {
+      "ITISFoundation/qx-osparc-theme": {
+        "description": "A material-inspired theme for qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
+        "releases": {
+          "list": [
+            "v0.0.1"
+          ],
+          "data": {
+            "v0.0.1": {
+              "title": "Initial Test Release",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.1",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.1.zip"
+            }
+          }
+        }
+      },
       "cboulanger/qx-contrib-Dialog": {
         "description": "A set of often used dialog widgets for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
@@ -332,14 +369,6 @@
               "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.0.zip"
             }
           }
-        }
-      },
-      "oetiker/qx-osparc-theme": {
-        "description": "A material-inspired theme for qooxdoo. (don't use this fork, it is experimental)",
-        "url": "https://api.github.com/repos/oetiker/qx-osparc-theme",
-        "releases": {
-          "list": [],
-          "data": {}
         }
       },
       "cboulanger/qx-contrib-TokenField": {
@@ -1409,5 +1438,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 36
+  "num_libraries": 37
 }
