@@ -24,6 +24,152 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "cboulanger/qx-contrib-TokenField": {
+        "description": "A widget implementing the token field concept known from Mac OS X for the qooxdoo framework",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-TokenField",
+        "releases": {
+          "list": [
+            "v1.0.1",
+            "v1.0.0",
+            "0.6.2",
+            "v0.5"
+          ],
+          "data": {
+            "v1.0.1": {
+              "title": "Small patch",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha",
+                  "info": {
+                    "name": "TokenField",
+                    "category": [
+                      "form",
+                      "autocomplete"
+                    ],
+                    "summary": "TokenField Contribution",
+                    "description": "A widget implementing the token field concept",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
+                        "email": "gradinf AT gmail DOT com"
+                      },
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info AT bibliograph DOT org"
+                      }
+                    ],
+                    "version": "1.0.1",
+                    "qooxdoo-versions": [
+                      "5.0",
+                      "5.0.1",
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ],
+                    "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v1.0.1.zip"
+            },
+            "v1.0.0": {
+              "title": "v1.0.0 First qx contrib release",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha",
+                  "info": {
+                    "name": "TokenField",
+                    "category": [
+                      "form",
+                      "autocomplete"
+                    ],
+                    "summary": "TokenField Contribution",
+                    "description": "A widget implementing the token field concept",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
+                        "email": "gradinf AT gmail DOT com"
+                      },
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info AT bibliograph DOT org"
+                      }
+                    ],
+                    "version": "1.0.0",
+                    "qooxdoo-versions": [
+                      "5.0",
+                      "5.0.1",
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ],
+                    "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v1.0.0.zip"
+            },
+            "0.6.2": {
+              "title": "TokenField contrib v0.6.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "4.x - 5.x",
+                  "info": {
+                    "name": "TokenField",
+                    "category": [
+                      "form",
+                      "autocomplete"
+                    ],
+                    "summary": "TokenField Contribution",
+                    "description": "A widget implementing the token field concept",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
+                        "email": "gradinf AT gmail DOT com"
+                      },
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info AT bibliograph DOT org"
+                      }
+                    ],
+                    "demos": [
+                      {
+                        "name": "default",
+                        "url": ""
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": "4.x - 5.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/0.6.2.zip"
+            },
+            "v0.5": {
+              "title": "TokenField v0.5 ",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v0.5.zip"
+            }
+          }
+        }
+      },
       "ITISFoundation/qx-osparc-theme": {
         "description": "A material-inspired theme for qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
@@ -448,152 +594,6 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.0.zip"
-            }
-          }
-        }
-      },
-      "cboulanger/qx-contrib-TokenField": {
-        "description": "A widget implementing the token field concept known from Mac OS X for the qooxdoo framework",
-        "url": "https://api.github.com/repos/cboulanger/qx-contrib-TokenField",
-        "releases": {
-          "list": [
-            "v1.0.1",
-            "v1.0.0",
-            "0.6.2",
-            "v0.5"
-          ],
-          "data": {
-            "v1.0.1": {
-              "title": "Small patch",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha",
-                  "info": {
-                    "name": "TokenField",
-                    "category": [
-                      "form",
-                      "autocomplete"
-                    ],
-                    "summary": "TokenField Contribution",
-                    "description": "A widget implementing the token field concept",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
-                        "email": "gradinf AT gmail DOT com"
-                      },
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info AT bibliograph DOT org"
-                      }
-                    ],
-                    "version": "1.0.1",
-                    "qooxdoo-versions": [
-                      "5.0",
-                      "5.0.1",
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ],
-                    "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v1.0.1.zip"
-            },
-            "v1.0.0": {
-              "title": "v1.0.0 First qx contrib release",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha",
-                  "info": {
-                    "name": "TokenField",
-                    "category": [
-                      "form",
-                      "autocomplete"
-                    ],
-                    "summary": "TokenField Contribution",
-                    "description": "A widget implementing the token field concept",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
-                        "email": "gradinf AT gmail DOT com"
-                      },
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info AT bibliograph DOT org"
-                      }
-                    ],
-                    "version": "1.0.0",
-                    "qooxdoo-versions": [
-                      "5.0",
-                      "5.0.1",
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ],
-                    "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v1.0.0.zip"
-            },
-            "0.6.2": {
-              "title": "TokenField contrib v0.6.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "4.x - 5.x",
-                  "info": {
-                    "name": "TokenField",
-                    "category": [
-                      "form",
-                      "autocomplete"
-                    ],
-                    "summary": "TokenField Contribution",
-                    "description": "A widget implementing the token field concept",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
-                        "email": "gradinf AT gmail DOT com"
-                      },
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info AT bibliograph DOT org"
-                      }
-                    ],
-                    "demos": [
-                      {
-                        "name": "default",
-                        "url": ""
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": "4.x - 5.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/0.6.2.zip"
-            },
-            "v0.5": {
-              "title": "TokenField v0.5 ",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v0.5.zip"
             }
           }
         }
