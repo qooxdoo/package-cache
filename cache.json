@@ -26,11 +26,28 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "ITISFoundation/qx-iconfont-fontawesome5": {
+        "description": "FontAwesome 5 Icons for Qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
+      "ITISFoundation/qx-iconfont-material": {
+        "description": "Material Icons for Qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "cboulanger/qx-contrib-TokenField": {
         "description": "A widget implementing the token field concept known from Mac OS X for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-TokenField",
         "releases": {
           "list": [
+            "v1.2.0",
             "v1.1.0",
             "v1.0.1",
             "v1.0.0",
@@ -38,6 +55,50 @@
             "v0.5"
           ],
           "data": {
+            "v1.2.0": {
+              "title": "v1.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha",
+                  "info": {
+                    "name": "TokenField",
+                    "category": [
+                      "form",
+                      "autocomplete"
+                    ],
+                    "summary": "TokenField Contribution",
+                    "description": "A widget implementing the token field concept",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
+                        "email": "gradinf AT gmail DOT com"
+                      },
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info AT bibliograph DOT org"
+                      },
+                      {
+                        "name": "Tobias Bräutigam (peuter)"
+                      }
+                    ],
+                    "version": "1.2.0",
+                    "qooxdoo-versions": [
+                      "5.0",
+                      "5.0.1",
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ],
+                    "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v1.2.0.zip"
+            },
             "v1.1.0": {
               "title": "1.1.0",
               "prerelease": false,
@@ -215,22 +276,6 @@
               "zip_url": "https://github.com/cboulanger/qx-contrib-TokenField/archive/v0.5.zip"
             }
           }
-        }
-      },
-      "ITISFoundation/qx-iconfont-fontawesome5": {
-        "description": "FontAwesome 5 Icons for Qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
-      "ITISFoundation/qx-iconfont-material": {
-        "description": "Material Icons for Qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
-        "releases": {
-          "list": [],
-          "data": {}
         }
       },
       "ITISFoundation/qx-osparc-theme": {
@@ -1582,5 +1627,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 41
+  "num_libraries": 42
 }
