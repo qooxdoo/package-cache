@@ -31,9 +31,36 @@
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
         "releases": {
           "list": [
+            "v0.0.1",
             "v0.0.0"
           ],
           "data": {
+            "v0.0.1": {
+              "title": "Name Fix",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-iconfont-fontawesome5",
+                    "summary": "font awesome 5 iconfont",
+                    "description": "qooxdoo integration of the font awesome iconfonts",
+                    "homepage": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.1",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.0.1.zip"
+            },
             "v0.0.0": {
               "title": "Startup",
               "prerelease": true,
@@ -1685,5 +1712,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 44
+  "num_libraries": 45
 }
