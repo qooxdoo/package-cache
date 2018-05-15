@@ -95,12 +95,12 @@
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
         "releases": {
           "list": [
-            "0.0.2",
+            "v0.0.2",
             "v0.0.1",
             "v0.0.0"
           ],
           "data": {
-            "0.0.2": {
+            "v0.0.2": {
               "title": "Updated to FontAwesome 5.0.13",
               "prerelease": true,
               "manifests": [
@@ -124,7 +124,7 @@
                   }
                 }
               ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/0.0.2.zip"
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.0.2.zip"
             },
             "v0.0.1": {
               "title": "Name Fix",
