@@ -26,15 +26,106 @@
       "oetiker/UploadWidget"
     ],
     "data": {
-      "ITISFoundation/qx-iconfont-fontawesome5": {
-        "description": "FontAwesome 5 Icons for Qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
+      "ITISFoundation/qx-iconfont-material": {
+        "description": "Material Icons for Qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
         "releases": {
           "list": [
             "v0.0.1",
             "v0.0.0"
           ],
           "data": {
+            "v0.0.1": {
+              "title": "Update Structure",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.1",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.1.zip"
+            },
+            "v0.0.0": {
+              "title": "We have a Go!",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.0",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.0.zip"
+            }
+          }
+        }
+      },
+      "ITISFoundation/qx-iconfont-fontawesome5": {
+        "description": "FontAwesome 5 Icons for Qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
+        "releases": {
+          "list": [
+            "0.0.2",
+            "v0.0.1",
+            "v0.0.0"
+          ],
+          "data": {
+            "0.0.2": {
+              "title": "Updated to FontAwesome 5.0.13",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-iconfont-fontawesome5",
+                    "summary": "font awesome 5 iconfont",
+                    "description": "qooxdoo integration of the font awesome iconfonts",
+                    "homepage": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/0.0.2.zip"
+            },
             "v0.0.1": {
               "title": "Name Fix",
               "prerelease": true,
@@ -86,43 +177,6 @@
                 }
               ],
               "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.0.0.zip"
-            }
-          }
-        }
-      },
-      "ITISFoundation/qx-iconfont-material": {
-        "description": "Material Icons for Qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
-        "releases": {
-          "list": [
-            "v0.0.0"
-          ],
-          "data": {
-            "v0.0.0": {
-              "title": "We have a Go!",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.0",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.0.zip"
             }
           }
         }
@@ -1712,5 +1766,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 45
+  "num_libraries": 47
 }
