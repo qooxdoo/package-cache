@@ -13,6 +13,8 @@
       "drawstack/qx-contrib-restful",
       "drawstack/qxjoint",
       "ergobyte/qookery",
+      "gonicus/breadcrumbs",
+      "gonicus/flat",
       "gonicus/qooxdoo-svg",
       "johnspackman/UploadMgr",
       "johnspackman/multi-column-tree",
@@ -26,6 +28,68 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "johnspackman/UploadMgr": {
+        "description": "Uploads files with background uploads and progress feedback on modern browsers",
+        "url": "https://api.github.com/repos/johnspackman/UploadMgr",
+        "releases": {
+          "list": [
+            "v1.0.0"
+          ],
+          "data": {
+            "v1.0.0": {
+              "title": "Release 1.0.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "1.5",
+                      "1.6",
+                      "1.6.1",
+                      "2.0",
+                      "2.1",
+                      "5.0",
+                      "5.1",
+                      "6.0"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
+            }
+          }
+        }
+      },
+      "gonicus/breadcrumbs": {
+        "description": "Qooxdoo breadcrumb widget",
+        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
+      "gonicus/flat": {
+        "description": "A bootstrap like theme for qooxdoo",
+        "url": "https://api.github.com/repos/gonicus/flat",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "ITISFoundation/qx-iconfont-material": {
         "description": "Material Icons for Qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
@@ -1094,52 +1158,6 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
-            }
-          }
-        }
-      },
-      "johnspackman/UploadMgr": {
-        "description": "Uploads files with background uploads and progress feedback on modern browsers",
-        "url": "https://api.github.com/repos/johnspackman/UploadMgr",
-        "releases": {
-          "list": [
-            "v1.0.0"
-          ],
-          "data": {
-            "v1.0.0": {
-              "title": "Release 1.0.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "1.5",
-                      "1.6",
-                      "1.6.1",
-                      "2.0",
-                      "2.1",
-                      "5.0",
-                      "5.1",
-                      "6.0"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
             }
           }
         }
