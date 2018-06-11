@@ -1230,7 +1230,23 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "Manifest.json"
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.27",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
@@ -1795,5 +1811,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 47
+  "num_libraries": 48
 }
