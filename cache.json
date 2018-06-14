@@ -28,6 +28,14 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "gonicus/flat": {
+        "description": "A bootstrap like theme for qooxdoo",
+        "url": "https://api.github.com/repos/gonicus/flat",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "url": "https://api.github.com/repos/ergobyte/qookery",
@@ -319,14 +327,6 @@
       "gonicus/breadcrumbs": {
         "description": "Qooxdoo breadcrumb widget",
         "url": "https://api.github.com/repos/gonicus/breadcrumbs",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
-      "gonicus/flat": {
-        "description": "A bootstrap like theme for qooxdoo",
-        "url": "https://api.github.com/repos/gonicus/flat",
         "releases": {
           "list": [],
           "data": {}
