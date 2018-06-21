@@ -151,12 +151,12 @@
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
         "releases": {
           "list": [
-            "v0.3.0",
+            "v0.0.3",
             "v0.0.1",
             "v0.0.0"
           ],
           "data": {
-            "v0.3.0": {
+            "v0.0.3": {
               "title": "qx alpha update",
               "prerelease": false,
               "manifests": [
@@ -180,7 +180,7 @@
                   }
                 }
               ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.3.0.zip"
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.3.zip"
             },
             "v0.0.1": {
               "title": "Update Structure",
