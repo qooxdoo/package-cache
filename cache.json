@@ -5,6 +5,7 @@
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
       "cajus/capture",
+      "cboulanger/qookery",
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
@@ -28,6 +29,591 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "cboulanger/qx-contrib-test": {
+        "description": "This is a test contribution for the qooxdoo contrib system",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
+        "releases": {
+          "list": [
+            "v1.0.28",
+            "v1.0.27",
+            "v1.0.26",
+            "v1.0.25",
+            "v1.0.14",
+            "v1.0.13",
+            "v1.0.12",
+            "v1.0.11",
+            "v1.0.10"
+          ],
+          "data": {
+            "v1.0.28": {
+              "title": "v1.0.28",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.28",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.28.zip"
+            },
+            "v1.0.27": {
+              "title": "v1.0.27",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.27",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
+            },
+            "v1.0.26": {
+              "title": "v1.0.26",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.26",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.26.zip"
+            },
+            "v1.0.25": {
+              "title": "v1.0.25",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.25",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.25.zip"
+            },
+            "v1.0.14": {
+              "title": "v1.0.14",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.14",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.14.zip"
+            },
+            "v1.0.13": {
+              "title": "v1.0.13",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.13",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.13.zip"
+            },
+            "v1.0.12": {
+              "title": "v1.0.12",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.12",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.12.zip"
+            },
+            "v1.0.11": {
+              "title": "v1.0.11",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.11.zip"
+            },
+            "v1.0.10": {
+              "title": "v1.0.10",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
+            }
+          }
+        }
+      },
+      "cboulanger/qx-contrib-Dialog": {
+        "description": "A set of often used dialog widgets for the qooxdoo framework",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
+        "releases": {
+          "list": [
+            "v1.3.6",
+            "v1.3.5",
+            "v1.3.4",
+            "v1.3.3",
+            "v1.3.2",
+            "v1.3.1",
+            "v1.3.0",
+            "v1.3.0-beta.3",
+            "v1.2.1",
+            "v1.2",
+            "v1.1",
+            "v1.0"
+          ],
+          "data": {
+            "v1.3.6": {
+              "title": "v1.3.6",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x | 6.0.0-* | 6.x || 6.0.0-alpha-20180529",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.6",
+                    "qooxdoo-range": "5.x | 6.0.0-* | 6.x || 6.0.0-alpha-20180529"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.6.zip"
+            },
+            "v1.3.5": {
+              "title": "v1.3.5",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.5",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.5.zip"
+            },
+            "v1.3.4": {
+              "title": "v1.3.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.4",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.4.zip"
+            },
+            "v1.3.3": {
+              "title": "v1.3.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.3",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.3.zip"
+            },
+            "v1.3.2": {
+              "title": "v1.3.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.2.zip"
+            },
+            "v1.3.1": {
+              "title": "v1.3.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.0",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.1.zip"
+            },
+            "v1.3.0": {
+              "title": "v1.3.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3.0",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0.zip"
+            },
+            "v1.3.0-beta.3": {
+              "title": "v1.3.0-beta.3",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.3",
+                    "qooxdoo-versions": [
+                      "5.0",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0-beta.3.zip"
+            },
+            "v1.2.1": {
+              "title": "v1.2.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0 || 5.0 || 5.1",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.1",
+                    "qooxdoo-versions": [
+                      "2.0",
+                      "2.1",
+                      "3.0",
+                      "3.5",
+                      "4.0",
+                      "5.0",
+                      "5.1"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.2.1.zip"
+            },
+            "v1.2": {
+              "title": "Dialog v1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.1",
+                    "qooxdoo-versions": [
+                      "2.0",
+                      "2.1",
+                      "3.0",
+                      "3.5",
+                      "4.0"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.2.zip"
+            },
+            "v1.1": {
+              "title": "Dialog v1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.1",
+                    "qooxdoo-versions": [
+                      "2.0",
+                      "2.1",
+                      "3.0",
+                      "3.5",
+                      "4.0"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.1.zip"
+            },
+            "v1.0": {
+              "title": "Dialog 1.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 3.6",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "c.boulanger@qxtransformer.org"
+                      }
+                    ],
+                    "version": "1.0",
+                    "qooxdoo-versions": [
+                      "2.0",
+                      "2.1",
+                      "3.0",
+                      "3.5",
+                      "3.6"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.0.zip"
+            }
+          }
+        }
+      },
       "johnspackman/UploadMgr": {
         "description": "Uploads files with background uploads and progress feedback on modern browsers",
         "url": "https://api.github.com/repos/johnspackman/UploadMgr",
@@ -872,349 +1458,217 @@
           }
         }
       },
-      "cboulanger/qx-contrib-Dialog": {
-        "description": "A set of often used dialog widgets for the qooxdoo framework",
-        "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
-        "releases": {
-          "list": [
-            "v1.3.5",
-            "v1.3.4",
-            "v1.3.3",
-            "v1.3.2",
-            "v1.3.1",
-            "v1.3.0",
-            "v1.3.0-beta.3",
-            "v1.2.1",
-            "v1.2",
-            "v1.1",
-            "v1.0"
-          ],
-          "data": {
-            "v1.3.5": {
-              "title": "v1.3.5",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3.5",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.5.zip"
-            },
-            "v1.3.4": {
-              "title": "v1.3.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3.4",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.4.zip"
-            },
-            "v1.3.3": {
-              "title": "v1.3.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3.3",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.3.zip"
-            },
-            "v1.3.2": {
-              "title": "v1.3.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3.2",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.2.zip"
-            },
-            "v1.3.1": {
-              "title": "v1.3.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3.0",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.1.zip"
-            },
-            "v1.3.0": {
-              "title": "v1.3.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3.0",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0.zip"
-            },
-            "v1.3.0-beta.3": {
-              "title": "v1.3.0-beta.3",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3",
-                    "qooxdoo-versions": [
-                      "5.0",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0-beta.3.zip"
-            },
-            "v1.2.1": {
-              "title": "v1.2.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0 || 5.0 || 5.1",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.1",
-                    "qooxdoo-versions": [
-                      "2.0",
-                      "2.1",
-                      "3.0",
-                      "3.5",
-                      "4.0",
-                      "5.0",
-                      "5.1"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.2.1.zip"
-            },
-            "v1.2": {
-              "title": "Dialog v1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.1",
-                    "qooxdoo-versions": [
-                      "2.0",
-                      "2.1",
-                      "3.0",
-                      "3.5",
-                      "4.0"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.2.zip"
-            },
-            "v1.1": {
-              "title": "Dialog v1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.1",
-                    "qooxdoo-versions": [
-                      "2.0",
-                      "2.1",
-                      "3.0",
-                      "3.5",
-                      "4.0"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.1.zip"
-            },
-            "v1.0": {
-              "title": "Dialog 1.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 3.6",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "c.boulanger@qxtransformer.org"
-                      }
-                    ],
-                    "version": "1.0",
-                    "qooxdoo-versions": [
-                      "2.0",
-                      "2.1",
-                      "3.0",
-                      "3.5",
-                      "3.6"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.0.zip"
-            }
-          }
-        }
-      },
       "gonicus/flat": {
         "description": "A bootstrap like theme for qooxdoo",
         "url": "https://api.github.com/repos/gonicus/flat",
         "releases": {
           "list": [],
           "data": {}
+        }
+      },
+      "cboulanger/qookery": {
+        "description": "Declarative UI Building for Qooxdoo, temporarily forked from ergobyte/qookery",
+        "url": "https://api.github.com/repos/cboulanger/qookery",
+        "releases": {
+          "list": [
+            "0.4.1"
+          ],
+          "data": {
+            "0.4.1": {
+              "title": "v0.4.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "qookery/Manifest.json",
+                  "qx_versions": "6.0.0-* | 6.x",
+                  "info": {
+                    "name": "Qookery",
+                    "summary": "Declarative UI Building for Qooxdoo",
+                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
+                    "category": [
+                      "tool"
+                    ],
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "6.0.0-* | 6.x",
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookeryace/Manifest.json",
+                  "qx_versions": "6.0.0-* | 6.x",
+                  "info": {
+                    "name": "Qookery ACE",
+                    "description": "Ajax.org Cloud9 Editor (ACE) component for Qookery",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "6.0.0-* | 6.x",
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookerycalendar/Manifest.json",
+                  "qx_versions": "6.0.0-* | 6.x",
+                  "info": {
+                    "name": "qookery.calendar",
+                    "summary": "Calendar component for Qookery",
+                    "description": "Allows easy integration of fullcalendar.io into Qookery forms",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "6.0.0-* | 6.x",
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookerymaps/Manifest.json",
+                  "qx_versions": "6.0.0-* | 6.x",
+                  "info": {
+                    "name": "Qookery Maps",
+                    "description": "Components wrapping Google Maps functionality",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "6.0.0-* | 6.x",
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookerymobile/Manifest.json",
+                  "qx_versions": "6.0.0-* | 6.x",
+                  "info": {
+                    "name": "qookery mobile",
+                    "summary": "Declarative UI Building for Qooxdoo",
+                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "6.0.0-* | 6.x",
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookeryrichtext/Manifest.json",
+                  "qx_versions": "6.0.0-* | 6.x",
+                  "info": {
+                    "name": "qookery.richtext",
+                    "summary": "Rich text editor component for Qookery",
+                    "description": "Allows easy integration of CKEditor into Qookery forms",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1",
+                      "6.0"
+                    ],
+                    "qooxdoo-range": "6.0.0-* | 6.x",
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qookery/archive/0.4.1.zip"
+            }
+          }
         }
       },
       "ergobyte/qookery": {
@@ -1470,227 +1924,6 @@
         "releases": {
           "list": [],
           "data": {}
-        }
-      },
-      "cboulanger/qx-contrib-test": {
-        "description": "This is a test contribution for the qooxdoo contrib system",
-        "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
-        "releases": {
-          "list": [
-            "v1.0.28",
-            "v1.0.27",
-            "v1.0.26",
-            "v1.0.25",
-            "v1.0.14",
-            "v1.0.13",
-            "v1.0.12",
-            "v1.0.11",
-            "v1.0.10"
-          ],
-          "data": {
-            "v1.0.28": {
-              "title": "v1.0.28",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.28",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.28.zip"
-            },
-            "v1.0.27": {
-              "title": "v1.0.27",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.27",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
-            },
-            "v1.0.26": {
-              "title": "v1.0.26",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.26",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.26.zip"
-            },
-            "v1.0.25": {
-              "title": "v1.0.25",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.25",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.25.zip"
-            },
-            "v1.0.14": {
-              "title": "v1.0.14",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.14",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.14.zip"
-            },
-            "v1.0.13": {
-              "title": "v1.0.13",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.13",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.13.zip"
-            },
-            "v1.0.12": {
-              "title": "v1.0.12",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.12",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.12.zip"
-            },
-            "v1.0.11": {
-              "title": "v1.0.11",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.11.zip"
-            },
-            "v1.0.10": {
-              "title": "v1.0.10",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
-            }
-          }
         }
       },
       "oetiker/QxTangible": {
@@ -2100,5 +2333,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 58
+  "num_libraries": 65
 }
