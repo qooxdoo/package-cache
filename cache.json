@@ -5,7 +5,6 @@
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
       "cajus/capture",
-      "cboulanger/qookery",
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
@@ -29,11 +28,406 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "ergobyte/qookery": {
+        "description": "Declarative UI Building for Qooxdoo",
+        "url": "https://api.github.com/repos/ergobyte/qookery",
+        "releases": {
+          "list": [
+            "0.2",
+            "v0.5.0",
+            "0.4",
+            "0.1",
+            "0.3"
+          ],
+          "data": {
+            "0.2": {
+              "title": "Version 0.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/ergobyte/qookery/archive/0.2.zip"
+            },
+            "v0.5.0": {
+              "title": "Version 0.5.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "qookery/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery",
+                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
+                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookeryace/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Ace",
+                    "summary": "Qookery extension: Ace (Ajax.org Cloud9 Editor) integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookerycalendar/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Calendar",
+                    "summary": "Qookery extension: FullCalendar integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookerymaps/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Maps",
+                    "summary": "Qookery extension: Google Maps integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookerymobile/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Mobile",
+                    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookeryrichtext/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Rich Text",
+                    "summary": "Qookery extension: CKEditor integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ergobyte/qookery/archive/v0.5.0.zip"
+            },
+            "0.4": {
+              "title": "Version 0.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "qookery/Manifest.json",
+                  "qx_versions": "5.0.2 || 5.1",
+                  "info": {
+                    "name": "Qookery",
+                    "summary": "Declarative UI Building for Qooxdoo",
+                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
+                    "category": [
+                      "tool"
+                    ],
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "master",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1"
+                    ],
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookeryace/Manifest.json",
+                  "qx_versions": "5.0.2 || 5.1",
+                  "info": {
+                    "name": "Qookery ACE",
+                    "description": "Ajax.org Cloud9 Editor (ACE) component for Qookery",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      }
+                    ],
+                    "version": "master",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1"
+                    ],
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookerycalendar/Manifest.json",
+                  "qx_versions": "5.0.2 || 5.1",
+                  "info": {
+                    "name": "qookery.calendar",
+                    "summary": "Calendar component for Qookery",
+                    "description": "Allows easy integration of fullcalendar.io into Qookery forms",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "master",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1"
+                    ],
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookerymaps/Manifest.json",
+                  "qx_versions": "5.0.2 || 5.1",
+                  "info": {
+                    "name": "Qookery Maps",
+                    "description": "Components wrapping Google Maps functionality",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "master",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1"
+                    ],
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookerymobile/Manifest.json",
+                  "qx_versions": "5.0.2 || 5.1",
+                  "info": {
+                    "name": "qookery mobile",
+                    "summary": "Declarative UI Building for Qooxdoo",
+                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "master",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1"
+                    ],
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                },
+                {
+                  "path": "qookeryrichtext/Manifest.json",
+                  "qx_versions": "5.0.2 || 5.1",
+                  "info": {
+                    "name": "qookery.richtext",
+                    "summary": "Rich text editor component for Qookery",
+                    "description": "Allows easy integration of CKEditor into Qookery forms",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "%{version}",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "5.1"
+                    ],
+                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
+                    "checksum": "%{sha1-checksum}",
+                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ergobyte/qookery/archive/0.4.zip"
+            },
+            "0.1": {
+              "title": "Version 0.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/ergobyte/qookery/archive/0.1.zip"
+            },
+            "0.3": {
+              "title": "Version 0.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/ergobyte/qookery/archive/0.3.zip"
+            }
+          }
+        }
+      },
       "cboulanger/qx-contrib-test": {
         "description": "This is a test contribution for the qooxdoo contrib system",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
         "releases": {
           "list": [
+            "v1.0.34",
+            "v1.0.33",
+            "v1.0.31",
+            "v1.0.30",
             "v1.0.28",
             "v1.0.27",
             "v1.0.26",
@@ -45,6 +439,110 @@
             "v1.0.10"
           ],
           "data": {
+            "v1.0.34": {
+              "title": "v1.0.34",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.34",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.34.zip"
+            },
+            "v1.0.33": {
+              "title": "v1.0.33",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.33",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.33.zip"
+            },
+            "v1.0.31": {
+              "title": "v1.0.31",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.31",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.31.zip"
+            },
+            "v1.0.30": {
+              "title": "v1.0.30",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-* - 6.x || 6.0.0-alpha-20180529",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.30",
+                    "qooxdoo-range": "6.0.0-* - 6.x || 6.0.0-alpha-20180529"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.30.zip"
+            },
             "v1.0.28": {
               "title": "v1.0.28",
               "prerelease": false,
@@ -255,6 +753,7 @@
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
         "releases": {
           "list": [
+            "v1.4.0",
             "v1.3.6",
             "v1.3.5",
             "v1.3.4",
@@ -269,6 +768,32 @@
             "v1.0"
           ],
           "data": {
+            "v1.4.0": {
+              "title": "v1.4.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.4.0",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.4.0.zip"
+            },
             "v1.3.6": {
               "title": "v1.3.6",
               "prerelease": false,
@@ -1466,426 +1991,6 @@
           "data": {}
         }
       },
-      "cboulanger/qookery": {
-        "description": "Declarative UI Building for Qooxdoo, temporarily forked from ergobyte/qookery",
-        "url": "https://api.github.com/repos/cboulanger/qookery",
-        "releases": {
-          "list": [
-            "0.4.1"
-          ],
-          "data": {
-            "0.4.1": {
-              "title": "v0.4.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "qookery/Manifest.json",
-                  "qx_versions": "6.0.0-* | 6.x",
-                  "info": {
-                    "name": "Qookery",
-                    "summary": "Declarative UI Building for Qooxdoo",
-                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
-                    "category": [
-                      "tool"
-                    ],
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      },
-                      {
-                        "name": "Nikos Lamprakis (nikoslam)",
-                        "email": "nikoslam@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "6.0.0-* | 6.x",
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookeryace/Manifest.json",
-                  "qx_versions": "6.0.0-* | 6.x",
-                  "info": {
-                    "name": "Qookery ACE",
-                    "description": "Ajax.org Cloud9 Editor (ACE) component for Qookery",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "6.0.0-* | 6.x",
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookerycalendar/Manifest.json",
-                  "qx_versions": "6.0.0-* | 6.x",
-                  "info": {
-                    "name": "qookery.calendar",
-                    "summary": "Calendar component for Qookery",
-                    "description": "Allows easy integration of fullcalendar.io into Qookery forms",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "6.0.0-* | 6.x",
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookerymaps/Manifest.json",
-                  "qx_versions": "6.0.0-* | 6.x",
-                  "info": {
-                    "name": "Qookery Maps",
-                    "description": "Components wrapping Google Maps functionality",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "6.0.0-* | 6.x",
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookerymobile/Manifest.json",
-                  "qx_versions": "6.0.0-* | 6.x",
-                  "info": {
-                    "name": "qookery mobile",
-                    "summary": "Declarative UI Building for Qooxdoo",
-                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "6.0.0-* | 6.x",
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookeryrichtext/Manifest.json",
-                  "qx_versions": "6.0.0-* | 6.x",
-                  "info": {
-                    "name": "qookery.richtext",
-                    "summary": "Rich text editor component for Qookery",
-                    "description": "Allows easy integration of CKEditor into Qookery forms",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "6.0.0-* | 6.x",
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qookery/archive/0.4.1.zip"
-            }
-          }
-        }
-      },
-      "ergobyte/qookery": {
-        "description": "Declarative UI Building for Qooxdoo",
-        "url": "https://api.github.com/repos/ergobyte/qookery",
-        "releases": {
-          "list": [
-            "0.4",
-            "0.1",
-            "0.3"
-          ],
-          "data": {
-            "0.4": {
-              "title": "Version 0.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "qookery/Manifest.json",
-                  "qx_versions": "5.0.2 || 5.1",
-                  "info": {
-                    "name": "Qookery",
-                    "summary": "Declarative UI Building for Qooxdoo",
-                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
-                    "category": [
-                      "tool"
-                    ],
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      },
-                      {
-                        "name": "Nikos Lamprakis (nikoslam)",
-                        "email": "nikoslam@ergobyte.gr"
-                      }
-                    ],
-                    "version": "master",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1"
-                    ],
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookeryace/Manifest.json",
-                  "qx_versions": "5.0.2 || 5.1",
-                  "info": {
-                    "name": "Qookery ACE",
-                    "description": "Ajax.org Cloud9 Editor (ACE) component for Qookery",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      }
-                    ],
-                    "version": "master",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1"
-                    ],
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookerycalendar/Manifest.json",
-                  "qx_versions": "5.0.2 || 5.1",
-                  "info": {
-                    "name": "qookery.calendar",
-                    "summary": "Calendar component for Qookery",
-                    "description": "Allows easy integration of fullcalendar.io into Qookery forms",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "master",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1"
-                    ],
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookerymaps/Manifest.json",
-                  "qx_versions": "5.0.2 || 5.1",
-                  "info": {
-                    "name": "Qookery Maps",
-                    "description": "Components wrapping Google Maps functionality",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "master",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1"
-                    ],
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookerymobile/Manifest.json",
-                  "qx_versions": "5.0.2 || 5.1",
-                  "info": {
-                    "name": "qookery mobile",
-                    "summary": "Declarative UI Building for Qooxdoo",
-                    "description": "The Qookery library allows Qooxdoo programmers to declare and run user interfaces through an easy to master XML language.",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "master",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1"
-                    ],
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                },
-                {
-                  "path": "qookeryrichtext/Manifest.json",
-                  "qx_versions": "5.0.2 || 5.1",
-                  "info": {
-                    "name": "qookery.richtext",
-                    "summary": "Rich text editor component for Qookery",
-                    "description": "Allows easy integration of CKEditor into Qookery forms",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "%{version}",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "5.1"
-                    ],
-                    "download": "https://github.com/ergobyte/qookery/releases/download/%{version}/qookery.tar.gz",
-                    "checksum": "%{sha1-checksum}",
-                    "sourceViewUri": "https://github.com/ergobyte/qookery/tree/%{version}/qookery"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ergobyte/qookery/archive/0.4.zip"
-            },
-            "0.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/ergobyte/qookery/archive/0.1.zip"
-            },
-            "0.3": {
-              "title": "Version 0.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/ergobyte/qookery/archive/0.3.zip"
-            }
-          }
-        }
-      },
       "gonicus/breadcrumbs": {
         "description": "Qooxdoo breadcrumb widget",
         "url": "https://api.github.com/repos/gonicus/breadcrumbs",
@@ -2333,5 +2438,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 65
+  "num_libraries": 70
 }
