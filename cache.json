@@ -28,6 +28,14 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "gonicus/breadcrumbs": {
+        "description": "Qooxdoo breadcrumb widget",
+        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "gonicus/flat": {
         "description": "A bootstrap like theme for qooxdoo",
         "url": "https://api.github.com/repos/gonicus/flat",
@@ -1989,14 +1997,6 @@
               "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.0.0.zip"
             }
           }
-        }
-      },
-      "gonicus/breadcrumbs": {
-        "description": "Qooxdoo breadcrumb widget",
-        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
-        "releases": {
-          "list": [],
-          "data": {}
         }
       },
       "drawstack/qx-contrib-require": {
