@@ -28,79 +28,6 @@
       "oetiker/UploadWidget"
     ],
     "data": {
-      "johnspackman/UploadMgr": {
-        "description": "Uploads files with background uploads and progress feedback on modern browsers",
-        "url": "https://api.github.com/repos/johnspackman/UploadMgr",
-        "releases": {
-          "list": [
-            "v1.0.1",
-            "v1.0.0"
-          ],
-          "data": {
-            "v1.0.1": {
-              "title": "Update for 6.0.0 compatible",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 - 6.0.0-alpha",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-range": "1.5 - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.1.zip"
-            },
-            "v1.0.0": {
-              "title": "Release 1.0.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "1.5",
-                      "1.6",
-                      "1.6.1",
-                      "2.0",
-                      "2.1",
-                      "5.0",
-                      "5.1",
-                      "6.0"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
-            }
-          }
-        }
-      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "url": "https://api.github.com/repos/ergobyte/qookery",
@@ -488,6 +415,79 @@
                 }
               ],
               "zip_url": "https://github.com/ergobyte/qookery/archive/0.3.zip"
+            }
+          }
+        }
+      },
+      "johnspackman/UploadMgr": {
+        "description": "Uploads files with background uploads and progress feedback on modern browsers",
+        "url": "https://api.github.com/repos/johnspackman/UploadMgr",
+        "releases": {
+          "list": [
+            "v1.0.1",
+            "v1.0.0"
+          ],
+          "data": {
+            "v1.0.1": {
+              "title": "Update for 6.0.0 compatible",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 - 6.0.0-alpha",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-range": "1.5 - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.1.zip"
+            },
+            "v1.0.0": {
+              "title": "Release 1.0.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "1.5",
+                      "1.6",
+                      "1.6.1",
+                      "2.0",
+                      "2.1",
+                      "5.0",
+                      "5.1",
+                      "6.0"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
             }
           }
         }
