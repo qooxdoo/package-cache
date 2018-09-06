@@ -28,14 +28,6 @@
       "oetiker/UploadWidget"
     ],
     "data": {
-      "gonicus/breadcrumbs": {
-        "description": "Qooxdoo breadcrumb widget",
-        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "url": "https://api.github.com/repos/ergobyte/qookery",
@@ -425,6 +417,14 @@
               "zip_url": "https://github.com/ergobyte/qookery/archive/0.3.zip"
             }
           }
+        }
+      },
+      "gonicus/breadcrumbs": {
+        "description": "Qooxdoo breadcrumb widget",
+        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
+        "releases": {
+          "list": [],
+          "data": {}
         }
       },
       "johnspackman/UploadMgr": {
