@@ -9,11 +9,9 @@
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
       "cboulanger/qx-contrib-test",
-      "drawstack/qx-contrib-require",
       "drawstack/qx-contrib-restful",
       "drawstack/qxjoint",
       "ergobyte/qookery",
-      "gonicus/breadcrumbs",
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
       "hkollmann/qx-contrib-mobileGrid",
@@ -23,7 +21,6 @@
       "oetiker/CanvasCell",
       "oetiker/ComboTable",
       "oetiker/Cropper",
-      "oetiker/QxD3",
       "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
       "oetiker/QxTangible",
@@ -1255,14 +1252,6 @@
           }
         }
       },
-      "gonicus/breadcrumbs": {
-        "description": "Qooxdoo breadcrumb widget",
-        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
       "johnspackman/UploadMgr": {
         "description": "Uploads files with background uploads and progress feedback on modern browsers",
         "url": "https://api.github.com/repos/johnspackman/UploadMgr",
@@ -2100,14 +2089,6 @@
           }
         }
       },
-      "drawstack/qx-contrib-require": {
-        "description": "Allows you to use requirejs/alameda with Qooxdoo",
-        "url": "https://api.github.com/repos/drawstack/qx-contrib-require",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
       "drawstack/qx-contrib-restful": {
         "description": "Integrates Restful.js with Qooxdoo",
         "url": "https://api.github.com/repos/drawstack/qx-contrib-restful",
@@ -2235,48 +2216,6 @@
                 }
               ],
               "zip_url": "https://github.com/cajus/capture/archive/v0.9.zip"
-            }
-          }
-        }
-      },
-      "oetiker/QxD3": {
-        "description": "use D3.js within qooxdoo",
-        "url": "https://api.github.com/repos/oetiker/QxD3",
-        "releases": {
-          "list": [
-            "v0.3.0"
-          ],
-          "data": {
-            "v0.3.0": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "3.5 - 5.x",
-                  "info": {
-                    "name": "QxD3",
-                    "category": [],
-                    "summary": "QxD3 Contribution",
-                    "description": "This is a skeleton for a qooxdoo contribution.",
-                    "homepage": "http://contrib.qooxdoo.org/project/QxD3",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "3.5 - 5.x"
-                    ],
-                    "download": "",
-                    "checksum": ""
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/oetiker/QxD3/archive/v0.3.0.zip"
             }
           }
         }
@@ -2539,5 +2478,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 73
+  "num_libraries": 72
 }
