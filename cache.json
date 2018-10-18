@@ -19,6 +19,7 @@
       "hkollmann/qx-contrib-mobileGrid",
       "johnspackman/UploadMgr",
       "johnspackman/multi-column-tree",
+      "maettu/qx-showdown",
       "oetiker/CanvasCell",
       "oetiker/ComboTable",
       "oetiker/Cropper",
@@ -29,6 +30,14 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "maettu/qx-showdown": {
+        "description": "make the showdownjs.com html-md converter js library available as a qx class",
+        "url": "https://api.github.com/repos/maettu/qx-showdown",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "cboulanger/qx-contrib-Dialog": {
         "description": "A set of often used dialog widgets for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog",
