@@ -34,8 +34,37 @@
         "description": "make the showdownjs.com html-md converter js library available as a qx class",
         "url": "https://api.github.com/repos/maettu/qx-showdown",
         "releases": {
-          "list": [],
-          "data": {}
+          "list": [
+            "v1.8.7"
+          ],
+          "data": {
+            "v1.8.7": {
+              "title": "v1.8.7",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529",
+                  "info": {
+                    "name": "qxiShowdown",
+                    "summary": "make the showdown html-md converter js library available as a qx class",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Matthias Bloch",
+                        "email": "matthias.bloch@oetiker.ch"
+                      }
+                    ],
+                    "version": "1.8.7",
+                    "qooxdoo-range": "6.0.0-alpha-20180529"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/maettu/qx-showdown/archive/v1.8.7.zip"
+            }
+          }
         }
       },
       "cboulanger/qx-contrib-Dialog": {
@@ -2539,5 +2568,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 73
+  "num_libraries": 74
 }
