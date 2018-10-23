@@ -27,6 +27,49 @@
       "oetiker/UploadWidget"
     ],
     "data": {
+      "cajus/capture": {
+        "description": "Qooxdoo contribution to capture still images from life video",
+        "url": "https://api.github.com/repos/cajus/capture",
+        "releases": {
+          "list": [
+            "v0.9"
+          ],
+          "data": {
+            "v0.9": {
+              "title": "Preparing the initial release",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "2.0 || 2.1 || 5.0 || 5.1 || 6.0",
+                  "info": {
+                    "name": "capture",
+                    "summary": "Camera Capture",
+                    "description": "Widget that support HTML5 camera still image capture to local image.",
+                    "homepage": "http://contrib.qooxdoo.org/project/capture",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Cajus Pollmeier (cajus)",
+                        "email": "pollmeier@gonicus.de"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "2.0",
+                      "2.1",
+                      "5.0",
+                      "5.1",
+                      "6.0"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cajus/capture/archive/v0.9.zip"
+            }
+          }
+        }
+      },
       "maettu/qx-showdown": {
         "description": "make the showdownjs.com html-md converter js library available as a qx class",
         "url": "https://api.github.com/repos/maettu/qx-showdown",
@@ -2194,49 +2237,6 @@
                 }
               ],
               "zip_url": "https://github.com/gonicus/qooxdoo-svg/archive/v0.9.zip"
-            }
-          }
-        }
-      },
-      "cajus/capture": {
-        "description": "Qooxdoo contribution to capture still images from life video",
-        "url": "https://api.github.com/repos/cajus/capture",
-        "releases": {
-          "list": [
-            "v0.9"
-          ],
-          "data": {
-            "v0.9": {
-              "title": "Preparing the initial release",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "2.0 || 2.1 || 5.0 || 5.1 || 6.0",
-                  "info": {
-                    "name": "capture",
-                    "summary": "Camera Capture",
-                    "description": "Widget that support HTML5 camera still image capture to local image.",
-                    "homepage": "http://contrib.qooxdoo.org/project/capture",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Cajus Pollmeier (cajus)",
-                        "email": "pollmeier@gonicus.de"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "2.0",
-                      "2.1",
-                      "5.0",
-                      "5.1",
-                      "6.0"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cajus/capture/archive/v0.9.zip"
             }
           }
         }
