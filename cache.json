@@ -24,9 +24,31 @@
       "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
       "oetiker/QxTangible",
-      "oetiker/UploadWidget"
+      "oetiker/UploadWidget",
+      "qooxdoo/qooxdoo-api-viewer"
     ],
     "data": {
+      "qooxdoo/qooxdoo-api-viewer": {
+        "description": "Contrib which provides the API Viewer Application",
+        "url": "https://api.github.com/repos/qooxdoo/qooxdoo-api-viewer",
+        "releases": {
+          "list": [
+            "v0.1.0"
+          ],
+          "data": {
+            "v0.1.0": {
+              "title": "v0.1.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qooxdoo-api-viewer/archive/v0.1.0.zip"
+            }
+          }
+        }
+      },
       "ITISFoundation/qx-osparc-theme": {
         "description": "A material-inspired theme for qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
