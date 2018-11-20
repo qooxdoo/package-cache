@@ -33,18 +33,47 @@
         "url": "https://api.github.com/repos/qooxdoo/qooxdoo-api-viewer",
         "releases": {
           "list": [
-            "v0.1.0"
+            "v0.1.4"
           ],
           "data": {
-            "v0.1.0": {
-              "title": "v0.1.0",
-              "prerelease": true,
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
               "manifests": [
                 {
-                  "path": "Manifest.json"
+                  "path": "Manifest.json",
+                  "qx_versions": ">=6.0.0 || 6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.4",
+                    "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qooxdoo-api-viewer/archive/v0.1.0.zip"
+              "zip_url": "https://github.com/qooxdoo/qooxdoo-api-viewer/archive/v0.1.4.zip"
             }
           }
         }
@@ -2617,5 +2646,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 76
+  "num_libraries": 77
 }
