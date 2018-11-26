@@ -28,6 +28,106 @@
       "qooxdoo/qooxdoo-api-viewer"
     ],
     "data": {
+      "oetiker/UploadWidget": {
+        "description": "An UploadWidget for Qooxdoo",
+        "url": "https://api.github.com/repos/oetiker/UploadWidget",
+        "releases": {
+          "list": [
+            "v1.0.1",
+            "v1.0.0"
+          ],
+          "data": {
+            "v1.0.1": {
+              "title": "update to qx 6.0 contrib system",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "UploadWidget",
+                    "summary": "Widget for HTTP file uploads.",
+                    "description": "",
+                    "keywords": [
+                      "qooxdoo",
+                      "widget",
+                      "cross-browser",
+                      "upload"
+                    ],
+                    "homepage": "https://github.com/oetiker/UploadWidget",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Dietrich Streifert",
+                        "user": "level420",
+                        "email": ""
+                      },
+                      {
+                        "name": "Petr Kobalicek",
+                        "user": "e666e",
+                        "email": ""
+                      },
+                      {
+                        "name": "Tobi Oetiker",
+                        "user": "oetiker",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "1.0.1",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/UploadWidget/archive/v1.0.1.zip"
+            },
+            "v1.0.0": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.4 - 5.x",
+                  "info": {
+                    "name": "UploadWidget",
+                    "summary": "Widget for HTTP file uploads.",
+                    "description": "",
+                    "keywords": [
+                      "qooxdoo",
+                      "widget",
+                      "cross-browser",
+                      "upload"
+                    ],
+                    "homepage": "https://github.com/oetiker/UploadWidget",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Dietrich Streifert",
+                        "user": "level420",
+                        "email": ""
+                      },
+                      {
+                        "name": "Petr Kobalicek",
+                        "user": "e666e",
+                        "email": ""
+                      },
+                      {
+                        "name": "Tobi Oetiker",
+                        "user": "oetiker",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "1.4 - 5.x"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/UploadWidget/archive/v1.0.0.zip"
+            }
+          }
+        }
+      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "url": "https://api.github.com/repos/ergobyte/qookery",
@@ -2588,62 +2688,6 @@
           }
         }
       },
-      "oetiker/UploadWidget": {
-        "description": "An UploadWidget for Qooxdoo",
-        "url": "https://api.github.com/repos/oetiker/UploadWidget",
-        "releases": {
-          "list": [
-            "v1.0.0"
-          ],
-          "data": {
-            "v1.0.0": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.4 - 5.x",
-                  "info": {
-                    "name": "UploadWidget",
-                    "summary": "Widget for HTTP file uploads.",
-                    "description": "",
-                    "keywords": [
-                      "qooxdoo",
-                      "widget",
-                      "cross-browser",
-                      "upload"
-                    ],
-                    "homepage": "https://github.com/oetiker/UploadWidget",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Dietrich Streifert",
-                        "user": "level420",
-                        "email": ""
-                      },
-                      {
-                        "name": "Petr Kobalicek",
-                        "user": "e666e",
-                        "email": ""
-                      },
-                      {
-                        "name": "Tobi Oetiker",
-                        "user": "oetiker",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "1.4 - 5.x"
-                    ]
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/oetiker/UploadWidget/archive/v1.0.0.zip"
-            }
-          }
-        }
-      },
       "oetiker/CanvasCell": {
         "description": "Embeddable Charts for Qooxdoo table widgets",
         "url": "https://api.github.com/repos/oetiker/CanvasCell",
@@ -2686,5 +2730,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 78
+  "num_libraries": 79
 }
