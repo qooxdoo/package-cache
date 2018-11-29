@@ -33,7 +33,8 @@ before_install:
 script:
 # create data file and commit it to this repo
 - cd qx-contrib
-- "../qooxdoo-compiler/qx contrib update --file cache.json --token $TOKEN"
+- "qx config set github.token $TOKEN"
+- "../qooxdoo-compiler/qx contrib update --file cache.json"
 - |
   if ! git diff --quiet --exit-code; then
     git add cache.json && git commit -m "Update catalog" && git push && echo "Updated contrib cache."
