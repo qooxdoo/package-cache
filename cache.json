@@ -1605,7 +1605,7 @@
                         "email": "john.spackman@zenesis.com"
                       }
                     ],
-                    "version": "trunk",
+                    "version": "v1.0.1",
                     "qooxdoo-range": "1.5 - 6.0.0-alpha"
                   }
                 }
