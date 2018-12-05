@@ -33,7 +33,7 @@ script:
 # create data file and commit it to this repo
 - cd qx-contrib
 - "../qooxdoo-compiler/qx config set github.token $TOKEN"
-- "../qooxdoo-compiler/qx contrib update --search --file cache.json"
+- "../qooxdoo-compiler/qx contrib update --verbose --search --file cache.json"
 - |
   if ! git diff --quiet --exit-code; then
     git add cache.json && git commit -m "Update catalog" && git push && echo "Updated contrib cache."
