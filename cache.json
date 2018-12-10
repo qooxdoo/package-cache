@@ -26,15 +26,53 @@
       "oetiker/QxJqPlot",
       "oetiker/QxTangible",
       "oetiker/UploadWidget",
-      "qooxdoo/qooxdoo-api-viewer"
+      "qooxdoo/qooxdoo-api-viewer",
+      "qooxdoo/qx-contrib-logpane"
     ],
     "data": {
-      "cboulanger/qx-contrib-recorder": {
-        "description": "A qooxdoo contrib that allows to record user interaction for replay in testing",
-        "url": "https://api.github.com/repos/cboulanger/qx-contrib-recorder",
+      "qooxdoo/qx-contrib-logpane": {
+        "description": "viewer for the qooxdoo log",
+        "url": "https://api.github.com/repos/qooxdoo/qx-contrib-logpane",
         "releases": {
-          "list": [],
-          "data": {}
+          "list": [
+            "v0.1.1"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qx-contrib-logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qx-contrib-logpane/archive/v0.1.1.zip"
+            }
+          }
         }
       },
       "qooxdoo/qooxdoo-api-viewer": {
@@ -42,12 +80,52 @@
         "url": "https://api.github.com/repos/qooxdoo/qooxdoo-api-viewer",
         "releases": {
           "list": [
+            "v0.1.10",
             "v0.1.9",
             "v0.1.8",
             "v0.1.7",
             "v0.1.4"
           ],
           "data": {
+            "v0.1.10": {
+              "title": "v0.1.10",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.10",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qooxdoo-api-viewer/archive/v0.1.10.zip"
+            },
             "v0.1.9": {
               "title": "v0.1.9",
               "prerelease": false,
@@ -203,6 +281,43 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qooxdoo-api-viewer/archive/v0.1.4.zip"
+            }
+          }
+        }
+      },
+      "cboulanger/qx-contrib-recorder": {
+        "description": "A qooxdoo contrib that allows to record user interaction for replay in testing",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-recorder",
+        "releases": {
+          "list": [
+            "v0.1.1"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-recorder/archive/v0.1.1.zip"
             }
           }
         }
@@ -2954,5 +3069,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 86
+  "num_libraries": 89
 }
