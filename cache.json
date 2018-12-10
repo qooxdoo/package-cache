@@ -8,6 +8,7 @@
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
+      "cboulanger/qx-contrib-recorder",
       "cboulanger/qx-contrib-test",
       "ergobyte/qookery",
       "gonicus/breadcrumbs",
@@ -28,6 +29,14 @@
       "qooxdoo/qooxdoo-api-viewer"
     ],
     "data": {
+      "cboulanger/qx-contrib-recorder": {
+        "description": "A qooxdoo contrib that allows to record user interaction for replay in testing",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-recorder",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "qooxdoo/qooxdoo-api-viewer": {
         "description": "Contrib which provides the API Viewer Application",
         "url": "https://api.github.com/repos/qooxdoo/qooxdoo-api-viewer",
