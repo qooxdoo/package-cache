@@ -30,6 +30,43 @@
       "qooxdoo/qx-contrib-logpane"
     ],
     "data": {
+      "cboulanger/qx-contrib-recorder": {
+        "description": "A qooxdoo contrib that allows to record user interaction for replay in testing",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-recorder",
+        "releases": {
+          "list": [
+            "v0.1.1"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-recorder/archive/v0.1.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qx-contrib-logpane": {
         "description": "viewer for the qooxdoo log",
         "url": "https://api.github.com/repos/qooxdoo/qx-contrib-logpane",
@@ -281,43 +318,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qooxdoo-api-viewer/archive/v0.1.4.zip"
-            }
-          }
-        }
-      },
-      "cboulanger/qx-contrib-recorder": {
-        "description": "A qooxdoo contrib that allows to record user interaction for replay in testing",
-        "url": "https://api.github.com/repos/cboulanger/qx-contrib-recorder",
-        "releases": {
-          "list": [
-            "v0.1.1"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-recorder/archive/v0.1.1.zip"
             }
           }
         }
