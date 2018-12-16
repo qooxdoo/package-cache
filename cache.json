@@ -30,56 +30,12 @@
       "qooxdoo/logpane"
     ],
     "data": {
-      "qooxdoo/logpane": {
-        "description": "viewer for the qooxdoo log",
-        "url": "https://api.github.com/repos/qooxdoo/logpane",
-        "releases": {
-          "list": [
-            "v0.1.1"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "logpane",
-                    "summary": "Common used log pannel.",
-                    "description": "This is a view for the qooxdoo log.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qx-contrib-logpane",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/logpane/archive/v0.1.1.zip"
-            }
-          }
-        }
-      },
       "qooxdoo/apiviewer": {
         "description": "Contrib which provides the API Viewer Application",
         "url": "https://api.github.com/repos/qooxdoo/apiviewer",
         "releases": {
           "list": [
+            "v0.1.11",
             "v0.1.10",
             "v0.1.9",
             "v0.1.8",
@@ -87,6 +43,49 @@
             "v0.1.4"
           ],
           "data": {
+            "v0.1.11": {
+              "title": "v0.1.11",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.11",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/apiviewer/archive/v0.1.11.zip"
+            },
             "v0.1.10": {
               "title": "v0.1.10",
               "prerelease": false,
@@ -281,6 +280,86 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/apiviewer/archive/v0.1.4.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/logpane": {
+        "description": "viewer for the qooxdoo log",
+        "url": "https://api.github.com/repos/qooxdoo/logpane",
+        "releases": {
+          "list": [
+            "v0.1.2",
+            "v0.1.1"
+          ],
+          "data": {
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/logpane/archive/v0.1.2.zip"
+            },
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qx-contrib-logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/logpane/archive/v0.1.1.zip"
             }
           }
         }
@@ -3123,5 +3202,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 91
+  "num_libraries": 93
 }
