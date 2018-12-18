@@ -29,9 +29,46 @@
       "qooxdoo/qxl.apiviewer",
       "qooxdoo/qxl.demobrowser",
       "qooxdoo/qxl.logpane",
+      "qooxdoo/qxl.versionlabel",
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.versionlabel": {
+        "description": "versionlabel for qooxdoo demo apps",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel",
+        "releases": {
+          "list": [
+            "v0.1.1"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "description": "",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "First Author (uid)",
+                        "email": "first.author@some.domain"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.1.zip"
+            }
+          }
+        }
+      },
       "ITISFoundation/qx-iconfont-material": {
         "description": "Material Icons for Qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
@@ -3387,5 +3424,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 98
+  "num_libraries": 99
 }
