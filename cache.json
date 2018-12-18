@@ -28,9 +28,250 @@
       "oetiker/UploadWidget",
       "qooxdoo/qxl.apiviewer",
       "qooxdoo/qxl.demobrowser",
-      "qooxdoo/qxl.logpane"
+      "qooxdoo/qxl.logpane",
+      "sqville/sqv-qxthemes"
     ],
     "data": {
+      "ITISFoundation/qx-iconfont-material": {
+        "description": "Material Icons for Qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.0",
+            "v0.0.5",
+            "v0.0.4",
+            "v0.0.3",
+            "v0.0.1",
+            "v0.0.0"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "a proper namespace",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.1.1.zip"
+            },
+            "v0.1.0": {
+              "title": "Material Icons Updated to v41",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.1.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.1.0.zip"
+            },
+            "v0.0.5": {
+              "title": "Name Space Fix",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.5",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.5.zip"
+            },
+            "v0.0.4": {
+              "title": "Class Fix",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.4",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.4.zip"
+            },
+            "v0.0.3": {
+              "title": "qx alpha update",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.3",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.3.zip"
+            },
+            "v0.0.1": {
+              "title": "Update Structure",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.1",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.1.zip"
+            },
+            "v0.0.0": {
+              "title": "We have a Go!",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.0",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.0.zip"
+            }
+          }
+        }
+      },
+      "sqville/sqv-qxthemes": {
+        "description": null,
+        "url": "https://api.github.com/repos/sqville/sqv-qxthemes",
+        "releases": {
+          "list": [
+            "v1.0.0"
+          ],
+          "data": {
+            "v1.0.0": {
+              "title": "Clean theme, works with widgetbrowser, release",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha-20181116-263f2cc9",
+                  "info": {
+                    "name": "sqv-qxthemes",
+                    "summary": "Advanced themes for the qooxdoo javascript framework",
+                    "description": "",
+                    "homepage": "http://sqville.com",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "",
+                        "email": "sqville"
+                      },
+                      {
+                        "name": "",
+                        "email": "chris.eskew@sqville.com"
+                      }
+                    ],
+                    "version": "1.0.0",
+                    "qooxdoo-range": "^6.0.0-alpha-20181116-263f2cc9"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sqville/sqv-qxthemes/archive/v1.0.0.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.demobrowser": {
         "description": "A GUI framework application for qooxdoo demos",
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
@@ -1624,178 +1865,6 @@
           }
         }
       },
-      "ITISFoundation/qx-iconfont-material": {
-        "description": "Material Icons for Qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
-        "releases": {
-          "list": [
-            "v0.1.0",
-            "v0.0.5",
-            "v0.0.4",
-            "v0.0.3",
-            "v0.0.1",
-            "v0.0.0"
-          ],
-          "data": {
-            "v0.1.0": {
-              "title": "Material Icons Updated to v41",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.1.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.1.0.zip"
-            },
-            "v0.0.5": {
-              "title": "Name Space Fix",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.5",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.5.zip"
-            },
-            "v0.0.4": {
-              "title": "Class Fix",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.4",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.4.zip"
-            },
-            "v0.0.3": {
-              "title": "qx alpha update",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.3",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.3.zip"
-            },
-            "v0.0.1": {
-              "title": "Update Structure",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.1",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.1.zip"
-            },
-            "v0.0.0": {
-              "title": "We have a Go!",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-iconfont-material",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.0",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.0.0.zip"
-            }
-          }
-        }
-      },
       "cajus/capture": {
         "description": "Qooxdoo contribution to capture still images from life video",
         "url": "https://api.github.com/repos/cajus/capture",
@@ -3318,5 +3387,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 96
+  "num_libraries": 98
 }
