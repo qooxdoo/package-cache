@@ -35,6 +35,47 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "sqville/sqv-qxthemes": {
+        "description": null,
+        "url": "https://api.github.com/repos/sqville/sqv-qxthemes",
+        "releases": {
+          "list": [
+            "v1.0.0"
+          ],
+          "data": {
+            "v1.0.0": {
+              "title": "Clean theme, works with widgetbrowser, release",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha-20181116-263f2cc9",
+                  "info": {
+                    "name": "sqv-qxthemes",
+                    "summary": "Advanced themes for the qooxdoo javascript framework",
+                    "description": "",
+                    "homepage": "http://sqville.com",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "",
+                        "email": "sqville"
+                      },
+                      {
+                        "name": "",
+                        "email": "chris.eskew@sqville.com"
+                      }
+                    ],
+                    "version": "1.0.0",
+                    "qooxdoo-range": "^6.0.0-alpha-20181116-263f2cc9"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sqville/sqv-qxthemes/archive/v1.0.0.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.widgetbrowser": {
         "description": "qooxdoo  widget browser app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
@@ -551,47 +592,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.formdemo/archive/v0.1.1.zip"
-            }
-          }
-        }
-      },
-      "sqville/sqv-qxthemes": {
-        "description": null,
-        "url": "https://api.github.com/repos/sqville/sqv-qxthemes",
-        "releases": {
-          "list": [
-            "v1.0.0"
-          ],
-          "data": {
-            "v1.0.0": {
-              "title": "Clean theme, works with widgetbrowser, release",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha-20181116-263f2cc9",
-                  "info": {
-                    "name": "sqv-qxthemes",
-                    "summary": "Advanced themes for the qooxdoo javascript framework",
-                    "description": "",
-                    "homepage": "http://sqville.com",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "",
-                        "email": "sqville"
-                      },
-                      {
-                        "name": "",
-                        "email": "chris.eskew@sqville.com"
-                      }
-                    ],
-                    "version": "1.0.0",
-                    "qooxdoo-range": "^6.0.0-alpha-20181116-263f2cc9"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/sqville/sqv-qxthemes/archive/v1.0.0.zip"
             }
           }
         }
