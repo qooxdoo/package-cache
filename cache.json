@@ -37,6 +37,124 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.widgetbrowser": {
+        "description": "qooxdoo  widget browser app",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
+        "releases": {
+          "list": [
+            "v0.1.4",
+            "v0.1.3",
+            "v0.1.2",
+            "v0.1.1"
+          ],
+          "data": {
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20181226-a3c2b0b",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.4",
+                    "qooxdoo-range": "6.0.0-alpha-20181226-a3c2b0b"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.4.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.3",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.3.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.2.zip"
+            },
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.demobrowser": {
         "description": "qooxdoo demobrowser app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
@@ -582,97 +700,6 @@
                 }
               ],
               "zip_url": "https://github.com/hkollmann/contrib.hkollmann.mobilegrid/archive/1.0.0.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.widgetbrowser": {
-        "description": "qooxdoo  widget browser app",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
-        "releases": {
-          "list": [
-            "v0.1.3",
-            "v0.1.2",
-            "v0.1.1"
-          ],
-          "data": {
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.3",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.3.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.2.zip"
-            },
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.1.zip"
             }
           }
         }
@@ -3726,5 +3753,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 107
+  "num_libraries": 108
 }
