@@ -15,7 +15,7 @@
       "gonicus/breadcrumbs",
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
-      "hkollmann/contrib.hkollmann.mobilegrid",
+      "hkollmann/hkollmann.mobilegrid",
       "johnspackman/UploadMgr",
       "johnspackman/multi-column-tree",
       "maettu/qx-showdown",
@@ -37,6 +37,150 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "hkollmann/hkollmann.mobilegrid": {
+        "description": "grid control for qooxdoo mobile",
+        "url": "https://api.github.com/repos/hkollmann/hkollmann.mobilegrid",
+        "releases": {
+          "list": [
+            "v1.0.5",
+            "v1.0.4",
+            "v1.0.2",
+            "v1.0.1",
+            "1.0.0"
+          ],
+          "data": {
+            "v1.0.5": {
+              "title": "v1.0.5",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.5"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.5.zip"
+            },
+            "v1.0.4": {
+              "title": "v1.0.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.4",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.4.zip"
+            },
+            "v1.0.2": {
+              "title": "v1.0.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner.Kollmann@gmx.de"
+                      }
+                    ],
+                    "version": "1.0.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.2.zip"
+            },
+            "v1.0.1": {
+              "title": "v1.0.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9",
+                  "info": {
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner.Kollmann@gmx.de"
+                      }
+                    ],
+                    "version": "1.0.1",
+                    "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.1.zip"
+            },
+            "1.0.0": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*",
+                  "info": {
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner.Kollmann@gmx.de"
+                      }
+                    ],
+                    "version": "1.0.0",
+                    "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/1.0.0.zip"
+            }
+          }
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -368,124 +512,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.4.zip"
-            }
-          }
-        }
-      },
-      "hkollmann/contrib.hkollmann.mobilegrid": {
-        "description": "grid control for qooxdoo mobile",
-        "url": "https://api.github.com/repos/hkollmann/contrib.hkollmann.mobilegrid",
-        "releases": {
-          "list": [
-            "v1.0.4",
-            "v1.0.2",
-            "v1.0.1",
-            "1.0.0"
-          ],
-          "data": {
-            "v1.0.4": {
-              "title": "v1.0.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.4",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/hkollmann/contrib.hkollmann.mobilegrid/archive/v1.0.4.zip"
-            },
-            "v1.0.2": {
-              "title": "v1.0.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner.Kollmann@gmx.de"
-                      }
-                    ],
-                    "version": "1.0.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/hkollmann/contrib.hkollmann.mobilegrid/archive/v1.0.2.zip"
-            },
-            "v1.0.1": {
-              "title": "v1.0.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9",
-                  "info": {
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner.Kollmann@gmx.de"
-                      }
-                    ],
-                    "version": "1.0.1",
-                    "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/hkollmann/contrib.hkollmann.mobilegrid/archive/v1.0.1.zip"
-            },
-            "1.0.0": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*",
-                  "info": {
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner.Kollmann@gmx.de"
-                      }
-                    ],
-                    "version": "1.0.0",
-                    "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/hkollmann/contrib.hkollmann.mobilegrid/archive/1.0.0.zip"
             }
           }
         }
@@ -3921,5 +3947,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 113
+  "num_libraries": 114
 }
