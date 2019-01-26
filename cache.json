@@ -37,6 +37,69 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "cboulanger/eventrecorder": {
+        "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
+        "url": "https://api.github.com/repos/cboulanger/eventrecorder",
+        "releases": {
+          "list": [
+            "v0.3.1",
+            "v0.2.0"
+          ],
+          "data": {
+            "v0.3.1": {
+              "title": "v0.3.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder Contrib",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.3.1"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.3.1.zip"
+            },
+            "v0.2.0": {
+              "title": "v0.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder Contrib",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.2.0.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.demobrowser": {
         "description": "qooxdoo demobrowser app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
@@ -315,43 +378,6 @@
                 }
               ],
               "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/1.0.0.zip"
-            }
-          }
-        }
-      },
-      "cboulanger/eventrecorder": {
-        "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
-        "url": "https://api.github.com/repos/cboulanger/eventrecorder",
-        "releases": {
-          "list": [
-            "v0.2.0"
-          ],
-          "data": {
-            "v0.2.0": {
-              "title": "v0.2.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder Contrib",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.0",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.2.0.zip"
             }
           }
         }
@@ -3947,5 +3973,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 114
+  "num_libraries": 115
 }
