@@ -32,11 +32,20 @@
       "qooxdoo/qxl.formdemo",
       "qooxdoo/qxl.logpane",
       "qooxdoo/qxl.playground",
+      "qooxdoo/qxl.testtapper",
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.testtapper": {
+        "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
