@@ -43,6 +43,7 @@
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
         "releases": {
           "list": [
+            "v0.4.4",
             "v0.4.3",
             "v0.4.1",
             "v0.4.0",
@@ -59,6 +60,31 @@
             "v0.0.1"
           ],
           "data": {
+            "v0.4.4": {
+              "title": "All the Requirements",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.4"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.4.zip"
+            },
             "v0.4.3": {
               "title": "Please the IE",
               "prerelease": false,
@@ -4740,5 +4766,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 142
+  "num_libraries": 143
 }
