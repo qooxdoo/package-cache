@@ -43,6 +43,7 @@
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
         "releases": {
           "list": [
+            "v0.9.0",
             "v0.8.0",
             "v0.7.0",
             "v0.6.0",
@@ -55,6 +56,31 @@
             "v0.2.0"
           ],
           "data": {
+            "v0.9.0": {
+              "title": "v0.9.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.0"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.0.zip"
+            },
             "v0.8.0": {
               "title": "v0.8.0",
               "prerelease": false,
@@ -4935,5 +4961,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 149
+  "num_libraries": 150
 }
