@@ -39,11 +39,13 @@
     ],
     "data": {
       "sgaillard/qxfileio": {
-        "description": null,
+        "description": "A set of utilitary classes to deal with local file IO",
         "url": "https://api.github.com/repos/sgaillard/qxfileio",
         "releases": {
           "list": [
-            "0.1.0"
+            "0.1.0",
+            "v0.2.0",
+            "v0.3.1"
           ],
           "data": {
             "0.1.0": {
@@ -74,6 +76,64 @@
                 }
               ],
               "zip_url": "https://github.com/sgaillard/qxfileio/archive/0.1.0.zip"
+            },
+            "v0.2.0": {
+              "title": "New feature",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.2.0.zip"
+            },
+            "v0.3.1": {
+              "title": "Token counter in StringTokenizer",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.3.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.3.1.zip"
             }
           }
         }
@@ -4482,5 +4542,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 136
+  "num_libraries": 138
 }
