@@ -39,6 +39,14 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "cboulanger/qookery": {
+        "description": "Declarative UI Building for Qooxdoo",
+        "url": "https://api.github.com/repos/cboulanger/qookery",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -899,14 +907,6 @@
               "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.3.1.zip"
             }
           }
-        }
-      },
-      "cboulanger/qookery": {
-        "description": "Declarative UI Building for Qooxdoo",
-        "url": "https://api.github.com/repos/cboulanger/qookery",
-        "releases": {
-          "list": [],
-          "data": {}
         }
       },
       "ITISFoundation/qx-iconfont-material": {
