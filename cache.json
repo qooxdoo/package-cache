@@ -6,6 +6,7 @@
       "ITISFoundation/qx-osparc-theme",
       "cajus/capture",
       "cboulanger/eventrecorder",
+      "cboulanger/qookery",
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
@@ -53,7 +54,8 @@
             "v0.6.0",
             "v0.7.0",
             "v0.8.0",
-            "v0.9.0"
+            "v0.9.0",
+            "v0.9.1"
           ],
           "data": {
             "v0.2.0": {
@@ -331,6 +333,31 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.0.zip"
+            },
+            "v0.9.1": {
+              "title": "v0.9.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.1"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.1.zip"
             }
           }
         }
@@ -872,6 +899,14 @@
               "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.3.1.zip"
             }
           }
+        }
+      },
+      "cboulanger/qookery": {
+        "description": "Declarative UI Building for Qooxdoo",
+        "url": "https://api.github.com/repos/cboulanger/qookery",
+        "releases": {
+          "list": [],
+          "data": {}
         }
       },
       "ITISFoundation/qx-iconfont-material": {
@@ -4568,5 +4603,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 139
+  "num_libraries": 140
 }
