@@ -39,6 +39,792 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "cboulanger/qookery": {
+        "description": "Declarative UI Building for Qooxdoo",
+        "url": "https://api.github.com/repos/cboulanger/qookery",
+        "releases": {
+          "list": [
+            "v0.6.1",
+            "v0.6.2"
+          ],
+          "data": {
+            "v0.6.1": {
+              "title": "v0.6.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "qookery/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery",
+                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
+                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookeryace/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Ace",
+                    "summary": "Qookery extension: Ace (Ajax.org Cloud9 Editor) integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Jenny Pliatsika (jenny)",
+                        "email": "jenny@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookerycalendar/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Calendar",
+                    "summary": "Qookery extension: FullCalendar integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookerymaps/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Maps",
+                    "summary": "Qookery extension: Google Maps integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookerymobile/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Mobile",
+                    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                },
+                {
+                  "path": "qookeryrichtext/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Rich Text",
+                    "summary": "Qookery extension: CKEditor integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qookery/archive/v0.6.1.zip"
+            },
+            "v0.6.2": {
+              "title": "v0.6.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "qookery/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery",
+                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
+                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                },
+                {
+                  "path": "qookeryace/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Ace",
+                    "summary": "Qookery extension: Ace (Ajax.org Cloud9 Editor) integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Jenny Pliatsika (jenny)",
+                        "email": "jenny@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                },
+                {
+                  "path": "qookerycalendar/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Calendar",
+                    "summary": "Qookery extension: FullCalendar integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                },
+                {
+                  "path": "qookerydemo/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Demo",
+                    "summary": "Qookery demo runner application",
+                    "description": "Demonstration and testing environment for Qookery developers and users.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "stylkarr@gmail.com"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                },
+                {
+                  "path": "qookerymaps/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Maps",
+                    "summary": "Qookery extension: Google Maps integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                },
+                {
+                  "path": "qookerymobile/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Mobile",
+                    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                },
+                {
+                  "path": "qookeryrichtext/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery Rich Text",
+                    "summary": "Qookery extension: CKEditor integration",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.2",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0",
+                      "6.0.0-alpha"
+                    ]
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qookery/archive/v0.6.2.zip"
+            }
+          }
+        }
+      },
+      "cboulanger/qx-contrib-test": {
+        "description": "This is a test contribution for the qooxdoo contrib system",
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
+        "releases": {
+          "list": [
+            "v1.0.10",
+            "v1.0.11",
+            "v1.0.12",
+            "v1.0.13",
+            "v1.0.14",
+            "v1.0.25",
+            "v1.0.26",
+            "v1.0.27",
+            "v1.0.28",
+            "v1.0.30",
+            "v1.0.31",
+            "v1.0.33",
+            "v1.0.34",
+            "v1.0.35",
+            "v1.1.0",
+            "v1.1.1"
+          ],
+          "data": {
+            "v1.0.10": {
+              "title": "v1.0.10",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
+            },
+            "v1.0.11": {
+              "title": "v1.0.11",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json"
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.11.zip"
+            },
+            "v1.0.12": {
+              "title": "v1.0.12",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.12",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.12.zip"
+            },
+            "v1.0.13": {
+              "title": "v1.0.13",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.13",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.13.zip"
+            },
+            "v1.0.14": {
+              "title": "v1.0.14",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.14",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.14.zip"
+            },
+            "v1.0.25": {
+              "title": "v1.0.25",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.25",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.25.zip"
+            },
+            "v1.0.26": {
+              "title": "v1.0.26",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.26",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.26.zip"
+            },
+            "v1.0.27": {
+              "title": "v1.0.27",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.27",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
+            },
+            "v1.0.28": {
+              "title": "v1.0.28",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.28",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.28.zip"
+            },
+            "v1.0.30": {
+              "title": "v1.0.30",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-* - 6.x || 6.0.0-alpha-20180529",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.30",
+                    "qooxdoo-range": "6.0.0-* - 6.x || 6.0.0-alpha-20180529"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.30.zip"
+            },
+            "v1.0.31": {
+              "title": "v1.0.31",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.31",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.31.zip"
+            },
+            "v1.0.33": {
+              "title": "v1.0.33",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.33",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.33.zip"
+            },
+            "v1.0.34": {
+              "title": "v1.0.34",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.34",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.34.zip"
+            },
+            "v1.0.35": {
+              "title": "v1.0.35",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.35"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.35.zip"
+            },
+            "v1.1.0": {
+              "title": "v1.1.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.35"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.1.0.zip"
+            },
+            "v1.1.1": {
+              "title": "v1.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.35"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.1.1.zip"
+            }
+          }
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -384,185 +1170,6 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.2.zip"
-            }
-          }
-        }
-      },
-      "cboulanger/qookery": {
-        "description": "Declarative UI Building for Qooxdoo",
-        "url": "https://api.github.com/repos/cboulanger/qookery",
-        "releases": {
-          "list": [
-            "v0.6.1"
-          ],
-          "data": {
-            "v0.6.1": {
-              "title": "v0.6.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "qookery/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery",
-                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
-                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      },
-                      {
-                        "name": "Nikos Lamprakis (nikoslam)",
-                        "email": "nikoslam@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                },
-                {
-                  "path": "qookeryace/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Ace",
-                    "summary": "Qookery extension: Ace (Ajax.org Cloud9 Editor) integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Jenny Pliatsika (jenny)",
-                        "email": "jenny@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                },
-                {
-                  "path": "qookerycalendar/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Calendar",
-                    "summary": "Qookery extension: FullCalendar integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                },
-                {
-                  "path": "qookerymaps/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Maps",
-                    "summary": "Qookery extension: Google Maps integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                },
-                {
-                  "path": "qookerymobile/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Mobile",
-                    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                },
-                {
-                  "path": "qookeryrichtext/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Rich Text",
-                    "summary": "Qookery extension: CKEditor integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qookery/archive/v0.6.1.zip"
             }
           }
         }
@@ -3924,335 +4531,6 @@
           "data": {}
         }
       },
-      "cboulanger/qx-contrib-test": {
-        "description": "This is a test contribution for the qooxdoo contrib system",
-        "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
-        "releases": {
-          "list": [
-            "v1.0.10",
-            "v1.0.11",
-            "v1.0.12",
-            "v1.0.13",
-            "v1.0.14",
-            "v1.0.25",
-            "v1.0.26",
-            "v1.0.27",
-            "v1.0.28",
-            "v1.0.30",
-            "v1.0.31",
-            "v1.0.33",
-            "v1.0.34"
-          ],
-          "data": {
-            "v1.0.10": {
-              "title": "v1.0.10",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
-            },
-            "v1.0.11": {
-              "title": "v1.0.11",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json"
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.11.zip"
-            },
-            "v1.0.12": {
-              "title": "v1.0.12",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.12",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.12.zip"
-            },
-            "v1.0.13": {
-              "title": "v1.0.13",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.13",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.13.zip"
-            },
-            "v1.0.14": {
-              "title": "v1.0.14",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.14",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.14.zip"
-            },
-            "v1.0.25": {
-              "title": "v1.0.25",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.25",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.25.zip"
-            },
-            "v1.0.26": {
-              "title": "v1.0.26",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.26",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.26.zip"
-            },
-            "v1.0.27": {
-              "title": "v1.0.27",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.27",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
-            },
-            "v1.0.28": {
-              "title": "v1.0.28",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.28",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.28.zip"
-            },
-            "v1.0.30": {
-              "title": "v1.0.30",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-* - 6.x || 6.0.0-alpha-20180529",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.30",
-                    "qooxdoo-range": "6.0.0-* - 6.x || 6.0.0-alpha-20180529"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.30.zip"
-            },
-            "v1.0.31": {
-              "title": "v1.0.31",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.31",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.31.zip"
-            },
-            "v1.0.33": {
-              "title": "v1.0.33",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.33",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.33.zip"
-            },
-            "v1.0.34": {
-              "title": "v1.0.34",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.34",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.34.zip"
-            }
-          }
-        }
-      },
       "cboulanger/qx-contrib-TokenField": {
         "description": "A widget implementing the token field concept known from Mac OS X for the qooxdoo framework",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-TokenField",
@@ -4800,5 +5078,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 147
+  "num_libraries": 157
 }
