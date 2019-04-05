@@ -296,7 +296,7 @@
               "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.0.zip"
             },
             "v0.2.1": {
-              "title": "Verbose Work",
+              "title": "Make --verbose work",
               "prerelease": false,
               "manifests": [
                 {
@@ -318,12 +318,477 @@
                         "email": "tobi@oetiker.ch"
                       }
                     ],
-                    "version": "0.2.0",
+                    "version": "0.2.1",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   }
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.1.zip"
+            }
+          }
+        }
+      },
+      "ITISFoundation/qx-osparc-theme": {
+        "description": "A material-inspired theme for qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
+        "releases": {
+          "list": [
+            "v0.0.1",
+            "v0.0.2",
+            "v0.0.3",
+            "v0.0.4",
+            "v0.0.5",
+            "v0.0.6",
+            "v0.0.7",
+            "v0.1.0",
+            "v0.2.0",
+            "v0.2.1",
+            "v0.3.0",
+            "v0.4.0",
+            "v0.4.1",
+            "v0.4.3",
+            "v0.4.4",
+            "v0.4.5",
+            "v0.4.6"
+          ],
+          "data": {
+            "v0.0.1": {
+              "title": "Initial Test Release",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.1",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.1.zip"
+            },
+            "v0.0.2": {
+              "title": "Blacker (is this even a word?)",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.2.zip"
+            },
+            "v0.0.3": {
+              "title": "Travis Textfield Tutton",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.3.zip"
+            },
+            "v0.0.4": {
+              "title": "The Force",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.4",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.4.zip"
+            },
+            "v0.0.5": {
+              "title": "The Caption",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.5",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.5.zip"
+            },
+            "v0.0.6": {
+              "title": "window-small-cap apperance",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.6",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.6.zip"
+            },
+            "v0.0.7": {
+              "title": "bigger small caption for windows",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.7",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.7.zip"
+            },
+            "v0.1.0": {
+              "title": "The Tree",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.1.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.1.0.zip"
+            },
+            "v0.2.0": {
+              "title": "Modern Scrollbars",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.2.1",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.1.zip"
+            },
+            "v0.3.0": {
+              "title": "New osparblue theme added",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.3.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.3.0.zip"
+            },
+            "v0.4.0": {
+              "title": "split|button",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.0.zip"
+            },
+            "v0.4.1": {
+              "title": "VFixer",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.1.zip"
+            },
+            "v0.4.3": {
+              "title": "Please the IE",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.3"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.3.zip"
+            },
+            "v0.4.4": {
+              "title": "All the Requirements",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.4"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.4.zip"
+            },
+            "v0.4.5": {
+              "title": "Small Cap Update",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.5"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.5.zip"
+            },
+            "v0.4.6": {
+              "title": "Split Button",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.6"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.6.zip"
             }
           }
         }
@@ -1962,445 +2427,6 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qookery/archive/v0.6.2.zip"
-            }
-          }
-        }
-      },
-      "ITISFoundation/qx-osparc-theme": {
-        "description": "A material-inspired theme for qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
-        "releases": {
-          "list": [
-            "v0.0.1",
-            "v0.0.2",
-            "v0.0.3",
-            "v0.0.4",
-            "v0.0.5",
-            "v0.0.6",
-            "v0.0.7",
-            "v0.1.0",
-            "v0.2.0",
-            "v0.2.1",
-            "v0.3.0",
-            "v0.4.0",
-            "v0.4.1",
-            "v0.4.3",
-            "v0.4.4",
-            "v0.4.5"
-          ],
-          "data": {
-            "v0.0.1": {
-              "title": "Initial Test Release",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.1",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.1.zip"
-            },
-            "v0.0.2": {
-              "title": "Blacker (is this even a word?)",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.2",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.2.zip"
-            },
-            "v0.0.3": {
-              "title": "Travis Textfield Tutton",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.2",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.3.zip"
-            },
-            "v0.0.4": {
-              "title": "The Force",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.4",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.4.zip"
-            },
-            "v0.0.5": {
-              "title": "The Caption",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.5",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.5.zip"
-            },
-            "v0.0.6": {
-              "title": "window-small-cap apperance",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.6",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.6.zip"
-            },
-            "v0.0.7": {
-              "title": "bigger small caption for windows",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.7",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.7.zip"
-            },
-            "v0.1.0": {
-              "title": "The Tree",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.1.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.1.0.zip"
-            },
-            "v0.2.0": {
-              "title": "Modern Scrollbars",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.2.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.0.zip"
-            },
-            "v0.2.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.2.1",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.1.zip"
-            },
-            "v0.3.0": {
-              "title": "New osparblue theme added",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.3.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.3.0.zip"
-            },
-            "v0.4.0": {
-              "title": "split|button",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.0.zip"
-            },
-            "v0.4.1": {
-              "title": "VFixer",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.1.zip"
-            },
-            "v0.4.3": {
-              "title": "Please the IE",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.3"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.3.zip"
-            },
-            "v0.4.4": {
-              "title": "All the Requirements",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.4"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.4.zip"
-            },
-            "v0.4.5": {
-              "title": "Small Cap Update",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.5"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.5.zip"
             }
           }
         }
@@ -5341,5 +5367,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 168
+  "num_libraries": 169
 }
