@@ -1529,7 +1529,7 @@
         }
       },
       "cboulanger/qx-contrib-test": {
-        "description": "This is a test contribution for the qooxdoo contrib system",
+        "description": "This is a test contribution for the qooxdoo contrib system (unlisted)",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
         "releases": {
           "list": [
@@ -2053,7 +2053,7 @@
         }
       },
       "cboulanger/qookery": {
-        "description": "Temporary qookery fork to make features in master available",
+        "description": "Temporary qookery fork to make features in master available (unlisted)",
         "url": "https://api.github.com/repos/cboulanger/qookery",
         "releases": {
           "list": [
