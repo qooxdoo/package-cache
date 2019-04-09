@@ -32,6 +32,8 @@
       "qooxdoo/qxl.formdemo",
       "qooxdoo/qxl.logpane",
       "qooxdoo/qxl.playground",
+      "qooxdoo/qxl.test1",
+      "qooxdoo/qxl.test2",
       "qooxdoo/qxl.testtapper",
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
@@ -39,6 +41,107 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.test2": {
+        "description": "Test contrib repository with multiple library and a qooxdoo.json file (unlisted)",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.test2",
+        "releases": {
+          "list": [
+            "v1.0.1"
+          ],
+          "data": {
+            "v1.0.1": {
+              "title": "v1.0.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "qxl.test2A/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test2A",
+                    "summary": "Test library 2A",
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.1"
+                  }
+                },
+                {
+                  "path": "qxl.test2B/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test2B",
+                    "summary": "Test library 2B",
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.1"
+                  }
+                },
+                {
+                  "path": "qxl.test2C/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test2C",
+                    "summary": "Test library 2C",
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.1"
+                  }
+                },
+                {
+                  "path": "qxl.test2D/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test2D",
+                    "summary": "Test library 2D",
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.1"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test2/archive/v1.0.1.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.test1": {
+        "description": "Test contrib with single library (unlisted)",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.test1",
+        "releases": {
+          "list": [
+            "v1.0.1"
+          ],
+          "data": {
+            "v1.0.1": {
+              "title": "v1.0.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.1"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.testtapper": {
         "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
         "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper",
@@ -5367,5 +5470,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 169
+  "num_libraries": 174
 }
