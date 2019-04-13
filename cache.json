@@ -41,6 +41,739 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.widgetbrowser": {
+        "description": "qooxdoo  widget browser app",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v0.1.5",
+            "v0.1.6",
+            "v0.1.7"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.3",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.4",
+                    "qooxdoo-range": "6.0.0-alpha-20181226-a3c2b0b"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.4.zip"
+            },
+            "v0.1.5": {
+              "title": "v0.1.5",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.5.zip"
+            },
+            "v0.1.6": {
+              "title": "v0.1.6",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.6"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.6.zip"
+            },
+            "v0.1.7": {
+              "title": "v0.1.7",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.7"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.7.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.playground": {
+        "description": "The qooxdoo playground",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.playground",
+        "releases": {
+          "list": [
+            "v0.1.2",
+            "v0.1.3"
+          ],
+          "data": {
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.3"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.3.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.apiviewer": {
+        "description": "qooxdoo apiviewer app",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.apiviewer",
+        "releases": {
+          "list": [
+            "v0.1.4",
+            "v0.1.7",
+            "v0.1.8",
+            "v0.1.9",
+            "v0.1.10",
+            "v0.1.11",
+            "v0.1.12",
+            "v0.1.13"
+          ],
+          "data": {
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": ">=6.0.0 || 6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.4",
+                    "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.4.zip"
+            },
+            "v0.1.7": {
+              "title": "v0.1.7",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": ">=6.0.0 || 6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.7",
+                    "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.7.zip"
+            },
+            "v0.1.8": {
+              "title": "v0.1.8",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": ">=6.0.0 || ^6.0.0-alpha || || 6.0.0-alpha*",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.8",
+                    "qooxdoo-range": ">=6.0.0 || ^6.0.0-alpha || || 6.0.0-alpha*",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.8.zip"
+            },
+            "v0.1.9": {
+              "title": "v0.1.9",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.9",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.9.zip"
+            },
+            "v0.1.10": {
+              "title": "v0.1.10",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      }
+                    ],
+                    "version": "0.1.10",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.10.zip"
+            },
+            "v0.1.11": {
+              "title": "v0.1.11",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.11",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.11.zip"
+            },
+            "v0.1.12": {
+              "title": "v0.1.12",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.12",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.12.zip"
+            },
+            "v0.1.13": {
+              "title": "v0.1.13",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qooxdoo API Viewer",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      },
+                      {
+                        "name": "Daniel Wagner (dwagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Adrian Olaru (adrianolaru)",
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.13",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.13.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.demobrowser": {
+        "description": "qooxdoo demobrowser app",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.3"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.3.zip"
+            }
+          }
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -4032,442 +4765,6 @@
           }
         }
       },
-      "qooxdoo/qxl.demobrowser": {
-        "description": "qooxdoo demobrowser app",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
-        "releases": {
-          "list": [
-            "v0.1.1",
-            "v0.1.2",
-            "v0.1.3"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.3"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.3.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.apiviewer": {
-        "description": "qooxdoo apiviewer app",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.apiviewer",
-        "releases": {
-          "list": [
-            "v0.1.4",
-            "v0.1.7",
-            "v0.1.8",
-            "v0.1.9",
-            "v0.1.10",
-            "v0.1.11",
-            "v0.1.12"
-          ],
-          "data": {
-            "v0.1.4": {
-              "title": "v0.1.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": ">=6.0.0 || 6.0.0-alpha",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      }
-                    ],
-                    "version": "0.1.4",
-                    "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.4.zip"
-            },
-            "v0.1.7": {
-              "title": "v0.1.7",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": ">=6.0.0 || 6.0.0-alpha",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      }
-                    ],
-                    "version": "0.1.7",
-                    "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.7.zip"
-            },
-            "v0.1.8": {
-              "title": "v0.1.8",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": ">=6.0.0 || ^6.0.0-alpha || || 6.0.0-alpha*",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      }
-                    ],
-                    "version": "0.1.8",
-                    "qooxdoo-range": ">=6.0.0 || ^6.0.0-alpha || || 6.0.0-alpha*",
-                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.8.zip"
-            },
-            "v0.1.9": {
-              "title": "v0.1.9",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      }
-                    ],
-                    "version": "0.1.9",
-                    "qooxdoo-range": "^6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.9.zip"
-            },
-            "v0.1.10": {
-              "title": "v0.1.10",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qooxdoo-api-viewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      }
-                    ],
-                    "version": "0.1.10",
-                    "qooxdoo-range": "^6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.10.zip"
-            },
-            "v0.1.11": {
-              "title": "v0.1.11",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.11",
-                    "qooxdoo-range": "^6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.11.zip"
-            },
-            "v0.1.12": {
-              "title": "v0.1.12",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qooxdoo API Viewer",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      },
-                      {
-                        "name": "Daniel Wagner (dwagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Adrian Olaru (adrianolaru)",
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.12",
-                    "qooxdoo-range": "^6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.12.zip"
-            }
-          }
-        }
-      },
       "qooxdoo/qxl.versionlabel": {
         "description": "versionlabel for qooxdoo demo apps",
         "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel",
@@ -4745,203 +5042,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.formdemo/archive/v0.1.2.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.widgetbrowser": {
-        "description": "qooxdoo  widget browser app",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
-        "releases": {
-          "list": [
-            "v0.1.1",
-            "v0.1.2",
-            "v0.1.3",
-            "v0.1.4",
-            "v0.1.5",
-            "v0.1.6"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.3",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.3.zip"
-            },
-            "v0.1.4": {
-              "title": "v0.1.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.4",
-                    "qooxdoo-range": "6.0.0-alpha-20181226-a3c2b0b"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.4.zip"
-            },
-            "v0.1.5": {
-              "title": "v0.1.5",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "."
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.5.zip"
-            },
-            "v0.1.6": {
-              "title": "v0.1.6",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.6"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.6.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.playground": {
-        "description": "The qooxdoo playground",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.playground",
-        "releases": {
-          "list": [
-            "v0.1.2"
-          ],
-          "data": {
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.2.zip"
             }
           }
         }
@@ -5551,5 +5651,5 @@
     }
   },
   "compat": {},
-  "num_libraries": 179
+  "num_libraries": 182
 }
