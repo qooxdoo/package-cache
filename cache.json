@@ -84,6 +84,34 @@
                     ],
                     "version": "0.1.0",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "theme": "qxl.testtapper.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -114,6 +142,33 @@
                     ],
                     "version": "0.1.1",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testapper",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -144,6 +199,34 @@
                     ],
                     "version": "0.1.2",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -174,6 +257,34 @@
                     ],
                     "version": "0.1.3",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -204,6 +315,34 @@
                     ],
                     "version": "0.1.4",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -234,6 +373,34 @@
                     ],
                     "version": "0.1.5",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -264,6 +431,34 @@
                     ],
                     "version": "0.1.6",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -294,6 +489,34 @@
                     ],
                     "version": "0.2.0",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -324,6 +547,34 @@
                     ],
                     "version": "0.2.1",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -354,6 +605,34 @@
                     ],
                     "version": "0.3.0",
                     "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -394,6 +673,17 @@
                       }
                     ],
                     "version": "0.1.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.mobileshowcase",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -447,6 +737,14 @@
                     ],
                     "version": "0.2.0",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "contrib.cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -472,6 +770,20 @@
                       }
                     ],
                     "version": "0.3.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -497,6 +809,20 @@
                       }
                     ],
                     "version": "0.4.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -522,6 +848,20 @@
                       }
                     ],
                     "version": "0.5.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -547,6 +887,20 @@
                       }
                     ],
                     "version": "0.5.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -572,6 +926,19 @@
                       }
                     ],
                     "version": "0.5.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -597,6 +964,17 @@
                       }
                     ],
                     "version": "0.5.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -622,6 +1000,17 @@
                       }
                     ],
                     "version": "0.6.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -647,6 +1036,17 @@
                       }
                     ],
                     "version": "0.7.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -672,6 +1072,17 @@
                       }
                     ],
                     "version": "0.8.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -697,6 +1108,20 @@
                       }
                     ],
                     "version": "0.9.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -722,6 +1147,20 @@
                       }
                     ],
                     "version": "0.9.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
+                    "ergobyte/qookery/qookery": "^0.7.0-pre",
+                    "ergobyte/qookery/qookeryace": "^0.7.0-pre",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -747,6 +1186,20 @@
                       }
                     ],
                     "version": "0.9.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -772,6 +1225,20 @@
                       }
                     ],
                     "version": "0.9.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -797,6 +1264,20 @@
                       }
                     ],
                     "version": "0.9.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -822,6 +1303,20 @@
                       }
                     ],
                     "version": "0.9.5"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -847,6 +1342,23 @@
                       }
                     ],
                     "version": "0.9.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
+                    "qooxdoo/qxl.apiviewer": "^0.1.13"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -906,6 +1418,30 @@
                     "version": "0.1.4",
                     "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
                     "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "apiviewer.Application",
+                      "theme": "apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "outputPath": "apiviewer",
+                      "include": [
+                        "qx.*",
+                        "apiviewer.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -945,6 +1481,29 @@
                     "version": "0.1.7",
                     "qooxdoo-range": ">=6.0.0 || 6.0.0-alpha",
                     "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "apiviewer.Application",
+                      "theme": "apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "outputPath": "apiviewer",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -984,6 +1543,33 @@
                     "version": "0.1.8",
                     "qooxdoo-range": ">=6.0.0 || ^6.0.0-alpha || || 6.0.0-alpha*",
                     "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "apiviewer.Application",
+                      "theme": "apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "excludeFromAPIViewer": [
+                          "apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1023,6 +1609,33 @@
                     "version": "0.1.9",
                     "qooxdoo-range": "^6.0.0-alpha",
                     "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "apiviewer.Application",
+                      "theme": "apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "excludeFromAPIViewer": [
+                          "apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1062,6 +1675,33 @@
                     "version": "0.1.10",
                     "qooxdoo-range": "^6.0.0-alpha",
                     "sourceViewUri": "https://github.com/qooxdoo/qooxdoo-api-viewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "apiviewer.Application",
+                      "theme": "apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "excludeFromAPIViewer": [
+                          "qx.app.apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1105,6 +1745,33 @@
                     "version": "0.1.11",
                     "qooxdoo-range": "^6.0.0-alpha",
                     "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "qxl.apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "theme": "qxl.apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "excludeFromAPIViewer": [
+                          "qxl.apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1148,6 +1815,33 @@
                     "version": "0.1.12",
                     "qooxdoo-range": "^6.0.0-alpha",
                     "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "provides": {
+                    "namespace": "qxl.apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in",
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "theme": "qxl.apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "excludeFromAPIViewer": [
+                          "qxl.apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1190,6 +1884,38 @@
                     ],
                     "version": "0.1.13",
                     "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "theme": "qxl.apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "excludeFromAPIViewer": [
+                          "qxl.apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1232,6 +1958,38 @@
                     ],
                     "version": "0.1.14",
                     "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "theme": "qxl.apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "excludeFromAPIViewer": [
+                          "qxl.apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1274,6 +2032,38 @@
                     ],
                     "version": "0.1.15",
                     "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.apiviewer",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "theme": "qxl.apiviewer.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo API Viewer",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "excludeFromAPIViewer": [
+                          "qxl.apiviewer.*"
+                        ]
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1318,6 +2108,14 @@
                     ],
                     "version": "0.1.2",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -1348,6 +2146,19 @@
                       }
                     ],
                     "version": "0.1.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -1378,6 +2189,19 @@
                       }
                     ],
                     "version": "0.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -1434,6 +2258,14 @@
                       "5.0",
                       "5.1"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1464,6 +2296,14 @@
                       "6.0"
                     ],
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1490,6 +2330,14 @@
                     ],
                     "version": "1.3.0",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1516,6 +2364,14 @@
                     ],
                     "version": "1.3.0",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1542,6 +2398,14 @@
                     ],
                     "version": "1.3.2",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1568,6 +2432,14 @@
                     ],
                     "version": "1.3.3",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1594,6 +2466,14 @@
                     ],
                     "version": "1.3.4",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1620,6 +2500,14 @@
                     ],
                     "version": "1.3.5",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1646,6 +2534,14 @@
                     ],
                     "version": "1.3.6",
                     "qooxdoo-range": "5.x | 6.0.0-* | 6.x || 6.0.0-alpha-20180529"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1672,6 +2568,14 @@
                     ],
                     "version": "1.4.0",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1697,6 +2601,18 @@
                       }
                     ],
                     "version": "2.0.0"
+                  },
+                  "requires": {
+                    "qooxdoo/qxl.apiviewer": "^0.1.12",
+                    "qooxdoo-sdk": "^6.0.0-alpha-20181204-f98112fe || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1722,6 +2638,17 @@
                       }
                     ],
                     "version": "2.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha-20181204-f98112fe || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -1765,6 +2692,14 @@
                     ],
                     "version": "0.1.1",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -1791,6 +2726,92 @@
                     ],
                     "version": "0.1.2",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ],
+                      "parts": {
+                        "boot": {
+                          "include": [
+                            "qxl.widgetbrowser.Application"
+                          ]
+                        },
+                        "tree": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Tree"
+                          ]
+                        },
+                        "list": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.List"
+                          ]
+                        },
+                        "table": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Table"
+                          ]
+                        },
+                        "form": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Form"
+                          ]
+                        },
+                        "toolbar": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.ToolBar"
+                          ]
+                        },
+                        "window": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Window"
+                          ]
+                        },
+                        "tab": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Tab"
+                          ]
+                        },
+                        "control": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Control"
+                          ]
+                        },
+                        "embed": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Embed"
+                          ]
+                        },
+                        "embedframe": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.EmbedFrame"
+                          ]
+                        },
+                        "basic": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Basic"
+                          ]
+                        },
+                        "misc": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Misc"
+                          ]
+                        }
+                      }
+                    }
                   }
                 }
               ],
@@ -1817,6 +2838,14 @@
                     ],
                     "version": "0.1.3",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -1843,6 +2872,42 @@
                     ],
                     "version": "0.1.4",
                     "qooxdoo-range": "6.0.0-alpha-20181226-a3c2b0b"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.formdemo": "^0.1.1",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1878,6 +2943,42 @@
                       }
                     ],
                     "version": "0.1.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.formdemo": "^0.1.1",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1903,6 +3004,42 @@
                       }
                     ],
                     "version": "0.1.7"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.formdemo": "^0.1.1",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
                   }
                 }
               ],
@@ -1958,6 +3095,14 @@
                     ],
                     "version": "0.1.1",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in"
                   }
                 }
               ],
@@ -2000,6 +3145,14 @@
                     ],
                     "version": "0.1.2",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -2041,6 +3194,19 @@
                       }
                     ],
                     "version": "0.1.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -2073,6 +3239,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2B": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2A",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -2086,6 +3265,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2B",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -2099,6 +3291,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2D": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2C",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -2112,6 +3317,18 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2D",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -2132,6 +3349,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2B": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2A",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -2145,6 +3375,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2B",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -2158,6 +3401,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2D": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2C",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -2171,6 +3427,18 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2D",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -2203,6 +3471,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -2223,6 +3504,19 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.0.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -2276,6 +3570,14 @@
                     ],
                     "version": "0.0.1",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2302,6 +3604,14 @@
                     ],
                     "version": "0.0.2",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2328,6 +3638,14 @@
                     ],
                     "version": "0.0.2",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2354,6 +3672,14 @@
                     ],
                     "version": "0.0.4",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2380,6 +3706,14 @@
                     ],
                     "version": "0.0.5",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2406,6 +3740,14 @@
                     ],
                     "version": "0.0.6",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2432,6 +3774,14 @@
                     ],
                     "version": "0.0.7",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2458,6 +3808,14 @@
                     ],
                     "version": "0.1.0",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2484,6 +3842,14 @@
                     ],
                     "version": "0.2.0",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2510,6 +3876,14 @@
                     ],
                     "version": "0.2.1",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2536,6 +3910,14 @@
                     ],
                     "version": "0.3.0",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2562,6 +3944,14 @@
                     ],
                     "version": "0.4.0",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2588,6 +3978,14 @@
                     ],
                     "version": "0.4.1",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2613,6 +4011,18 @@
                       }
                     ],
                     "version": "0.4.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2638,6 +4048,18 @@
                       }
                     ],
                     "version": "0.4.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2663,6 +4085,18 @@
                       }
                     ],
                     "version": "0.4.5"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2688,6 +4122,18 @@
                       }
                     ],
                     "version": "0.4.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2745,6 +4191,14 @@
                     ],
                     "version": "0.6.2",
                     "qooxdoo-versions": "4.x - 5.x"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2786,6 +4240,14 @@
                       "6.0.0-alpha"
                     ],
                     "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2827,6 +4289,14 @@
                       "6.0.0-alpha"
                     ],
                     "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2871,6 +4341,14 @@
                       "6.0.0-alpha"
                     ],
                     "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2915,6 +4393,14 @@
                       "6.0.0-alpha"
                     ],
                     "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2960,6 +4446,14 @@
                       "6.0.0-alpha-20180529"
                     ],
                     "qooxdoo-range": "5.x - 6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-20180529"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -2996,6 +4490,17 @@
                       }
                     ],
                     "version": "1.2.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "5.x || ^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "tokenfield",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -3071,6 +4576,14 @@
                     ],
                     "version": "1.0.12",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3097,6 +4610,14 @@
                     ],
                     "version": "1.0.13",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3123,6 +4644,14 @@
                     ],
                     "version": "1.0.14",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3149,6 +4678,14 @@
                     ],
                     "version": "1.0.25",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3175,6 +4712,14 @@
                     ],
                     "version": "1.0.26",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3201,6 +4746,14 @@
                     ],
                     "version": "1.0.27",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3227,6 +4780,14 @@
                     ],
                     "version": "1.0.28",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3253,6 +4814,14 @@
                     ],
                     "version": "1.0.30",
                     "qooxdoo-range": "6.0.0-* - 6.x || 6.0.0-alpha-20180529"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3279,6 +4848,14 @@
                     ],
                     "version": "1.0.31",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3305,6 +4882,14 @@
                     ],
                     "version": "1.0.33",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3331,6 +4916,14 @@
                     ],
                     "version": "1.0.34",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3356,6 +4949,17 @@
                       }
                     ],
                     "version": "1.0.35"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3381,6 +4985,17 @@
                       }
                     ],
                     "version": "1.0.35"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3406,6 +5021,17 @@
                       }
                     ],
                     "version": "1.0.35"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3426,6 +5052,18 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.1.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190327-0809"
+                  },
+                  "provides": {
+                    "namespace": "lib2",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -3444,6 +5082,17 @@
                       }
                     ],
                     "version": "1.1.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3464,6 +5113,18 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.1.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190327-0809"
+                  },
+                  "provides": {
+                    "namespace": "lib2",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -3482,6 +5143,17 @@
                       }
                     ],
                     "version": "1.1.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3502,6 +5174,18 @@
                     "license": "MIT license",
                     "authors": "",
                     "version": "1.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190327-0809"
+                  },
+                  "provides": {
+                    "namespace": "lib2",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -3520,6 +5204,17 @@
                       }
                     ],
                     "version": "1.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3570,6 +5265,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 },
                 {
@@ -3596,6 +5299,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.ace",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3622,6 +5333,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.calendar",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3648,6 +5367,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.maps",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3674,6 +5401,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.mobile",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3700,6 +5435,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.richtext",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 }
               ],
@@ -3738,6 +5481,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 },
                 {
@@ -3764,6 +5518,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.ace",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3790,6 +5555,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.calendar",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3821,6 +5597,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookerydemo",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 },
                 {
@@ -3847,6 +5634,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.maps",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3873,6 +5671,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.mobile",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -3899,6 +5708,17 @@
                       "6.0.0",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.richtext",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 }
               ],
@@ -3941,6 +5761,18 @@
                       "5.0.2",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3970,6 +5802,18 @@
                       "5.0.2",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -3999,6 +5843,18 @@
                       "5.0.2",
                       "6.0.0-alpha"
                     ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
                   }
                 }
               ],
@@ -4042,6 +5898,27 @@
                     ],
                     "version": "0.0.1",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.material",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4068,6 +5945,27 @@
                     ],
                     "version": "0.0.3",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.material",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4094,6 +5992,27 @@
                     ],
                     "version": "0.0.4",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4120,6 +6039,27 @@
                     ],
                     "version": "0.0.5",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4146,6 +6086,26 @@
                     ],
                     "version": "0.1.0",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4172,6 +6132,26 @@
                     ],
                     "version": "0.1.1",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.material",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4197,6 +6177,30 @@
                       }
                     ],
                     "version": "0.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.material",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "MaterialIcons",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.eot",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.ttf"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4238,6 +6242,52 @@
                     ],
                     "version": "0.0.1",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.fontawesome5",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "FontAwesome5Brands",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-brands.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-brands-400.ttf",
+                          "iconfont/fontawesome5/fa-brands-400.woff",
+                          "iconfont/fontawesome5/fa-brands-400.woff2",
+                          "iconfont/fontawesome5/fa-brands-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Regular",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-regular.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-regular-400.ttf",
+                          "iconfont/fontawesome5/fa-regular-400.woff",
+                          "iconfont/fontawesome5/fa-regular-400.woff2",
+                          "iconfont/fontawesome5/fa-regular-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Solid",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-solid.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-solid-900.ttf",
+                          "iconfont/fontawesome5/fa-solid-900.woff",
+                          "iconfont/fontawesome5/fa-solid-900.woff2",
+                          "iconfont/fontawesome5/fa-solid-900.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4264,6 +6314,52 @@
                     ],
                     "version": "0.0.2",
                     "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "iconfont",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "FontAwesome5Brands",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-brands.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-brands-400.ttf",
+                          "iconfont/fontawesome5/fa-brands-400.woff",
+                          "iconfont/fontawesome5/fa-brands-400.woff2",
+                          "iconfont/fontawesome5/fa-brands-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Regular",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-regular.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-regular-400.ttf",
+                          "iconfont/fontawesome5/fa-regular-400.woff",
+                          "iconfont/fontawesome5/fa-regular-400.woff2",
+                          "iconfont/fontawesome5/fa-regular-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Solid",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-solid.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-solid-900.ttf",
+                          "iconfont/fontawesome5/fa-solid-900.woff",
+                          "iconfont/fontawesome5/fa-solid-900.woff2",
+                          "iconfont/fontawesome5/fa-solid-900.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4290,6 +6386,52 @@
                     ],
                     "version": "0.0.3",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "FontAwesome5Brands",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-brands.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-brands-400.ttf",
+                          "iconfont/fontawesome5/fa-brands-400.woff",
+                          "iconfont/fontawesome5/fa-brands-400.woff2",
+                          "iconfont/fontawesome5/fa-brands-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Regular",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-regular.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-regular-400.ttf",
+                          "iconfont/fontawesome5/fa-regular-400.woff",
+                          "iconfont/fontawesome5/fa-regular-400.woff2",
+                          "iconfont/fontawesome5/fa-regular-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Solid",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-solid.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-solid-900.ttf",
+                          "iconfont/fontawesome5/fa-solid-900.woff",
+                          "iconfont/fontawesome5/fa-solid-900.woff2",
+                          "iconfont/fontawesome5/fa-solid-900.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4316,6 +6458,52 @@
                     ],
                     "version": "0.0.4",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.fontawesome5",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "FontAwesome5Brands",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-brands.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-brands-400.ttf",
+                          "iconfont/fontawesome5/fa-brands-400.woff",
+                          "iconfont/fontawesome5/fa-brands-400.woff2",
+                          "iconfont/fontawesome5/fa-brands-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Regular",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-regular.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-regular-400.ttf",
+                          "iconfont/fontawesome5/fa-regular-400.woff",
+                          "iconfont/fontawesome5/fa-regular-400.woff2",
+                          "iconfont/fontawesome5/fa-regular-400.eot"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Solid",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-solid.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-solid-900.ttf",
+                          "iconfont/fontawesome5/fa-solid-900.woff",
+                          "iconfont/fontawesome5/fa-solid-900.woff2",
+                          "iconfont/fontawesome5/fa-solid-900.eot"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4341,6 +6529,55 @@
                       }
                     ],
                     "version": "0.0.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "iconfont.fontawesome5",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "name": "FontAwesome5Brands",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-brands.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-brands-400.eot",
+                          "iconfont/fontawesome5/fa-brands-400.woff2",
+                          "iconfont/fontawesome5/fa-brands-400.woff",
+                          "iconfont/fontawesome5/fa-brands-400.ttf"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Regular",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-regular.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-regular-400.eot",
+                          "iconfont/fontawesome5/fa-regular-400.woff2",
+                          "iconfont/fontawesome5/fa-regular-400.woff",
+                          "iconfont/fontawesome5/fa-regular-400.ttf"
+                        ]
+                      },
+                      {
+                        "name": "FontAwesome5Solid",
+                        "defaultSize": 32,
+                        "comparisonString": "",
+                        "mapping": "iconfont/fontawesome5/fa-solid.json",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-solid-900.eot",
+                          "iconfont/fontawesome5/fa-solid-900.woff2",
+                          "iconfont/fontawesome5/fa-solid-900.woff",
+                          "iconfont/fontawesome5/fa-solid-900.ttf"
+                        ]
+                      }
+                    ]
                   }
                 }
               ],
@@ -4392,6 +6629,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 },
                 {
@@ -4414,6 +6659,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.ace",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4440,6 +6693,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.calendar",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4466,6 +6727,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.maps",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4492,6 +6761,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.mobile",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4518,6 +6795,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.richtext",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 }
               ],
@@ -4556,6 +6841,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 },
                 {
@@ -4582,6 +6875,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.ace",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4608,6 +6909,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.calendar",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4634,6 +6943,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.maps",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4660,6 +6977,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.mobile",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4686,6 +7011,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.richtext",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 }
               ],
@@ -4724,6 +7057,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 },
                 {
@@ -4750,6 +7091,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.ace",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4776,6 +7125,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.calendar",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4802,6 +7159,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.maps",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4828,6 +7193,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.mobile",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 },
                 {
@@ -4854,6 +7227,14 @@
                       "6.0.0"
                     ],
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery.richtext",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "component"
                   }
                 }
               ],
@@ -4895,6 +7276,14 @@
                     ],
                     "version": "1.0.0",
                     "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*"
+                  },
+                  "provides": {
+                    "namespace": "mobilegrid",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -4921,6 +7310,14 @@
                     ],
                     "version": "1.0.1",
                     "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9"
+                  },
+                  "provides": {
+                    "namespace": "mobilegrid",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -4947,6 +7344,14 @@
                     ],
                     "version": "1.0.2",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "mobilegrid",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -4973,6 +7378,14 @@
                     ],
                     "version": "1.0.4",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "gh.hkollmann.mobilegrid",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -4998,6 +7411,17 @@
                       }
                     ],
                     "version": "1.0.5"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "hkollmann.mobilegrid",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5035,6 +7459,14 @@
                     ],
                     "version": "0.1.1",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.versionlabel",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5059,6 +7491,17 @@
                       }
                     ],
                     "version": "0.1.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.versionlabel",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5107,6 +7550,14 @@
                     ],
                     "version": "0.1.1",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qx.contrib.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5141,6 +7592,14 @@
                     ],
                     "version": "0.1.2",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5175,6 +7634,14 @@
                     ],
                     "version": "0.1.3",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5208,6 +7675,17 @@
                       }
                     ],
                     "version": "0.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5250,6 +7728,14 @@
                     ],
                     "version": "0.1.1",
                     "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.formdemo",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5279,6 +7765,17 @@
                       }
                     ],
                     "version": "0.1.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.formdemo",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5320,6 +7817,14 @@
                     ],
                     "version": "1.0.0",
                     "qooxdoo-range": "^6.0.0-alpha-20181116-263f2cc9"
+                  },
+                  "provides": {
+                    "namespace": "sqv",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5369,6 +7874,14 @@
                       "5.1",
                       "6.0"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5395,6 +7908,14 @@
                     ],
                     "version": "trunk",
                     "qooxdoo-range": "1.5 - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5421,6 +7942,14 @@
                     ],
                     "version": "1.0.3",
                     "qooxdoo-range": "1.5 - 6.0.0-alpha-* || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5447,6 +7976,14 @@
                     ],
                     "version": "1.0.4",
                     "qooxdoo-range": "1.5 - 5.9 || >6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5484,6 +8021,14 @@
                     ],
                     "version": "1.8.7",
                     "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "qxShowdown",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5541,6 +8086,14 @@
                     "qooxdoo-versions": [
                       "1.4 - 5.x"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "uploadwidget",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
                   }
                 }
               ],
@@ -5584,6 +8137,14 @@
                     ],
                     "version": "1.0.1",
                     "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "uploadwidget",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5682,6 +8243,14 @@
                     ],
                     "download": "",
                     "checksum": ""
+                  },
+                  "provides": {
+                    "namespace": "qxd3",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5721,6 +8290,14 @@
                     "qooxdoo-versions": [
                       "5.x"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "cropper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5764,6 +8341,14 @@
                     "qooxdoo-versions": [
                       "4.x - 5.x"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "combotable",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5803,6 +8388,14 @@
                     "qooxdoo-versions": [
                       "1.5 - 5.x"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "qxdygraphs",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5842,6 +8435,14 @@
                     "qooxdoo-versions": [
                       "1.4 - 5.x"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "qxjqplot",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5881,6 +8482,14 @@
                     "qooxdoo-versions": [
                       "1.x - 5.x"
                     ]
+                  },
+                  "provides": {
+                    "namespace": "canvascell",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
                   }
                 }
               ],
@@ -5892,5 +8501,6 @@
     }
   },
   "compat": {},
+  "version": "2.1",
   "num_libraries": 189
 }
