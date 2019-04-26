@@ -42,6 +42,57 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "oetiker/ComboTable": {
+        "description": "Qx Selectbox with incermental search",
+        "url": "https://api.github.com/repos/oetiker/ComboTable",
+        "releases": {
+          "list": [
+            "v1.0.0"
+          ],
+          "data": {
+            "v1.0.0": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "4.x - 5.x",
+                  "info": {
+                    "name": "ComboTable",
+                    "summary": "A selectbox with incemental search",
+                    "description": "A selectbox using a qooxdoo table to show list of options supporting incremental search.",
+                    "homepage": "http://contrib.qooxdoo.org/project/ComboTable",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Tobi Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      },
+                      {
+                        "name": "Mustafa Sak",
+                        "email": "info@saksys.de"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "4.x - 5.x"
+                    ]
+                  },
+                  "provides": {
+                    "namespace": "combotable",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
+            }
+          }
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -8379,57 +8430,6 @@
                 }
               ],
               "zip_url": "https://github.com/oetiker/Cropper/archive/v1.0.0.zip"
-            }
-          }
-        }
-      },
-      "oetiker/ComboTable": {
-        "description": "Qx Selectbox with incermental search",
-        "url": "https://api.github.com/repos/oetiker/ComboTable",
-        "releases": {
-          "list": [
-            "v1.0.0"
-          ],
-          "data": {
-            "v1.0.0": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "4.x - 5.x",
-                  "info": {
-                    "name": "ComboTable",
-                    "summary": "A selectbox with incemental search",
-                    "description": "A selectbox using a qooxdoo table to show list of options supporting incremental search.",
-                    "homepage": "http://contrib.qooxdoo.org/project/ComboTable",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Tobi Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      },
-                      {
-                        "name": "Mustafa Sak",
-                        "email": "info@saksys.de"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "4.x - 5.x"
-                    ]
-                  },
-                  "provides": {
-                    "namespace": "combotable",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
             }
           }
         }
