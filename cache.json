@@ -47,7 +47,8 @@
         "url": "https://api.github.com/repos/oetiker/ComboTable",
         "releases": {
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ],
           "data": {
             "v1.0.0": {
@@ -89,6 +90,42 @@
                 }
               ],
               "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "title": "ready for qx6",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Tobi Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "combotable",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.1.zip"
             }
           }
         }
@@ -8579,5 +8616,5 @@
   },
   "compat": {},
   "version": "2.1",
-  "num_libraries": 191
+  "num_libraries": 192
 }
