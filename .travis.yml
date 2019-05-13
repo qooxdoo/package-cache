@@ -27,7 +27,11 @@ before_install:
 - git config --global push.default simple
 # install components
 - git clone git@github.com:qooxdoo/qx-contrib.git
-- git clone git@github.com:qooxdoo/qooxdoo-compiler 
+#- git clone git@github.com:qooxdoo/qooxdoo-compiler 
+# temporary monkey-patch
+- git clone git@github.com:hkollmann/qooxdoo-compiler 
+- git checkout move_to_1.0.0_beta
+# end patch
 - cd qooxdoo-compiler && npm install && cd ..
 script:
 # create data file and commit it to this repo
