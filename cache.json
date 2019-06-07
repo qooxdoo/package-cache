@@ -27,6 +27,7 @@
       "oetiker/QxJqPlot",
       "oetiker/QxTangible",
       "oetiker/UploadWidget",
+      "oposs/headerpuppet",
       "qooxdoo/qxl.apiviewer",
       "qooxdoo/qxl.demobrowser",
       "qooxdoo/qxl.formdemo",
@@ -42,6 +43,14 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "oposs/headerpuppet": {
+        "description": "Extra Headers for the Qooxdoo Table Widget",
+        "url": "https://api.github.com/repos/oposs/headerpuppet",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "qooxdoo/qxl.apiviewer": {
         "description": "qooxdoo apiviewer app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.apiviewer",
