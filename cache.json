@@ -48,7 +48,8 @@
         "url": "https://api.github.com/repos/oposs/headerpuppet",
         "releases": {
           "list": [
-            "v0.0.1"
+            "v0.0.1",
+            "v0.0.2"
           ],
           "data": {
             "v0.0.1": {
@@ -88,6 +89,44 @@
                 }
               ],
               "zip_url": "https://github.com/oposs/headerpuppet/archive/v0.0.1.zip"
+            },
+            "v0.0.2": {
+              "title": "Relax",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "HeaderPuppet",
+                    "summary": "Extra header rows bound to a table",
+                    "description": "For complex tables it may be desirable to not have a single field to describe the content of the column or a group of columns, but a number of extra header lines.",
+                    "homepage": "https://github.com/oposs/headerpuppet",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.0.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.testtapper": "^0.4.0",
+                    "qooxdoo/qxl.apiviewer": "^0.1.20"
+                  },
+                  "provides": {
+                    "namespace": "headerpuppet",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oposs/headerpuppet/archive/v0.0.2.zip"
             }
           }
         }
@@ -9752,5 +9791,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 220
+  "num_libraries": 221
 }
