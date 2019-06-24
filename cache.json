@@ -43,6 +43,454 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.widgetbrowser": {
+        "description": "qooxdoo  widget browser app",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v0.1.5",
+            "v0.1.6",
+            "v0.1.7",
+            "v1.0.0-beta.0"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ],
+                      "parts": {
+                        "boot": {
+                          "include": [
+                            "qxl.widgetbrowser.Application"
+                          ]
+                        },
+                        "tree": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Tree"
+                          ]
+                        },
+                        "list": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.List"
+                          ]
+                        },
+                        "table": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Table"
+                          ]
+                        },
+                        "form": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Form"
+                          ]
+                        },
+                        "toolbar": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.ToolBar"
+                          ]
+                        },
+                        "window": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Window"
+                          ]
+                        },
+                        "tab": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Tab"
+                          ]
+                        },
+                        "control": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Control"
+                          ]
+                        },
+                        "embed": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Embed"
+                          ]
+                        },
+                        "embedframe": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.EmbedFrame"
+                          ]
+                        },
+                        "basic": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Basic"
+                          ]
+                        },
+                        "misc": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Misc"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.3",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.4",
+                    "qooxdoo-range": "6.0.0-alpha-20181226-a3c2b0b"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.formdemo": "^0.1.1",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.4.zip"
+            },
+            "v0.1.5": {
+              "title": "v0.1.5",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.5.zip"
+            },
+            "v0.1.6": {
+              "title": "v0.1.6",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.formdemo": "^0.1.1",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.6.zip"
+            },
+            "v0.1.7": {
+              "title": "v0.1.7",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tristan Koch (tristankoch)",
+                        "email": "tristan DOT koch AT 1und1 DOT de"
+                      }
+                    ],
+                    "version": "0.1.7"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.formdemo": "^0.1.1",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.7.zip"
+            },
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "authors": [],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.formdemo": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.widgetbrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "widgetbrowser",
+                      "title": "WidgetBrowser",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v1.0.0-beta.0.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.formdemo": {
         "description": "form demo for demo apps",
         "url": "https://api.github.com/repos/qooxdoo/qxl.formdemo",
@@ -5545,397 +5993,6 @@
           }
         }
       },
-      "qooxdoo/qxl.widgetbrowser": {
-        "description": "qooxdoo  widget browser app",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser",
-        "releases": {
-          "list": [
-            "v0.1.1",
-            "v0.1.2",
-            "v0.1.3",
-            "v0.1.4",
-            "v0.1.5",
-            "v0.1.6",
-            "v0.1.7"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.widgetbrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.widgetbrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.widgetbrowser.Application",
-                      "theme": "qx.theme.Indigo",
-                      "name": "widgetbrowser",
-                      "title": "WidgetBrowser",
-                      "include": [
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic"
-                      ],
-                      "parts": {
-                        "boot": {
-                          "include": [
-                            "qxl.widgetbrowser.Application"
-                          ]
-                        },
-                        "tree": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Tree"
-                          ]
-                        },
-                        "list": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.List"
-                          ]
-                        },
-                        "table": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Table"
-                          ]
-                        },
-                        "form": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Form"
-                          ]
-                        },
-                        "toolbar": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.ToolBar"
-                          ]
-                        },
-                        "window": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Window"
-                          ]
-                        },
-                        "tab": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Tab"
-                          ]
-                        },
-                        "control": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Control"
-                          ]
-                        },
-                        "embed": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Embed"
-                          ]
-                        },
-                        "embedframe": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.EmbedFrame"
-                          ]
-                        },
-                        "basic": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Basic"
-                          ]
-                        },
-                        "misc": {
-                          "include": [
-                            "qxl.widgetbrowser.pages.Misc"
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.3",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.widgetbrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.3.zip"
-            },
-            "v0.1.4": {
-              "title": "v0.1.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.4",
-                    "qooxdoo-range": "6.0.0-alpha-20181226-a3c2b0b"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.formdemo": "^0.1.1",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.widgetbrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.widgetbrowser.Application",
-                      "theme": "qx.theme.Indigo",
-                      "name": "widgetbrowser",
-                      "title": "WidgetBrowser",
-                      "include": [
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "qxl.widgetbrowser.pages.Tree",
-                        "qxl.widgetbrowser.pages.List",
-                        "qxl.widgetbrowser.pages.Table",
-                        "qxl.widgetbrowser.pages.Form",
-                        "qxl.widgetbrowser.pages.ToolBar",
-                        "qxl.widgetbrowser.pages.Window",
-                        "qxl.widgetbrowser.pages.Tab",
-                        "qxl.widgetbrowser.pages.Control",
-                        "qxl.widgetbrowser.pages.Embed",
-                        "qxl.widgetbrowser.pages.EmbedFrame",
-                        "qxl.widgetbrowser.pages.Basic",
-                        "qxl.widgetbrowser.pages.Misc"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.4.zip"
-            },
-            "v0.1.5": {
-              "title": "v0.1.5",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "."
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.5.zip"
-            },
-            "v0.1.6": {
-              "title": "v0.1.6",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.6"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.formdemo": "^0.1.1",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.widgetbrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.widgetbrowser.Application",
-                      "theme": "qx.theme.Indigo",
-                      "name": "widgetbrowser",
-                      "title": "WidgetBrowser",
-                      "include": [
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "qxl.widgetbrowser.pages.Tree",
-                        "qxl.widgetbrowser.pages.List",
-                        "qxl.widgetbrowser.pages.Table",
-                        "qxl.widgetbrowser.pages.Form",
-                        "qxl.widgetbrowser.pages.ToolBar",
-                        "qxl.widgetbrowser.pages.Window",
-                        "qxl.widgetbrowser.pages.Tab",
-                        "qxl.widgetbrowser.pages.Control",
-                        "qxl.widgetbrowser.pages.Embed",
-                        "qxl.widgetbrowser.pages.EmbedFrame",
-                        "qxl.widgetbrowser.pages.Basic",
-                        "qxl.widgetbrowser.pages.Misc"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.6.zip"
-            },
-            "v0.1.7": {
-              "title": "v0.1.7",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tristan Koch (tristankoch)",
-                        "email": "tristan DOT koch AT 1und1 DOT de"
-                      }
-                    ],
-                    "version": "0.1.7"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.formdemo": "^0.1.1",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.widgetbrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.widgetbrowser.Application",
-                      "theme": "qx.theme.Indigo",
-                      "name": "widgetbrowser",
-                      "title": "WidgetBrowser",
-                      "include": [
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "qxl.widgetbrowser.pages.Tree",
-                        "qxl.widgetbrowser.pages.List",
-                        "qxl.widgetbrowser.pages.Table",
-                        "qxl.widgetbrowser.pages.Form",
-                        "qxl.widgetbrowser.pages.ToolBar",
-                        "qxl.widgetbrowser.pages.Window",
-                        "qxl.widgetbrowser.pages.Tab",
-                        "qxl.widgetbrowser.pages.Control",
-                        "qxl.widgetbrowser.pages.Embed",
-                        "qxl.widgetbrowser.pages.EmbedFrame",
-                        "qxl.widgetbrowser.pages.Basic",
-                        "qxl.widgetbrowser.pages.Misc"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v0.1.7.zip"
-            }
-          }
-        }
-      },
       "hkollmann/hkollmann.mobilegrid": {
         "description": "grid control for qooxdoo mobile",
         "url": "https://api.github.com/repos/hkollmann/hkollmann.mobilegrid",
@@ -10688,5 +10745,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 237
+  "num_libraries": 238
 }
