@@ -4587,8 +4587,29 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "qxl.test2A",
-                  "main": true
+                  "path": "qxl.test2A/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
+                  "info": {
+                    "name": "qxl.test2A",
+                    "summary": "Test library 2A",
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "authors": [],
+                    "version": "1.2.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.test2/qxl.test2B": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test2A",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
                 },
                 {
                   "path": "qxl.test2B/Manifest.json",
@@ -10917,5 +10938,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 240
+  "num_libraries": 241
 }
