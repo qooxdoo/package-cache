@@ -43,6 +43,557 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.playground": {
+        "description": "The qooxdoo playground",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.playground",
+        "releases": {
+          "list": [
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1",
+            "v1.0.0-beta.2",
+            "v1.0.0-beta.3",
+            "v1.0.0-beta.4",
+            "v1.0.0-beta.5",
+            "v1.0.0-beta.6"
+          ],
+          "data": {
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.4.zip"
+            },
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "title": "v1.0.0-beta.1",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.0-beta.2": {
+              "title": "v1.0.0-beta.2",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.2.zip"
+            },
+            "v1.0.0-beta.3": {
+              "title": "v1.0.0-beta.3",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.3.zip"
+            },
+            "v1.0.0-beta.4": {
+              "title": "v1.0.0-beta.4",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.4"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.4.zip"
+            },
+            "v1.0.0-beta.5": {
+              "title": "v1.0.0-beta.5",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.5"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.5.zip"
+            },
+            "v1.0.0-beta.6": {
+              "title": "v1.0.0-beta.6",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Playground",
+                    "summary": "A playground for application coding",
+                    "description": "This application features a code editor and a live preview of the application.",
+                    "keywords": [],
+                    "homepage": "http://demo.qooxdoo.org/current/playground",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.6"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.playground",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.playground.Application",
+                      "theme": "qxl.playground.theme.Theme",
+                      "name": "playground",
+                      "title": "Playground",
+                      "bootPath": "source/boot",
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.6.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.demobrowser": {
         "description": "qooxdoo demobrowser app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
@@ -596,557 +1147,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.9.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.playground": {
-        "description": "The qooxdoo playground",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.playground",
-        "releases": {
-          "list": [
-            "v0.1.2",
-            "v0.1.3",
-            "v0.1.4",
-            "v1.0.0-beta.0",
-            "v1.0.0-beta.1",
-            "v1.0.0-beta.2",
-            "v1.0.0-beta.3",
-            "v1.0.0-beta.4",
-            "v1.0.0-beta.5",
-            "v1.0.0-beta.6"
-          ],
-          "data": {
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.3"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^0.1.3",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.3.zip"
-            },
-            "v0.1.4": {
-              "title": "v0.1.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.4"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^0.1.3",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v0.1.4.zip"
-            },
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^0.1.3",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.0.zip"
-            },
-            "v1.0.0-beta.1": {
-              "title": "v1.0.0-beta.1",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.1.zip"
-            },
-            "v1.0.0-beta.2": {
-              "title": "v1.0.0-beta.2",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.2.zip"
-            },
-            "v1.0.0-beta.3": {
-              "title": "v1.0.0-beta.3",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.3.zip"
-            },
-            "v1.0.0-beta.4": {
-              "title": "v1.0.0-beta.4",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.4"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.4.zip"
-            },
-            "v1.0.0-beta.5": {
-              "title": "v1.0.0-beta.5",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.5"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.5.zip"
-            },
-            "v1.0.0-beta.6": {
-              "title": "v1.0.0-beta.6",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "keywords": [],
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.6"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.playground",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.playground.Application",
-                      "theme": "qxl.playground.theme.Theme",
-                      "name": "playground",
-                      "title": "Playground",
-                      "bootPath": "source/boot",
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.6.zip"
             }
           }
         }
