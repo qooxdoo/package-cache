@@ -43,6 +43,432 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.logpane": {
+        "description": "qooxdoo log viewer for demo apps",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.logpane",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qx-contrib-logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qx.contrib.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.3",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "title": "v0.1.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.4.zip"
+            },
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "title": "v1.0.0-beta.1",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "description": "This is a view for the qooxdoo log.",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.logpane",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.1.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.versionlabel": {
+        "description": "versionlabel for qooxdoo demo apps",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "description": "",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "First Author (uid)",
+                        "email": "first.author@some.domain"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.versionlabel",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "description": "",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "First Author (uid)",
+                        "email": "first.author@some.domain"
+                      }
+                    ],
+                    "version": "0.1.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.versionlabel",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.2.zip"
+            },
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "description": "",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "First Author (uid)",
+                        "email": "first.author@some.domain"
+                      }
+                    ],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.versionlabel",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "title": "v1.0.0-beta.1",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "description": "",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "First Author (uid)",
+                        "email": "first.author@some.domain"
+                      }
+                    ],
+                    "version": "1.0.0-beta.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.versionlabel",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.testtapper": {
         "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
         "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper",
@@ -3765,351 +4191,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0-beta.3.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.logpane": {
-        "description": "qooxdoo log viewer for demo apps",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.logpane",
-        "releases": {
-          "list": [
-            "v0.1.1",
-            "v0.1.2",
-            "v0.1.3",
-            "v0.1.4",
-            "v1.0.0-beta.0"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "logpane",
-                    "summary": "Common used log pannel.",
-                    "description": "This is a view for the qooxdoo log.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qx-contrib-logpane",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qx.contrib.logpane",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "logpane",
-                    "summary": "Common used log pannel.",
-                    "description": "This is a view for the qooxdoo log.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/logpane",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.logpane",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "logpane",
-                    "summary": "Common used log pannel.",
-                    "description": "This is a view for the qooxdoo log.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/logpane",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.3",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.logpane",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.3.zip"
-            },
-            "v0.1.4": {
-              "title": "v0.1.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "logpane",
-                    "summary": "Common used log pannel.",
-                    "description": "This is a view for the qooxdoo log.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/logpane",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.4"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.logpane",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.4.zip"
-            },
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "logpane",
-                    "summary": "Common used log pannel.",
-                    "description": "This is a view for the qooxdoo log.",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/logpane",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.logpane",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.0.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.versionlabel": {
-        "description": "versionlabel for qooxdoo demo apps",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel",
-        "releases": {
-          "list": [
-            "v0.1.1",
-            "v0.1.2",
-            "v1.0.0-beta.0"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "versionlabel",
-                    "summary": "version label for qooxdoo demo apps",
-                    "description": "",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "First Author (uid)",
-                        "email": "first.author@some.domain"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.versionlabel",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "versionlabel",
-                    "summary": "version label for qooxdoo demo apps",
-                    "description": "",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "First Author (uid)",
-                        "email": "first.author@some.domain"
-                      }
-                    ],
-                    "version": "0.1.2"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.versionlabel",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.2.zip"
-            },
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "versionlabel",
-                    "summary": "version label for qooxdoo demo apps",
-                    "description": "",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "First Author (uid)",
-                        "email": "first.author@some.domain"
-                      }
-                    ],
-                    "version": "1.0.0-beta.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.versionlabel",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.0.zip"
             }
           }
         }
@@ -11087,5 +11168,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 244
+  "num_libraries": 246
 }
