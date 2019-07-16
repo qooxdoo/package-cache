@@ -49,7 +49,8 @@
         "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
         "releases": {
           "list": [
-            "v0.2.0"
+            "v0.2.0",
+            "v0.2.1"
           ],
           "data": {
             "v0.2.0": {
@@ -89,6 +90,44 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "title": "v0.2.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
             }
           }
         }
@@ -11347,5 +11386,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 249
+  "num_libraries": 250
 }
