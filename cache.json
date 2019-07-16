@@ -8256,7 +8256,39 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "."
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
+                    "qooxdoo/qxl.apiviewer": "^0.1.13"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.6.zip"
@@ -11393,5 +11425,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 250
+  "num_libraries": 251
 }
