@@ -6,7 +6,6 @@
       "ITISFoundation/qx-osparc-theme",
       "cajus/capture",
       "cboulanger/eventrecorder",
-      "cboulanger/qookery",
       "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
@@ -44,6 +43,212 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.packagebrowser": {
+        "description": "A qooxdoo app to browse the available packages",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
+        "releases": {
+          "list": [
+            "v0.2.0",
+            "v0.2.1",
+            "v0.2.2",
+            "v0.2.3",
+            "v0.3.0"
+          ],
+          "data": {
+            "v0.2.0": {
+              "title": "v0.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "title": "v0.2.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
+            },
+            "v0.2.2": {
+              "title": "v0.2.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.2.zip"
+            },
+            "v0.2.3": {
+              "title": "v0.2.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
+            },
+            "v0.3.0": {
+              "title": "v0.3.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.0.zip"
+            }
+          }
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -800,172 +1005,6 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.11.0.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.packagebrowser": {
-        "description": "A qooxdoo app to browse the available packages",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
-        "releases": {
-          "list": [
-            "v0.2.0",
-            "v0.2.1",
-            "v0.2.2",
-            "v0.2.3"
-          ],
-          "data": {
-            "v0.2.0": {
-              "title": "v0.2.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
-            },
-            "v0.2.1": {
-              "title": "v0.2.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
-            },
-            "v0.2.2": {
-              "title": "v0.2.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.2.zip"
-            },
-            "v0.2.3": {
-              "title": "v0.2.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
             }
           }
         }
@@ -9491,510 +9530,6 @@
           }
         }
       },
-      "cboulanger/qookery": {
-        "description": "Temporary qookery fork to make features in master available (unlisted)",
-        "url": "https://api.github.com/repos/cboulanger/qookery",
-        "releases": {
-          "list": [
-            "v0.6.1",
-            "v0.6.2"
-          ],
-          "data": {
-            "v0.6.1": {
-              "title": "v0.6.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "qookery/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery",
-                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
-                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      },
-                      {
-                        "name": "Nikos Lamprakis (nikoslam)",
-                        "email": "nikoslam@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                },
-                {
-                  "path": "qookeryace/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Ace",
-                    "summary": "Qookery extension: Ace (Ajax.org Cloud9 Editor) integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Jenny Pliatsika (jenny)",
-                        "email": "jenny@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.ace",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookerycalendar/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Calendar",
-                    "summary": "Qookery extension: FullCalendar integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.calendar",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookerymaps/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Maps",
-                    "summary": "Qookery extension: Google Maps integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.maps",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookerymobile/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Mobile",
-                    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.mobile",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookeryrichtext/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Rich Text",
-                    "summary": "Qookery extension: CKEditor integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0"
-                    ],
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.richtext",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qookery/archive/v0.6.1.zip"
-            },
-            "v0.6.2": {
-              "title": "v0.6.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "qookery/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery",
-                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
-                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      },
-                      {
-                        "name": "Nikos Lamprakis (nikoslam)",
-                        "email": "nikoslam@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  }
-                },
-                {
-                  "path": "qookeryace/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Ace",
-                    "summary": "Qookery extension: Ace (Ajax.org Cloud9 Editor) integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Jenny Pliatsika (jenny)",
-                        "email": "jenny@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.ace",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookerycalendar/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Calendar",
-                    "summary": "Qookery extension: FullCalendar integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.calendar",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookerydemo/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Demo",
-                    "summary": "Qookery demo runner application",
-                    "description": "Demonstration and testing environment for Qookery developers and users.",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "stylkarr@gmail.com"
-                      },
-                      {
-                        "name": "Nikos Lamprakis (nikoslam)",
-                        "email": "nikoslam@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookerydemo",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                },
-                {
-                  "path": "qookerymaps/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Maps",
-                    "summary": "Qookery extension: Google Maps integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.maps",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookerymobile/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Mobile",
-                    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.mobile",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                },
-                {
-                  "path": "qookeryrichtext/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Qookery Rich Text",
-                    "summary": "Qookery extension: CKEditor integration",
-                    "homepage": "http://www.qookery.org/",
-                    "license": "Apache License 2.0",
-                    "authors": [
-                      {
-                        "name": "George Nikolaidis (geonik)",
-                        "email": "geonik@ergobyte.gr"
-                      },
-                      {
-                        "name": "Stelios Joseph Karras (jkarr)",
-                        "email": "jkarr@ergobyte.gr"
-                      }
-                    ],
-                    "version": "0.6.2",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qookery.richtext",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "component"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/qookery/archive/v0.6.2.zip"
-            }
-          }
-        }
-      },
       "ITISFoundation/qx-iconfont-material": {
         "description": "Material Icons for Qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material",
@@ -11506,5 +11041,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 253
+  "num_libraries": 241
 }
