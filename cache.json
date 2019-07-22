@@ -44,6 +44,252 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.packagebrowser": {
+        "description": "A qooxdoo app to browse the available packages",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
+        "releases": {
+          "list": [
+            "v0.2.0",
+            "v0.2.1",
+            "v0.2.2",
+            "v0.2.3",
+            "v0.3.0",
+            "v0.3.1"
+          ],
+          "data": {
+            "v0.2.0": {
+              "title": "v0.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "title": "v0.2.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
+            },
+            "v0.2.2": {
+              "title": "v0.2.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.2.zip"
+            },
+            "v0.2.3": {
+              "title": "v0.2.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
+            },
+            "v0.3.0": {
+              "title": "v0.3.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.0.zip"
+            },
+            "v0.3.1": {
+              "title": "v0.3.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.testrunner": {
         "description": "qooxdoo widget browser app ",
         "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
@@ -2527,252 +2773,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.1.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.packagebrowser": {
-        "description": "A qooxdoo app to browse the available packages",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
-        "releases": {
-          "list": [
-            "v0.2.0",
-            "v0.2.1",
-            "v0.2.2",
-            "v0.2.3",
-            "v0.3.0",
-            "v0.3.1"
-          ],
-          "data": {
-            "v0.2.0": {
-              "title": "v0.2.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
-            },
-            "v0.2.1": {
-              "title": "v0.2.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
-            },
-            "v0.2.2": {
-              "title": "v0.2.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.2.zip"
-            },
-            "v0.2.3": {
-              "title": "v0.2.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
-            },
-            "v0.3.0": {
-              "title": "v0.3.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.3.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.0.zip"
-            },
-            "v0.3.1": {
-              "title": "v0.3.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.3.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.1.zip"
             }
           }
         }
