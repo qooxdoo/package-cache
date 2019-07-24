@@ -44,85 +44,6 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
-      "qooxdoo/qxl.testrunner": {
-        "description": "qooxdoo widget browser app ",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
-        "releases": {
-          "list": [
-            "v1.0.0-beta.0"
-          ],
-          "data": {
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "testrunner",
-                    "summary": "Unit testing framework",
-                    "description": "A modular test runner application to run JSUnit-like unit tests.",
-                    "keywords": [
-                      "unit",
-                      "test",
-                      "test runner"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testrunner",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.testrunner.ApplicationBasic",
-                      "name": "testrunner",
-                      "title": "The Qooxdoo Test Runner",
-                      "theme": "qx.theme.Simple",
-                      "environment": {
-                        "qxl.testrunner.view": "qxl.testrunner.view.Html",
-                        "qxl.testrunner.performance": true,
-                        "qxl.testrunner.testOrigin": "inline",
-                        "qx.testNameSpace": "*.test",
-                        "qxl.testrunner.reportServer": "",
-                        "qxl.testrunner.testParts": false,
-                        "qxl.testrunner.reportPerfResultUrl": ""
-                      },
-                      "include": [
-                        "*.test.*",
-                        "*.*.test.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.0.zip"
-            }
-          }
-        }
-      },
       "qooxdoo/qxl.packagebrowser": {
         "description": "A qooxdoo app to browse the available packages",
         "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
@@ -133,7 +54,10 @@
             "v0.2.2",
             "v0.2.3",
             "v0.3.0",
-            "v0.3.1"
+            "v0.3.1",
+            "v0.3.2",
+            "v0.3.3",
+            "v0.3.4"
           ],
           "data": {
             "v0.2.0": {
@@ -365,6 +289,217 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.1.zip"
+            },
+            "v0.3.2": {
+              "title": "v0.3.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.2",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.2.zip"
+            },
+            "v0.3.3": {
+              "title": "v0.3.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.3",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.3.zip"
+            },
+            "v0.3.4": {
+              "title": "v0.3.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.4",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.4.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.testrunner": {
+        "description": "qooxdoo widget browser app ",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
+        "releases": {
+          "list": [
+            "v1.0.0-beta.0"
+          ],
+          "data": {
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "testrunner",
+                    "summary": "Unit testing framework",
+                    "description": "A modular test runner application to run JSUnit-like unit tests.",
+                    "keywords": [
+                      "unit",
+                      "test",
+                      "test runner"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testrunner",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.testrunner.ApplicationBasic",
+                      "name": "testrunner",
+                      "title": "The Qooxdoo Test Runner",
+                      "theme": "qx.theme.Simple",
+                      "environment": {
+                        "qxl.testrunner.view": "qxl.testrunner.view.Html",
+                        "qxl.testrunner.performance": true,
+                        "qxl.testrunner.testOrigin": "inline",
+                        "qx.testNameSpace": "*.test",
+                        "qxl.testrunner.reportServer": "",
+                        "qxl.testrunner.testParts": false,
+                        "qxl.testrunner.reportPerfResultUrl": ""
+                      },
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.0.zip"
             }
           }
         }
@@ -11161,5 +11296,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 243
+  "num_libraries": 246
 }
