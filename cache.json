@@ -55,7 +55,8 @@
             "v1.0.2",
             "v1.0.4",
             "v1.0.5",
-            "v1.0.6"
+            "v1.0.6",
+            "v1.0.7"
           ],
           "data": {
             "1.0.0": {
@@ -265,6 +266,42 @@
                 }
               ],
               "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.6.zip"
+            },
+            "v1.0.7": {
+              "title": "v1.0.7",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.7"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "hkollmann.mobilegrid",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.7.zip"
             }
           }
         }
@@ -287,7 +324,8 @@
             "v0.4.1",
             "v0.4.2",
             "v0.5.0",
-            "v0.5.1"
+            "v0.5.1",
+            "v0.6.0"
           ],
           "data": {
             "v0.2.0": {
@@ -873,6 +911,51 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.5.1.zip"
+            },
+            "v0.6.0": {
+              "title": "v0.6.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.6.0",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
+                    "maettu/qx-showdown": "^1.8.7"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.6.0.zip"
             }
           }
         }
@@ -12056,5 +12139,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 262
+  "num_libraries": 264
 }
