@@ -13,6 +13,7 @@
       "ergobyte/qookery",
       "gonicus/breadcrumbs",
       "gonicus/flat",
+      "gonicus/qooxdoo-svg",
       "hkollmann/hkollmann.mobilegrid",
       "johnspackman/UploadMgr",
       "johnspackman/multi-column-tree",
@@ -12016,6 +12017,14 @@
       "cboulanger/qooxdoo-contrib-test": {
         "description": "A test contrib library",
         "url": "https://api.github.com/repos/cboulanger/qooxdoo-contrib-test",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
+      "gonicus/qooxdoo-svg": {
+        "description": "Fork of http://qooxdoo.org/contrib/project/svg with minimal fixes",
+        "url": "https://api.github.com/repos/gonicus/qooxdoo-svg",
         "releases": {
           "list": [],
           "data": {}
