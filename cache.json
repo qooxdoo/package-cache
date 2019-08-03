@@ -1922,7 +1922,35 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "."
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
@@ -8974,7 +9002,31 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "."
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha - 6.x",
+                  "info": {
+                    "name": "test",
+                    "summary": "This is a qooxdoo test app",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "1.0.27",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "test",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
@@ -10464,7 +10516,40 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "."
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "1.5",
+                      "1.6",
+                      "1.6.1",
+                      "2.0",
+                      "2.1",
+                      "5.0",
+                      "5.1",
+                      "6.0"
+                    ]
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
                 }
               ],
               "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
@@ -11679,7 +11764,43 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "./qookery"
+                  "path": "qookery/Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Qookery",
+                    "summary": "Qookery: Declarative UI Building for Qooxdoo",
+                    "description": "XML-based language for authoring Qooxdoo user interfaces.",
+                    "homepage": "http://www.qookery.org/",
+                    "license": "Apache License 2.0",
+                    "authors": [
+                      {
+                        "name": "George Nikolaidis (geonik)",
+                        "email": "geonik@ergobyte.gr"
+                      },
+                      {
+                        "name": "Stelios Joseph Karras (jkarr)",
+                        "email": "jkarr@ergobyte.gr"
+                      },
+                      {
+                        "name": "Nikos Lamprakis (nikoslam)",
+                        "email": "nikoslam@ergobyte.gr"
+                      }
+                    ],
+                    "version": "0.6.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0"
+                    ],
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qookery",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  }
                 },
                 {
                   "path": "qookeryace/Manifest.json",
@@ -12465,5 +12586,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 269
+  "num_libraries": 273
 }
