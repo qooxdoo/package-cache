@@ -1922,35 +1922,7 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
@@ -6773,37 +6745,7 @@
               "prerelease": true,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "datademo",
-                    "summary": "Common used data binding demo",
-                    "description": "This is a demo containing a container showing a data bound list.",
-                    "homepage": "http://qooxdoo.org/",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qxl.datademo",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.datademo/archive/v1.0.0-beta.2.zip"
@@ -8287,29 +8229,7 @@
                   }
                 },
                 {
-                  "path": "qxl.test2B/Manifest.json",
-                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
-                  "info": {
-                    "name": "qxl.test2B",
-                    "summary": "Test library 2B",
-                    "description": "undefined",
-                    "homepage": "undefined",
-                    "license": "MIT license",
-                    "authors": [],
-                    "version": "1.0.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.test2B",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
+                  "path": "qxl.test2B"
                 },
                 {
                   "path": "qxl.test2C/Manifest.json",
@@ -9461,33 +9381,8 @@
                   }
                 },
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.1.4"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "test",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
+                  "path": ".",
+                  "main": true
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.1.4.zip"
@@ -10983,31 +10878,7 @@
               "prerelease": true,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.2",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.2.zip"
@@ -12586,5 +12457,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 273
+  "num_libraries": 268
 }
