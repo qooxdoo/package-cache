@@ -45,6 +45,498 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "qooxdoo/qxl.demobrowser": {
+        "description": "qooxdoo demobrowser app",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
+        "releases": {
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.7",
+            "v1.0.0-beta.11",
+            "v1.0.0-beta.12",
+            "v1.0.0-beta.13"
+          ],
+          "data": {
+            "v0.1.1": {
+              "title": "v0.1.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "add-in"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "v0.1.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "v0.1.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "0.1.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.3.zip"
+            },
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "qooxdoo/qxl.logpane": "^0.1.3",
+                    "qooxdoo/qxl.versionlabel": "^0.1.1",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.7": {
+              "title": "",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.11"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.demobrowser.Application",
+                      "theme": "qxl.demobrowser.Theme",
+                      "name": "demobrowser",
+                      "title": "DemoBrowser",
+                      "include": [
+                        "qxl.demobrowser.*",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.7.zip"
+            },
+            "v1.0.0-beta.11": {
+              "title": "v1.0.0-beta.11",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.11"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.demobrowser.Application",
+                      "theme": "qxl.demobrowser.Theme",
+                      "name": "demobrowser",
+                      "title": "DemoBrowser",
+                      "include": [
+                        "qxl.demobrowser.*",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.11.zip"
+            },
+            "v1.0.0-beta.12": {
+              "title": "v1.0.0-beta.12",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.12"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.demobrowser.Application",
+                      "theme": "qxl.demobrowser.Theme",
+                      "name": "demobrowser",
+                      "title": "DemoBrowser",
+                      "include": [
+                        "qxl.demobrowser.*",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.12.zip"
+            },
+            "v1.0.0-beta.13": {
+              "title": "v1.0.0-beta.13",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Thomas Herchenroeder (thron7)",
+                        "email": "thron7 AT users DOT sourceforge DOT net"
+                      },
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Martin Wittemann (martinwittemann)",
+                        "email": "martin DOT wittemann AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.13"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.datademo": "^1.0.0-beta.2",
+                    "qooxdoo/qxl.formdemo": "^1.0.0-beta.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.demobrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.demobrowser.Application",
+                      "theme": "qxl.demobrowser.Theme",
+                      "name": "demobrowser",
+                      "title": "DemoBrowser",
+                      "include": [
+                        "qxl.demobrowser.*",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.13.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.packagebrowser": {
         "description": "A qooxdoo app to browse the available packages",
         "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
@@ -938,33 +1430,7 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.6"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "hkollmann.mobilegrid",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.6.zip"
@@ -2883,35 +3349,7 @@
               "prerelease": true,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "Dialog",
-                    "summary": "Dialog Contribution",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.3",
-                    "qooxdoo-versions": [
-                      "5.0",
-                      "6.0"
-                    ],
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "dialog",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0-beta.3.zip"
@@ -4181,55 +4619,7 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.4",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.4.zip"
@@ -6120,498 +6510,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.0-beta.8.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.demobrowser": {
-        "description": "qooxdoo demobrowser app",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
-        "releases": {
-          "list": [
-            "v0.1.1",
-            "v0.1.2",
-            "v0.1.3",
-            "v1.0.0-beta.0",
-            "v1.0.0-beta.7",
-            "v1.0.0-beta.11",
-            "v1.0.0-beta.12",
-            "v1.0.0-beta.13"
-          ],
-          "data": {
-            "v0.1.1": {
-              "title": "v0.1.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "add-in"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "v0.1.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "v0.1.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "0.1.3"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^0.1.3",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v0.1.3.zip"
-            },
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.0"
-                  },
-                  "requires": {
-                    "qooxdoo/qxl.logpane": "^0.1.3",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.0.zip"
-            },
-            "v1.0.0-beta.7": {
-              "title": "",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.11"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.demobrowser.Application",
-                      "theme": "qxl.demobrowser.Theme",
-                      "name": "demobrowser",
-                      "title": "DemoBrowser",
-                      "include": [
-                        "qxl.demobrowser.*",
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.7.zip"
-            },
-            "v1.0.0-beta.11": {
-              "title": "v1.0.0-beta.11",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.11"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.demobrowser.Application",
-                      "theme": "qxl.demobrowser.Theme",
-                      "name": "demobrowser",
-                      "title": "DemoBrowser",
-                      "include": [
-                        "qxl.demobrowser.*",
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.11.zip"
-            },
-            "v1.0.0-beta.12": {
-              "title": "v1.0.0-beta.12",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.12"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.demobrowser.Application",
-                      "theme": "qxl.demobrowser.Theme",
-                      "name": "demobrowser",
-                      "title": "DemoBrowser",
-                      "include": [
-                        "qxl.demobrowser.*",
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.12.zip"
-            },
-            "v1.0.0-beta.13": {
-              "title": "v1.0.0-beta.13",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "DemoBrowser",
-                    "summary": "A GUI framework application for qooxdoo demos",
-                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
-                    "keywords": [
-                      "demos",
-                      "run frame"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Thomas Herchenroeder (thron7)",
-                        "email": "thron7 AT users DOT sourceforge DOT net"
-                      },
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Martin Wittemann (martinwittemann)",
-                        "email": "martin DOT wittemann AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.13"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.datademo": "^1.0.0-beta.2",
-                    "qooxdoo/qxl.formdemo": "^1.0.0-beta.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.demobrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.demobrowser.Application",
-                      "theme": "qxl.demobrowser.Theme",
-                      "name": "demobrowser",
-                      "title": "DemoBrowser",
-                      "include": [
-                        "qxl.demobrowser.*",
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.13.zip"
             }
           }
         }
@@ -9002,31 +8900,7 @@
               "prerelease": false,
               "manifests": [
                 {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha - 6.x",
-                  "info": {
-                    "name": "test",
-                    "summary": "This is a qooxdoo test app",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "1.0.27",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "test",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
+                  "path": "."
                 }
               ],
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
@@ -12586,5 +12460,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 273
+  "num_libraries": 269
 }
