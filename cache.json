@@ -45,6 +45,766 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
+      "cboulanger/eventrecorder": {
+        "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
+        "url": "https://api.github.com/repos/cboulanger/eventrecorder",
+        "releases": {
+          "list": [
+            "v0.2.0",
+            "v0.3.1",
+            "v0.4.0",
+            "v0.5.0",
+            "v0.5.1",
+            "v0.5.2",
+            "v0.5.3",
+            "v0.6.0",
+            "v0.7.0",
+            "v0.8.0",
+            "v0.9.0",
+            "v0.9.1",
+            "v0.9.2",
+            "v0.9.3",
+            "v0.9.4",
+            "v0.9.5",
+            "v0.9.6",
+            "v0.10.0",
+            "v0.11.0"
+          ],
+          "data": {
+            "v0.2.0": {
+              "title": "v0.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder Contrib",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "qooxdoo-range": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "contrib.cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.2.0.zip"
+            },
+            "v0.3.1": {
+              "title": "v0.3.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder Contrib",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.3.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.3.1.zip"
+            },
+            "v0.4.0": {
+              "title": "v0.4.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.4.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.4.0.zip"
+            },
+            "v0.5.0": {
+              "title": "v0.5.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.5.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.0.zip"
+            },
+            "v0.5.1": {
+              "title": "v0.5.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.5.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.1.zip"
+            },
+            "v0.5.2": {
+              "title": "v0.5.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.5.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.2.zip"
+            },
+            "v0.5.3": {
+              "title": "v0.5.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.5.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.3.zip"
+            },
+            "v0.6.0": {
+              "title": "v0.6.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.6.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.6.0.zip"
+            },
+            "v0.7.0": {
+              "title": "v0.7.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.7.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.7.0.zip"
+            },
+            "v0.8.0": {
+              "title": "v0.8.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.8.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.8.0.zip"
+            },
+            "v0.9.0": {
+              "title": "v0.9.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.0.zip"
+            },
+            "v0.9.1": {
+              "title": "v0.9.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
+                    "ergobyte/qookery/qookery": "^0.7.0-pre",
+                    "ergobyte/qookery/qookeryace": "^0.7.0-pre",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.1.zip"
+            },
+            "v0.9.2": {
+              "title": "v0.9.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.2.zip"
+            },
+            "v0.9.3": {
+              "title": "v0.9.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.3.zip"
+            },
+            "v0.9.4": {
+              "title": "v0.9.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.4.zip"
+            },
+            "v0.9.5": {
+              "title": "v0.9.5",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.5"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "cboulanger/qookery/qookery": "^0.6.1",
+                    "cboulanger/qookery/qookeryace": "^0.6.1",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.5.zip"
+            },
+            "v0.9.6": {
+              "title": "v0.9.6",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.9.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
+                    "qooxdoo/qxl.apiviewer": "^0.1.13"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.6.zip"
+            },
+            "v0.10.0": {
+              "title": "v0.10.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.10.0"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
+                    "qooxdoo/qxl.apiviewer": "^0.1.13"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.10.0.zip"
+            },
+            "v0.11.0": {
+              "title": "v0.11.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.11.0"
+                  },
+                  "requires": {
+                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
+                    "ergobyte/qookery/qookery": "^0.6.0",
+                    "ergobyte/qookery/qookeryace": "^0.6.0",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
+                    "qooxdoo/qxl.apiviewer": "^0.1.13",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.11.0.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.demobrowser": {
         "description": "qooxdoo demobrowser app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
@@ -5187,766 +5947,6 @@
           }
         }
       },
-      "cboulanger/eventrecorder": {
-        "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
-        "url": "https://api.github.com/repos/cboulanger/eventrecorder",
-        "releases": {
-          "list": [
-            "v0.2.0",
-            "v0.3.1",
-            "v0.4.0",
-            "v0.5.0",
-            "v0.5.1",
-            "v0.5.2",
-            "v0.5.3",
-            "v0.6.0",
-            "v0.7.0",
-            "v0.8.0",
-            "v0.9.0",
-            "v0.9.1",
-            "v0.9.2",
-            "v0.9.3",
-            "v0.9.4",
-            "v0.9.5",
-            "v0.9.6",
-            "v0.10.0",
-            "v0.11.0"
-          ],
-          "data": {
-            "v0.2.0": {
-              "title": "v0.2.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder Contrib",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.0",
-                    "qooxdoo-range": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "contrib.cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.2.0.zip"
-            },
-            "v0.3.1": {
-              "title": "v0.3.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder Contrib",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.3.1"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.2.45",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
-                    "qooxdoo/qxl.apiviewer": "^0.1.12"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.3.1.zip"
-            },
-            "v0.4.0": {
-              "title": "v0.4.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.4.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.2.45",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
-                    "qooxdoo/qxl.apiviewer": "^0.1.12"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.4.0.zip"
-            },
-            "v0.5.0": {
-              "title": "v0.5.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.5.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.2.45",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
-                    "qooxdoo/qxl.apiviewer": "^0.1.12"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.0.zip"
-            },
-            "v0.5.1": {
-              "title": "v0.5.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.5.1"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.2.45",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
-                    "qooxdoo/qxl.apiviewer": "^0.1.12"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.1.zip"
-            },
-            "v0.5.2": {
-              "title": "v0.5.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.5.2"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.2",
-                    "qooxdoo/qxl.apiviewer": "^0.1.12"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.2.zip"
-            },
-            "v0.5.3": {
-              "title": "v0.5.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.5.3"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.3.zip"
-            },
-            "v0.6.0": {
-              "title": "v0.6.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.6.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.6.0.zip"
-            },
-            "v0.7.0": {
-              "title": "v0.7.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.7.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.7.0.zip"
-            },
-            "v0.8.0": {
-              "title": "v0.8.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.8.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.8.0.zip"
-            },
-            "v0.9.0": {
-              "title": "v0.9.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
-                    "ergobyte/qookery/qookery": "^0.6.0",
-                    "ergobyte/qookery/qookeryace": "^0.6.0",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.0.zip"
-            },
-            "v0.9.1": {
-              "title": "v0.9.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.1"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
-                    "ergobyte/qookery/qookery": "^0.7.0-pre",
-                    "ergobyte/qookery/qookeryace": "^0.7.0-pre",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.1.zip"
-            },
-            "v0.9.2": {
-              "title": "v0.9.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.2"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha",
-                    "cboulanger/qookery/qookery": "^0.6.1",
-                    "cboulanger/qookery/qookeryace": "^0.6.1",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.2.zip"
-            },
-            "v0.9.3": {
-              "title": "v0.9.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.3"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "cboulanger/qookery/qookery": "^0.6.1",
-                    "cboulanger/qookery/qookeryace": "^0.6.1",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.3.zip"
-            },
-            "v0.9.4": {
-              "title": "v0.9.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.4"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "cboulanger/qookery/qookery": "^0.6.1",
-                    "cboulanger/qookery/qookeryace": "^0.6.1",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.4.zip"
-            },
-            "v0.9.5": {
-              "title": "v0.9.5",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.5"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "cboulanger/qookery/qookery": "^0.6.1",
-                    "cboulanger/qookery/qookeryace": "^0.6.1",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.5.zip"
-            },
-            "v0.9.6": {
-              "title": "v0.9.6",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.9.6"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "ergobyte/qookery/qookery": "^0.6.0",
-                    "ergobyte/qookery/qookeryace": "^0.6.0",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
-                    "qooxdoo/qxl.apiviewer": "^0.1.13"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.6.zip"
-            },
-            "v0.10.0": {
-              "title": "v0.10.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.10.0"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "ergobyte/qookery/qookery": "^0.6.0",
-                    "ergobyte/qookery/qookeryace": "^0.6.0",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
-                    "qooxdoo/qxl.apiviewer": "^0.1.13"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.10.0.zip"
-            },
-            "v0.11.0": {
-              "title": "v0.11.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.11.0"
-                  },
-                  "requires": {
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "ergobyte/qookery/qookery": "^0.6.0",
-                    "ergobyte/qookery/qookeryace": "^0.6.0",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.6",
-                    "qooxdoo/qxl.apiviewer": "^0.1.13",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "cboulanger.eventrecorder",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.11.0.zip"
-            }
-          }
-        }
-      },
       "qooxdoo/qxl.playground": {
         "description": "The qooxdoo playground",
         "url": "https://api.github.com/repos/qooxdoo/qxl.playground",
@@ -9495,6 +9495,661 @@
           }
         }
       },
+      "ITISFoundation/qx-osparc-theme": {
+        "description": "A material-inspired theme for qooxdoo",
+        "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
+        "releases": {
+          "list": [
+            "v0.0.1",
+            "v0.0.2",
+            "v0.0.3",
+            "v0.0.4",
+            "v0.0.5",
+            "v0.0.6",
+            "v0.0.7",
+            "v0.1.0",
+            "v0.2.0",
+            "v0.2.1",
+            "v0.3.0",
+            "v0.4.0",
+            "v0.4.1",
+            "v0.4.3",
+            "v0.4.4",
+            "v0.4.5",
+            "v0.4.6",
+            "v0.4.7"
+          ],
+          "data": {
+            "v0.0.1": {
+              "title": "Initial Test Release",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.1",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.1.zip"
+            },
+            "v0.0.2": {
+              "title": "Blacker (is this even a word?)",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.2.zip"
+            },
+            "v0.0.3": {
+              "title": "Travis Textfield Tutton",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.2",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.3.zip"
+            },
+            "v0.0.4": {
+              "title": "The Force",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "5.x - 6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.4",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.4.zip"
+            },
+            "v0.0.5": {
+              "title": "The Caption",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.5",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.5.zip"
+            },
+            "v0.0.6": {
+              "title": "window-small-cap apperance",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.6",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.6.zip"
+            },
+            "v0.0.7": {
+              "title": "bigger small caption for windows",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.0.7",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.7.zip"
+            },
+            "v0.1.0": {
+              "title": "The Tree",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.1.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.1.0.zip"
+            },
+            "v0.2.0": {
+              "title": "Modern Scrollbars",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "oetiker@itis.ethz.ch"
+                      }
+                    ],
+                    "version": "0.2.1",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.1.zip"
+            },
+            "v0.3.0": {
+              "title": "New osparblue theme added",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.3.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.3.0.zip"
+            },
+            "v0.4.0": {
+              "title": "split|button",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.0",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.0.zip"
+            },
+            "v0.4.1": {
+              "title": "VFixer",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.1.zip"
+            },
+            "v0.4.3": {
+              "title": "Please the IE",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.3.zip"
+            },
+            "v0.4.4": {
+              "title": "All the Requirements",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.4"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.4.zip"
+            },
+            "v0.4.5": {
+              "title": "Small Cap Update",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.5"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.5.zip"
+            },
+            "v0.4.6": {
+              "title": "Split Button",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.6"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.6.zip"
+            },
+            "v0.4.7": {
+              "title": "New Infrastructure",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta-20190807-2027",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.4.7"
+                  },
+                  "requires": {
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4",
+                    "@qooxdoo/compiler": "^1.0.0-beta.20190811-1027",
+                    "@qooxdoo/framework": "^6.0.0-beta-20190807-2027"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.7.zip"
+            }
+          }
+        }
+      },
       "oetiker/UploadWidget": {
         "description": "An UploadWidget for Qooxdoo",
         "url": "https://api.github.com/repos/oetiker/UploadWidget",
@@ -10920,623 +11575,6 @@
           }
         }
       },
-      "ITISFoundation/qx-osparc-theme": {
-        "description": "A material-inspired theme for qooxdoo",
-        "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
-        "releases": {
-          "list": [
-            "v0.0.1",
-            "v0.0.2",
-            "v0.0.3",
-            "v0.0.4",
-            "v0.0.5",
-            "v0.0.6",
-            "v0.0.7",
-            "v0.1.0",
-            "v0.2.0",
-            "v0.2.1",
-            "v0.3.0",
-            "v0.4.0",
-            "v0.4.1",
-            "v0.4.3",
-            "v0.4.4",
-            "v0.4.5",
-            "v0.4.6"
-          ],
-          "data": {
-            "v0.0.1": {
-              "title": "Initial Test Release",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.1",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.1.zip"
-            },
-            "v0.0.2": {
-              "title": "Blacker (is this even a word?)",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.2",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.2.zip"
-            },
-            "v0.0.3": {
-              "title": "Travis Textfield Tutton",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.2",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.3.zip"
-            },
-            "v0.0.4": {
-              "title": "The Force",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "5.x - 6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.4",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.4.zip"
-            },
-            "v0.0.5": {
-              "title": "The Caption",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.5",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.5.zip"
-            },
-            "v0.0.6": {
-              "title": "window-small-cap apperance",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.6",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.6.zip"
-            },
-            "v0.0.7": {
-              "title": "bigger small caption for windows",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.0.7",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.0.7.zip"
-            },
-            "v0.1.0": {
-              "title": "The Tree",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.1.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.1.0.zip"
-            },
-            "v0.2.0": {
-              "title": "Modern Scrollbars",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.2.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.0.zip"
-            },
-            "v0.2.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "oetiker@itis.ethz.ch"
-                      }
-                    ],
-                    "version": "0.2.1",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.2.1.zip"
-            },
-            "v0.3.0": {
-              "title": "New osparblue theme added",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.3.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.3.0.zip"
-            },
-            "v0.4.0": {
-              "title": "split|button",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.0",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.0.zip"
-            },
-            "v0.4.1": {
-              "title": "VFixer",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.1.zip"
-            },
-            "v0.4.3": {
-              "title": "Please the IE",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.3"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qx-iconfont-material": "^0.1.4"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.3.zip"
-            },
-            "v0.4.4": {
-              "title": "All the Requirements",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.4"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.4.zip"
-            },
-            "v0.4.5": {
-              "title": "Small Cap Update",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.5"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.5.zip"
-            },
-            "v0.4.6": {
-              "title": "Split Button",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qx-osparc-theme",
-                    "summary": "theme for the osparc web ui",
-                    "description": "a material design inspired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@itis.swiss"
-                      }
-                    ],
-                    "version": "0.4.6"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
-                  },
-                  "provides": {
-                    "namespace": "osparc.theme",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.6.zip"
-            }
-          }
-        }
-      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "url": "https://api.github.com/repos/ergobyte/qookery",
@@ -12586,5 +12624,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 273
+  "num_libraries": 274
 }
