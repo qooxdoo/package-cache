@@ -9517,7 +9517,7 @@
             "v0.4.4",
             "v0.4.5",
             "v0.4.6",
-            "v0.4.8"
+            "v0.4.9"
           ],
           "data": {
             "v0.0.1": {
@@ -10110,13 +10110,13 @@
               ],
               "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.6.zip"
             },
-            "v0.4.8": {
+            "v0.4.9": {
               "title": "New Infrastructure",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta-20190807-2027",
+                  "qx_versions": "^6.0.0-beta",
                   "info": {
                     "name": "qx-osparc-theme",
                     "summary": "theme for the osparc web ui",
@@ -10129,12 +10129,12 @@
                         "email": "tobi@itis.swiss"
                       }
                     ],
-                    "version": "0.4.8"
+                    "version": "0.4.9"
                   },
                   "requires": {
                     "ITISFoundation/qx-iconfont-material": "^0.1.4",
-                    "@qooxdoo/compiler": "^1.0.0-beta.20190811-1027",
-                    "@qooxdoo/framework": "^6.0.0-beta-20190807-2027"
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
                   },
                   "provides": {
                     "namespace": "osparc.theme",
@@ -10145,7 +10145,7 @@
                   }
                 }
               ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.8.zip"
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.9.zip"
             }
           }
         }
