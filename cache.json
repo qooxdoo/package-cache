@@ -9517,7 +9517,7 @@
             "v0.4.4",
             "v0.4.5",
             "v0.4.6",
-            "v0.4.7"
+            "v0.4.8"
           ],
           "data": {
             "v0.0.1": {
@@ -10110,7 +10110,7 @@
               ],
               "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.6.zip"
             },
-            "v0.4.7": {
+            "v0.4.8": {
               "title": "New Infrastructure",
               "prerelease": false,
               "manifests": [
@@ -10129,7 +10129,7 @@
                         "email": "tobi@itis.swiss"
                       }
                     ],
-                    "version": "0.4.7"
+                    "version": "0.4.8"
                   },
                   "requires": {
                     "ITISFoundation/qx-iconfont-material": "^0.1.4",
@@ -10145,7 +10145,7 @@
                   }
                 }
               ],
-              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.7.zip"
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.4.8.zip"
             }
           }
         }
