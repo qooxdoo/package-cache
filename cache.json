@@ -47,7 +47,7 @@
     ],
     "data": {
       "cboulanger/eventrecorder": {
-        "description": "A qooxdoo contrib library that allows to record user interaction for replay in testing",
+        "description": "A qooxdoo package that allows to record user interaction for replay in testing or presentations",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
         "releases": {
           "list": [
@@ -74,7 +74,8 @@
             "v0.13.0",
             "v0.14.0",
             "v0.15.0",
-            "v0.16.0"
+            "v0.16.0",
+            "v0.17.0"
           ],
           "data": {
             "v0.2.0": {
@@ -1005,6 +1006,45 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.16.0.zip"
+            },
+            "v0.17.0": {
+              "title": "v0.17.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.17.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "ergobyte/qookery/qookery": "892f44d1d1ae5d65c7dd99b18da6876de2f2a920",
+                    "ergobyte/qookery/qookeryace": "892f44d1d1ae5d65c7dd99b18da6876de2f2a920",
+                    "qooxdoo/qxl.dialog": "^3.0.0"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.17.0.zip"
             }
           }
         }
@@ -12881,5 +12921,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 280
+  "num_libraries": 281
 }
