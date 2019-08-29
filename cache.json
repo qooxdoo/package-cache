@@ -9792,6 +9792,14 @@
           }
         }
       },
+      "gonicus/breadcrumbs": {
+        "description": "Qooxdoo breadcrumb widget",
+        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
+        "releases": {
+          "list": [],
+          "data": {}
+        }
+      },
       "ITISFoundation/qx-iconfont-fontawesome5": {
         "description": "FontAwesome 5 Icons for Qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5",
@@ -12626,14 +12634,6 @@
       "cajus/capture": {
         "description": "Qooxdoo contribution to capture still images from life video",
         "url": "https://api.github.com/repos/cajus/capture",
-        "releases": {
-          "list": [],
-          "data": {}
-        }
-      },
-      "gonicus/breadcrumbs": {
-        "description": "Qooxdoo breadcrumb widget",
-        "url": "https://api.github.com/repos/gonicus/breadcrumbs",
         "releases": {
           "list": [],
           "data": {}
