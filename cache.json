@@ -46,102 +46,6 @@
       "sqville/sqv-qxthemes"
     ],
     "data": {
-      "qooxdoo/qxl.dialog": {
-        "description": "A  qooxdoo package providing dialog widgets ",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.dialog",
-        "releases": {
-          "list": [
-            "v3.0.0",
-            "v3.0.1"
-          ],
-          "data": {
-            "v3.0.0": {
-              "title": "v3.0.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "qxl.dialog",
-                    "summary": "Collection of dialog widgets",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      },
-                      {
-                        "name": "Derrell Lipman",
-                        "email": "derrell.lipman@unwireduniverse.com",
-                        "githubUser": "derrell"
-                      }
-                    ],
-                    "version": "3.0.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qxl.dialog",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.0.zip"
-            },
-            "v3.0.1": {
-              "title": "v3.0.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "qxl.dialog",
-                    "summary": "Collection of dialog widgets",
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      },
-                      {
-                        "name": "Derrell Lipman",
-                        "email": "derrell.lipman@unwireduniverse.com",
-                        "githubUser": "derrell"
-                      }
-                    ],
-                    "version": "3.0.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qxl.dialog",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.1.zip"
-            }
-          }
-        }
-      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo package that allows to record user interaction for replay in testing or presentations",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -171,7 +75,8 @@
             "v0.14.0",
             "v0.15.0",
             "v0.16.0",
-            "v0.17.0"
+            "v0.17.0",
+            "v0.17.1"
           ],
           "data": {
             "v0.2.0": {
@@ -1141,6 +1046,158 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.17.0.zip"
+            },
+            "v0.17.1": {
+              "title": "v0.17.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.17.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "ergobyte/qookery/qookery": "892f44d1d1ae5d65c7dd99b18da6876de2f2a920",
+                    "ergobyte/qookery/qookeryace": "892f44d1d1ae5d65c7dd99b18da6876de2f2a920",
+                    "qooxdoo/qxl.dialog": "^3.0.1"
+                  },
+                  "provides": {
+                    "namespace": "cboulanger.eventrecorder",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "cboulanger.eventrecorder.editor.Application",
+                      "theme": "qx.theme.Indigo",
+                      "name": "eventrecorder_scripteditor",
+                      "title": "Script Editor",
+                      "description": "The script editor in a separate browser window (doesn't work standalone)",
+                      "publish": false,
+                      "include": [
+                        "qx.theme.Modern",
+                        "cboulanger.eventrecorder.player.*"
+                      ],
+                      "environment": {
+                        "qx.icontheme": [
+                          "Tango"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.17.1.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.dialog": {
+        "description": "A  qooxdoo package providing dialog widgets ",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.dialog",
+        "releases": {
+          "list": [
+            "v3.0.0",
+            "v3.0.1"
+          ],
+          "data": {
+            "v3.0.0": {
+              "title": "v3.0.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      },
+                      {
+                        "name": "Derrell Lipman",
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell"
+                      }
+                    ],
+                    "version": "3.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qxl.dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.0.zip"
+            },
+            "v3.0.1": {
+              "title": "v3.0.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      },
+                      {
+                        "name": "Derrell Lipman",
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell"
+                      }
+                    ],
+                    "version": "3.0.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qxl.dialog",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.1.zip"
             }
           }
         }
@@ -12964,5 +13021,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 282
+  "num_libraries": 283
 }
