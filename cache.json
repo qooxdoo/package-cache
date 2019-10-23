@@ -43,9 +43,53 @@
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
       "sgaillard/qxfileio",
-      "sqville/sqv-qxthemes"
+      "sqville/sqv-qxthemes",
+      "voger/qxgraphql"
     ],
     "data": {
+      "voger/qxgraphql": {
+        "description": null,
+        "url": "https://api.github.com/repos/voger/qxgraphql",
+        "releases": {
+          "list": [
+            "0.0.1"
+          ],
+          "data": {
+            "0.0.1": {
+              "title": "early release",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha-20190511-1022",
+                  "info": {
+                    "name": "qxgraphql",
+                    "summary": "GraphQL implementation for Qooxdoo",
+                    "description": "Simple GraphQL implementation for Qooxdoo",
+                    "homepage": "https://github.com/voger/qxgraphql",
+                    "license": "MIT license",
+                    "authors": [],
+                    "version": "0.0.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta.20190618-0639",
+                    "@qooxdoo/framework": "^6.0.0-alpha-20190511-1022",
+                    "qooxdoo/qxl.testtapper": "^0.4.0"
+                  },
+                  "provides": {
+                    "namespace": "qxgraphql",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/voger/qxgraphql/archive/0.0.1.zip"
+            }
+          }
+        }
+      },
       "cboulanger/eventrecorder": {
         "description": "A qooxdoo package that allows to record user interaction for replay in testing or presentations",
         "url": "https://api.github.com/repos/cboulanger/eventrecorder",
@@ -1159,6 +1203,706 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.18.0.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/qxl.packagebrowser": {
+        "description": "A qooxdoo app to browse the available packages",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
+        "releases": {
+          "list": [
+            "v0.2.0",
+            "v0.2.1",
+            "v0.2.2",
+            "v0.2.3",
+            "v0.3.0",
+            "v0.3.1",
+            "v0.3.2",
+            "v0.3.3",
+            "v0.3.4",
+            "v0.4.0",
+            "v0.4.1",
+            "v0.4.2",
+            "v0.5.0",
+            "v0.5.1",
+            "v0.6.0",
+            "v1.0.0-beta.0"
+          ],
+          "data": {
+            "v0.2.0": {
+              "title": "v0.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "title": "v0.2.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
+            },
+            "v0.2.2": {
+              "title": "v0.2.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.2.zip"
+            },
+            "v0.2.3": {
+              "title": "v0.2.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger (cboulanger)",
+                        "email": "info@bibliograph.org"
+                      }
+                    ],
+                    "version": "0.2.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
+            },
+            "v0.3.0": {
+              "title": "v0.3.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.0.zip"
+            },
+            "v0.3.1": {
+              "title": "v0.3.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.1.zip"
+            },
+            "v0.3.2": {
+              "title": "v0.3.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.2",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.2.zip"
+            },
+            "v0.3.3": {
+              "title": "v0.3.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.3",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.3.zip"
+            },
+            "v0.3.4": {
+              "title": "v0.3.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.3.4",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.4.zip"
+            },
+            "v0.4.0": {
+              "title": "v0.4.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.4.0",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.0.zip"
+            },
+            "v0.4.1": {
+              "title": "v0.4.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.4.1",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.1.zip"
+            },
+            "v0.4.2": {
+              "title": "v0.4.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.4.2",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.2.zip"
+            },
+            "v0.5.0": {
+              "title": "v0.5.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.5.0",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
+                    "maettu/qx-showdown": "^1.8.7"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.5.0.zip"
+            },
+            "v0.5.1": {
+              "title": "v0.5.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.5.1",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
+                    "maettu/qx-showdown": "^1.8.7"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.5.1.zip"
+            },
+            "v0.6.0": {
+              "title": "v0.6.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.6.0",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
+                    "maettu/qx-showdown": "^1.8.7"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.6.0.zip"
+            },
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Christian Boulanger",
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger"
+                      }
+                    ],
+                    "version": "0.6.0",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ]
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
+                    "maettu/qx-showdown": "^1.8.7"
+                  },
+                  "provides": {
+                    "namespace": "qxl.packagebrowser",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v1.0.0-beta.0.zip"
             }
           }
         }
@@ -5281,702 +6025,772 @@
           }
         }
       },
-      "qooxdoo/qxl.packagebrowser": {
-        "description": "A qooxdoo app to browse the available packages",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
+      "qooxdoo/qxl.testtapper": {
+        "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper",
         "releases": {
           "list": [
+            "v0.1.0",
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v0.1.5",
+            "v0.1.6",
             "v0.2.0",
             "v0.2.1",
-            "v0.2.2",
-            "v0.2.3",
             "v0.3.0",
             "v0.3.1",
-            "v0.3.2",
-            "v0.3.3",
-            "v0.3.4",
-            "v0.4.0",
             "v0.4.1",
-            "v0.4.2",
-            "v0.5.0",
-            "v0.5.1",
-            "v0.6.0",
-            "v1.0.0-beta.0"
+            "v0.4.3"
           ],
           "data": {
-            "v0.2.0": {
-              "title": "v0.2.0",
+            "v0.1.0": {
+              "title": "First Test",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
+                  "qx_versions": "^6.0.0-alpha",
                   "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
                     "authors": [
                       {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
                       }
                     ],
-                    "version": "0.2.0"
+                    "version": "0.1.0",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   },
                   "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                    "qooxdoo-sdk": "^6.0.0-alpha"
                   },
                   "provides": {
-                    "namespace": "qxl.packagebrowser",
+                    "namespace": "qxl.testtapper",
                     "encoding": "utf-8",
                     "class": "source/class",
                     "resource": "source/resource",
-                    "translation": "source/translation"
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "theme": "qxl.testtapper.Theme",
+                      "name": "apiviewer",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.0.zip"
+            },
+            "v0.1.1": {
+              "title": "Fix Name",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.1.1",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testapper",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "title": "Robustus",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.1.2",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "title": "TapTapTap",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.1.3",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "title": "Stable Exit",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.1.4",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.4.zip"
+            },
+            "v0.1.5": {
+              "title": "Called Arguments",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.1.5",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.5.zip"
+            },
+            "v0.1.6": {
+              "title": "Promisification",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.1.6",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.6.zip"
+            },
+            "v0.2.0": {
+              "title": "CoverIt",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testtapper",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.0.zip"
             },
             "v0.2.1": {
-              "title": "v0.2.1",
+              "title": "Make --verbose work",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
+                  "qx_versions": "^6.0.0-alpha",
                   "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
                     "authors": [
                       {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
                       }
                     ],
-                    "version": "0.2.1"
+                    "version": "0.2.1",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   },
                   "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                    "qooxdoo-sdk": "^6.0.0-alpha"
                   },
                   "provides": {
-                    "namespace": "qxl.packagebrowser",
+                    "namespace": "qxl.testtapper",
                     "encoding": "utf-8",
                     "class": "source/class",
                     "resource": "source/resource",
-                    "translation": "source/translation"
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.1.zip"
-            },
-            "v0.2.2": {
-              "title": "v0.2.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.2.zip"
-            },
-            "v0.2.3": {
-              "title": "v0.2.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger (cboulanger)",
-                        "email": "info@bibliograph.org"
-                      }
-                    ],
-                    "version": "0.2.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.3.zip"
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.1.zip"
             },
             "v0.3.0": {
-              "title": "v0.3.0",
+              "title": "Integrated Test Suite",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
+                  "qx_versions": "^6.0.0-alpha",
                   "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
                     "authors": [
                       {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
                       }
                     ],
-                    "version": "0.3.0"
+                    "version": "0.3.0",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   },
                   "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                    "qooxdoo-sdk": "^6.0.0-alpha"
                   },
                   "provides": {
-                    "namespace": "qxl.packagebrowser",
+                    "namespace": "qxl.testtapper",
                     "encoding": "utf-8",
                     "class": "source/class",
                     "resource": "source/resource",
-                    "translation": "source/translation"
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "qx.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ]
+                    }
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.0.zip"
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.3.0.zip"
             },
             "v0.3.1": {
-              "title": "v0.3.1",
+              "title": "Sync up with tutorial",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
+                  "qx_versions": "^6.0.0-alpha",
                   "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.3.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.1.zip"
-            },
-            "v0.3.2": {
-              "title": "v0.3.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.3.2",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
                     "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.2.zip"
-            },
-            "v0.3.3": {
-              "title": "v0.3.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
                     "authors": [
                       {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
                       }
                     ],
-                    "version": "0.3.3",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
+                    "version": "0.3.1",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   },
                   "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                    "qooxdoo-sdk": "^6.0.0-alpha"
                   },
                   "provides": {
-                    "namespace": "qxl.packagebrowser",
+                    "namespace": "qxl.testtapper",
                     "encoding": "utf-8",
                     "class": "source/class",
                     "resource": "source/resource",
-                    "translation": "source/translation"
+                    "translation": "source/translation",
+                    "type": "application",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "myapp.test.*"
+                      ]
+                    }
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.3.zip"
-            },
-            "v0.3.4": {
-              "title": "v0.3.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.3.4",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.3.4.zip"
-            },
-            "v0.4.0": {
-              "title": "v0.4.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.4.0",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.0.zip"
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.3.1.zip"
             },
             "v0.4.1": {
-              "title": "v0.4.1",
+              "title": "Run'em in sequence",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
+                  "qx_versions": "^6.0.0-alpha",
                   "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
                     "authors": [
                       {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
                       }
                     ],
                     "version": "0.4.1",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   },
                   "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
                     "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                    "@qooxdoo/framework": "^6.0.0-alpha"
                   },
                   "provides": {
-                    "namespace": "qxl.packagebrowser",
+                    "namespace": "qxl.testtapper",
                     "encoding": "utf-8",
                     "class": "source/class",
                     "resource": "source/resource",
-                    "translation": "source/translation"
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*"
+                      ]
+                    }
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.1.zip"
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.1.zip"
             },
-            "v0.4.2": {
-              "title": "v0.4.2",
+            "v0.4.3": {
+              "title": "v0.4.3",
               "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
+                  "qx_versions": "^6.0.0-alpha",
                   "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "license": "MIT",
                     "authors": [
                       {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
                       }
                     ],
-                    "version": "0.4.2",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
+                    "version": "0.4.3",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
                   },
                   "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
                     "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
                   },
                   "provides": {
-                    "namespace": "qxl.packagebrowser",
+                    "namespace": "qxl.testtapper",
                     "encoding": "utf-8",
                     "class": "source/class",
                     "resource": "source/resource",
-                    "translation": "source/translation"
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*"
+                      ]
+                    }
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.2.zip"
-            },
-            "v0.5.0": {
-              "title": "v0.5.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.5.0",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
-                    "maettu/qx-showdown": "^1.8.7"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.5.0.zip"
-            },
-            "v0.5.1": {
-              "title": "v0.5.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.5.1",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
-                    "maettu/qx-showdown": "^1.8.7"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.5.1.zip"
-            },
-            "v0.6.0": {
-              "title": "v0.6.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.6.0",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
-                    "maettu/qx-showdown": "^1.8.7"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.6.0.zip"
-            },
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "Qooxdoo Package Browser",
-                    "summary": "This qooxdoo application lets you browse the available packages",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "Christian Boulanger",
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger"
-                      }
-                    ],
-                    "version": "0.6.0",
-                    "keywords": [
-                      "packages",
-                      "extension",
-                      "development"
-                    ]
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0",
-                    "maettu/qx-showdown": "^1.8.7"
-                  },
-                  "provides": {
-                    "namespace": "qxl.packagebrowser",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v1.0.0-beta.0.zip"
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.3.zip"
             }
           }
         }
@@ -7392,776 +8206,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.3.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.testtapper": {
-        "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper",
-        "releases": {
-          "list": [
-            "v0.1.0",
-            "v0.1.1",
-            "v0.1.2",
-            "v0.1.3",
-            "v0.1.4",
-            "v0.1.5",
-            "v0.1.6",
-            "v0.2.0",
-            "v0.2.1",
-            "v0.3.0",
-            "v0.3.1",
-            "v0.4.1",
-            "v0.4.3"
-          ],
-          "data": {
-            "v0.1.0": {
-              "title": "First Test",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.0",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "theme": "qxl.testtapper.Theme",
-                      "name": "apiviewer",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.0.zip"
-            },
-            "v0.1.1": {
-              "title": "Fix Name",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.1",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testapper",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.1.zip"
-            },
-            "v0.1.2": {
-              "title": "Robustus",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.2",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.2.zip"
-            },
-            "v0.1.3": {
-              "title": "TapTapTap",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.3",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.3.zip"
-            },
-            "v0.1.4": {
-              "title": "Stable Exit",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.4",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.4.zip"
-            },
-            "v0.1.5": {
-              "title": "Called Arguments",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.5",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.5.zip"
-            },
-            "v0.1.6": {
-              "title": "Promisification",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.1.6",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.6.zip"
-            },
-            "v0.2.0": {
-              "title": "CoverIt",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.2.0",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.0.zip"
-            },
-            "v0.2.1": {
-              "title": "Make --verbose work",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.2.1",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.1.zip"
-            },
-            "v0.3.0": {
-              "title": "Integrated Test Suite",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.3.0",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "qx.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.3.0.zip"
-            },
-            "v0.3.1": {
-              "title": "Sync up with tutorial",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.3.1",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "myapp.test.*"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.3.1.zip"
-            },
-            "v0.4.1": {
-              "title": "Run'em in sequence",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.4.1",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "*.test.*",
-                        "*.*.test.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.1.zip"
-            },
-            "v0.4.3": {
-              "title": "v0.4.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "Commandline Testrunner for Qooxdoo Apps",
-                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
-                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
-                    "keywords": [
-                      "test runner",
-                      "TAP"
-                    ],
-                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Tobias Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "0.4.3",
-                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testtapper",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.testtapper.Application",
-                      "name": "testtapper",
-                      "theme": "qx.theme.Simple",
-                      "title": "Qooxdoo TestTAPper",
-                      "environment": {
-                        "qx.icontheme": "Tango"
-                      },
-                      "include": [
-                        "*.test.*",
-                        "*.*.test.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.3.zip"
             }
           }
         }
@@ -13350,5 +13394,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 290
+  "num_libraries": 291
 }
