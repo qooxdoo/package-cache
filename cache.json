@@ -27,6 +27,9 @@
       "oetiker/QxTangible",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
+      "qooxdoo/incubator.qx.io.persistence",
+      "qooxdoo/incubator.qx.io.remote",
+      "qooxdoo/incubator.qx.util",
       "qooxdoo/qxl.apiviewer",
       "qooxdoo/qxl.datademo",
       "qooxdoo/qxl.demobrowser",
@@ -47,6 +50,100 @@
       "voger/qxgraphql"
     ],
     "data": {
+      "qooxdoo/incubator.qx.io.persistence": {
+        "description": "Qooxdoo Persistence (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.persistence",
+        "releases": {
+          "list": [
+            "0.1.1"
+          ],
+          "data": {
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.persistence",
+                    "summary": "Qooxdoo Persistence (Incubator)",
+                    "description": "Qooxdoo Persistence (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.persistence",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/0.1.1.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/incubator.qx.util": {
+        "description": "Qooxdoo Utils for NodeJS (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.util",
+        "releases": {
+          "list": [
+            "0.1.1"
+          ],
+          "data": {
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.util",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/0.1.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.packagebrowser": {
         "description": "A qooxdoo app to browse the available packages",
         "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser",
@@ -3508,6 +3605,53 @@
                 }
               ],
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.18.0.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/incubator.qx.io.remote": {
+        "description": "Qooxdoo Remote Objects (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.remote",
+        "releases": {
+          "list": [
+            "0.1.1"
+          ],
+          "data": {
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.remote",
+                    "summary": "Qooxdoo Remote (Incubator)",
+                    "description": "Qooxdoo Remote Objects",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.remote",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/0.1.1.zip"
             }
           }
         }
@@ -13469,5 +13613,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 292
+  "num_libraries": 295
 }
