@@ -97,53 +97,6 @@
           }
         }
       },
-      "qooxdoo/incubator.qx.io.remote": {
-        "description": "Qooxdoo Remote Objects (Incubator)",
-        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.remote",
-        "releases": {
-          "list": [
-            "0.1.1"
-          ],
-          "data": {
-            "0.1.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.io.remote",
-                    "summary": "Qooxdoo Remote (Incubator)",
-                    "description": "Qooxdoo Remote Objects",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "1.0.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.io.remote",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/0.1.1.zip"
-            }
-          }
-        }
-      },
       "qooxdoo/incubator.qx.util": {
         "description": "Qooxdoo Utils for NodeJS (Incubator)",
         "url": "https://api.github.com/repos/qooxdoo/incubator.qx.util",
@@ -187,6 +140,53 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/0.1.1.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/incubator.qx.io.remote": {
+        "description": "Qooxdoo Remote Objects (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.remote",
+        "releases": {
+          "list": [
+            "0.1.1"
+          ],
+          "data": {
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.remote",
+                    "summary": "Qooxdoo Remote (Incubator)",
+                    "description": "Qooxdoo Remote Objects",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.remote",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/0.1.1.zip"
             }
           }
         }
