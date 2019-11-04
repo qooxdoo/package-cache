@@ -55,46 +55,12 @@
         "url": "https://api.github.com/repos/voger/qxgraphql",
         "releases": {
           "list": [
-            "0.0.1",
-            "v0.0.2",
-            "v0.0.3"
+            "v0.0.2"
           ],
           "data": {
-            "0.0.1": {
-              "title": "early release",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha-20190511-1022",
-                  "info": {
-                    "name": "qxgraphql",
-                    "summary": "GraphQL implementation for Qooxdoo",
-                    "description": "Simple GraphQL implementation for Qooxdoo",
-                    "homepage": "https://github.com/voger/qxgraphql",
-                    "license": "MIT license",
-                    "authors": [],
-                    "version": "0.0.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta.20190618-0639",
-                    "@qooxdoo/framework": "^6.0.0-alpha-20190511-1022",
-                    "qooxdoo/qxl.testtapper": "^0.4.0"
-                  },
-                  "provides": {
-                    "namespace": "qxgraphql",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/voger/qxgraphql/archive/0.0.1.zip"
-            },
             "v0.0.2": {
-              "title": "Early release",
-              "prerelease": true,
+              "title": "v0.0.2",
+              "prerelease": false,
               "manifests": [
                 {
                   "path": "Manifest.json",
@@ -111,20 +77,7 @@
                         "email": ""
                       }
                     ],
-                    "version": {
-                      "options": {
-                        "loose": false,
-                        "includePrerelease": false
-                      },
-                      "loose": false,
-                      "raw": "0.1.0",
-                      "major": 0,
-                      "minor": 1,
-                      "patch": 0,
-                      "prerelease": [],
-                      "build": [],
-                      "version": "0.1.0"
-                    }
+                    "version": "0.0.2"
                   },
                   "requires": {
                     "@qooxdoo/compiler": "^1.0.0-beta",
@@ -140,42 +93,6 @@
                 }
               ],
               "zip_url": "https://github.com/voger/qxgraphql/archive/v0.0.2.zip"
-            },
-            "v0.0.3": {
-              "title": "Early release",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0",
-                  "info": {
-                    "name": "qxgraphql",
-                    "summary": "GraphQL implementation for Qooxdoo",
-                    "description": "Simple GraphQL implementation for Qooxdoo",
-                    "homepage": "https://github.com/voger/qxgraphql",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "voger",
-                        "email": ""
-                      }
-                    ],
-                    "version": "0.0.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0"
-                  },
-                  "provides": {
-                    "namespace": "qxgraphql",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/voger/qxgraphql/archive/v0.0.3.zip"
             }
           }
         }
@@ -13700,5 +13617,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 297
+  "num_libraries": 295
 }
