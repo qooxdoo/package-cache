@@ -6,7 +6,7 @@ cache:
   directories:
   - node_modules
 before_install:
-- apt-get install git-secret
+- sudo apt-get -y install git-secret
 - |
   declare -r SSH_FILE="$(mktemp -u $HOME/.ssh/XXXXX)"
   chmod 600 "$SSH_FILE"
@@ -15,7 +15,6 @@ before_install:
 - git config --global user.name "Travis CI deploy"
 - git config --global user.email "no-reply@qooxdoo.org"
 - git config --global push.default simple
-# install components
 - git clone git@github.com:qooxdoo/package-cache.git
 - npm install -g qooxdoo-compiler
 script:
