@@ -1,39 +1,28 @@
+dist: bionic
 language: node_js
 node_js:
-- '8'
+- '12'
 cache:
   directories:
   - node_modules
-env:
-  global:
-    secure: tkD9nMCCLjjt2KqQzLJjbawETIqMRoLe7hnILDAsurV28F9xqPEYe62K4uoS9KubjvQ/93NkvrZxVyUo+OYPecBSx4KzsN/+o4vYCjhpLdK9POX0T95DDZS9zn0BUEMcU/ruomrm31KgNkTZnOi8VqOdHAp24Di8ug86qiLdOeXalLHA/24ui8WuUTpDc+qbNOJhuOlz7+LGVfqvvYBW4Pwu2uSScjXzdvLUQl9SkOh/W7VyO9COklMszlXGWQm4DYKINlHxu0WgyGe3x7rJU6SAKGOq5Rd9+nEOHZA5Px5jUxShJthq8LLul7+c43TrrPLM7k0rRZ2vYhe/gQADMBtozzTz6qa1uknLIwdDCIo3kxIXot/1qF5XouGUTBUqlPBXt6tz3UKmNEPA6QPuXxUT+6ME84qBQbWb0uDZ72HpDKRuLxu1Q34L8J1IaMzkOm6oYvi6unIH96uc4Hxyy3Gb9cQavjrUQaL1Col5jJXuDZKuPLkBoLyQH/ccmZg5Mv3Zi4R9QCGGfK3w1/4k51bDi8RdJ0jxbCH6sXxbohjfvgDj6FDUS9JFy4rezg/ZId33aOfZdRx8hC4ZdvHByBbJvtIOBK9o1aQvbZAneJrWHj/0ivjS4id9qMDo7yTmAepNnOnCWcxiQAcbZcfC2odrFqZ0M11pnFW0GGaCjXk=
 before_install:
+- apt-get install git-secret
 - |
   declare -r SSH_FILE="$(mktemp -u $HOME/.ssh/XXXXX)"
-  openssl aes-256-cbc \
-    -K $encrypted_ae46258a4f3b_key \
-    -iv $encrypted_ae46258a4f3b_iv \
-    -in ".travis/qx-contrib-deploy.enc" \
-    -out "$SSH_FILE" -d
-
-  # Enable SSH authentication
-  chmod 600 "$SSH_FILE" \
-    && printf "%s\n" \
-         "Host github.com" \
-         "  IdentityFile $SSH_FILE" \
-         "  LogLevel ERROR" >> ~/.ssh/config
+  chmod 600 "$SSH_FILE"
+  printf "%s\n" "Host github.com" "  IdentityFile $SSH_FILE" "  LogLevel ERROR" >> ~/.ssh/config
+- git secret reveal -p $GPG_PASS
 - git config --global user.name "Travis CI deploy"
 - git config --global user.email "no-reply@qooxdoo.org"
 - git config --global push.default simple
 # install components
-- git clone git@github.com:qooxdoo/qx-contrib.git
-- git clone git@github.com:qooxdoo/qooxdoo-compiler 
-- cd qooxdoo-compiler && npm install && cd ..
+- git clone git@github.com:qooxdoo/package-cache.git
+- npm install -g qooxdoo-compiler
 script:
 # create data file and commit it to this repo
-- cd qx-contrib
-- "../qooxdoo-compiler/qx config set github.token $TOKEN"
-- "../qooxdoo-compiler/qx package update --verbose --search --all-versions --file cache.json"
+- cd package-cache
+- "qx config set github.token $TOKEN"
+- "qx package update --verbose --search --all-versions --file cache.json"
 - |
   if ! git diff --quiet --exit-code; then
     git add cache.json && git commit -m "Update catalog" && git push && echo "Updated contrib cache."
