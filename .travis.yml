@@ -10,10 +10,10 @@ before_install:
 - declare -r SSH_FILE="$(mktemp -u $HOME/.ssh/XXXXX)"
 - printf "%s\n" "Host github.com" "  IdentityFile $SSH_FILE" "  LogLevel ERROR" >> ~/.ssh/config
 - echo "$GPG_KEY" | base64 -d > no-reply@qooxdoo.org.gpg
-- cat no-reply@qooxdoo.org.gpg
 - gpg --import --batch no-reply@qooxdoo.org.gpg
 - git secret reveal -p $GPG_PASS
-- mv ./no-reply@qooxdoo.org $SSH_FILE
+- echo $SSH_FILE
+- mv ./no-reply@qooxdoo.org "$SSH_FILE"
 - chmod 0600 $SSH_FILE
 - git config --global user.name "Travis CI deploy"
 - git config --global user.email "no-reply@qooxdoo.org"
