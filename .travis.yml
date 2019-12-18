@@ -11,7 +11,7 @@ before_install:
 - printf "%s\n" "Host github.com" "  IdentityFile $SSH_FILE" "  LogLevel ERROR" >> ~/.ssh/config
 - echo "$GPG_KEY" | base64 -d > no-reply@qooxdoo.org.gpg
 - cat no-reply@qooxdoo.org.gpg
-- gpg --import no-reply@qooxdoo.org.gpg
+- gpg --import --batch no-reply@qooxdoo.org.gpg
 - git secret reveal -p $GPG_PASS
 - mv ./no-reply@qooxdoo.org $SSH_FILE
 - chmod 0600 $SSH_FILE
