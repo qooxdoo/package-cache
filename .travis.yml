@@ -7,17 +7,19 @@ cache:
   - node_modules
 before_install:
 - sudo apt-get -y install git-secret
-- declare -r SSH_FILE="$(mktemp -u $HOME/.ssh/XXXXX)"
-- printf "%s\n" "Host github.com" "  IdentityFile $SSH_FILE" "  LogLevel ERROR" >> ~/.ssh/config
-- echo "$GPG_KEY" | base64 -d > no-reply@qooxdoo.org.gpg
-- gpg --import --batch no-reply@qooxdoo.org.gpg
-- git secret reveal -p $GPG_PASS
-- echo $SSH_FILE
-- mv ./no-reply@qooxdoo.org "$SSH_FILE"
-- chmod 0600 $SSH_FILE
-- git config --global user.name "Travis CI deploy"
-- git config --global user.email "no-reply@qooxdoo.org"
-- git config --global push.default simple
+- |
+  declare -r SSH_FILE="$(mktemp -u $HOME/.ssh/XXXXX)"
+  printf "%s\n" "Host github.com" "  IdentityFile $SSH_FILE" "  LogLevel ERROR" >> ~/.ssh/config
+  echo "$GPG_KEY" | base64 -d > no-reply@qooxdoo.org.gpg
+  gpg --import --batch no-reply@qooxdoo.org.gpg
+  git secret reveal -p $GPG_PASS
+  echo $SSH_FILE
+  mv ./no-reply@qooxdoo.org "$SSH_FILE"
+  chmod 0600 $SSH_FILE
+- |
+  git config --global user.name "Travis CI deploy"
+  git config --global user.email "no-reply@qooxdoo.org"
+  git config --global push.default simple
 - git clone git@github.com:qooxdoo/package-cache.git
 - npm install -g qooxdoo-compiler
 script:
