@@ -50,6 +50,154 @@
       "voger/qxgraphql"
     ],
     "data": {
+      "qooxdoo/qxl.testrunner": {
+        "description": "qooxdoo widget browser app ",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
+        "releases": {
+          "list": [
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1"
+          ],
+          "data": {
+            "v1.0.0-beta.0": {
+              "title": "v1.0.0-beta.0",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "testrunner",
+                    "summary": "Unit testing framework",
+                    "description": "A modular test runner application to run JSUnit-like unit tests.",
+                    "keywords": [
+                      "unit",
+                      "test",
+                      "test runner"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testrunner",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.testrunner.ApplicationBasic",
+                      "name": "testrunner",
+                      "title": "The Qooxdoo Test Runner",
+                      "theme": "qx.theme.Simple",
+                      "environment": {
+                        "qxl.testrunner.view": "qxl.testrunner.view.Html",
+                        "qxl.testrunner.performance": true,
+                        "qxl.testrunner.testOrigin": "inline",
+                        "qx.testNameSpace": "*.test",
+                        "qxl.testrunner.reportServer": "",
+                        "qxl.testrunner.testParts": false,
+                        "qxl.testrunner.reportPerfResultUrl": ""
+                      },
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "title": "v1.0.0-beta.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "testrunner",
+                    "summary": "Unit testing framework",
+                    "description": "A modular test runner application to run JSUnit-like unit tests.",
+                    "keywords": [
+                      "unit",
+                      "test",
+                      "test runner"
+                    ],
+                    "homepage": "http://demo.qooxdoo.org/",
+                    "license": "MIT",
+                    "authors": [
+                      {
+                        "name": "Daniel Wagner (d_wagner)",
+                        "email": "daniel DOT wagner AT 1und1 DOT de"
+                      },
+                      {
+                        "name": "Henner Kollmann (hkollmann)",
+                        "email": "Henner DOT Kollmann AT gmx DOT de"
+                      }
+                    ],
+                    "version": "1.0.0-beta.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
+                  },
+                  "provides": {
+                    "namespace": "qxl.testrunner",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "application": {
+                      "class": "qxl.testrunner.ApplicationBasic",
+                      "name": "testrunner",
+                      "title": "The Qooxdoo Test Runner",
+                      "theme": "qx.theme.Simple",
+                      "environment": {
+                        "qxl.testrunner.view": "qxl.testrunner.view.Html",
+                        "qxl.testrunner.performance": true,
+                        "qxl.testrunner.testOrigin": "inline",
+                        "qx.testNameSpace": "*.test",
+                        "qxl.testrunner.reportServer": "",
+                        "qxl.testrunner.testParts": false,
+                        "qxl.testrunner.reportPerfResultUrl": ""
+                      },
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "exclude": [
+                        "qx.test.*"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/incubator.qx.io.persistence": {
         "description": "Qooxdoo Persistence (Incubator)",
         "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.persistence",
@@ -7027,7 +7175,17 @@
             "v0.1.2",
             "v0.1.3",
             "v1.0.0-beta.0",
+            "v1.0.0-beta.1",
+            "v1.0.0-beta.2",
+            "v1.0.0-beta.3",
+            "v1.0.0-beta.4",
+            "v1.0.0-beta.5",
+            "v1.0.0-beta.6",
             "v1.0.0-beta.7",
+            "v1.0.0-beta.7",
+            "v1.0.0-beta.8",
+            "v1.0.0-beta.9",
+            "v1.0.0-beta.10",
             "v1.0.0-beta.11",
             "v1.0.0-beta.12",
             "v1.0.0-beta.13"
@@ -7241,8 +7399,68 @@
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.0.zip"
             },
+            "v1.0.0-beta.1": {
+              "title": "v1.0.0-beta.1",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.0-beta.2": {
+              "title": "v1.0.0-beta.2",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.2.zip"
+            },
+            "v1.0.0-beta.3": {
+              "title": "v1.0.0-beta.3",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.3.zip"
+            },
+            "v1.0.0-beta.4": {
+              "title": "v1.0.0-beta.4",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.4.zip"
+            },
+            "v1.0.0-beta.5": {
+              "title": "v1.0.0-beta.5",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.5.zip"
+            },
+            "v1.0.0-beta.6": {
+              "title": "v1.0.0-beta.6",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.6.zip"
+            },
             "v1.0.0-beta.7": {
-              "title": "",
+              "title": "v1.0.0-beta.7",
               "prerelease": true,
               "manifests": [
                 {
@@ -7306,6 +7524,36 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.7.zip"
+            },
+            "v1.0.0-beta.8": {
+              "title": "v1.0.0-beta.8",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.8.zip"
+            },
+            "v1.0.0-beta.9": {
+              "title": "v1.0.0-beta.9",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.9.zip"
+            },
+            "v1.0.0-beta.10": {
+              "title": "v1.0.0-beta.10",
+              "prerelease": true,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.10.zip"
             },
             "v1.0.0-beta.11": {
               "title": "v1.0.0-beta.11",
@@ -9868,85 +10116,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.formdemo/archive/v1.0.0-beta.1.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/qxl.testrunner": {
-        "description": "qooxdoo widget browser app ",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
-        "releases": {
-          "list": [
-            "v1.0.0-beta.0"
-          ],
-          "data": {
-            "v1.0.0-beta.0": {
-              "title": "v1.0.0-beta.0",
-              "prerelease": true,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "testrunner",
-                    "summary": "Unit testing framework",
-                    "description": "A modular test runner application to run JSUnit-like unit tests.",
-                    "keywords": [
-                      "unit",
-                      "test",
-                      "test runner"
-                    ],
-                    "homepage": "http://demo.qooxdoo.org/",
-                    "license": "MIT",
-                    "authors": [
-                      {
-                        "name": "Daniel Wagner (d_wagner)",
-                        "email": "daniel DOT wagner AT 1und1 DOT de"
-                      },
-                      {
-                        "name": "Henner Kollmann (hkollmann)",
-                        "email": "Henner DOT Kollmann AT gmx DOT de"
-                      }
-                    ],
-                    "version": "1.0.0-beta.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
-                  },
-                  "provides": {
-                    "namespace": "qxl.testrunner",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "application": {
-                      "class": "qxl.testrunner.ApplicationBasic",
-                      "name": "testrunner",
-                      "title": "The Qooxdoo Test Runner",
-                      "theme": "qx.theme.Simple",
-                      "environment": {
-                        "qxl.testrunner.view": "qxl.testrunner.view.Html",
-                        "qxl.testrunner.performance": true,
-                        "qxl.testrunner.testOrigin": "inline",
-                        "qx.testNameSpace": "*.test",
-                        "qxl.testrunner.reportServer": "",
-                        "qxl.testrunner.testParts": false,
-                        "qxl.testrunner.reportPerfResultUrl": ""
-                      },
-                      "include": [
-                        "*.test.*",
-                        "*.*.test.*"
-                      ],
-                      "exclude": [
-                        "qx.test.*"
-                      ]
-                    }
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.0.zip"
             }
           }
         }
@@ -13628,5 +13797,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 295
+  "num_libraries": 297
 }
