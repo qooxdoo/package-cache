@@ -21,12 +21,12 @@ before_install:
   git config --global user.email "no-reply@qooxdoo.org"
   git config --global push.default simple
 - git clone git@github.com:qooxdoo/package-cache.git
-- npm install -g qooxdoo-compiler
+- npm install -g @qooxdoo/compiler
 script:
 # create data file and commit it to this repo
 - cd package-cache
-- "qx config set github.token $TOKEN"
-- "qx package update --verbose --search --all-versions --file cache.json"
+- qx config set github.token "$TOKEN"
+- qx package update --verbose --search --all-versions --file cache.json
 - |
   if ! git diff --quiet --exit-code; then
     git add cache.json && git commit -m "Update catalog" && git push && echo "Updated contrib cache."
