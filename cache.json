@@ -926,7 +926,7 @@
         }
       },
       "qooxdoo/qxl.testrunner": {
-        "description": "qooxdoo widget browser app ",
+        "description": "A modular test runner application for qooxdoo to run JSUnit-like unit tests",
         "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
         "releases": {
           "list": [
