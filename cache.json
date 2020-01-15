@@ -27,6 +27,7 @@
       "oetiker/QxTangible",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
+      "qooxdoo-archive/qxl.testrunner",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
       "qooxdoo/incubator.qx.util",
@@ -41,7 +42,6 @@
       "qooxdoo/qxl.playground",
       "qooxdoo/qxl.test1",
       "qooxdoo/qxl.test2",
-      "qooxdoo/qxl.testrunner",
       "qooxdoo/qxl.testtapper",
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
@@ -1870,9 +1870,9 @@
           }
         }
       },
-      "qooxdoo/qxl.testrunner": {
+      "qooxdoo-archive/qxl.testrunner": {
         "description": "A modular test runner application for qooxdoo to run JSUnit-like unit tests",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner",
+        "url": "https://api.github.com/repos/qooxdoo-archive/qxl.testrunner",
         "releases": {
           "list": [
             "v1.0.0-beta.0",
@@ -1945,7 +1945,7 @@
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.0.zip"
+              "zip_url": "https://github.com/qooxdoo-archive/qxl.testrunner/archive/v1.0.0-beta.0.zip"
             },
             "v1.0.0-beta.1": {
               "title": "v1.0.0-beta.1",
@@ -2013,7 +2013,7 @@
                   }
                 }
               ],
-              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v1.0.0-beta.1.zip"
+              "zip_url": "https://github.com/qooxdoo-archive/qxl.testrunner/archive/v1.0.0-beta.1.zip"
             }
           }
         }
