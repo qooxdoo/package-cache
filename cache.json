@@ -12626,375 +12626,6 @@
           }
         }
       },
-      "johnspackman/UploadMgr": {
-        "description": "Uploads files with background uploads and progress feedback on modern browsers",
-        "url": "https://api.github.com/repos/johnspackman/UploadMgr",
-        "releases": {
-          "list": [
-            "v1.0.0",
-            "v1.0.1",
-            "v1.0.3",
-            "v1.0.4"
-          ],
-          "data": {
-            "v1.0.0": {
-              "title": "Release 1.0.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "1.5",
-                      "1.6",
-                      "1.6.1",
-                      "2.0",
-                      "2.1",
-                      "5.0",
-                      "5.1",
-                      "6.0"
-                    ]
-                  },
-                  "provides": {
-                    "namespace": "com.zenesis.qx.upload",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
-            },
-            "v1.0.1": {
-              "title": "Update for 6.0.0 compatible",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 - 6.0.0-alpha",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-range": "1.5 - 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "com.zenesis.qx.upload",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.1.zip"
-            },
-            "v1.0.3": {
-              "title": "v1.0.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 - 6.0.0-alpha-* || 6.0.0-alpha",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "1.0.3",
-                    "qooxdoo-range": "1.5 - 6.0.0-alpha-* || 6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "com.zenesis.qx.upload",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.3.zip"
-            },
-            "v1.0.4": {
-              "title": "v1.0.4",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "1.5 - 5.9 || >6.0.0-alpha",
-                  "info": {
-                    "name": "UploadMgr",
-                    "summary": "Uploader widget",
-                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
-                    "homepage": "http://www.zenesis.com/",
-                    "license": "LGPL and EPL (see http://qooxdoo.org)",
-                    "authors": [
-                      {
-                        "name": "John Spackman",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "1.0.4",
-                    "qooxdoo-range": "1.5 - 5.9 || >6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "com.zenesis.qx.upload",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.4.zip"
-            }
-          }
-        }
-      },
-      "sgaillard/qxfileio": {
-        "description": "A set of utilitary classes to deal with local file IO",
-        "url": "https://api.github.com/repos/sgaillard/qxfileio",
-        "releases": {
-          "list": [
-            "0.1.0",
-            "v0.2.0",
-            "v0.3.1",
-            "v0.4.0",
-            "v0.4.1"
-          ],
-          "data": {
-            "0.1.0": {
-              "title": "First version of qxfileio contrib",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxfileio",
-                    "summary": "Utilitary class to read and write file client side",
-                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
-                    "homepage": "https://github.com/sgaillard/qxfileio",
-                    "license": "CeCILL",
-                    "authors": [
-                      {
-                        "name": "Sylvain Gaillard (sgaillard)",
-                        "email": "sylvain.gaillard@inra.fr"
-                      }
-                    ],
-                    "version": "0.1.0",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxfileio",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/sgaillard/qxfileio/archive/0.1.0.zip"
-            },
-            "v0.2.0": {
-              "title": "New feature",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxfileio",
-                    "summary": "Utilitary class to read and write file client side",
-                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
-                    "homepage": "https://github.com/sgaillard/qxfileio",
-                    "license": "CeCILL",
-                    "authors": [
-                      {
-                        "name": "Sylvain Gaillard (sgaillard)",
-                        "email": "sylvain.gaillard@inra.fr"
-                      }
-                    ],
-                    "version": "0.2.0",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxfileio",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.2.0.zip"
-            },
-            "v0.3.1": {
-              "title": "Token counter in StringTokenizer",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxfileio",
-                    "summary": "Utilitary class to read and write file client side",
-                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
-                    "homepage": "https://github.com/sgaillard/qxfileio",
-                    "license": "CeCILL",
-                    "authors": [
-                      {
-                        "name": "Sylvain Gaillard (sgaillard)",
-                        "email": "sylvain.gaillard@inra.fr"
-                      }
-                    ],
-                    "version": "0.3.1",
-                    "qooxdoo-versions": [
-                      "5.0.2",
-                      "6.0.0-alpha"
-                    ]
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxfileio",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.3.1.zip"
-            },
-            "v0.4.0": {
-              "title": "move compiler dependency to 1.0.0-beta",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxfileio",
-                    "summary": "Utilitary class to read and write file client side",
-                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
-                    "homepage": "https://github.com/sgaillard/qxfileio",
-                    "license": "CeCILL",
-                    "authors": [
-                      {
-                        "name": "Sylvain Gaillard (sgaillard)",
-                        "email": "sylvain.gaillard@inra.fr"
-                      }
-                    ],
-                    "version": "0.4.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxfileio",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.4.0.zip"
-            },
-            "v0.4.1": {
-              "title": "Fixed source/resource directory missing",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxfileio",
-                    "summary": "Utilitary class to read and write file client side",
-                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
-                    "homepage": "https://github.com/sgaillard/qxfileio",
-                    "license": "CeCILL",
-                    "authors": [
-                      {
-                        "name": "Sylvain Gaillard (sgaillard)",
-                        "email": "sylvain.gaillard@inra.fr"
-                      }
-                    ],
-                    "version": "0.4.1"
-                  },
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxfileio",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.4.1.zip"
-            }
-          }
-        }
-      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "url": "https://api.github.com/repos/ergobyte/qookery",
@@ -13659,6 +13290,375 @@
                 }
               ],
               "zip_url": "https://github.com/ergobyte/qookery/archive/v0.7.0-pre.zip"
+            }
+          }
+        }
+      },
+      "johnspackman/UploadMgr": {
+        "description": "Uploads files with background uploads and progress feedback on modern browsers",
+        "url": "https://api.github.com/repos/johnspackman/UploadMgr",
+        "releases": {
+          "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v1.0.3",
+            "v1.0.4"
+          ],
+          "data": {
+            "v1.0.0": {
+              "title": "Release 1.0.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 || 1.6 || 1.6.1 || 2.0 || 2.1 || 5.0 || 5.1 || 6.0",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "1.5",
+                      "1.6",
+                      "1.6.1",
+                      "2.0",
+                      "2.1",
+                      "5.0",
+                      "5.1",
+                      "6.0"
+                    ]
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "title": "Update for 6.0.0 compatible",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 - 6.0.0-alpha",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-range": "1.5 - 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.1.zip"
+            },
+            "v1.0.3": {
+              "title": "v1.0.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 - 6.0.0-alpha-* || 6.0.0-alpha",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.3",
+                    "qooxdoo-range": "1.5 - 6.0.0-alpha-* || 6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "title": "v1.0.4",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "1.5 - 5.9 || >6.0.0-alpha",
+                  "info": {
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "authors": [
+                      {
+                        "name": "John Spackman",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.4",
+                    "qooxdoo-range": "1.5 - 5.9 || >6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "com.zenesis.qx.upload",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.4.zip"
+            }
+          }
+        }
+      },
+      "sgaillard/qxfileio": {
+        "description": "A set of utilitary classes to deal with local file IO",
+        "url": "https://api.github.com/repos/sgaillard/qxfileio",
+        "releases": {
+          "list": [
+            "0.1.0",
+            "v0.2.0",
+            "v0.3.1",
+            "v0.4.0",
+            "v0.4.1"
+          ],
+          "data": {
+            "0.1.0": {
+              "title": "First version of qxfileio contrib",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.1.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0-alpha"
+                    ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/0.1.0.zip"
+            },
+            "v0.2.0": {
+              "title": "New feature",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.2.0",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0-alpha"
+                    ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.2.0.zip"
+            },
+            "v0.3.1": {
+              "title": "Token counter in StringTokenizer",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.3.1",
+                    "qooxdoo-versions": [
+                      "5.0.2",
+                      "6.0.0-alpha"
+                    ]
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.3.1.zip"
+            },
+            "v0.4.0": {
+              "title": "move compiler dependency to 1.0.0-beta",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.4.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.4.0.zip"
+            },
+            "v0.4.1": {
+              "title": "Fixed source/resource directory missing",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "authors": [
+                      {
+                        "name": "Sylvain Gaillard (sgaillard)",
+                        "email": "sylvain.gaillard@inra.fr"
+                      }
+                    ],
+                    "version": "0.4.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxfileio",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/sgaillard/qxfileio/archive/v0.4.1.zip"
             }
           }
         }
