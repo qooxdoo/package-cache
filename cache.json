@@ -56,6 +56,7 @@
         "releases": {
           "list": [
             "v0.0.2",
+            "v0.0.3",
             "0.1.1"
           ],
           "data": {
@@ -94,6 +95,42 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.2.zip"
+            },
+            "v0.0.3": {
+              "title": "v0.0.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "0.0.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.util",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.3.zip"
             },
             "0.1.1": {
               "title": "",
@@ -14347,5 +14384,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 307
+  "num_libraries": 308
 }
