@@ -50,6 +50,91 @@
       "voger/qxgraphql"
     ],
     "data": {
+      "qooxdoo/incubator.qx.io.remote": {
+        "description": "Qooxdoo Remote Objects (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.remote",
+        "releases": {
+          "list": [
+            "v0.0.2",
+            "0.1.1"
+          ],
+          "data": {
+            "v0.0.2": {
+              "title": "v0.0.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.remote",
+                    "summary": "Qooxdoo Remote (Incubator)",
+                    "description": "Qooxdoo Remote Objects",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "0.0.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/incubator.qx.io.persistence": "^0.0.3"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.remote",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/v0.0.2.zip"
+            },
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.remote",
+                    "summary": "Qooxdoo Remote (Incubator)",
+                    "description": "Qooxdoo Remote Objects",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.remote",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/0.1.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.testtapper": {
         "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
         "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper",
@@ -2379,53 +2464,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo-archive/qxl.testrunner/archive/v1.0.0-beta.1.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/incubator.qx.io.remote": {
-        "description": "Qooxdoo Remote Objects (Incubator)",
-        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.remote",
-        "releases": {
-          "list": [
-            "0.1.1"
-          ],
-          "data": {
-            "0.1.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.io.remote",
-                    "summary": "Qooxdoo Remote (Incubator)",
-                    "description": "Qooxdoo Remote Objects",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "1.0.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.io.remote",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/0.1.1.zip"
             }
           }
         }
@@ -14516,5 +14554,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 311
+  "num_libraries": 312
 }
