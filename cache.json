@@ -77,7 +77,9 @@
             "v0.4.11",
             "v0.4.12",
             "v0.4.13",
-            "v0.5.0"
+            "v0.5.0",
+            "v0.5.2",
+            "v0.5.3"
           ],
           "data": {
             "v0.0.1": {
@@ -891,6 +893,80 @@
                 }
               ],
               "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.0.zip"
+            },
+            "v0.5.2": {
+              "title": "Code from osparc-simcore + Refactoring",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.5.1"
+                  },
+                  "requires": {
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.2.zip"
+            },
+            "v0.5.3": {
+              "title": "oSparc tab added to widgetbrowser",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "Tobias Oetiker (oetiker)",
+                        "email": "tobi@itis.swiss"
+                      }
+                    ],
+                    "version": "0.5.3"
+                  },
+                  "requires": {
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "osparc.theme",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.3.zip"
             }
           }
         }
@@ -14812,5 +14888,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 316
+  "num_libraries": 318
 }
