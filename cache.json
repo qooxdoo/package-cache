@@ -50,6 +50,249 @@
       "voger/qxgraphql"
     ],
     "data": {
+      "qooxdoo/incubator.qx.util": {
+        "description": "Qooxdoo Utils for NodeJS (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.util",
+        "releases": {
+          "list": [
+            "v0.0.2",
+            "v0.0.3",
+            "0.1.1"
+          ],
+          "data": {
+            "v0.0.2": {
+              "title": "v0.0.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "0.0.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.util",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.2.zip"
+            },
+            "v0.0.3": {
+              "title": "v0.0.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "0.0.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.util",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.3.zip"
+            },
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.util",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/0.1.1.zip"
+            }
+          }
+        }
+      },
+      "qooxdoo/incubator.qx.io.persistence": {
+        "description": "Qooxdoo Persistence (Incubator)",
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.persistence",
+        "releases": {
+          "list": [
+            "v0.0.2",
+            "v0.0.3",
+            "0.1.1"
+          ],
+          "data": {
+            "v0.0.2": {
+              "title": "v0.0.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.persistence",
+                    "summary": "Qooxdoo Persistence (Incubator)",
+                    "description": "Qooxdoo Persistence (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "0.0.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.persistence",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/v0.0.2.zip"
+            },
+            "v0.0.3": {
+              "title": "v0.0.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.persistence",
+                    "summary": "Qooxdoo Persistence (Incubator)",
+                    "description": "Qooxdoo Persistence (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "0.0.3"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/incubator.qx.util": "^0.0.3"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.persistence",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/v0.0.3.zip"
+            },
+            "0.1.1": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "incubator.qx.io.persistence",
+                    "summary": "Qooxdoo Persistence (Incubator)",
+                    "description": "Qooxdoo Persistence (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [
+                      {
+                        "name": "John Spackman (johnspackman)",
+                        "email": "john.spackman@zenesis.com"
+                      }
+                    ],
+                    "version": "1.0.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "qx.io.persistence",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/0.1.1.zip"
+            }
+          }
+        }
+      },
       "ITISFoundation/qx-osparc-theme": {
         "description": "A material-inspired theme for qooxdoo",
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme",
@@ -4614,249 +4857,6 @@
                 }
               ],
               "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.5.0.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/incubator.qx.io.persistence": {
-        "description": "Qooxdoo Persistence (Incubator)",
-        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.persistence",
-        "releases": {
-          "list": [
-            "v0.0.2",
-            "v0.0.3",
-            "0.1.1"
-          ],
-          "data": {
-            "v0.0.2": {
-              "title": "v0.0.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.io.persistence",
-                    "summary": "Qooxdoo Persistence (Incubator)",
-                    "description": "Qooxdoo Persistence (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "0.0.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.io.persistence",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/v0.0.2.zip"
-            },
-            "v0.0.3": {
-              "title": "v0.0.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.io.persistence",
-                    "summary": "Qooxdoo Persistence (Incubator)",
-                    "description": "Qooxdoo Persistence (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "0.0.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/incubator.qx.util": "^0.0.3"
-                  },
-                  "provides": {
-                    "namespace": "qx.io.persistence",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/v0.0.3.zip"
-            },
-            "0.1.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.io.persistence",
-                    "summary": "Qooxdoo Persistence (Incubator)",
-                    "description": "Qooxdoo Persistence (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "1.0.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.io.persistence",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.persistence/archive/0.1.1.zip"
-            }
-          }
-        }
-      },
-      "qooxdoo/incubator.qx.util": {
-        "description": "Qooxdoo Utils for NodeJS (Incubator)",
-        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.util",
-        "releases": {
-          "list": [
-            "v0.0.2",
-            "v0.0.3",
-            "0.1.1"
-          ],
-          "data": {
-            "v0.0.2": {
-              "title": "v0.0.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.util",
-                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
-                    "description": "Qooxdoo Tools for Server Development (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "0.0.2"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.util",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.2.zip"
-            },
-            "v0.0.3": {
-              "title": "v0.0.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.util",
-                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
-                    "description": "Qooxdoo Tools for Server Development (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "0.0.3"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.util",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.3.zip"
-            },
-            "0.1.1": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-beta",
-                  "info": {
-                    "name": "incubator.qx.util",
-                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
-                    "description": "Qooxdoo Tools for Server Development (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [
-                      {
-                        "name": "John Spackman (johnspackman)",
-                        "email": "john.spackman@zenesis.com"
-                      }
-                    ],
-                    "version": "1.0.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta"
-                  },
-                  "provides": {
-                    "namespace": "qx.util",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/0.1.1.zip"
             }
           }
         }
