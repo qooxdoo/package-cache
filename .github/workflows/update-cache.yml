@@ -1,4 +1,4 @@
-name: Update Dependencies
+name: Update Package Cache
 on:
   push:
     branches: 
@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: '12.x'
       - name: Update package cache
-        id: vars
         run: |
+          npm install --no-save --no-package-json @qooxdoo/compiler
           qx package update --verbose --search --all-versions --file cache.json
           if git diff --quiet --exit-code; then
             echo "No changes."
