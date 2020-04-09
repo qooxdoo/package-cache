@@ -28,6 +28,6 @@ jobs:
         uses: peter-evans/create-pull-request@v2
         with:
           commit-message: Update package cache
-          title: Automated Dependency Updates
+          title: Automated Cache Updates
           body: This is an auto-generated PR with updates to the package cache
-          branch: master
+          branch: update-cache
