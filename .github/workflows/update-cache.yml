@@ -1,7 +1,7 @@
 name: Update Package Cache
 on:
   push:
-    branches: 
+    branches:
       - master
   schedule:
     - cron:  '0 10 * * 1'
@@ -16,7 +16,7 @@ jobs:
       - name: Update package cache
         run: |
           npm --no-save --no-package-json install @qooxdoo/compiler
-          npx qx config set github.token "${{ secrets.GITHUB_TOKEN }}"
+          npx qx config set github.token "${{ secrets.PAT }}"
           npx qx package update --verbose --search --all-versions --file cache.json
           if git diff --quiet --exit-code; then
             echo "No changes."
