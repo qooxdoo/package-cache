@@ -1,5 +1,8 @@
 name: Update Dependencies
 on:
+  push:
+    branches: 
+      - master
   schedule:
     - cron:  '0 10 * * 1'
 jobs:
