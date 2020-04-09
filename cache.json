@@ -51,6 +51,219 @@
       "voger/qxgraphql"
     ],
     "data": {
+      "qooxdoo/qxl.test1": {
+        "description": "Test contrib with single library (unlisted)",
+        "url": "https://api.github.com/repos/qooxdoo/qxl.test1",
+        "releases": {
+          "list": [
+            "v1.0.1",
+            "v1.0.2",
+            "v1.0.3",
+            "v1.1.0",
+            "v1.2.0",
+            "v1.2.1"
+          ],
+          "data": {
+            "v1.0.1": {
+              "title": "v1.0.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "title": "v1.0.2",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.2"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "title": "v1.0.3",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.0.3"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.3.zip"
+            },
+            "v1.1.0": {
+              "title": "v1.1.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": "",
+                    "version": "1.1.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0",
+                    "qooxdoo-sdk": "undefined^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.1.0.zip"
+            },
+            "v1.2.0": {
+              "title": "v1.2.0",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [],
+                    "version": "1.2.0"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.2.0.zip"
+            },
+            "v1.2.1": {
+              "title": "v1.2.1",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
+                  "info": {
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "authors": [],
+                    "version": "1.2.1"
+                  },
+                  "requires": {
+                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
+                  },
+                  "provides": {
+                    "namespace": "qxl.test1",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.2.1.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.demobrowser": {
         "description": "qooxdoo demobrowser app",
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser",
@@ -13163,186 +13376,6 @@
           }
         }
       },
-      "qooxdoo/qxl.test1": {
-        "description": "Test contrib with single library (unlisted)",
-        "url": "https://api.github.com/repos/qooxdoo/qxl.test1",
-        "releases": {
-          "list": [
-            "v1.0.1",
-            "v1.0.2",
-            "v1.0.3",
-            "v1.1.0",
-            "v1.2.0"
-          ],
-          "data": {
-            "v1.0.1": {
-              "title": "v1.0.1",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": "",
-                    "version": "1.0.1"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha",
-                    "qooxdoo/qxl.test2C": "^1.0.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.test1",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.1.zip"
-            },
-            "v1.0.2": {
-              "title": "v1.0.2",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "authors": "",
-                    "version": "1.0.2"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.test1",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.2.zip"
-            },
-            "v1.0.3": {
-              "title": "v1.0.3",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": "",
-                    "version": "1.0.3"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo-compiler": "^0.3.0-alpha",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.test1",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.3.zip"
-            },
-            "v1.1.0": {
-              "title": "v1.1.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
-                  "info": {
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": "",
-                    "version": "1.1.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0",
-                    "qooxdoo-sdk": "undefined^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "qxl.test1",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.1.0.zip"
-            },
-            "v1.2.0": {
-              "title": "v1.2.0",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
-                  "info": {
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "authors": [],
-                    "version": "1.2.0"
-                  },
-                  "requires": {
-                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta",
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
-                  },
-                  "provides": {
-                    "namespace": "qxl.test1",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.2.0.zip"
-            }
-          }
-        }
-      },
       "cboulanger/qx-contrib-test": {
         "description": "This is a test contribution for the qooxdoo contrib system (unlisted)",
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-test",
@@ -15741,5 +15774,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 335
+  "num_libraries": 336
 }
