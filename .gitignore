@@ -4,4 +4,6 @@
 no-reply@qooxdoo.org
 no-reply@qooxdoo.org.pub
 no-reply@qooxdoo.org.gpg.base64
-
+node_modules
+package.json
+package-lock.json
