@@ -28,6 +28,7 @@ jobs:
         uses: peter-evans/create-pull-request@v2
         with:
           commit-message: Update package cache
+          token: ${{ secrets.PAT }}
           title: Automated Cache Updates
           body: This is an auto-generated PR with updates to the package cache
           branch: update-cache
