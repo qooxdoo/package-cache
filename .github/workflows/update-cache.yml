@@ -1,0 +1,29 @@
+name: Update Dependencies
+on:
+  schedule:
+    - cron:  '0 10 * * 1'
+jobs:
+  update-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Update package cache
+        id: vars
+        run: |
+          qx package update --verbose --search --all-versions --file cache.json
+          if git diff --quiet --exit-code; then
+            echo "No changes."
+          else
+            echo "::set-env name=CREATE_PR::1"
+          fi
+      - name: Create Pull Request
+        if: ${{ env.CREATE_PR }}
+        uses: peter-evans/create-pull-request@v2
+        with:
+          commit-message: Update package cache
+          title: Automated Dependency Updates
+          body: This is an auto-generated PR with updates to the package cache
+          branch: master
