@@ -6,7 +6,7 @@ on:
   schedule:
     - cron:  '0 10 * * 1'
 jobs:
-  update-deps:
+  update-cache:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,7 +15,9 @@ jobs:
           node-version: '12.x'
       - name: Update package cache
         run: |
-          npx -p @qooxdoo/compiler qx package update --verbose --search --all-versions --file cache.json
+          npm --no-save --no-package-json install @qooxdoo/compiler
+          npx qx config set github.token "${{ secrets.GITHUB_TOKEN }}"
+          npx qx package update --verbose --search --all-versions --file cache.json
           if git diff --quiet --exit-code; then
             echo "No changes."
           else
