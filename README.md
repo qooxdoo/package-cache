@@ -1,4 +1,7 @@
-#  qooxdoo package cache 
+#  Qooxdoo Package Cache 
+
+![Update Package Cache](https://github.com/qooxdoo/package-cache/workflows/Update%20Package%20Cache/badge.svg)
+
 [![Build Status](https://travis-ci.org/qooxdoo/package-cache.svg?branch=master)](https://travis-ci.org/qooxdoo/qx-contrib)
 
 This repository is part of the qooxdoo package system, qooxdoo's "plugin"
