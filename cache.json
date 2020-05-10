@@ -52,6 +52,131 @@
       "voger/qxgraphql"
     ],
     "data": {
+      "oetiker/ComboTable": {
+        "description": "Qx Selectbox with incermental search",
+        "url": "https://api.github.com/repos/oetiker/ComboTable",
+        "releases": {
+          "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v1.0.2"
+          ],
+          "data": {
+            "v1.0.0": {
+              "title": "",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "4.x - 5.x",
+                  "info": {
+                    "name": "ComboTable",
+                    "summary": "A selectbox with incemental search",
+                    "description": "A selectbox using a qooxdoo table to show list of options supporting incremental search.",
+                    "homepage": "http://contrib.qooxdoo.org/project/ComboTable",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Tobi Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      },
+                      {
+                        "name": "Mustafa Sak",
+                        "email": "info@saksys.de"
+                      }
+                    ],
+                    "version": "trunk",
+                    "qooxdoo-versions": [
+                      "4.x - 5.x"
+                    ]
+                  },
+                  "provides": {
+                    "namespace": "combotable",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "title": "ready for qx6",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-alpha",
+                  "info": {
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Tobi Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "1.0.1"
+                  },
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  },
+                  "provides": {
+                    "namespace": "combotable",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "title": "Fix Manifest",
+              "prerelease": false,
+              "manifests": [
+                {
+                  "path": "Manifest.json",
+                  "qx_versions": "^6.0.0-beta",
+                  "info": {
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "authors": [
+                      {
+                        "name": "Tobi Oetiker (oetiker)",
+                        "email": "tobi@oetiker.ch"
+                      }
+                    ],
+                    "version": "1.0.2"
+                  },
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  },
+                  "provides": {
+                    "namespace": "combotable",
+                    "encoding": "utf-8",
+                    "class": "source/class",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  }
+                }
+              ],
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.2.zip"
+            }
+          }
+        }
+      },
       "qooxdoo/qxl.tutorial": {
         "description": "The tutorial moved to a seperate project ",
         "url": "https://api.github.com/repos/qooxdoo/qxl.tutorial",
@@ -15233,94 +15358,6 @@
           }
         }
       },
-      "oetiker/ComboTable": {
-        "description": "Qx Selectbox with incermental search",
-        "url": "https://api.github.com/repos/oetiker/ComboTable",
-        "releases": {
-          "list": [
-            "v1.0.0",
-            "v1.0.1"
-          ],
-          "data": {
-            "v1.0.0": {
-              "title": "",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "4.x - 5.x",
-                  "info": {
-                    "name": "ComboTable",
-                    "summary": "A selectbox with incemental search",
-                    "description": "A selectbox using a qooxdoo table to show list of options supporting incremental search.",
-                    "homepage": "http://contrib.qooxdoo.org/project/ComboTable",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Tobi Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      },
-                      {
-                        "name": "Mustafa Sak",
-                        "email": "info@saksys.de"
-                      }
-                    ],
-                    "version": "trunk",
-                    "qooxdoo-versions": [
-                      "4.x - 5.x"
-                    ]
-                  },
-                  "provides": {
-                    "namespace": "combotable",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
-            },
-            "v1.0.1": {
-              "title": "ready for qx6",
-              "prerelease": false,
-              "manifests": [
-                {
-                  "path": "Manifest.json",
-                  "qx_versions": "^6.0.0-alpha",
-                  "info": {
-                    "name": "ComboTable",
-                    "summary": "A qooxdoo SelectBox with incremental search",
-                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
-                    "homepage": "http://github.com/oetiker/ComboTable",
-                    "license": "LGPL/EPL",
-                    "authors": [
-                      {
-                        "name": "Tobi Oetiker (oetiker)",
-                        "email": "tobi@oetiker.ch"
-                      }
-                    ],
-                    "version": "1.0.1"
-                  },
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  },
-                  "provides": {
-                    "namespace": "combotable",
-                    "encoding": "utf-8",
-                    "class": "source/class",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  }
-                }
-              ],
-              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.1.zip"
-            }
-          }
-        }
-      },
       "sqville/sqv-qxthemes": {
         "description": "Themes for the qooxdoo javascript framework",
         "url": "https://api.github.com/repos/sqville/sqv-qxthemes",
@@ -15697,5 +15734,5 @@
   },
   "compat": {},
   "version": "2.1.0",
-  "num_libraries": 334
+  "num_libraries": 335
 }
