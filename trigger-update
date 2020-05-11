@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# send repository dispatch event to webhook endpoint
+curl -H "Accept: application/vnd.github.everest-preview+json" \
+    -H "Authorization: token $GITHUB_TOKEN" \
+    --request POST \
+    --data '{"event_type": "rebuild-cache"}' \
+    https://api.github.com/repos/qooxdoo/package-cache/dispatches
