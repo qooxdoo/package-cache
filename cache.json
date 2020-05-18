@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 350,
+  "num_libraries": 352,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -11226,11 +11226,57 @@
               "published_at": "2019-09-04T22:15:23Z",
               "title": "v3.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.1.zip"
+            },
+            "v3.0.2": {
+              "comment": "fix schema url",
+              "id": 26620194,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "3.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-18T09:59:51Z",
+              "title": "v3.0.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.2.zip"
             }
           },
           "list": [
             "v3.0.0",
-            "v3.0.1"
+            "v3.0.1",
+            "v3.0.2"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.dialog"
@@ -11451,6 +11497,49 @@
               "published_at": "2019-07-25T14:06:08Z",
               "title": "v1.0.0-beta.1",
               "zip_url": "https://github.com/qooxdoo/qxl.formdemo/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.1": {
+              "comment": "fix schema url",
+              "id": 26620268,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo containing a container showing all form items.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "formdemo",
+                    "summary": "Common used from demo",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.formdemo",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-18T10:01:39Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.formdemo/archive/v1.0.1.zip"
             }
           },
           "list": [
@@ -11458,7 +11547,8 @@
             "v0.1.2",
             "v1.0.0-beta.0",
             "v1.0.0-beta.1",
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.formdemo"
