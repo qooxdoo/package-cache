@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 363,
+  "num_libraries": 364,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -15303,6 +15303,56 @@
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.test2"
       },
+      "qooxdoo/qxl.testnode": {
+        "description": "Qooxdoo tests with node ",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "first version of testing qoxdoo test with node",
+              "id": 27233491,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "qxl.testnode",
+                    "summary": "Run qooxdoo tests with qx test in an node enviroment",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testnode",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-06-04T17:55:07Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.testnode/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/qxl.testnode"
+      },
       "qooxdoo/qxl.testtapper": {
         "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
         "releases": {
@@ -17995,6 +18045,7 @@
       "qooxdoo/qxl.playground",
       "qooxdoo/qxl.test1",
       "qooxdoo/qxl.test2",
+      "qooxdoo/qxl.testnode",
       "qooxdoo/qxl.testtapper",
       "qooxdoo/qxl.tutorial",
       "qooxdoo/qxl.tweet-tutorial",
