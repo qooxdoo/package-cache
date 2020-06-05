@@ -8,7 +8,8 @@ using a [command line interface](http://www.qooxdoo.org/docs/#/cli/packages).
 
 We store a cache of json data here which is generated nightly from querying
 the GitHub API and can be donwloaded by executing `npx qx package update`. 
-If you need more frequent updates, use a  
+If you need more frequent updates, use a  `npx qx package update --search`. 
+Note that you have to set a GitHub Token first, using `npx qx config set github.token <your token>`.
 
 For reasons of security and quality assurance, whenever a package release is detected 
 in the nightly cron job, a PR is created that needs to be reviewed by the qooxdoo 
