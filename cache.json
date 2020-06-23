@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 370,
+  "num_libraries": 371,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7405,6 +7405,47 @@
         "description": "This is an incubator to add an extensible JSON-RPC API to the qooxdoo framework ",
         "releases": {
           "data": {
+            "v1.0.0": {
+              "comment": "First public release",
+              "id": 27807097,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "This adds a extensible API for JSON-RPC via different transports",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.io.jsonrpc",
+                    "summary": "Qooxdoo JSON-RPC v2 API",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
+                    "qooxdoo/qxl.testtapper": "^0.5.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-06-22T23:18:03Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v1.0.0.zip"
+            },
             "v1.0.0-beta1": {
               "comment": "",
               "id": 26386315,
@@ -7448,7 +7489,8 @@
             }
           },
           "list": [
-            "v1.0.0-beta1"
+            "v1.0.0-beta1",
+            "v1.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.jsonrpc"
