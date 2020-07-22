@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 338,
+  "num_libraries": 371,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7247,6 +7247,160 @@
         },
         "url": "https://api.github.com/repos/oposs/headerpuppet"
       },
+      "qooxdoo-archive/qxl.testrunner": {
+        "description": "(deprecated) A modular test runner application for qooxdoo to run JSUnit-like unit tests",
+        "releases": {
+          "data": {
+            "v1.0.0-beta.0": {
+              "comment": "first pkg release",
+              "id": 18752115,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (d_wagner)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "A modular test runner application to run JSUnit-like unit tests.",
+                    "homepage": "http://demo.qooxdoo.org/",
+                    "keywords": [
+                      "unit",
+                      "test",
+                      "test runner"
+                    ],
+                    "license": "MIT",
+                    "name": "testrunner",
+                    "summary": "Unit testing framework",
+                    "version": "1.0.0-beta.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testrunner.ApplicationBasic",
+                      "environment": {
+                        "qx.testNameSpace": "*.test",
+                        "qxl.testrunner.performance": true,
+                        "qxl.testrunner.reportPerfResultUrl": "",
+                        "qxl.testrunner.reportServer": "",
+                        "qxl.testrunner.testOrigin": "inline",
+                        "qxl.testrunner.testParts": false,
+                        "qxl.testrunner.view": "qxl.testrunner.view.Html"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testrunner",
+                      "theme": "qx.theme.Simple",
+                      "title": "The Qooxdoo Test Runner"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testrunner",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-20T20:49:00Z",
+              "title": "v1.0.0-beta.0",
+              "zip_url": "https://github.com/qooxdoo-archive/qxl.testrunner/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "comment": "Release v1.0.0-beta.1",
+              "id": 22301056,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (d_wagner)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "A modular test runner application to run JSUnit-like unit tests.",
+                    "homepage": "http://demo.qooxdoo.org/",
+                    "keywords": [
+                      "unit",
+                      "test",
+                      "test runner"
+                    ],
+                    "license": "MIT",
+                    "name": "testrunner",
+                    "summary": "Unit testing framework",
+                    "version": "1.0.0-beta.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testrunner.ApplicationBasic",
+                      "environment": {
+                        "qx.testNameSpace": "*.test",
+                        "qxl.testrunner.performance": true,
+                        "qxl.testrunner.reportPerfResultUrl": "",
+                        "qxl.testrunner.reportServer": "",
+                        "qxl.testrunner.testOrigin": "inline",
+                        "qxl.testrunner.testParts": false,
+                        "qxl.testrunner.view": "qxl.testrunner.view.Html"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testrunner",
+                      "theme": "qx.theme.Simple",
+                      "title": "The Qooxdoo Test Runner"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testrunner",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-12-17T19:50:36Z",
+              "title": "v1.0.0-beta.1",
+              "zip_url": "https://github.com/qooxdoo-archive/qxl.testrunner/archive/v1.0.0-beta.1.zip"
+            }
+          },
+          "list": [
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo-archive/qxl.testrunner"
+      },
       "qooxdoo/incubator.qx.io.jsonrpc": {
         "description": "This is an incubator to add an extensible JSON-RPC API to the qooxdoo framework ",
         "releases": {
@@ -12121,6 +12275,490 @@
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.formdemo"
       },
+      "qooxdoo/qxl.logpane": {
+        "description": "qooxdoo log viewer for demo apps",
+        "releases": {
+          "data": {
+            "v0.1.1": {
+              "comment": "first release extracted from qooxdoo/component/library/logpane",
+              "id": 14451953,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/qx-contrib-logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "Common used log pannel.",
+                    "version": "0.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.contrib.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-12-10T21:21:23Z",
+              "title": "v0.1.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "comment": "moved namespace to qxl.logpane",
+              "id": 14559664,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "Common used log pannel.",
+                    "version": "0.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-12-16T19:48:56Z",
+              "title": "v0.1.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "comment": "Release v0.1.3",
+              "id": 14559835,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "Common used log pannel.",
+                    "version": "0.1.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-12-16T20:20:34Z",
+              "title": "v0.1.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "comment": "Release v0.1.4",
+              "id": 14949820,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "0.1.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-01-13T20:29:23Z",
+              "title": "v0.1.4",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v0.1.4.zip"
+            },
+            "v1.0.0": {
+              "comment": "release stable version",
+              "id": 25197958,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-04-04T13:17:02Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0.zip"
+            },
+            "v1.0.0-beta.0": {
+              "comment": "add dummy resource dir",
+              "id": 18165155,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.0-beta.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-06-23T10:16:56Z",
+              "title": "v1.0.0-beta.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "comment": "add property to show/hide toolbar",
+              "id": 18480953,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.0-beta.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-08T20:36:18Z",
+              "title": "v1.0.0-beta.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.0-beta.2": {
+              "comment": "fix problems",
+              "id": 18864040,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.0-beta.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-25T14:08:24Z",
+              "title": "v1.0.0-beta.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.2.zip"
+            },
+            "v1.0.0-beta.3": {
+              "comment": "add apiviewer",
+              "id": 18966371,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.0-beta.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-30T19:28:13Z",
+              "title": "v1.0.0-beta.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.0-beta.3.zip"
+            },
+            "v1.0.1": {
+              "comment": "fix schema url",
+              "id": 26619881,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-18T09:50:59Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.1.zip"
+            }
+          },
+          "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1",
+            "v1.0.0-beta.2",
+            "v1.0.0-beta.3",
+            "v1.0.0",
+            "v1.0.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/qxl.logpane"
+      },
       "qooxdoo/qxl.mobileshowcase": {
         "description": "qooxdoo showcase for mobile app",
         "releases": {
@@ -15157,6 +15795,1303 @@
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.testnode"
       },
+      "qooxdoo/qxl.testtapper": {
+        "description": "A headless testrunner for qooxdoo unit tests using the TAP protocol",
+        "releases": {
+          "data": {
+            "v0.1.0": {
+              "comment": "",
+              "id": 15661146,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "apiviewer",
+                      "theme": "qxl.testtapper.Theme",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-20T08:25:50Z",
+              "title": "First Test",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.0.zip"
+            },
+            "v0.1.1": {
+              "comment": "",
+              "id": 15668229,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testapper",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-20T14:01:26Z",
+              "title": "Fix Name",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "comment": "",
+              "id": 15670629,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-20T15:25:02Z",
+              "title": "Robustus",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.2.zip"
+            },
+            "v0.1.3": {
+              "comment": "",
+              "id": 15779569,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-26T13:10:05Z",
+              "title": "TapTapTap",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.3.zip"
+            },
+            "v0.1.4": {
+              "comment": "",
+              "id": 15780778,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-26T13:58:59Z",
+              "title": "Stable Exit",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.4.zip"
+            },
+            "v0.1.5": {
+              "comment": "",
+              "id": 15781282,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-26T14:17:25Z",
+              "title": "Called Arguments",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.5.zip"
+            },
+            "v0.1.6": {
+              "comment": "",
+              "id": 15783857,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.1.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-26T15:43:39Z",
+              "title": "Promisification",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.1.6.zip"
+            },
+            "v0.2.0": {
+              "comment": "",
+              "id": 15806951,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.2.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-27T13:56:09Z",
+              "title": "CoverIt",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "comment": "",
+              "id": 16576152,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.2.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-04-05T09:39:13Z",
+              "title": "Make --verbose work",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.2.1.zip"
+            },
+            "v0.3.0": {
+              "comment": "Properly handle all the error conditions introduced via the test suite",
+              "id": 16919339,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.3.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-04-23T12:09:42Z",
+              "title": "Integrated Test Suite",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.3.0.zip"
+            },
+            "v0.3.1": {
+              "comment": "",
+              "id": 17353663,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.3.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "include": [
+                        "myapp.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-05-14T21:44:01Z",
+              "title": "Sync up with tutorial",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.3.1.zip"
+            },
+            "v0.4.1": {
+              "comment": "Do run test classes in sequence to prevent odd effects with classes accessing shared resources in parallel.\r\n0.4.1 (filter for functions and async)",
+              "id": 17627184,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-05-28T12:27:12Z",
+              "title": "Run'em in sequence",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.1.zip"
+            },
+            "v0.4.3": {
+              "comment": "more fixes",
+              "id": 18491474,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-09T09:27:15Z",
+              "title": "v0.4.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.3.zip"
+            },
+            "v0.4.4": {
+              "comment": "change class detection to use the qooxdoo way",
+              "id": 22586706,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-01-03T21:13:49Z",
+              "title": "v0.4.4",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.4.zip"
+            },
+            "v0.4.5": {
+              "comment": "add qx test support",
+              "id": 22630497,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-01-06T21:27:36Z",
+              "title": "v0.4.5",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.5.zip"
+            },
+            "v0.4.6": {
+              "comment": "fix starting path: the path is different if showStartpage is set or not",
+              "id": 22712608,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-01-09T14:18:23Z",
+              "title": "v0.4.6",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.6.zip"
+            },
+            "v0.4.7": {
+              "comment": "add terse parameter",
+              "id": 22726643,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.7"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango"
+                      },
+                      "exclude": [
+                        "qx.test.*"
+                      ],
+                      "include": [
+                        "*.test.*",
+                        "*.*.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-01-09T21:50:41Z",
+              "title": "v0.4.7",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.7.zip"
+            },
+            "v0.4.8": {
+              "comment": "fix manifest and logpane issue",
+              "id": 22784891,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.8"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-01-13T10:19:28Z",
+              "title": "v0.4.8",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.8.zip"
+            },
+            "v0.4.9": {
+              "comment": "fix URL as disussed with derrel for node 8",
+              "id": 22849719,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.4.9"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-01-15T07:55:40Z",
+              "title": "v0.4.9",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.4.9.zip"
+            },
+            "v0.5.0": {
+              "comment": "Added UI for displaying passed/failed tests",
+              "id": 24592622,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.5.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-03-17T12:15:10Z",
+              "title": "v0.5.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.5.0.zip"
+            },
+            "v0.5.1": {
+              "comment": "fix load",
+              "id": 25249433,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "0.5.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-04-06T18:59:05Z",
+              "title": "v0.5.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v0.5.1.zip"
+            }
+          },
+          "list": [
+            "v0.1.0",
+            "v0.1.1",
+            "v0.1.2",
+            "v0.1.3",
+            "v0.1.4",
+            "v0.1.5",
+            "v0.1.6",
+            "v0.2.0",
+            "v0.2.1",
+            "v0.3.0",
+            "v0.3.1",
+            "v0.4.1",
+            "v0.4.3",
+            "v0.4.4",
+            "v0.4.5",
+            "v0.4.6",
+            "v0.4.7",
+            "v0.4.8",
+            "v0.4.9",
+            "v0.5.0",
+            "v0.5.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper"
+      },
       "qooxdoo/qxl.tutorial": {
         "description": "The tutorial moved to a seperate project ",
         "releases": {
@@ -16535,6 +18470,7 @@
       "oetiker/QxTangible",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
+      "qooxdoo-archive/qxl.testrunner",
       "qooxdoo/incubator.qx.io.jsonrpc",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
@@ -16545,12 +18481,14 @@
       "qooxdoo/qxl.demobrowser",
       "qooxdoo/qxl.dialog",
       "qooxdoo/qxl.formdemo",
+      "qooxdoo/qxl.logpane",
       "qooxdoo/qxl.mobileshowcase",
       "qooxdoo/qxl.packagebrowser",
       "qooxdoo/qxl.playground",
       "qooxdoo/qxl.test1",
       "qooxdoo/qxl.test2",
       "qooxdoo/qxl.testnode",
+      "qooxdoo/qxl.testtapper",
       "qooxdoo/qxl.tutorial",
       "qooxdoo/qxl.tweet-tutorial",
       "qooxdoo/qxl.versionlabel",
