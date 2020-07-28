@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 374,
+  "num_libraries": 375,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2091,6 +2091,46 @@
               "published_at": "2020-04-24T16:15:16Z",
               "title": "Sparc Portal theme added",
               "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.4.zip"
+            },
+            "v0.5.5": {
+              "comment": "oSPARC specific aliases are brought back to the oSPARC repo. (Or most of them)\r\nProbably some colors are still left to be moved in the future.",
+              "id": 29025926,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.swiss",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "version": "0.5.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "osparc.theme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-07-28T12:05:33Z",
+              "title": "Moved oSPARC specificities",
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.5.zip"
             }
           },
           "list": [
@@ -2119,7 +2159,8 @@
             "v0.5.0",
             "v0.5.2",
             "v0.5.3",
-            "v0.5.4"
+            "v0.5.4",
+            "v0.5.5"
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme"
