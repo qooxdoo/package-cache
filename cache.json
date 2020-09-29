@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 376,
+  "num_libraries": 377,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2131,6 +2131,47 @@
               "published_at": "2020-07-28T12:05:33Z",
               "title": "Moved oSPARC specificities",
               "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.5.zip"
+            },
+            "v0.5.6": {
+              "comment": "",
+              "id": 31125154,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.swiss",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "version": "0.5.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "osparc.theme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "ITISFoundation/qx-iconfont-fontawesome5": "^0.2.0",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.5"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-09-11T12:42:25Z",
+              "title": "LightBlue and Purple themes added",
+              "zip_url": "https://github.com/ITISFoundation/qx-osparc-theme/archive/v0.5.6.zip"
             }
           },
           "list": [
@@ -2160,7 +2201,8 @@
             "v0.5.2",
             "v0.5.3",
             "v0.5.4",
-            "v0.5.5"
+            "v0.5.5",
+            "v0.5.6"
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme"
@@ -7493,7 +7535,7 @@
         "url": "https://api.github.com/repos/qooxdoo-archive/qxl.testrunner"
       },
       "qooxdoo/incubator.qx.io.jsonrpc": {
-        "description": "This is an incubator to add an extensible JSON-RPC API to the qooxdoo framework ",
+        "description": "This incubator contains a proposal to add a framework for transport-agnostic higher-level i/o protocols to the qx.io namespace. ",
         "releases": {
           "data": {
             "v1.0.0": {
@@ -8064,79 +8106,6 @@
         "description": "qooxdoo apiviewer app",
         "releases": {
           "data": {
-            "v0.1.12": {
-              "comment": "Release v0.1.12",
-              "id": 14609084,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      },
-                      {
-                        "email": "daniel DOT wagner AT 1und1 DOT de",
-                        "name": "Daniel Wagner (dwagner)"
-                      },
-                      {
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
-                        "name": "Adrian Olaru (adrianolaru)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "license": "MIT",
-                    "name": "Qooxdoo API Viewer",
-                    "qooxdoo-range": "^6.0.0-alpha",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "version": "0.1.12"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.apiviewer.Application",
-                      "environment": {
-                        "excludeFromAPIViewer": [
-                          "qxl.apiviewer.*"
-                        ]
-                      },
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "apiviewer",
-                      "theme": "qxl.apiviewer.Theme",
-                      "title": "Qooxdoo API Viewer"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.apiviewer",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "add-in"
-                  },
-                  "qx_versions": "^6.0.0-alpha"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2018-12-19T08:23:08Z",
-              "title": "v0.1.12",
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.12.zip"
-            },
             "v0.1.13": {
               "comment": "Release v0.1.13",
               "id": 16735700,
@@ -9760,6 +9729,86 @@
               "title": "v1.0.11",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.11.zip"
             },
+            "v1.0.12": {
+              "comment": "fix events, fix comment",
+              "id": 31902126,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (dwagner)"
+                      },
+                      {
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
+                        "name": "Adrian Olaru (adrianolaru)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "Qooxdoo API Viewer",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "version": "1.0.12"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "qxl.apiviewer.applicationName": "",
+                        "qxl.apiviewer.exclude": [
+                          "qxl.apiviewer.*"
+                        ],
+                        "qxl.apiviewer.include": [
+                        ]
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "apiviewer",
+                      "theme": "qxl.apiviewer.Theme",
+                      "title": "Qooxdoo API Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.apiviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-09-28T19:15:21Z",
+              "title": "v1.0.12",
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.12.zip"
+            },
             "v1.0.2": {
               "comment": "fix schema url",
               "id": 26619907,
@@ -10393,7 +10442,6 @@
             }
           },
           "list": [
-            "v0.1.12",
             "v0.1.13",
             "v0.1.14",
             "v0.1.15",
@@ -10422,7 +10470,8 @@
             "v1.0.8",
             "v1.0.9",
             "v1.0.10",
-            "v1.0.11"
+            "v1.0.11",
+            "v1.0.12"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.apiviewer"
