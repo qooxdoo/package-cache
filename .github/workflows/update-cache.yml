@@ -23,7 +23,7 @@ jobs:
           if git diff --quiet --exit-code; then
             echo "No changes."
           else
-            echo "::set-env name=CREATE_PR::1"
+            echo "::set-env name=CREATE_PR::1" >> $GITHUB_ENV
           fi
       - name: Create Pull Request
         if: ${{ env.CREATE_PR }}
