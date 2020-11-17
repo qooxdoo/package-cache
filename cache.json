@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 380,
+  "num_libraries": 381,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6517,13 +6517,49 @@
               "published_at": "2018-12-04T13:44:28Z",
               "title": "v1.0.4",
               "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "minor fixes",
+              "id": 34046185,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "Library for uploading files, with progress feedback and doesn't block UI",
+                    "homepage": "http://www.zenesis.com/",
+                    "license": "LGPL and EPL (see http://qooxdoo.org)",
+                    "name": "UploadMgr",
+                    "summary": "Uploader widget",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "com.zenesis.qx.upload",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-11-17T09:18:29Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/johnspackman/UploadMgr/archive/v1.0.5.zip"
             }
           },
           "list": [
             "v1.0.0",
             "v1.0.1",
             "v1.0.3",
-            "v1.0.4"
+            "v1.0.4",
+            "v1.0.5"
           ]
         },
         "url": "https://api.github.com/repos/johnspackman/UploadMgr"
