@@ -24,7 +24,7 @@ jobs:
             echo "No changes."
           else
             echo "changes found."
-            echo "set-env name=CREATE_PR::1" >> $GITHUB_ENV
+            echo "CREATE_PR=1" >> $GITHUB_ENV
           fi
       - name: Create Pull Request
         if: ${{ env.CREATE_PR }}
