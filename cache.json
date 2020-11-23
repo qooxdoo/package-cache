@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 383,
+  "num_libraries": 384,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7729,11 +7729,53 @@
               "published_at": "2020-05-11T16:04:37Z",
               "title": "First beta release",
               "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v1.0.0-beta1.zip"
+            },
+            "v2.0.0": {
+              "comment": "Release of v2 including a GraphQL client",
+              "id": 34320806,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "Framework for transport-agnostic high-level i/o protocols such as the JSON-RPC v2 or GraphQL",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.io.jsonrpc",
+                    "summary": "Support for transport-agnostic I/O protocols",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
+                    "qooxdoo/qxl.testtapper": "^0.5.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-11-23T16:55:34Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v2.0.0.zip"
             }
           },
           "list": [
             "v1.0.0-beta1",
-            "v1.0.0"
+            "v1.0.0",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.jsonrpc"
