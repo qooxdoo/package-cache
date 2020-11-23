@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 382,
+  "num_libraries": 384,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -603,6 +603,79 @@
               "published_at": "2020-03-25T09:05:14Z",
               "title": "Fontawesome 5.13",
               "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.2.0.zip"
+            },
+            "v0.2.1": {
+              "comment": "SVG fonts are not used by qx and cause confusion since they do not adher to svg conventions ...  dropped them.",
+              "id": 34295764,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "qooxdoo integration of the font awesome iconfonts",
+                    "homepage": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5",
+                    "license": "MIT license",
+                    "name": "qx-iconfont-fontawesome5",
+                    "summary": "font awesome 5 iconfont",
+                    "version": "0.2.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "iconfont.fontawesome5",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "webfonts": [
+                      {
+                        "comparisonString": "\\uf26e\\uf368",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/fontawesome5/fa-brands.json",
+                        "name": "FontAwesome5Brands",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-brands-400.eot",
+                          "iconfont/fontawesome5/fa-brands-400.woff2",
+                          "iconfont/fontawesome5/fa-brands-400.woff",
+                          "iconfont/fontawesome5/fa-brands-400.ttf"
+                        ]
+                      },
+                      {
+                        "comparisonString": "\\uf2b9\\uf2bb",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/fontawesome5/fa-regular.json",
+                        "name": "FontAwesome5Regular",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-regular-400.eot",
+                          "iconfont/fontawesome5/fa-regular-400.woff2",
+                          "iconfont/fontawesome5/fa-regular-400.woff",
+                          "iconfont/fontawesome5/fa-regular-400.ttf"
+                        ]
+                      },
+                      {
+                        "comparisonString": "\\uf2b9\\uf2bb",
+                        "defaultSize": 32,
+                        "mapping": "iconfont/fontawesome5/fa-solid.json",
+                        "name": "FontAwesome5Solid",
+                        "resources": [
+                          "iconfont/fontawesome5/fa-solid-900.eot",
+                          "iconfont/fontawesome5/fa-solid-900.woff2",
+                          "iconfont/fontawesome5/fa-solid-900.woff",
+                          "iconfont/fontawesome5/fa-solid-900.ttf"
+                        ]
+                      }
+                    ]
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-11-23T07:35:19Z",
+              "title": "Drop SVG",
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.2.1.zip"
             }
           },
           "list": [
@@ -613,7 +686,8 @@
             "v0.0.6",
             "v0.1.1",
             "v0.1.2",
-            "v0.2.0"
+            "v0.2.0",
+            "v0.2.1"
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5"
@@ -7655,11 +7729,53 @@
               "published_at": "2020-05-11T16:04:37Z",
               "title": "First beta release",
               "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v1.0.0-beta1.zip"
+            },
+            "v2.0.0": {
+              "comment": "Release of v2 including a GraphQL client",
+              "id": 34320806,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "Framework for transport-agnostic high-level i/o protocols such as the JSON-RPC v2 or GraphQL",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.io.jsonrpc",
+                    "summary": "Support for transport-agnostic I/O protocols",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
+                    "qooxdoo/qxl.testtapper": "^0.5.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-11-23T16:55:34Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v2.0.0.zip"
             }
           },
           "list": [
             "v1.0.0-beta1",
-            "v1.0.0"
+            "v1.0.0",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.jsonrpc"
