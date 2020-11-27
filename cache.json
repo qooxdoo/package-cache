@@ -604,9 +604,9 @@
               "title": "Fontawesome 5.13",
               "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.2.0.zip"
             },
-            "v0.2.1": {
-              "comment": "SVG fonts are not used by qx and cause confusion since they do not adher to svg conventions ...  dropped them.",
-              "id": 34295764,
+            "v0.2.2": {
+              "comment": "",
+              "id": 34482383,
               "manifests": [
                 {
                   "info": {
@@ -617,7 +617,7 @@
                     "license": "MIT license",
                     "name": "qx-iconfont-fontawesome5",
                     "summary": "font awesome 5 iconfont",
-                    "version": "0.2.0"
+                    "version": "0.2.2"
                   },
                   "path": "Manifest.json",
                   "provides": {
@@ -673,9 +673,9 @@
                 }
               ],
               "prerelease": false,
-              "published_at": "2020-11-23T07:35:19Z",
-              "title": "Drop SVG",
-              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.2.1.zip"
+              "published_at": "2020-11-26T21:25:02Z",
+              "title": "Fix Release Version",
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-fontawesome5/archive/v0.2.2.zip"
             }
           },
           "list": [
@@ -687,7 +687,7 @@
             "v0.1.1",
             "v0.1.2",
             "v0.2.0",
-            "v0.2.1"
+            "v0.2.2"
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-fontawesome5"
