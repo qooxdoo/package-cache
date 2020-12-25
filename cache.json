@@ -3550,7 +3550,7 @@
         "url": "https://api.github.com/repos/cboulanger/qooxdoo-contrib-test"
       },
       "cboulanger/qx-contrib-Dialog": {
-        "description": "A set of often used dialog widgets for the qooxdoo framework",
+        "description": "A set of often used dialog widgets for the qooxdoo framework (deprecated, use qooxdoo/qxl.dialog instead)",
         "releases": {
           "data": {
             "v1.2.1": {
