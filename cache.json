@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 386,
+  "num_libraries": 387,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -19245,6 +19245,56 @@
         },
         "url": "https://api.github.com/repos/sqville/sqv-qxthemes"
       },
+      "voger/qxDateSelect": {
+        "description": "A simple select date widget for Qooxdoo framework",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "",
+              "id": 35728608,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "voger",
+                        "name": ""
+                      }
+                    ],
+                    "description": " A widget that allows selecting a date based on select boxes.",
+                    "homepage": " https://github.com/voger/qxDateSelect",
+                    "license": "MIT license",
+                    "name": "qxDateSelect",
+                    "summary": " A simple select date widget.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxDateSelect",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta-20200904-1332",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-12-26T12:16:08Z",
+              "title": "Release",
+              "zip_url": "https://github.com/voger/qxDateSelect/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/voger/qxDateSelect"
+      },
       "voger/qxgraphql": {
         "description": null,
         "releases": {
@@ -19350,6 +19400,7 @@
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
       "sqville/sqv-qxthemes",
+      "voger/qxDateSelect",
       "voger/qxgraphql"
     ]
   },
