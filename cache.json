@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 386,
+  "num_libraries": 388,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -12478,6 +12478,51 @@
               "published_at": "2020-10-20T12:38:56Z",
               "title": "v3.0.4",
               "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.0.4.zip"
+            },
+            "v3.1.0": {
+              "comment": "v3.1.0 (Enhancements by @derrell)\r\n\r\n- Refactored `qxl.dialog.Dialog` and `qxl.dialog.Form`\r\n  - The mass of functionality for Dialog and Form now resides in\r\n    mixins, MDialog and MForm. The MDialog mixin is included by two\r\n    classes, Dialog and DialogEmbed; and the MForm mixin is included\r\n    by two classes, Form and FormEmbed. The Dialog and Form classes\r\n    work as they always have, creating a pop-up window in which to\r\n    render. The new DialogEmbed and FormEmbed classes allow forms to\r\n    be placed in any arbitrary container of the programmer's choice,\r\n    so that these classes can be used for the main functionality on a\r\n    page rather than only as pop-ups.\r\n  - It is now easy to extend the Form functionality (both windowed and\r\n    embedded) with form elements that are not provided as part of this\r\n    package. All form elements, including those provided with this\r\n    package, are now registered in a standard way. This means that\r\n    user applications can register form elements not provided by this\r\n    package, and include them in forms created using this package.\r\n- Added a generic multi-column form renderer, and the ability for an\r\n  application to easily provide its own form renderer.\r\n- Arbitrary propery settings can be provided to any form element.\r\n- Arbitrary events can be handled from any form element.\r\n- Arbitrary userdata can be specified for any form element. This is\r\n  used, within this package, to specify row and column numbers for the\r\n  multi-column form renderer, but it can be used for any other\r\n  application needs as well.\r\n- A `finalizeFunction` can be provided, which will be called when a\r\n  form is completely generated. This finalize function may be used at\r\n  the application's discretion, but in particular, it allows the\r\n  application to add validation to the complete form, that requires\r\n  that all of the form elements have been added to the form.\r\n- Access is provided via the `_formElements` map, to all of the form\r\n  elements. The map is keyed by the same keys provided in the\r\n  `formData` map.\r\n- `beforeFormFunction`, `afterButtonsFunction`, and\r\n  `afterFormFunction` allow widgets to be added above and below the\r\n  form, e.g., headings, or buttons that act on the form.\r\n- Fixed the non-functioning `labelColumnWidth`",
+              "id": 35771921,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "3.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-12-28T13:36:13Z",
+              "title": "v3.1.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.1.0.zip"
             }
           },
           "list": [
@@ -12485,7 +12530,8 @@
             "v3.0.1",
             "v3.0.2",
             "v3.0.3",
-            "v3.0.4"
+            "v3.0.4",
+            "v3.1.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.dialog"
@@ -19245,6 +19291,56 @@
         },
         "url": "https://api.github.com/repos/sqville/sqv-qxthemes"
       },
+      "voger/qxDateSelect": {
+        "description": "A simple select date widget for Qooxdoo framework",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "",
+              "id": 35728608,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "voger",
+                        "name": ""
+                      }
+                    ],
+                    "description": " A widget that allows selecting a date based on select boxes.",
+                    "homepage": " https://github.com/voger/qxDateSelect",
+                    "license": "MIT license",
+                    "name": "qxDateSelect",
+                    "summary": " A simple select date widget.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxDateSelect",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta-20200904-1332",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-12-26T12:16:08Z",
+              "title": "Release",
+              "zip_url": "https://github.com/voger/qxDateSelect/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/voger/qxDateSelect"
+      },
       "voger/qxgraphql": {
         "description": null,
         "releases": {
@@ -19350,6 +19446,7 @@
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
       "sqville/sqv-qxthemes",
+      "voger/qxDateSelect",
       "voger/qxgraphql"
     ]
   },
