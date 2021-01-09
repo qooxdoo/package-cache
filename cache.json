@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 388,
+  "num_libraries": 389,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -18690,6 +18690,43 @@
               "published_at": "2020-05-18T09:46:48Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "add eviroment vars to manifest",
+              "id": 36157288,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-01-08T18:46:45Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.2.zip"
             }
           },
           "list": [
@@ -18700,7 +18737,8 @@
             "v1.0.0-beta.2",
             "v1.0.0-beta.3",
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel"
