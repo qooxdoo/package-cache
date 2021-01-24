@@ -14,9 +14,8 @@ be up-to-date - it is updated nightly.
 
 # Package releases
 
-<div id="releases"></div>
 <div>[ <a onclick="create_table();">Alphabetically</a>] [ <a onclick="create_table(1);">Last released</a>]</div>
-
+<div id="releases"></div>
 <script defer="defer" type="application/javascript">
 async function create_table(by_date=false) {
     let cache = await (await fetch("https://raw.githubusercontent.com/qooxdoo/package-cache/master/cache.json")).json();
