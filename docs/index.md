@@ -12,9 +12,10 @@ For more information on the individual packages, please view the online
 contains live demos of the packages. Please note that the Package Viewer might not
 be up-to-date - it is updated nightly. 
 
-# Package releases
+### Package releases
 
 <div>[ <a onclick="create_table();">Alphabetically</a>] [ <a onclick="create_table(1);">Last released</a>]</div>
+
 <div id="releases"></div>
 <script defer="defer" type="application/javascript">
 async function create_table(by_date=false) {
@@ -30,12 +31,14 @@ async function create_table(by_date=false) {
         let data = cache.repos.data[repo];
         let releases_list = data.releases.list;
         let latest_release = releases_list[releases_list.length-1] || "";
+        let repo_html = `<a href="https://github.com/${repo}">${repo}</a>`;
+        let latest_release_html = latest_release ? `<a href="https://qooxdoo.org/qxl.packagebrowser/#${repo.replace("/","~")}~library">${latest_release}</a>` : "";
         if (latest_release && by_date) {
             let published_at = data.releases.data[latest_release].published_at;
             releases_by_date[published_at] = releases_table.length;
-            releases_table.push(`<tr><td>${repo}</td><td>${latest_release} (${published_at})</td><td>${data.description}</td></tr>`);
+            releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html} (${published_at})</td><td>${data.description}</td></tr>`);
         } else {
-            releases_table.push(`<tr><td>${repo}</td><td>${latest_release}</td><td>${data.description}</td></tr>`);
+            releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html}</td><td>${data.description}</td></tr>`);
         }
     }
     html.push( by_date 
