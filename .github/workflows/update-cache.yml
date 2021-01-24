@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - 'docs/**'
   schedule:
     - cron:  '0 0/6 * * *'
   repository_dispatch:

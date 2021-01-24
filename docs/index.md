@@ -9,8 +9,10 @@ We store a cache of json data here which is generated nightly from querying the 
 For reasons of security and quality assurance, whenever a package release is detected in the nightly cron job, a PR is created that needs to be reviewed by the qooxdoo team. One review is sufficient to merge the PR.
 
 <script defer="defer" type="application/javascript">
- let cache = JSON.parse(fetch("https://raw.githubusercontent.com/qooxdoo/package-cache/master/cache.json"));
+(async () => {
+ let cache = (await fetch("https://raw.githubusercontent.com/qooxdoo/package-cache/master/cache.json")).json();
  console.log(cache)
+})();
 </script>
 
  
