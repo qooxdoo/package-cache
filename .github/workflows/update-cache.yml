@@ -37,3 +37,9 @@ jobs:
           title: Automated Cache Updates
           body: This is an auto-generated PR with updates to the package cache
           branch: update-cache
+
+# https://github.com/marketplace/actions/merge-me
+#      - name: Merge Pull Request if from trusted contributor
+#        uses: ridedott/merge-me-action@v1
+#        with:
+#          GITHUB_TOKEN: ${{ secrets.PAT }}
