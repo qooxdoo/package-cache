@@ -2,13 +2,15 @@
 
 ![Update Package Cache](https://github.com/qooxdoo/package-cache/workflows/Update%20Package%20Cache/badge.svg)
 
-This repository is part of the qooxdoo package system, qooxdoo's
-"plugin" architecture. Packages contain qooxdoo libraries
-that can be loaded on-demand, using a command line interface.
+This repository is part of the qooxdoo package system,
+qooxdoo's "plugin" architecture. Packages contain qooxdoo
+libraries that can be loaded on-demand, using [a command line
+interface](https://qooxdoo.org/documentation/#/development/cli/packages).
 
 For more information on the individual packages, please view the online 
 [Qooxdoo Package Browser ](https://qooxdoo.org/qxl.packagebrowser/) which also
-contains the 
+contains live demos of the packages. Please note that the Package Viewer might not
+be up-to-date - it is updated nightly. 
 
 # Latest releases
 
@@ -28,6 +30,6 @@ contains the
         html.push(`<tr><td>${repo}</td><td>${latest_release}</td><td>${data.description}</td></tr>`);
     }
     html.push(`</table>`);
-    document.getElementById("releases").innerHTML = html.join("/n");
+    document.getElementById("releases").innerHTML = html.join("\n");
 })();
 </script>
