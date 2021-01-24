@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Qooxdoo Package Cache
 
-You can use the [editor on GitHub](https://github.com/qooxdoo/package-cache/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![Update Package Cache](https://github.com/qooxdoo/package-cache/workflows/Update%20Package%20Cache/badge.svg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repository is part of the qooxdoo package system, qooxdoo's "plugin" architecture. Packages contain qooxdoo libraries that can be loaded on-demand, using a command line interface.
 
-### Markdown
+We store a cache of json data here which is generated nightly from querying the GitHub API and can be donwloaded by executing npx qx package update. If you need more frequent updates, use `npx qx package update --search`. Note that you have to set a GitHub Token first, using `npx qx config set github.token <your token>`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qooxdoo/package-cache/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+For reasons of security and quality assurance, whenever a package release is detected in the nightly cron job, a PR is created that needs to be reviewed by the qooxdoo team. One review is sufficient to merge the PR.
