@@ -10,8 +10,17 @@ For reasons of security and quality assurance, whenever a package release is det
 
 <script defer="defer" type="application/javascript">
 (async () => {
- let cache = (await fetch("https://raw.githubusercontent.com/qooxdoo/package-cache/master/cache.json")).json();
- console.log(cache)
+    let cache = await (await fetch("https://raw.githubusercontent.com/qooxdoo/package-cache/master/cache.json")).json();
+    document.writeln(`<div>Number of releases: ${cache.num_libraries}</div>`);
+    document.writeln(`<h3>Latest releases</h3>`);
+    let table_html = `<table><th><td>Repository Name</td><td>Version</td><td>Description</td></th>`;
+    for (let repo of cache.repos.list) {
+        let data = cache.repos.data[repo];
+        let releases = data.releases.list;
+        let latest_release = releases[releases.length-1] || "";
+        table_html += `<tr><td>${repo}</td><td>${latest_release}</td><td>${data.description}</td></tr>`;
+    }
+    document.writeln(table_html + `</table>`);
 })();
 </script>
 
