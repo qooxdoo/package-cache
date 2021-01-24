@@ -1,10 +1,7 @@
-## Qooxdoo Package Cache
-
 ![Update Package Cache](https://github.com/qooxdoo/package-cache/workflows/Update%20Package%20Cache/badge.svg)
 
-This repository is part of the qooxdoo package system,
-qooxdoo's "plugin" architecture. Packages contain qooxdoo
-libraries that can be loaded on-demand, using [a command line
+The qooxdoo package system is qooxdoo's "plugin" architecture. Packages
+contain qooxdoo libraries that can be loaded on-demand, using [a command line
 interface](https://qooxdoo.org/documentation/#/development/cli/packages).
 
 For more information on the individual packages, please view the online 
