@@ -22,14 +22,15 @@ be up-to-date - it is updated nightly.
     let html = [];
     html.push(`<div>Number of releases: ${cache.num_libraries}</div>`);
     html.push(`<table>`);
-    html.push(`<th><td>Repository Name</td><td>Version</td><td>Description</td></th>`);
+    html.push(`<thead><tr><td>Repository Name</td><td>Version</td><td>Description</td></tr></thead>`);
+    html.push(`<tbody>`);
     for (let repo of cache.repos.list) {
         let data = cache.repos.data[repo];
         let releases = data.releases.list;
         let latest_release = releases[releases.length-1] || "";
         html.push(`<tr><td>${repo}</td><td>${latest_release}</td><td>${data.description}</td></tr>`);
     }
-    html.push(`</table>`);
+    html.push(`</tbody></table>`);
     document.getElementById("releases").innerHTML = html.join("\n");
 })();
 </script>
