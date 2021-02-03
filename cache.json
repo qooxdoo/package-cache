@@ -19510,6 +19510,16 @@
         },
         "url": "https://api.github.com/repos/sqville/ville.Clean"
       },
+      "sqville/ville.GroupBox": {
+        "description": "A groupbox desktop control for the Qooxdoo JavaScript Framework",
+        "releases": {
+          "data": {
+          },
+          "list": [
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.GroupBox"
+      },
       "voger/qxDateSelect": {
         "description": "A simple select date widget for Qooxdoo framework",
         "releases": {
@@ -19665,6 +19675,7 @@
       "qooxdoo/qxl.widgetbrowser",
       "sqville/sqv-qxthemes",
       "sqville/ville.Clean",
+      "sqville/ville.GroupBox",
       "voger/qxDateSelect",
       "voger/qxgraphql"
     ]
