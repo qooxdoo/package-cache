@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 392,
+  "num_libraries": 397,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -12125,6 +12125,51 @@
               "published_at": "2020-12-28T13:36:13Z",
               "title": "v3.1.0",
               "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.1.0.zip"
+            },
+            "v3.1.1": {
+              "comment": "move to v6.0.0",
+              "id": 37403247,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "3.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:24:51Z",
+              "title": "v3.1.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v3.1.1.zip"
             }
           },
           "list": [
@@ -12133,7 +12178,8 @@
             "v3.0.2",
             "v3.0.3",
             "v3.0.4",
-            "v3.1.0"
+            "v3.1.0",
+            "v3.1.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.dialog"
@@ -12508,10 +12554,63 @@
               "published_at": "2020-11-22T17:22:53Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.iconfontviewer/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to 6.0.0",
+              "id": 37403390,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "https://github.com/qooxdoo/iconfontviewer",
+                    "license": "MIT license",
+                    "name": "iconfontviewer",
+                    "summary": "show all glyphs of registered iconfonts",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.iconfontviewer.Application",
+                      "include": [
+                        "qx.theme.iconfont.LoadMaterialIcons",
+                        "qx.theme.iconfont.LoadMaterialIconsOutlined",
+                        "qx.theme.iconfont.LoadMaterialIconsRound",
+                        "qx.theme.iconfont.LoadMaterialIconsSharp",
+                        "qx.theme.iconfont.LoadMaterialIconsTwoTone"
+                      ],
+                      "name": "iconfontviewer",
+                      "theme": "qxl.iconfontviewer.theme.Theme",
+                      "title": "Qooxdoo Icon Font Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.iconfontviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:28:57Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.iconfontviewer/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.iconfontviewer"
@@ -13239,13 +13338,62 @@
               "published_at": "2019-07-27T17:59:08Z",
               "title": "v1.0.0-beta.1",
               "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to v6.0.0",
+              "id": 37403642,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "bootPath": "source/boot",
+                      "class": "qxl.mobileshowcase.Application",
+                      "name": "mobileshowcase"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:35:49Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v1.0.1.zip"
             }
           },
           "list": [
             "v0.1.1",
             "v1.0.0-beta.0",
             "v1.0.0-beta.1",
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.mobileshowcase"
@@ -17975,10 +18123,50 @@
               "published_at": "2020-04-28T20:00:57Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.tutorial/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "move to 6.0.0",
+              "id": 37404193,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "",
+                        "name": ""
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "tutorial",
+                    "summary": "",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "tutorial",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:49:04Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.tutorial/archive/v1.0.2.zip"
             }
           },
           "list": [
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.tutorial"
@@ -19278,6 +19466,64 @@
               "published_at": "2019-06-24T19:55:10Z",
               "title": "v1.0.0-beta.0",
               "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to v6.0.0",
+              "id": 37404009,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "qx.theme.Indigo",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.widgetbrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:43:54Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v1.0.1.zip"
             }
           },
           "list": [
@@ -19289,7 +19535,8 @@
             "v0.1.6",
             "v0.1.7",
             "v1.0.0-beta.0",
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser"
