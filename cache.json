@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 411,
+  "num_libraries": 412,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -20106,7 +20106,7 @@
         "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser"
       },
       "sqville/sqv-qxthemes": {
-        "description": "Themes for the qooxdoo javascript framework",
+        "description": "(deprecated) Themes for the qooxdoo javascript framework",
         "releases": {
           "data": {
             "v1.0.0": {
@@ -20302,6 +20302,56 @@
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Clean"
+      },
+      "sqville/ville.Embed": {
+        "description": "A new control for the Qooxdoo JavaScript Framework",
+        "releases": {
+          "data": {
+            "v0.9.0": {
+              "comment": "Preview release. Shows how you can use pure CSS icons and embedded SVG code in your Qooxdoo project",
+              "id": 37445394,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Embed",
+                    "summary": "A new desktop ui control for the Qooxdoo JavaScript Framework",
+                    "version": "0.9.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.embed",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta-20210201-1340",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta-20210201-1340",
+                    "@qooxdoo/framework": "^6.0.0-beta-20210201-1340"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2021-02-06T07:50:46Z",
+              "title": "Preview release",
+              "zip_url": "https://github.com/sqville/ville.Embed/archive/v0.9.0.zip"
+            }
+          },
+          "list": [
+            "v0.9.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.Embed"
       },
       "sqville/ville.GroupBox": {
         "description": "A groupbox desktop control for the Qooxdoo JavaScript Framework",
@@ -20508,6 +20558,7 @@
       "qooxdoo/qxl.widgetbrowser",
       "sqville/sqv-qxthemes",
       "sqville/ville.Clean",
+      "sqville/ville.Embed",
       "sqville/ville.GroupBox",
       "voger/qxDateSelect",
       "voger/qxgraphql"
