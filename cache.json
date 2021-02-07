@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 414,
+  "num_libraries": 417,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8146,160 +8146,6 @@
         "description": "qooxdoo apiviewer app",
         "releases": {
           "data": {
-            "v0.1.17": {
-              "comment": "add includeToAPIViewer as env option. Note that includeToAPIViewer takes priority over excludeFromAPIViewer",
-              "id": 17603971,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      },
-                      {
-                        "email": "daniel DOT wagner AT 1und1 DOT de",
-                        "name": "Daniel Wagner (dwagner)"
-                      },
-                      {
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
-                        "name": "Adrian Olaru (adrianolaru)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "license": "MIT",
-                    "name": "Qooxdoo API Viewer",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "version": "0.1.17"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.apiviewer.Application",
-                      "environment": {
-                        "excludeFromAPIViewer": [
-                          "qxl.apiviewer.*"
-                        ],
-                        "qx.icontheme": "Tango"
-                      },
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "apiviewer",
-                      "theme": "qxl.apiviewer.Theme",
-                      "title": "Qooxdoo API Viewer"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.apiviewer",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-05-27T10:20:12Z",
-              "title": "v0.1.17",
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.17.zip"
-            },
-            "v0.1.18": {
-              "comment": "fix error where String is not found",
-              "id": 17604513,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      },
-                      {
-                        "email": "daniel DOT wagner AT 1und1 DOT de",
-                        "name": "Daniel Wagner (dwagner)"
-                      },
-                      {
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
-                        "name": "Adrian Olaru (adrianolaru)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "license": "MIT",
-                    "name": "Qooxdoo API Viewer",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "version": "0.1.18"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.apiviewer.Application",
-                      "environment": {
-                        "excludeFromAPIViewer": [
-                          "qxl.apiviewer.*"
-                        ],
-                        "qx.icontheme": "Tango"
-                      },
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "apiviewer",
-                      "theme": "qxl.apiviewer.Theme",
-                      "title": "Qooxdoo API Viewer"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.apiviewer",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-05-27T10:53:30Z",
-              "title": "v0.1.18",
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v0.1.18.zip"
-            },
             "v0.1.19": {
               "comment": "do analyse only for apiviewer application",
               "id": 17638989,
@@ -9860,6 +9706,166 @@
               "title": "v1.0.16",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.16.zip"
             },
+            "v1.0.17": {
+              "comment": "enable v7.0.0-beta",
+              "id": 37640204,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (dwagner)"
+                      },
+                      {
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
+                        "name": "Adrian Olaru (adrianolaru)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "Qooxdoo API Viewer",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "version": "1.0.17"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "qxl.apiviewer.applicationName": "",
+                        "qxl.apiviewer.exclude": [
+                          "qxl.apiviewer.*"
+                        ],
+                        "qxl.apiviewer.include": [
+                        ]
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "apiviewer",
+                      "theme": "qxl.apiviewer.Theme",
+                      "title": "Qooxdoo API Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.apiviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta",
+                    "qooxdoo/qxl.versionlabel": "^1.0.4"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T16:10:50Z",
+              "title": "v1.0.17",
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.17.zip"
+            },
+            "v1.0.18": {
+              "comment": "fix pkg versipns",
+              "id": 37640306,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (dwagner)"
+                      },
+                      {
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
+                        "name": "Adrian Olaru (adrianolaru)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "Qooxdoo API Viewer",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "version": "1.0.18"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "qxl.apiviewer.applicationName": "",
+                        "qxl.apiviewer.exclude": [
+                          "qxl.apiviewer.*"
+                        ],
+                        "qxl.apiviewer.include": [
+                        ]
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "apiviewer",
+                      "theme": "qxl.apiviewer.Theme",
+                      "title": "Qooxdoo API Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.apiviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta",
+                    "qooxdoo/qxl.versionlabel": "^1.0.4"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T16:16:50Z",
+              "title": "v1.0.18",
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.18.zip"
+            },
             "v1.0.2": {
               "comment": "fix schema url",
               "id": 26619907,
@@ -10493,8 +10499,6 @@
             }
           },
           "list": [
-            "v0.1.17",
-            "v0.1.18",
             "v0.1.19",
             "v0.1.20",
             "v1.0.0-beta.1",
@@ -10522,7 +10526,9 @@
             "v1.0.13",
             "v1.0.14",
             "v1.0.15",
-            "v1.0.16"
+            "v1.0.16",
+            "v1.0.17",
+            "v1.0.18"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.apiviewer"
@@ -16195,6 +16201,66 @@
               "title": "v1.0.10",
               "zip_url": "https://github.com/qooxdoo/qxl.testnode/archive/v1.0.10.zip"
             },
+            "v1.0.11": {
+              "comment": "enable v7.0.0-beta",
+              "id": 37640258,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "qxl.testnode",
+                    "summary": "Run qooxdoo tests with qx test in an node enviroment",
+                    "version": "1.0.11"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testnode.Application",
+                      "environment": {
+                        "testnode.testNameSpace": "qxl.testnode.test"
+                      },
+                      "exclude": [
+                        "qx.bom.Selector",
+                        "qx.bom.client.Html",
+                        "qx.bom.client.Plugin",
+                        "qx.event.handler.Pointer",
+                        "qx.event.handler.Gesture",
+                        "qx.event.handler.PointerCore"
+                      ],
+                      "include": [
+                        "qx.core.BaseInit",
+                        "myapp.test.*"
+                      ],
+                      "name": "testnode",
+                      "title": "Qooxdoo Testnode",
+                      "type": "node"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testnode",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T16:13:06Z",
+              "title": "v1.0.11",
+              "zip_url": "https://github.com/qooxdoo/qxl.testnode/archive/v1.0.11.zip"
+            },
             "v1.0.2": {
               "comment": "s/boot.js/index.js",
               "id": 27529490,
@@ -16687,7 +16753,8 @@
             "v1.0.7",
             "v1.0.8",
             "v1.0.9",
-            "v1.0.10"
+            "v1.0.10",
+            "v1.0.11"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.testnode"
@@ -18319,6 +18386,134 @@
               "published_at": "2021-02-05T13:52:14Z",
               "title": "v1.0.2",
               "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "enable v7.0.0-beta",
+              "id": 37640247,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta",
+                    "qooxdoo/qooxdoo.logpane": "^1.0.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T16:12:22Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "fix pkg versions",
+              "id": 37640309,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta",
+                    "qooxdoo/qooxdoo.logpane": "^1.0.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T16:16:59Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/qooxdoo/qxl.testtapper/archive/v1.0.4.zip"
             }
           },
           "list": [
@@ -18347,7 +18542,9 @@
             "v0.5.3",
             "v0.5.4",
             "v1.0.1",
-            "v1.0.2"
+            "v1.0.2",
+            "v1.0.3",
+            "v1.0.4"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.testtapper"
