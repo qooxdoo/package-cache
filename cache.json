@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 412,
+  "num_libraries": 414,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -13129,6 +13129,53 @@
               "published_at": "2021-02-04T16:18:24Z",
               "title": "v1.0.2",
               "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "allow 7.0.0-beta",
+              "id": 37638102,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a view for the qooxdoo log.",
+                    "homepage": "https://github.com/qooxdoo/logpane",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "logpane",
+                    "summary": "Common used log pannel.",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.logpane",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T14:03:18Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.logpane/archive/v1.0.3.zip"
             }
           },
           "list": [
@@ -13142,7 +13189,8 @@
             "v1.0.0-beta.3",
             "v1.0.0",
             "v1.0.1",
-            "v1.0.2"
+            "v1.0.2",
+            "v1.0.3"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.logpane"
@@ -19494,6 +19542,43 @@
               "published_at": "2021-02-04T15:51:32Z",
               "title": "v1.0.4",
               "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "allow 7.0.0-beta",
+              "id": 37638084,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0  || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0  || ^7.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T14:02:29Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.5.zip"
             }
           },
           "list": [
@@ -19507,7 +19592,8 @@
             "v1.0.1",
             "v1.0.2",
             "v1.0.3",
-            "v1.0.4"
+            "v1.0.4",
+            "v1.0.5"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel"
