@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 417,
+  "num_libraries": 418,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -14175,6 +14175,51 @@
               "title": "v0.6.1",
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.6.1.zip"
             },
+            "v1.0.0": {
+              "comment": "v1.0.0",
+              "id": 37763570,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ],
+                    "license": "MIT license",
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.packagebrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-08T20:58:04Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v1.0.0.zip"
+            },
             "v1.0.0-beta.0": {
               "comment": "First beta",
               "id": 19035275,
@@ -14241,7 +14286,8 @@
             "v0.5.1",
             "v0.6.0",
             "v0.6.1",
-            "v1.0.0-beta.0"
+            "v1.0.0-beta.0",
+            "v1.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.packagebrowser"
