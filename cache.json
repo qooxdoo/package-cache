@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 420,
+  "num_libraries": 423,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -20688,11 +20688,77 @@
               "published_at": "2021-01-23T22:32:11Z",
               "title": "v1.0.3",
               "zip_url": "https://github.com/sqville/ville.Clean/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "Updated and tested to be compatible with compiler 1.0.0 and qx 6.0.0",
+              "id": 37876789,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "chris.eskew@sqville.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Semantic UI designed to include more space (whitespace) and to be out of the way as much as possible",
+                    "homepage": "http://github.com/sqville/ville.Clean",
+                    "license": "MIT",
+                    "name": "ville.Clean",
+                    "summary": "a theme for qooxdoo desktop applications inspired by Semantic UI",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc",
+                        "widgetbrowser.pages.Extras"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Clean",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.theme.Clean",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-10T17:49:45Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/sqville/ville.Clean/archive/v1.0.4.zip"
             }
           },
           "list": [
             "v1.0.2",
-            "v1.0.3"
+            "v1.0.3",
+            "v1.0.4"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Clean"
@@ -20739,10 +20805,50 @@
               "published_at": "2021-02-06T07:50:46Z",
               "title": "Preview release",
               "zip_url": "https://github.com/sqville/ville.Embed/archive/v0.9.0.zip"
+            },
+            "v1.0.0": {
+              "comment": "Included a Material Design example in the demo. Also updated to use compiler 1.0.0 and qx 6.0.0",
+              "id": 37881580,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Embed",
+                    "summary": "A new desktop ui control for the Qooxdoo JavaScript Framework",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.embed",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-10T19:27:08Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/sqville/ville.Embed/archive/v1.0.0.zip"
             }
           },
           "list": [
-            "v0.9.0"
+            "v0.9.0",
+            "v1.0.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Embed"
@@ -20828,11 +20934,51 @@
               "published_at": "2021-02-10T01:08:31Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/sqville/ville.GroupBox/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Now uses compiler 1.0.0 and qx 6.0.0",
+              "id": 37882064,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.GroupBox",
+                    "summary": "A Qooxdoo desktop, collapsable GroupBox control",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.groupbox.GroupBox",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-10T19:36:29Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/sqville/ville.GroupBox/archive/v1.0.2.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.GroupBox"
