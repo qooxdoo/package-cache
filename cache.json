@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 416,
+  "num_libraries": 428,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -19771,8 +19771,462 @@
         "description": "versionlabel for qooxdoo demo apps",
         "releases": {
           "data": {
+            "v0.1.1": {
+              "comment": "Release v0.1.1",
+              "id": 14595730,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "first.author@some.domain",
+                        "name": "First Author (uid)"
+                      }
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "0.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-12-18T15:51:17Z",
+              "title": "v0.1.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "comment": "Release v0.1.2",
+              "id": 14949833,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "first.author@some.domain",
+                        "name": "First Author (uid)"
+                      }
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "0.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "library"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-01-13T20:30:28Z",
+              "title": "v0.1.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v0.1.2.zip"
+            },
+            "v1.0.0": {
+              "comment": "release stable version",
+              "id": 25197950,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-04-04T13:15:59Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0.zip"
+            },
+            "v1.0.0-beta.0": {
+              "comment": "add dummy resource dir",
+              "id": 18165145,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "first.author@some.domain",
+                        "name": "First Author (uid)"
+                      }
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.0-beta.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-06-23T10:16:02Z",
+              "title": "v1.0.0-beta.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "comment": "add property to show/hide toolbar",
+              "id": 18480938,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "first.author@some.domain",
+                        "name": "First Author (uid)"
+                      }
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.0-beta.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-08T20:35:21Z",
+              "title": "v1.0.0-beta.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.0-beta.2": {
+              "comment": "fix problems",
+              "id": 18863794,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "first.author@some.domain",
+                        "name": "First Author (uid)"
+                      }
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.0-beta.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-25T14:00:16Z",
+              "title": "v1.0.0-beta.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.2.zip"
+            },
+            "v1.0.0-beta.3": {
+              "comment": "add apiviewer",
+              "id": 18966655,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "first.author@some.domain",
+                        "name": "First Author (uid)"
+                      }
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.0-beta.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-30T19:37:27Z",
+              "title": "v1.0.0-beta.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.0-beta.3.zip"
+            },
+            "v1.0.1": {
+              "comment": "fix schema url",
+              "id": 26619702,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-18T09:46:48Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "add eviroment vars to manifest",
+              "id": 36157288,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-01-08T18:46:45Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "move to framework version 6.0.0",
+              "id": 37360752,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-04T15:36:46Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "fix enviroment",
+              "id": 37361696,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-04T15:51:32Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "allow 7.0.0-beta",
+              "id": 37638084,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0  || ^7.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0  || ^7.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-07T14:02:29Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.5.zip"
+            }
           },
           "list": [
+            "v0.1.1",
+            "v0.1.2",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1",
+            "v1.0.0-beta.2",
+            "v1.0.0-beta.3",
+            "v1.0.0",
+            "v1.0.1",
+            "v1.0.2",
+            "v1.0.3",
+            "v1.0.4",
+            "v1.0.5"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel"
