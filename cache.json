@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 428,
+  "num_libraries": 429,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -21308,6 +21308,83 @@
         },
         "url": "https://api.github.com/repos/sqville/ville.GroupBox"
       },
+      "sqville/ville.Wireframe": {
+        "description": "A theme for the Qooxdoo JavaScript Framework",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First release of the Wireframe theme",
+              "id": 38600292,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "chris.eskew@sqville.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme designed to help direct focus to layout and interactions first",
+                    "homepage": "http://github.com/sqville/ville.Wireframe",
+                    "license": "MIT",
+                    "name": "ville.Wireframe",
+                    "summary": "a theme for Qooxdoo desktop applications",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "ville.theme.wireframe.MFrestyleCss",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc",
+                        "widgetbrowser.pages.Extras"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Wireframe",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.theme.Wireframe",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-24T04:57:30Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/sqville/ville.Wireframe/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.Wireframe"
+      },
       "voger/qxDateSelect": {
         "description": "A simple select date widget for Qooxdoo framework",
         "releases": {
@@ -21465,6 +21542,7 @@
       "sqville/ville.Clean",
       "sqville/ville.Embed",
       "sqville/ville.GroupBox",
+      "sqville/ville.Wireframe",
       "voger/qxDateSelect",
       "voger/qxgraphql"
     ]
