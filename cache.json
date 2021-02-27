@@ -15353,6 +15353,19 @@
               "published_at": "2020-04-09T18:52:46Z",
               "title": "v1.2.1",
               "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.2.1.zip"
+            },
+            "v2.0.0": {
+              "comment": "Bumped qooxdoo version to v7.0.0",
+              "id": 38970769,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-27T16:50:52Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.0.zip"
             }
           },
           "list": [
@@ -15361,7 +15374,8 @@
             "v1.0.3",
             "v1.1.0",
             "v1.2.0",
-            "v1.2.1"
+            "v1.2.1",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.test1"
@@ -16071,6 +16085,29 @@
               "published_at": "2019-05-25T21:32:07Z",
               "title": "v1.2.2",
               "zip_url": "https://github.com/qooxdoo/qxl.test2/archive/v1.2.2.zip"
+            },
+            "v2.0.0": {
+              "comment": "bumped to qooxdoo 7.0.0",
+              "id": 38975496,
+              "manifests": [
+                {
+                  "main": true,
+                  "path": "qxl.test2A"
+                },
+                {
+                  "path": "qxl.test2B"
+                },
+                {
+                  "path": "qxl.test2C"
+                },
+                {
+                  "path": "qxl.test2D"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-27T16:57:37Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.test2/archive/v2.0.0.zip"
             }
           },
           "list": [
@@ -16079,7 +16116,8 @@
             "v1.1.0",
             "v1.2.0",
             "v1.2.1",
-            "v1.2.2"
+            "v1.2.2",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.test2"
