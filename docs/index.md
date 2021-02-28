@@ -20,23 +20,29 @@ async function create_table(by_date=false) {
     let html = [];
     html.push(`<div>Number of releases: ${cache.num_libraries}</div>`);
     html.push(`<table>`);
-    html.push(`<thead><tr><td>Repository Name</td><td>Latest Version</td><td>Description</td></tr></thead>`);
+    html.push(`<thead><tr><td>Repository Name</td><td>Latest Version</td><td>for Qx Versions</td><td>Description</td></tr></thead>`);
     html.push(`<tbody>`);
     let releases_by_date = {};
     let releases_table = [];
     for (let repo of cache.repos.list) {
-        let data = cache.repos.data[repo];
-        let releases_list = data.releases.list;
-        let latest_release = releases_list[releases_list.length-1] || "";
-        let repo_html = `<a href="https://github.com/${repo}">${repo}</a>`;
-        let latest_release_html = latest_release ? `<a href="https://qooxdoo.org/qxl.packagebrowser/#${repo.replace("/","~")}~library">${latest_release}</a>` : "";
-        if (latest_release && by_date) {
-            let published_at = data.releases.data[latest_release].published_at;
-            releases_by_date[published_at] = releases_table.length;
-            releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html} (${published_at})</td><td>${data.description}</td></tr>`);
-        } else {
-            releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html}</td><td>${data.description}</td></tr>`);
-        }
+        try {
+            let data = cache.repos.data[repo];
+            let releases_list = data.releases.list;
+            let latest_release = releases_list[releases_list.length-1] || "";
+            let repo_html = `<a href="https://github.com/${repo}">${repo}</a>`;
+            let latest_release_html = latest_release ? `<a href="https://qooxdoo.org/qxl.packagebrowser/#${repo.replace("/","~")}~library">${latest_release}</a>` : "";
+            let release_data = data.releases.data[latest_release];
+            let qooxdoo_range = typeof release_data.manifests[0].requires == "object" && release_data.manifests[0].requires['@qooxdoo/framework'];
+            if (latest_release && by_date) {
+                let published_at = release_data.published_at;
+                releases_by_date[published_at] = releases_table.length;
+                releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html} (${published_at})</td><td>${qooxdoo_range||""}</td><td>${data.description}</td></tr>`);
+            } else {
+                releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html}</td><td>${qooxdoo_range||""}</td><td>${data.description}</td></tr>`);
+            }
+        } catch (e) {
+            console.warn(e);
+        }   
     }
     html.push( by_date 
         ? Object.keys(releases_by_date).sort().reverse().map(date => releases_table[releases_by_date[date]]).join("\n")
