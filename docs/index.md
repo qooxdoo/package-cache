@@ -27,6 +27,9 @@ async function create_table(by_date=false) {
     for (let repo of cache.repos.list) {
         try {
             let data = cache.repos.data[repo];
+            if (["(unlisted)", "(deprecated)"].some(txt => (data.description || "").includes(txt))) {
+                continue;
+            }
             let releases_list = data.releases.list;
             let latest_release = releases_list[releases_list.length-1] || "";
             let repo_html = `<a href="https://github.com/${repo}">${repo}</a>`;
@@ -41,7 +44,7 @@ async function create_table(by_date=false) {
                 releases_table.push(`<tr><td>${repo_html}</td><td>${latest_release_html}</td><td>${qooxdoo_range||""}</td><td>${data.description}</td></tr>`);
             }
         } catch (e) {
-            console.warn(e);
+            console.warn(`${repo}: ${e.message} ${e.stack}`);
         }   
     }
     html.push( by_date 
