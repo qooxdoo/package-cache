@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 440,
+  "num_libraries": 441,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2280,6 +2280,57 @@
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme"
+      },
+      "adrelino/qxex": {
+        "description": "Additional GUI widgets and utilities for qooxdoo apps.",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "Finished migration to the new qx compiler based toolchain #1.",
+              "id": 40197510,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "mail@adrian-haarbach.de",
+                        "name": "Adrian Haarbach (adrelino)"
+                      }
+                    ],
+                    "description": "Additional GUI widgets (in ui/*) and utilities (static/singleton Manager's in util/) for qooxdoo apps. These are extensions of core qooxdoo widgets, especially from the qx.ui.form and qx.ui.table packages.",
+                    "homepage": "adrelino.github.io/qxex",
+                    "license": "MIT license",
+                    "name": "qxex",
+                    "summary": "Additional GUI widgets and utilities for qooxdoo apps.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxex",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0",
+                    "qooxdoo/qxl.apiviewer": "^1.0.18"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-03-23T02:36:04Z",
+              "title": "qooxdoo-extensions (qxex) initial package release",
+              "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/adrelino/qxex"
       },
       "bidefi-irhs/qxfileio": {
         "description": "A set of utilitary classes to deal with local file IO",
@@ -21903,6 +21954,7 @@
       "ITISFoundation/qx-iconfont-fontawesome5",
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
+      "adrelino/qxex",
       "bidefi-irhs/qxfileio",
       "cajus/capture",
       "cboulanger/eventrecorder",
