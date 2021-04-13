@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 442,
+  "num_libraries": 443,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6089,6 +6089,81 @@
           ]
         },
         "url": "https://api.github.com/repos/ergobyte/qookery"
+      },
+      "goldim/darktheme": {
+        "description": "Just testing qooxdoo package system with some themes",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "qooxdoo dark theme first release v6.0",
+              "id": 41366419,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-13T16:26:39Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/goldim/darktheme/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/darktheme"
       },
       "gonicus/breadcrumbs": {
         "description": "Qooxdoo breadcrumb widget",
@@ -22010,6 +22085,7 @@
       "cboulanger/qx-contrib-test",
       "cboulanger/qxl.taskmanager",
       "ergobyte/qookery",
+      "goldim/darktheme",
       "gonicus/breadcrumbs",
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
