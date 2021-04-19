@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 443,
+  "num_libraries": 447,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2324,10 +2324,51 @@
               "published_at": "2021-03-23T02:36:04Z",
               "title": "qooxdoo-extensions (qxex) initial package release",
               "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "Reactivated 3 old Meta themes as well as Oxygen Icon theme.\r\nSmall bugfixes, e.g. #2 and finishing up chores from #1 by deleting all things related to old toolchain.",
+              "id": 41372567,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "mail@adrian-haarbach.de",
+                        "name": "Adrian Haarbach (adrelino)"
+                      }
+                    ],
+                    "description": "Additional GUI widgets (in ui/*) and utilities (static/singleton Manager's in util/) for qooxdoo apps. These are extensions of core qooxdoo widgets, especially from the qx.ui.form and qx.ui.table packages.",
+                    "homepage": "adrelino.github.io/qxex",
+                    "license": "MIT license",
+                    "name": "qxex",
+                    "summary": "Additional GUI widgets and utilities for qooxdoo apps.",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxex",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0",
+                    "qooxdoo/qxl.apiviewer": "^1.0.18"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-13T18:31:26Z",
+              "title": "container.Scroll, 3 old Themes reactivated, small bugfixes and chore",
+              "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/adrelino/qxex"
@@ -6090,8 +6131,160 @@
         },
         "url": "https://api.github.com/repos/ergobyte/qookery"
       },
+      "goldim/GraydientTheme": {
+        "description": "Another theme for qooxdoo applications",
+        "releases": {
+          "data": {
+            "v2.0.0": {
+              "comment": "GraydientTheme for qooxdoo v6.0",
+              "id": 41545858,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      }
+                    ],
+                    "description": "A graydient theme for qx 6.0.",
+                    "homepage": "https://github.com/goldim/GraydientTheme",
+                    "license": "MIT license",
+                    "name": "GraydientTheme",
+                    "summary": "Graydient Theme Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "graydienttheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "graydienttheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-16T14:10:22Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/goldim/GraydientTheme/archive/v2.0.0.zip"
+            }
+          },
+          "list": [
+            "v2.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/GraydientTheme"
+      },
+      "goldim/SilverBlueTheme": {
+        "description": "A slightly coloured theme for qooxdoo",
+        "releases": {
+          "data": {
+            "v2.0.0": {
+              "comment": "SilverBlue theme for qooxdoo v6.0",
+              "id": 41533529,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      }
+                    ],
+                    "description": "A silverblue theme for qx 6.0.",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "silverbluetheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "silverbluetheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0",
+                    "qooxdoo/qxl.formdemo": "^1.0.2",
+                    "qooxdoo/qxl.versionlabel": "^1.0.5"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-16T10:10:09Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.0.0.zip"
+            }
+          },
+          "list": [
+            "v2.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/SilverBlueTheme"
+      },
       "goldim/darktheme": {
-        "description": "Just testing qooxdoo package system with some themes",
+        "description": "Dark theme for qooxdoo v6.0",
         "releases": {
           "data": {
             "v1.0.0": {
@@ -6164,6 +6357,79 @@
           ]
         },
         "url": "https://api.github.com/repos/goldim/darktheme"
+      },
+      "goldim/scro34-qxthemes": {
+        "description": "bundle of qooxdoo themes created by scro34",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First version",
+              "id": 41489219,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      }
+                    ],
+                    "description": "a bunch of themes: Dark, SilverBlue, Gradient and etc.",
+                    "homepage": "https://github.com/goldim/scro34-themes",
+                    "license": "MIT license",
+                    "name": "scro34-qxthemes",
+                    "summary": "bunch of themes",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "include": [
+                        "scro34.theme.Dark",
+                        "scro34.theme.Graydient",
+                        "scro34.theme.SilverBlue",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "scro34.theme.Dark",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "scro34.theme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-15T15:02:34Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/goldim/scro34-qxthemes/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/scro34-qxthemes"
       },
       "gonicus/breadcrumbs": {
         "description": "Qooxdoo breadcrumb widget",
@@ -22085,7 +22351,10 @@
       "cboulanger/qx-contrib-test",
       "cboulanger/qxl.taskmanager",
       "ergobyte/qookery",
+      "goldim/GraydientTheme",
+      "goldim/SilverBlueTheme",
       "goldim/darktheme",
+      "goldim/scro34-qxthemes",
       "gonicus/breadcrumbs",
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
