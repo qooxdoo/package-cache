@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 450,
+  "num_libraries": 447,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -15887,111 +15887,6 @@
               "published_at": "2021-02-28T08:24:09Z",
               "title": "v2.0.3",
               "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.3.zip"
-            },
-            "v2.0.6": {
-              "comment": "test",
-              "id": 41721451,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "version": "2.0.6"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test1",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-04-20T15:28:36Z",
-              "title": "v2.0.6",
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.6.zip"
-            },
-            "v2.0.7": {
-              "comment": "Release v2.0.7",
-              "id": 41726309,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "version": "2.0.7"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test1",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-04-20T16:43:37Z",
-              "title": "v2.0.7",
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.7.zip"
-            },
-            "v2.0.8": {
-              "comment": "Release v2.0.8",
-              "id": 41726681,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "version": "2.0.8"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test1",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-04-20T16:50:10Z",
-              "title": "v2.0.8",
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.8.zip"
             }
           },
           "list": [
@@ -16004,10 +15899,7 @@
             "v2.0.0",
             "v2.0.1",
             "v2.0.2",
-            "v2.0.3",
-            "v2.0.6",
-            "v2.0.7",
-            "v2.0.8"
+            "v2.0.3"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.test1"
