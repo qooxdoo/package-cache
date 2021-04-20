@@ -19,7 +19,7 @@ jobs:
           node-version: '12.x'
       - name: Update package cache
         run: |
-          cp cache.json cache-old.json
+          mv cache.json cache-old.json
           npm --no-save --no-package-json install @qooxdoo/compiler
           npx qx config set github.token "${{ secrets.PAT }}"
           npx qx package update --verbose --search --all-versions --file cache.json
@@ -37,6 +37,7 @@ jobs:
               echo "Committing changes"
             fi
           fi
+          rm cache-old.json
       - name: Commit updated cache
         if: ${{ env.COMMIT_UPDATE }}
         uses: stefanzweifel/git-auto-commit-action@v4
