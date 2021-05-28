@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 457,
+  "num_libraries": 459,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7671,10 +7671,50 @@
               "published_at": "2017-05-07T15:55:34Z",
               "title": "",
               "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "upgraded to qooxdoo 6 and dygraph 1.1.1",
+              "id": 43764118,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Makes Dan Vanderkams Dygraph charting library available in Qooxdoo",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxDyGraphs",
+                    "license": "LGPL/EPL",
+                    "name": "QxDyGraphs",
+                    "summary": "QxDyGraphs Contribution",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxdygraphs",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T12:49:24Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxDyGraphs"
@@ -7721,10 +7761,50 @@
               "published_at": "2017-05-07T15:52:35Z",
               "title": "",
               "zip_url": "https://github.com/oetiker/QxJqPlot/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "update for qx6",
+              "id": 43774706,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Integrate jqPlot into qooxdoo.",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxJqPlot",
+                    "license": "MIT",
+                    "name": "QxJqPlot",
+                    "summary": "QxJqPlot Contribution",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxjqplot",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T15:40:12Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/oetiker/QxJqPlot/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxJqPlot"
