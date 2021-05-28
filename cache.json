@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 451,
+  "num_libraries": 457,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7130,10 +7130,104 @@
               "published_at": "2017-05-07T14:59:49Z",
               "title": "",
               "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.0.zip"
+            },
+            "v1.0.2": {
+              "comment": "Updated to Qooxdoo 6",
+              "id": 43752741,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:10:00Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "fix manifest",
+              "id": 43753178,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:18:11Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "add missing schema",
+              "id": 43755022,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:51:40Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.4.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.2",
+            "v1.0.3",
+            "v1.0.4"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/CanvasCell"
@@ -7262,12 +7356,92 @@
               "published_at": "2020-05-09T19:41:54Z",
               "title": "Fix Manifest",
               "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "update for qx6",
+              "id": 43753116,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:17:00Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "add missing schema",
+              "id": 43755091,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:52:42Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.4.zip"
             }
           },
           "list": [
             "v1.0.0",
             "v1.0.1",
-            "v1.0.2"
+            "v1.0.2",
+            "v1.0.3",
+            "v1.0.4"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/ComboTable"
@@ -7314,10 +7488,50 @@
               "published_at": "2017-05-07T16:15:53Z",
               "title": "",
               "zip_url": "https://github.com/oetiker/Cropper/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "upgrade to qx6",
+              "id": 43755138,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A widget that can attach itself to another widget and actives on mouse click.",
+                    "homepage": "http://contrib.qooxdoo.org/project/Cropper",
+                    "license": "LGPL/EPL",
+                    "name": "Cropper",
+                    "summary": "Visually select portion of a Widget",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "cropper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:53:45Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/oetiker/Cropper/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/Cropper"
@@ -7368,10 +7582,49 @@
               "published_at": "2017-05-07T15:43:28Z",
               "title": "",
               "zip_url": "https://github.com/oetiker/QxD3/archive/v0.3.0.zip"
+            },
+            "v0.4.1": {
+              "comment": "release for qx6",
+              "id": 43756341,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "homepage": "https://github.com/oetiker/QxD3",
+                    "license": "LGPL/EPL",
+                    "name": "QxD3",
+                    "summary": "D3 Bindings for Qooxdoo",
+                    "version": "0.4.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxd3",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T10:16:29Z",
+              "title": "v0.4.1",
+              "zip_url": "https://github.com/oetiker/QxD3/archive/v0.4.1.zip"
             }
           },
           "list": [
-            "v0.3.0"
+            "v0.3.0",
+            "v0.4.1"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxD3"
@@ -7475,16 +7728,6 @@
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxJqPlot"
-      },
-      "oetiker/QxTangible": {
-        "description": "A Qooxdoo Theme inspired by Googles Material Design",
-        "releases": {
-          "data": {
-          },
-          "list": [
-          ]
-        },
-        "url": "https://api.github.com/repos/oetiker/QxTangible"
       },
       "oetiker/UploadWidget": {
         "description": "An UploadWidget for Qooxdoo",
@@ -22537,7 +22780,6 @@
       "oetiker/QxD3",
       "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
-      "oetiker/QxTangible",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
       "qooxdoo/incubator.qx.io.jsonrpc",
