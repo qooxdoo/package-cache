@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 463,
+  "num_libraries": 464,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -16654,6 +16654,42 @@
               "published_at": "2021-04-20T16:50:10Z",
               "title": "v2.0.8",
               "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.8.zip"
+            },
+            "v2.0.9": {
+              "comment": "Release v2.0.9",
+              "id": 51475728,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "version": "2.0.9"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.test1",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0 || ^7.0.0-beta || ^7.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0 || ^7.0.0-beta || ^7.0.0",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.1.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-10-16T14:18:57Z",
+              "title": "v2.0.9",
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v2.0.9.zip"
             }
           },
           "list": [
@@ -16669,7 +16705,8 @@
             "v2.0.3",
             "v2.0.6",
             "v2.0.7",
-            "v2.0.8"
+            "v2.0.8",
+            "v2.0.9"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.test1"
