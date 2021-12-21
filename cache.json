@@ -6905,16 +6905,6 @@
         },
         "url": "https://api.github.com/repos/hkollmann/hkollmann.mobilegrid"
       },
-      "hkollmann/qooxdoo": {
-        "description": "qooxdoo - Universal JavaScript Framework",
-        "releases": {
-          "data": {
-          },
-          "list": [
-          ]
-        },
-        "url": "https://api.github.com/repos/hkollmann/qooxdoo"
-      },
       "johnspackman/UploadMgr": {
         "description": "Uploads files with background uploads and progress feedback on modern browsers",
         "releases": {
@@ -24056,7 +24046,6 @@
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
       "hkollmann/hkollmann.mobilegrid",
-      "hkollmann/qooxdoo",
       "johnspackman/UploadMgr",
       "johnspackman/multi-column-tree",
       "maettu/qx-showdown",
