@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 469,
+  "num_libraries": 470,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -23846,6 +23846,56 @@
         },
         "url": "https://api.github.com/repos/sqville/ville.GroupBox"
       },
+      "sqville/ville.Wax": {
+        "description": null,
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "A release to show enhanced widgets (Switch, TabView and Drawer) and a Mobile view using qx.Desktop",
+              "id": 56326837,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "chris.eskew@sqville.com",
+                        "name": "Chris Eskew (sqville)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Wax",
+                    "summary": "one code base all platforms for the Qooxdoo Javascript Framework",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.wax",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-01-03T18:20:21Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/sqville/ville.Wax/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.Wax"
+      },
       "sqville/ville.Wireframe": {
         "description": "A theme for the Qooxdoo JavaScript Framework",
         "releases": {
@@ -24086,6 +24136,7 @@
       "sqville/ville.Clean",
       "sqville/ville.Embed",
       "sqville/ville.GroupBox",
+      "sqville/ville.Wax",
       "sqville/ville.Wireframe",
       "voger/qxDateSelect",
       "voger/qxgraphql"
