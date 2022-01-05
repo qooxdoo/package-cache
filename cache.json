@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 472,
+  "num_libraries": 468,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8330,184 +8330,6 @@
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/deprecated.qx.io.remote"
-      },
-      "qooxdoo/incubator.qx.io.jsonrpc": {
-        "description": "This incubator contains a proposal to add a framework for transport-agnostic higher-level i/o protocols to the qx.io namespace. ",
-        "releases": {
-          "data": {
-            "v1.0.0": {
-              "comment": "First public release",
-              "id": 27807097,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "This adds a extensible API for JSON-RPC via different transports",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.io.jsonrpc",
-                    "summary": "Qooxdoo JSON-RPC v2 API",
-                    "version": "1.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.io",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
-                    "qooxdoo/qxl.testtapper": "^0.5.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2020-06-22T23:18:03Z",
-              "title": "v1.0.0",
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v1.0.0.zip"
-            },
-            "v1.0.0-beta1": {
-              "comment": "",
-              "id": 26386315,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "This adds a extensible API for JSON-RPC via different transports",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.io.jsonrpc",
-                    "summary": "Qooxdoo JSON-RPC v2 API",
-                    "version": "0.0.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.io",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
-                    "qooxdoo/qxl.testtapper": "^0.5.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2020-05-11T16:04:37Z",
-              "title": "First beta release",
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v1.0.0-beta1.zip"
-            },
-            "v2.0.0": {
-              "comment": "Release of v2 including a GraphQL client",
-              "id": 34320806,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "Framework for transport-agnostic high-level i/o protocols such as the JSON-RPC v2 or GraphQL",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.io.jsonrpc",
-                    "summary": "Support for transport-agnostic I/O protocols",
-                    "version": "2.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.io",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
-                    "qooxdoo/qxl.testtapper": "^0.5.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2020-11-23T16:55:34Z",
-              "title": "v2.0.0",
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v2.0.0.zip"
-            },
-            "v2.0.1": {
-              "comment": "Bug fix: transport errors were not correctly caught",
-              "id": 35530715,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "Framework for transport-agnostic high-level i/o protocols such as the JSON-RPC v2 or GraphQL",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.io.jsonrpc",
-                    "summary": "Support for transport-agnostic I/O protocols",
-                    "version": "2.0.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.io",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.apiviewer": "^1.0.0-beta.9",
-                    "qooxdoo/qxl.testtapper": "^0.5.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2020-12-19T22:06:22Z",
-              "title": "v2.0.1",
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.jsonrpc/archive/v2.0.1.zip"
-            }
-          },
-          "list": [
-            "v1.0.0-beta1",
-            "v1.0.0",
-            "v2.0.0",
-            "v2.0.1"
-          ]
-        },
-        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.jsonrpc"
       },
       "qooxdoo/incubator.qx.io.persistence": {
         "description": "Qooxdoo Persistence (Incubator)",
@@ -24346,7 +24168,6 @@
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
       "qooxdoo/deprecated.qx.io.remote",
-      "qooxdoo/incubator.qx.io.jsonrpc",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
       "qooxdoo/incubator.qx.util",
