@@ -24045,8 +24045,8 @@
         "releases": {
           "data": {
             "v1.0.0": {
-              "comment": "A release to show enhanced widgets (Switch, TabView and Drawer) and a Mobile view using qx.Desktop",
-              "id": 56326837,
+              "comment": "First release for addon demo area",
+              "id": 56488145,
               "manifests": [
                 {
                   "info": {
@@ -24079,7 +24079,7 @@
                 }
               ],
               "prerelease": false,
-              "published_at": "2022-01-03T18:20:21Z",
+              "published_at": "2022-01-05T19:54:04Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/sqville/ville.Wax/archive/v1.0.0.zip"
             }
