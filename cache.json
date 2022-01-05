@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 471,
+  "num_libraries": 472,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8286,6 +8286,50 @@
           ]
         },
         "url": "https://api.github.com/repos/oposs/headerpuppet"
+      },
+      "qooxdoo/deprecated.qx.io.remote": {
+        "description": "Qooxdoo's pre-v7 qx.io.remote namespace ",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "initial release",
+              "id": 56491616,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0-beta || ^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0-beta || ^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-01-05T20:39:41Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/deprecated.qx.io.remote"
       },
       "qooxdoo/incubator.qx.io.jsonrpc": {
         "description": "This incubator contains a proposal to add a framework for transport-agnostic higher-level i/o protocols to the qx.io namespace. ",
@@ -24301,6 +24345,7 @@
       "oetiker/QxJqPlot",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
+      "qooxdoo/deprecated.qx.io.remote",
       "qooxdoo/incubator.qx.io.jsonrpc",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
