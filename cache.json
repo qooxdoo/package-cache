@@ -23911,8 +23911,8 @@
         "releases": {
           "data": {
             "v1.0.0": {
-              "comment": "First release for addon demo area",
-              "id": 56488145,
+              "comment": "Manual release for publishing to the qooxdoo demo system",
+              "id": 56500722,
               "manifests": [
                 {
                   "info": {
@@ -23927,7 +23927,7 @@
                     "license": "MIT license",
                     "name": "ville.Wax",
                     "summary": "one code base all platforms for the Qooxdoo Javascript Framework",
-                    "version": "1.0.1"
+                    "version": "1.0.0"
                   },
                   "path": "Manifest.json",
                   "provides": {
@@ -23945,7 +23945,7 @@
                 }
               ],
               "prerelease": false,
-              "published_at": "2022-01-05T19:54:04Z",
+              "published_at": "2022-01-05T23:25:46Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/sqville/ville.Wax/archive/v1.0.0.zip"
             }
