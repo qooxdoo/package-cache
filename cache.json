@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 476,
+  "num_libraries": 478,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8323,10 +8323,44 @@
               "published_at": "2022-01-05T20:39:41Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to v7",
+              "id": 60161042,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-22T18:54:43Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/deprecated.qx.io.remote"
@@ -23722,6 +23756,42 @@
               "published_at": "2021-02-07T14:02:29Z",
               "title": "v1.0.5",
               "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.5.zip"
+            },
+            "v1.0.6": {
+              "comment": "move to v7",
+              "id": 60160871,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "license": "MIT",
+                    "name": "versionlabel",
+                    "summary": "version label for qooxdoo demo apps",
+                    "version": "1.0.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "qxl.versionlabel.*": "qxl.versionlabel.VersionLabel"
+                    },
+                    "namespace": "qxl.versionlabel",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-22T18:52:25Z",
+              "title": "v1.0.6",
+              "zip_url": "https://github.com/qooxdoo/qxl.versionlabel/archive/v1.0.6.zip"
             }
           },
           "list": [
@@ -23736,7 +23806,8 @@
             "v1.0.2",
             "v1.0.3",
             "v1.0.4",
-            "v1.0.5"
+            "v1.0.5",
+            "v1.0.6"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.versionlabel"
