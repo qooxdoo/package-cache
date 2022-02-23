@@ -11102,83 +11102,6 @@
               "title": "v1.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0.zip"
             },
-            "v1.0.0-beta.1": {
-              "comment": "fix compile.js for new compiler. Set version to same version as qxcompiler",
-              "id": 18023600,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      },
-                      {
-                        "email": "daniel DOT wagner AT 1und1 DOT de",
-                        "name": "Daniel Wagner (dwagner)"
-                      },
-                      {
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
-                        "name": "Adrian Olaru (adrianolaru)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "license": "MIT",
-                    "name": "Qooxdoo API Viewer",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "version": "1.0.0-beta.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.apiviewer.Application",
-                      "environment": {
-                        "excludeFromAPIViewer": [
-                          "qxl.apiviewer.*"
-                        ],
-                        "qx.icontheme": "Tango"
-                      },
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "apiviewer",
-                      "theme": "qxl.apiviewer.Theme",
-                      "title": "Qooxdoo API Viewer"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.apiviewer",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.versionlabel": "^0.1.1"
-                  }
-                }
-              ],
-              "prerelease": true,
-              "published_at": "2019-06-16T17:34:12Z",
-              "title": "v1.0.0-beta.1",
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0-beta.1.zip"
-            },
             "v1.0.0-beta.2": {
               "comment": "fix getMaker",
               "id": 18161554,
@@ -12828,6 +12751,86 @@
               "title": "v1.0.20",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.20.zip"
             },
+            "v1.0.21": {
+              "comment": "fix using in other apps",
+              "id": 60216362,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (dwagner)"
+                      },
+                      {
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
+                        "name": "Adrian Olaru (adrianolaru)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "Qooxdoo API Viewer",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "version": "1.0.21"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "qxl.apiviewer.applicationName": "",
+                        "qxl.apiviewer.exclude": [
+                          "qxl.apiviewer.*"
+                        ],
+                        "qxl.apiviewer.include": [
+                        ]
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "apiviewer",
+                      "theme": "qxl.apiviewer.Theme",
+                      "title": "Qooxdoo API Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.apiviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0",
+                    "qooxdoo/deprecated.qx.io.remote": "^1.0.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.4"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-23T11:14:55Z",
+              "title": "v1.0.21",
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.21.zip"
+            },
             "v1.0.3": {
               "comment": "ugrade packages",
               "id": 26621133,
@@ -13384,7 +13387,6 @@
             }
           },
           "list": [
-            "v1.0.0-beta.1",
             "v1.0.0-beta.2",
             "v1.0.0-beta.3",
             "v1.0.0-beta.4",
@@ -13413,7 +13415,8 @@
             "v1.0.17",
             "v1.0.18",
             "v1.0.19",
-            "v1.0.20"
+            "v1.0.20",
+            "v1.0.21"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.apiviewer"
