@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 478,
+  "num_libraries": 479,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8356,11 +8356,45 @@
               "published_at": "2022-02-22T18:54:43Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Release v1.0.2",
+              "id": 60205269,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-23T08:52:49Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.2.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/deprecated.qx.io.remote"
