@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 481,
+  "num_libraries": 482,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -10424,7 +10424,7 @@
             },
             "v7.0.0-beta.7": {
               "comment": "Release v7.0.0-beta.7",
-              "id": 56860097,
+              "id": 56861097,
               "manifests": [
                 {
                   "info": {
@@ -10611,13 +10611,13 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
+              "published_at": "2022-01-11T19:52:10Z",
               "title": "v7.0.0-beta.7",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.0.0-beta.7.zip"
             },
             "v7.0.0-beta.8": {
-              "comment": "move to npm-shrinkwrap.json",
-              "id": 58435624,
+              "comment": "move to npm-shrinkwrap.json file",
+              "id": 58436816,
               "manifests": [
                 {
                   "info": {
@@ -10804,13 +10804,13 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
+              "published_at": "2022-02-01T14:57:09Z",
               "title": "v7.0.0-beta.8",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.0.0-beta.8.zip"
             },
             "v7.0.0-beta.9": {
-              "comment": "fix lint issue #10356",
-              "id": 59408866,
+              "comment": "fix lint issue #10356, fix mixin issue #10355",
+              "id": 59409107,
               "manifests": [
                 {
                   "info": {
@@ -10997,7 +10997,7 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
+              "published_at": "2022-02-12T17:53:02Z",
               "title": "v7.0.0-beta.9",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.0.0-beta.9.zip"
             }
@@ -12955,7 +12955,7 @@
             },
             "v2.0.0": {
               "comment": "move to v7",
-              "id": 60218543,
+              "id": 60219940,
               "manifests": [
                 {
                   "info": {
@@ -13029,7 +13029,7 @@
                 }
               ],
               "prerelease": false,
-              "published_at": null,
+              "published_at": "2022-02-23T12:00:04Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v2.0.0.zip"
             }
@@ -14136,8 +14136,8 @@
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.6.zip"
             },
             "v1.0.0-beta.7": {
-              "comment": "add argument --no-package-lock to prevent cleaning up packages",
-              "id": 18290028,
+              "comment": "",
+              "id": 18421923,
               "manifests": [
                 {
                   "info": {
@@ -14200,8 +14200,8 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
-              "title": "v1.0.0-beta.7",
+              "published_at": "2019-07-04T18:31:45Z",
+              "title": "",
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.7.zip"
             },
             "v1.0.0-beta.8": {
@@ -14408,6 +14408,72 @@
               "published_at": "2020-04-06T18:53:18Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.1.zip"
+            },
+            "v2.0.0": {
+              "comment": "move to v7",
+              "id": 60263677,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "thron7 AT users DOT sourceforge DOT net",
+                        "name": "Thomas Herchenroeder (thron7)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (d_wagner)"
+                      },
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "license": "MIT",
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.demobrowser.Application",
+                      "include": [
+                        "qxl.demobrowser.*",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ],
+                      "name": "demobrowser",
+                      "theme": "qxl.demobrowser.Theme",
+                      "title": "DemoBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.demobrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-23T19:28:09Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v2.0.0.zip"
             }
           },
           "list": [
@@ -14432,7 +14498,8 @@
             "v1.0.0-beta.14",
             "v1.0.0-beta.15",
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser"
