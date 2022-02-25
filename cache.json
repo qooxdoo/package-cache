@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 495,
+  "num_libraries": 496,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -20730,10 +20730,53 @@
               "published_at": "2021-02-05T14:13:02Z",
               "title": "v6.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v6.0.1.zip"
+            },
+            "v7.0.0": {
+              "comment": "move to v7",
+              "id": 60454150,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "This app runs the GUI unit tests",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "name": "testrunner",
+                    "summary": "Test Runner",
+                    "version": "7.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testrunner.Application",
+                      "name": "testrunner",
+                      "theme": "qx.theme.Simple",
+                      "title": "TestRunner"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testrunner",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0",
+                    "qooxdoo/qxl.logpane": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-25T07:07:25Z",
+              "title": "v7.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.testrunner/archive/v7.0.0.zip"
             }
           },
           "list": [
-            "v6.0.1"
+            "v6.0.1",
+            "v7.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.testrunner"
