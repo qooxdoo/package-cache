@@ -10463,7 +10463,7 @@
             },
             "v7.0.0-beta.7": {
               "comment": "Release v7.0.0-beta.7",
-              "id": 56860097,
+              "id": 56861097,
               "manifests": [
                 {
                   "info": {
@@ -10650,13 +10650,13 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
+              "published_at": "2022-01-11T19:52:10Z",
               "title": "v7.0.0-beta.7",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.0.0-beta.7.zip"
             },
             "v7.0.0-beta.8": {
-              "comment": "move to npm-shrinkwrap.json",
-              "id": 58435624,
+              "comment": "move to npm-shrinkwrap.json file",
+              "id": 58436816,
               "manifests": [
                 {
                   "info": {
@@ -10843,13 +10843,13 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
+              "published_at": "2022-02-01T14:57:09Z",
               "title": "v7.0.0-beta.8",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.0.0-beta.8.zip"
             },
             "v7.0.0-beta.9": {
-              "comment": "fix lint issue #10356",
-              "id": 59408866,
+              "comment": "fix lint issue #10356, fix mixin issue #10355",
+              "id": 59409107,
               "manifests": [
                 {
                   "info": {
@@ -11036,7 +11036,7 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
+              "published_at": "2022-02-12T17:53:02Z",
               "title": "v7.0.0-beta.9",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.0.0-beta.9.zip"
             }
@@ -12994,7 +12994,7 @@
             },
             "v2.0.0": {
               "comment": "move to v7",
-              "id": 60218543,
+              "id": 60219940,
               "manifests": [
                 {
                   "info": {
@@ -13068,7 +13068,7 @@
                 }
               ],
               "prerelease": false,
-              "published_at": null,
+              "published_at": "2022-02-23T12:00:04Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v2.0.0.zip"
             }
@@ -14175,8 +14175,8 @@
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.6.zip"
             },
             "v1.0.0-beta.7": {
-              "comment": "add argument --no-package-lock to prevent cleaning up packages",
-              "id": 18290028,
+              "comment": "",
+              "id": 18421923,
               "manifests": [
                 {
                   "info": {
@@ -14239,8 +14239,8 @@
                 }
               ],
               "prerelease": true,
-              "published_at": null,
-              "title": "v1.0.0-beta.7",
+              "published_at": "2019-07-04T18:31:45Z",
+              "title": "",
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v1.0.0-beta.7.zip"
             },
             "v1.0.0-beta.8": {
