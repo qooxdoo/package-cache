@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 500,
+  "num_libraries": 501,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -3062,6 +3062,48 @@
               "title": "v0.4.0",
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.4.0.zip"
             },
+            "v0.5.0": {
+              "comment": "Added support for more widgets (like Table, TreeVirtual, TabView and List)",
+              "id": 15205971,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "UI Event Recorder",
+                    "summary": "",
+                    "version": "0.5.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "cboulanger.eventrecorder",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-compiler": "^0.2.45",
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12",
+                    "qooxdoo/qxl.widgetbrowser": "^0.1.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-01-27T23:29:52Z",
+              "title": "v0.5.0",
+              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.0.zip"
+            },
             "v0.5.1": {
               "comment": "Added support for opening/closing of nodes in trees",
               "id": 15226294,
@@ -3603,6 +3645,7 @@
             "v0.2.0",
             "v0.3.1",
             "v0.4.0",
+            "v0.5.0",
             "v0.5.1",
             "v0.5.2",
             "v0.5.3",
