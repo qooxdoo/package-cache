@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 495,
+  "num_libraries": 501,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2322,6 +2322,98 @@
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme"
+      },
+      "adrelino/qxex": {
+        "description": "Additional GUI widgets and utilities for qooxdoo apps.",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "Finished migration to the new qx compiler based toolchain #1.",
+              "id": 40197510,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "mail@adrian-haarbach.de",
+                        "name": "Adrian Haarbach (adrelino)"
+                      }
+                    ],
+                    "description": "Additional GUI widgets (in ui/*) and utilities (static/singleton Manager's in util/) for qooxdoo apps. These are extensions of core qooxdoo widgets, especially from the qx.ui.form and qx.ui.table packages.",
+                    "homepage": "adrelino.github.io/qxex",
+                    "license": "MIT license",
+                    "name": "qxex",
+                    "summary": "Additional GUI widgets and utilities for qooxdoo apps.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxex",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0",
+                    "qooxdoo/qxl.apiviewer": "^1.0.18"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-03-23T02:36:04Z",
+              "title": "qooxdoo-extensions (qxex) initial package release",
+              "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "Reactivated 3 old Meta themes as well as Oxygen Icon theme.\r\nSmall bugfixes, e.g. #2 and finishing up chores from #1 by deleting all things related to old toolchain.",
+              "id": 41372567,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "mail@adrian-haarbach.de",
+                        "name": "Adrian Haarbach (adrelino)"
+                      }
+                    ],
+                    "description": "Additional GUI widgets (in ui/*) and utilities (static/singleton Manager's in util/) for qooxdoo apps. These are extensions of core qooxdoo widgets, especially from the qx.ui.form and qx.ui.table packages.",
+                    "homepage": "adrelino.github.io/qxex",
+                    "license": "MIT license",
+                    "name": "qxex",
+                    "summary": "Additional GUI widgets and utilities for qooxdoo apps.",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxex",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0",
+                    "qooxdoo/qxl.apiviewer": "^1.0.18"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-13T18:31:26Z",
+              "title": "container.Scroll, 3 old Themes reactivated, small bugfixes and chore",
+              "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.1.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v1.0.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/adrelino/qxex"
       },
       "bidefi-irhs/qxfileio": {
         "description": "A set of utilitary classes to deal with local file IO",
@@ -8684,6 +8776,176 @@
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/incubator.qx.io.remote"
+      },
+      "qooxdoo/incubator.qx.util": {
+        "description": "Qooxdoo Utils for NodeJS (Incubator)",
+        "releases": {
+          "data": {
+            "0.1.1": {
+              "comment": "",
+              "id": 21085032,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      }
+                    ],
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.util",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-10-30T12:36:05Z",
+              "title": "",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/0.1.1.zip"
+            },
+            "v0.0.2": {
+              "comment": "Initial qooxdoo package",
+              "id": 24570863,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      }
+                    ],
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "version": "0.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.util",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-03-16T18:50:43Z",
+              "title": "v0.0.2",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.2.zip"
+            },
+            "v0.0.3": {
+              "comment": "fix require, add test",
+              "id": 24573490,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      }
+                    ],
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "version": "0.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.util",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-03-16T20:17:52Z",
+              "title": "v0.0.3",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.3.zip"
+            },
+            "v0.0.4": {
+              "comment": "Release v0.0.4",
+              "id": 27038751,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      }
+                    ],
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "qooxdoo/incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "version": "0.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.util",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-29T16:05:28Z",
+              "title": "v0.0.4",
+              "zip_url": "https://github.com/qooxdoo/incubator.qx.util/archive/v0.0.4.zip"
+            }
+          },
+          "list": [
+            "v0.0.2",
+            "v0.0.3",
+            "v0.0.4",
+            "0.1.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/incubator.qx.util"
       },
       "qooxdoo/qooxdoo": {
         "description": "qooxdoo - Universal JavaScript Framework",
@@ -25829,6 +26091,7 @@
       "ITISFoundation/qx-iconfont-fontawesome5",
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
+      "adrelino/qxex",
       "bidefi-irhs/qxfileio",
       "cajus/capture",
       "cboulanger/eventrecorder",
@@ -25860,6 +26123,7 @@
       "qooxdoo/deprecated.qx.io.remote",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
+      "qooxdoo/incubator.qx.util",
       "qooxdoo/qooxdoo",
       "qooxdoo/qxl.apiviewer",
       "qooxdoo/qxl.datademo",
