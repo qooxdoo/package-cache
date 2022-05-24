@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 502,
+  "num_libraries": 498,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2479,51 +2479,6 @@
         "description": "A qooxdoo package that allows to record user interaction for replay in testing or presentations",
         "releases": {
           "data": {
-            "v0.10.0": {
-              "comment": "This adds a dropdown to the replay button to replay individual macros",
-              "id": 17001247,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.10.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "ergobyte/qookery/qookery": "^0.6.0",
-                    "ergobyte/qookery/qookeryace": "^0.6.0",
-                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.apiviewer": "^0.1.13",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.6"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-04-26T13:08:58Z",
-              "title": "v0.10.0",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.10.0.zip"
-            },
             "v0.11.0": {
               "comment": "New compiler version",
               "id": 18669030,
@@ -3146,47 +3101,6 @@
               "title": "v0.5.1",
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.1.zip"
             },
-            "v0.5.2": {
-              "comment": "Bug fix",
-              "id": 15227391,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.5.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.apiviewer": "^0.1.12",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.2"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-01-28T22:39:15Z",
-              "title": "v0.5.2",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.5.2.zip"
-            },
             "v0.5.3": {
               "comment": "Bug fix for widgetbrowser/eventrecorder demo",
               "id": 15232624,
@@ -3303,45 +3217,6 @@
               "published_at": "2019-02-02T11:45:22Z",
               "title": "v0.7.0",
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.7.0.zip"
-            },
-            "v0.8.0": {
-              "comment": "A few bugs left, but fully functional",
-              "id": 15392397,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.8.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-02-06T09:26:52Z",
-              "title": "v0.8.0",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.8.0.zip"
             },
             "v0.9.0": {
               "comment": "Added autocomplete in the editor, many bugfixes",
@@ -3511,48 +3386,6 @@
               "title": "v0.9.3",
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.3.zip"
             },
-            "v0.9.4": {
-              "comment": "Added option not to reload page before playing script",
-              "id": 16494906,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.9.4"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "cboulanger/qookery/qookery": "^0.6.1",
-                    "cboulanger/qookery/qookeryace": "^0.6.1",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-04-02T08:07:44Z",
-              "title": "v0.9.4",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.4.zip"
-            },
             "v0.9.5": {
               "comment": "Disabling recording of \"tap\" and \"dbltap\" since it requires emulation of native events",
               "id": 16547021,
@@ -3647,19 +3480,15 @@
             "v0.4.0",
             "v0.5.0",
             "v0.5.1",
-            "v0.5.2",
             "v0.5.3",
             "v0.6.0",
             "v0.7.0",
-            "v0.8.0",
             "v0.9.0",
             "v0.9.1",
             "v0.9.2",
             "v0.9.3",
-            "v0.9.4",
             "v0.9.5",
             "v0.9.6",
-            "v0.10.0",
             "v0.11.0",
             "v0.12.0",
             "v0.13.0",
