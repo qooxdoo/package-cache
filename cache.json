@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 501,
+  "num_libraries": 502,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -11267,6 +11267,199 @@
               "published_at": "2022-03-24T17:00:22Z",
               "title": "v7.1.0",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.1.0.zip"
+            },
+            "v7.1.1": {
+              "comment": "fix using require with es6 modules, fix es6ify and lint",
+              "id": 67589056,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "alexander DOT steitz AT 1und1 DOT de",
+                        "name": "Alexander Steitz (asteitz)"
+                      },
+                      {
+                        "email": "christopher DOT zuendorf AT 1und1 DOT de",
+                        "name": "Christopher Zündorf (czuendorf)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (danielwagner)"
+                      },
+                      {
+                        "email": "derrell DOT lipman AT unwireduniverse DOT com",
+                        "name": "Derrell Lipman (derrell)"
+                      },
+                      {
+                        "email": "andreas DOT ecker AT 1und1 DOT de",
+                        "name": "Andreas Ecker (ecker)"
+                      },
+                      {
+                        "email": "christian DOT hagendorn AT 1und1 DOT de",
+                        "name": "Christian Hagendorn (Hagendorn)"
+                      },
+                      {
+                        "email": "Mustafa DOT Sak AT 1und1 DOT de",
+                        "name": "Mustafa Sak (msak)"
+                      },
+                      {
+                        "email": "thron7 AT users DOT sourceforge DOT net",
+                        "name": "Thomas Herchenröder (thron7)"
+                      },
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tjbutz)"
+                      },
+                      {
+                        "email": "tristan DOT koch AT 1und1 DOT de",
+                        "name": "Tristan Koch (trkoch)"
+                      },
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (wittemann)"
+                      },
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      },
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      },
+                      {
+                        "email": "Henner.Kollmann.gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      },
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      },
+                      {
+                        "email": "dietrich.streifert@visionet.de",
+                        "name": "Dietrich Streifert (level420)"
+                      }
+                    ],
+                    "description": "This library contains the qooxdoo Javascript framework classes for website, mobile, desktop and server.",
+                    "homepage": "http://qooxdoo.org",
+                    "keywords": [
+                      "qooxdoo",
+                      "framework",
+                      "widget",
+                      "cross-browser",
+                      "ajax"
+                    ],
+                    "license": "MIT",
+                    "name": "qooxdoo framework",
+                    "sourceViewUri": "https://github.com/qooxdoo/qooxdoo/blob/%{qxGitBranch}/framework/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "The qooxdoo framework library",
+                    "version": "7.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "environmentChecks": {
+                      "browser.*": "qx.bom.client.Browser",
+                      "client.idle": "qx.bom.client.Idle",
+                      "css.*": "qx.bom.client.Css",
+                      "css.animation": "qx.bom.client.CssAnimation",
+                      "css.animation.requestframe": "qx.bom.client.CssAnimation",
+                      "css.transform": "qx.bom.client.CssTransform",
+                      "css.transform.3d": "qx.bom.client.CssTransform",
+                      "css.transition": "qx.bom.client.CssTransition",
+                      "device.*": "qx.bom.client.Device",
+                      "ecmascript.*": "qx.bom.client.EcmaScript",
+                      "engine.*": "qx.bom.client.Engine",
+                      "event.*": "qx.bom.client.Event",
+                      "html.*": "qx.bom.client.Html",
+                      "html.stylesheet.*": "qx.bom.client.Stylesheet",
+                      "io.*": "qx.bom.client.Transport",
+                      "locale": "qx.bom.client.Locale",
+                      "locale.*": "qx.bom.client.Locale",
+                      "os.*": "qx.bom.client.OperatingSystem",
+                      "os.scrollBarOverlayed": "qx.bom.client.Scroll",
+                      "phonegap*": "qx.bom.client.PhoneGap",
+                      "plugin.*": "qx.bom.client.Plugin",
+                      "plugin.pdfjs": "qx.bom.client.Pdfjs",
+                      "qx.debug.io": "qx.bom.request.Script",
+                      "qx.globalErrorHandling": "qx.event.GlobalError",
+                      "qx.mobile.nativescroll": "qx.bom.client.Scroll",
+                      "qx.promise.*": "qx.Promise",
+                      "runtime.name": "qx.bom.client.Runtime",
+                      "xml.*": "qx.bom.client.Xml"
+                    },
+                    "namespace": "qx",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "webfonts": [
+                      {
+                        "comparisonString": "e1feef39",
+                        "defaultSize": 32,
+                        "name": "MaterialIcons",
+                        "resources": [
+                          "qx/iconfont/MaterialIcons/materialicons-v126.eot",
+                          "qx/iconfont/MaterialIcons/materialicons-v126.woff2",
+                          "qx/iconfont/MaterialIcons/materialicons-v126.woff",
+                          "qx/iconfont/MaterialIcons/materialicons-v126.ttf"
+                        ]
+                      },
+                      {
+                        "comparisonString": "e1feef39",
+                        "defaultSize": 32,
+                        "name": "MaterialIconsOutlined",
+                        "resources": [
+                          "qx/iconfont/MaterialIcons/materialiconsoutlined-v101.eot",
+                          "qx/iconfont/MaterialIcons/materialiconsoutlined-v101.woff2",
+                          "qx/iconfont/MaterialIcons/materialiconsoutlined-v101.woff",
+                          "qx/iconfont/MaterialIcons/materialiconsoutlined-v101.otf"
+                        ]
+                      },
+                      {
+                        "comparisonString": "e1feef39",
+                        "defaultSize": 32,
+                        "name": "MaterialIconsRound",
+                        "resources": [
+                          "qx/iconfont/MaterialIcons/materialiconsround-v100.eot",
+                          "qx/iconfont/MaterialIcons/materialiconsround-v100.woff2",
+                          "qx/iconfont/MaterialIcons/materialiconsround-v100.woff",
+                          "qx/iconfont/MaterialIcons/materialiconsround-v100.otf"
+                        ]
+                      },
+                      {
+                        "comparisonString": "e1feef39",
+                        "defaultSize": 32,
+                        "name": "MaterialIconsSharp",
+                        "resources": [
+                          "qx/iconfont/MaterialIcons/materialiconssharp-v101.eot",
+                          "qx/iconfont/MaterialIcons/materialiconssharp-v101.woff2",
+                          "qx/iconfont/MaterialIcons/materialiconssharp-v101.woff",
+                          "qx/iconfont/MaterialIcons/materialiconssharp-v101.otf"
+                        ]
+                      },
+                      {
+                        "comparisonString": "e1feef39",
+                        "defaultSize": 32,
+                        "name": "MaterialIconsDuoTone",
+                        "resources": [
+                          "qx/iconfont/MaterialIcons/materialiconstwotone-v104.eot",
+                          "qx/iconfont/MaterialIcons/materialiconstwotone-v104.woff2",
+                          "qx/iconfont/MaterialIcons/materialiconstwotone-v104.woff",
+                          "qx/iconfont/MaterialIcons/materialiconstwotone-v104.otf"
+                        ]
+                      }
+                    ]
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-05-23T19:21:25Z",
+              "title": "v7.1.1",
+              "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.1.1.zip"
             }
           },
           "list": [
@@ -11284,7 +11477,8 @@
             "v7.0.0-beta.9",
             "v7.0.0-beta.10",
             "v7.0.0",
-            "v7.1.0"
+            "v7.1.0",
+            "v7.1.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qooxdoo"
@@ -11369,83 +11563,6 @@
               "published_at": "2020-04-04T13:33:31Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0.zip"
-            },
-            "v1.0.0-beta.4": {
-              "comment": "fix compiler issues",
-              "id": 18907202,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      },
-                      {
-                        "email": "daniel DOT wagner AT 1und1 DOT de",
-                        "name": "Daniel Wagner (dwagner)"
-                      },
-                      {
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
-                        "name": "Adrian Olaru (adrianolaru)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "license": "MIT",
-                    "name": "Qooxdoo API Viewer",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "version": "1.0.0-beta.4"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.apiviewer.Application",
-                      "environment": {
-                        "excludeFromAPIViewer": [
-                          "qxl.apiviewer.*"
-                        ],
-                        "qx.icontheme": "Tango"
-                      },
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "apiviewer",
-                      "theme": "qxl.apiviewer.Theme",
-                      "title": "Qooxdoo API Viewer"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.apiviewer",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  }
-                }
-              ],
-              "prerelease": true,
-              "published_at": "2019-07-27T18:32:46Z",
-              "title": "v1.0.0-beta.4",
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0-beta.4.zip"
             },
             "v1.0.0-beta.5": {
               "comment": "fix paths in meta",
@@ -11988,6 +12105,86 @@
               "published_at": "2020-07-27T14:19:14Z",
               "title": "v1.0.10",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.10.zip"
+            },
+            "v1.0.11": {
+              "comment": "fix applications",
+              "id": 29001811,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (dwagner)"
+                      },
+                      {
+                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
+                        "name": "Adrian Olaru (adrianolaru)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
+                    "homepage": "https://github.com/qooxdoo/apiviewer",
+                    "keywords": [
+                      "API",
+                      "class browser"
+                    ],
+                    "license": "MIT",
+                    "name": "Qooxdoo API Viewer",
+                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
+                    "version": "1.0.11"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.apiviewer.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "qxl.apiviewer.applicationName": "",
+                        "qxl.apiviewer.exclude": [
+                          "qxl.apiviewer.*"
+                        ],
+                        "qxl.apiviewer.include": [
+                        ]
+                      },
+                      "exclude": [
+                        "qx.test.*",
+                        "qx.module.Blocker",
+                        "qx.module.Placement"
+                      ],
+                      "include": [
+                        "qx.*"
+                      ],
+                      "name": "apiviewer",
+                      "theme": "qxl.apiviewer.Theme",
+                      "title": "Qooxdoo API Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.apiviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-07-27T19:43:25Z",
+              "title": "v1.0.11",
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.11.zip"
             },
             "v1.0.12": {
               "comment": "fix events, fix comment",
@@ -13300,7 +13497,6 @@
             }
           },
           "list": [
-            "v1.0.0-beta.4",
             "v1.0.0-beta.5",
             "v1.0.0-beta.6",
             "v1.0.0-beta.7",
@@ -13317,6 +13513,7 @@
             "v1.0.8",
             "v1.0.9",
             "v1.0.10",
+            "v1.0.11",
             "v1.0.12",
             "v1.0.13",
             "v1.0.14",
