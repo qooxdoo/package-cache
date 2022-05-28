@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 503,
+  "num_libraries": 502,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -11564,83 +11564,6 @@
               "title": "v1.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0.zip"
             },
-            "v1.0.0-beta.4": {
-              "comment": "fix compiler issues",
-              "id": 18907202,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      },
-                      {
-                        "email": "daniel DOT wagner AT 1und1 DOT de",
-                        "name": "Daniel Wagner (dwagner)"
-                      },
-                      {
-                        "email": "Adrian DOT Olaru AT 1and1 DOT ro",
-                        "name": "Adrian Olaru (adrianolaru)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "The Api Viewer lets you browse API documentation generated from Javascript source comments. It supports many specifics of qooxdoo classes like inheritance, properties and private members.",
-                    "homepage": "https://github.com/qooxdoo/apiviewer",
-                    "keywords": [
-                      "API",
-                      "class browser"
-                    ],
-                    "license": "MIT",
-                    "name": "Qooxdoo API Viewer",
-                    "sourceViewUri": "https://github.com/qooxdoo/apiviewer/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
-                    "summary": "A viewer application to browse generated API documentation of qooxdoo classes",
-                    "version": "1.0.0-beta.4"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.apiviewer.Application",
-                      "environment": {
-                        "excludeFromAPIViewer": [
-                          "qxl.apiviewer.*"
-                        ],
-                        "qx.icontheme": "Tango"
-                      },
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "apiviewer",
-                      "theme": "qxl.apiviewer.Theme",
-                      "title": "Qooxdoo API Viewer"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.apiviewer",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  }
-                }
-              ],
-              "prerelease": true,
-              "published_at": "2019-07-27T18:32:46Z",
-              "title": "v1.0.0-beta.4",
-              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.0-beta.4.zip"
-            },
             "v1.0.0-beta.5": {
               "comment": "fix paths in meta",
               "id": 18983616,
@@ -12822,6 +12745,19 @@
               "title": "v1.0.18",
               "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.18.zip"
             },
+            "v1.0.19": {
+              "comment": "move to v7",
+              "id": 60168970,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "prerelease": false,
+              "published_at": null,
+              "title": "v1.0.19",
+              "zip_url": "https://github.com/qooxdoo/qxl.apiviewer/archive/v1.0.19.zip"
+            },
             "v1.0.2": {
               "comment": "fix schema url",
               "id": 26619907,
@@ -13561,7 +13497,6 @@
             }
           },
           "list": [
-            "v1.0.0-beta.4",
             "v1.0.0-beta.5",
             "v1.0.0-beta.6",
             "v1.0.0-beta.7",
@@ -13586,6 +13521,7 @@
             "v1.0.16",
             "v1.0.17",
             "v1.0.18",
+            "v1.0.19",
             "v1.0.20",
             "v1.0.21",
             "v2.0.0",
