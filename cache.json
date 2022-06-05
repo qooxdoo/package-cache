@@ -11460,6 +11460,19 @@
               "published_at": "2022-05-23T19:21:25Z",
               "title": "v7.1.1",
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.1.1.zip"
+            },
+            "v7.2.0": {
+              "comment": "bundle local Commonjs or ES6 modules",
+              "id": 68669226,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "prerelease": false,
+              "published_at": null,
+              "title": "v7.2.0",
+              "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.2.0.zip"
             }
           },
           "list": [
@@ -11478,7 +11491,8 @@
             "v7.0.0-beta.10",
             "v7.0.0",
             "v7.1.0",
-            "v7.1.1"
+            "v7.1.1",
+            "v7.2.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qooxdoo"
