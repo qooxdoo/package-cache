@@ -11462,8 +11462,8 @@
               "zip_url": "https://github.com/qooxdoo/qooxdoo/archive/v7.1.1.zip"
             },
             "v7.2.0": {
-              "comment": "bundle local Commonjs or ES6 modules",
-              "id": 68669226,
+              "comment": "bundle local ES6 or CommonJS modules",
+              "id": 68669912,
               "manifests": [
                 {
                   "path": "."
@@ -11492,6 +11492,7 @@
             "v7.0.0",
             "v7.1.0",
             "v7.1.1",
+            "v7.2.0",
             "v7.2.0"
           ]
         },
