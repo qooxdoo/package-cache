@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 502,
+  "num_libraries": 500,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6581,45 +6581,6 @@
               "title": "v1.0.1",
               "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.1.zip"
             },
-            "v1.0.10": {
-              "comment": "https://sass-lang.com/documentation/breaking-changes/slash-div",
-              "id": 51926274,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
-                    "license": "MIT license",
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "version": "1.0.10"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "hkollmann.mobilegrid",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-10-24T08:36:50Z",
-              "title": "v1.0.10",
-              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.10.zip"
-            },
             "v1.0.2": {
               "comment": "Release v1.0.2",
               "id": 14350090,
@@ -6888,44 +6849,6 @@
               "published_at": "2019-07-28T20:37:59Z",
               "title": "v1.0.9",
               "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.9.zip"
-            },
-            "v2.0.0": {
-              "comment": "move to v7",
-              "id": 60489060,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
-                    "license": "MIT license",
-                    "name": "mobilegrid",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "version": "2.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "hkollmann.mobilegrid",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2022-02-25T14:43:31Z",
-              "title": "v2.0.0",
-              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v2.0.0.zip"
             }
           },
           "list": [
@@ -6937,9 +6860,7 @@
             "v1.0.6",
             "v1.0.7",
             "v1.0.8",
-            "v1.0.9",
-            "v1.0.10",
-            "v2.0.0"
+            "v1.0.9"
           ]
         },
         "url": "https://api.github.com/repos/hkollmann/hkollmann.mobilegrid"
