@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 502,
+  "num_libraries": 508,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7377,13 +7377,52 @@
               "published_at": "2021-05-28T09:51:40Z",
               "title": "v1.0.4",
               "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "Update Dependencies for Qx7",
+              "id": 69041074,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:00:54Z",
+              "title": "1.0.5",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.5.zip"
             }
           },
           "list": [
             "v1.0.0",
             "v1.0.2",
             "v1.0.3",
-            "v1.0.4"
+            "v1.0.4",
+            "v1.0.5"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/CanvasCell"
@@ -7590,6 +7629,44 @@
               "published_at": "2021-05-28T09:52:42Z",
               "title": "v1.0.4",
               "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "Update for Qx7",
+              "id": 69041141,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:01:40Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.5.zip"
             }
           },
           "list": [
@@ -7597,7 +7674,8 @@
             "v1.0.1",
             "v1.0.2",
             "v1.0.3",
-            "v1.0.4"
+            "v1.0.4",
+            "v1.0.5"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/ComboTable"
@@ -7683,11 +7761,50 @@
               "published_at": "2021-05-28T09:53:45Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/oetiker/Cropper/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Update for Qx7",
+              "id": 69041182,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A widget that can attach itself to another widget and actives on mouse click.",
+                    "homepage": "http://contrib.qooxdoo.org/project/Cropper",
+                    "license": "LGPL/EPL",
+                    "name": "Cropper",
+                    "summary": "Visually select portion of a Widget",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "cropper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:02:09Z",
+              "title": "1.0.2",
+              "zip_url": "https://github.com/oetiker/Cropper/archive/v1.0.2.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/Cropper"
@@ -7776,11 +7893,49 @@
               "published_at": "2021-05-28T10:16:29Z",
               "title": "v0.4.1",
               "zip_url": "https://github.com/oetiker/QxD3/archive/v0.4.1.zip"
+            },
+            "v0.4.2": {
+              "comment": "Update for Qx7",
+              "id": 69041223,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "homepage": "https://github.com/oetiker/QxD3",
+                    "license": "LGPL/EPL",
+                    "name": "QxD3",
+                    "summary": "D3 Bindings for Qooxdoo",
+                    "version": "0.4.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxd3",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:02:53Z",
+              "title": "0.4.2",
+              "zip_url": "https://github.com/oetiker/QxD3/archive/v0.4.2.zip"
             }
           },
           "list": [
             "v0.3.0",
-            "v0.4.1"
+            "v0.4.1",
+            "v0.4.2"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxD3"
@@ -7866,11 +8021,50 @@
               "published_at": "2021-05-28T12:49:24Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Update for Qx7",
+              "id": 69041284,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Makes Dan Vanderkams Dygraph charting library available in Qooxdoo",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxDyGraphs",
+                    "license": "LGPL/EPL",
+                    "name": "QxDyGraphs",
+                    "summary": "QxDyGraphs Contribution",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxdygraphs",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:03:35Z",
+              "title": "1.0.2",
+              "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.2.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxDyGraphs"
@@ -7956,11 +8150,50 @@
               "published_at": "2021-05-28T15:40:12Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/oetiker/QxJqPlot/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Update for Qx7",
+              "id": 69041359,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Integrate jqPlot into qooxdoo.",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxJqPlot",
+                    "license": "MIT",
+                    "name": "QxJqPlot",
+                    "summary": "QxJqPlot Contribution",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxjqplot",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:04:30Z",
+              "title": "1.0.2",
+              "zip_url": "https://github.com/oetiker/QxJqPlot/archive/v1.0.2.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxJqPlot"
