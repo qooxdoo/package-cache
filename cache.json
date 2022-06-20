@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 508,
+  "num_libraries": 509,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8593,6 +8593,66 @@
           ]
         },
         "url": "https://api.github.com/repos/oposs/headerpuppet"
+      },
+      "oposs/qx-iconfont-tabler": {
+        "description": "Qooxdoo package providing the Tabler font ",
+        "releases": {
+          "data": {
+            "0.1.0": {
+              "comment": "**Full Changelog**: https://github.com/oposs/qx-iconfont-tabler/commits/0.1.0",
+              "id": 69868590,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.ethz.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A set of over 1950 free MIT-licensed high-quality icons.",
+                    "homepage": "https://github.com/oposs/qx-iconfont-tabler",
+                    "license": "MIT license",
+                    "name": "qx-iconfont-tabler",
+                    "summary": "Tabler Icons for Qooxdoo",
+                    "version": "0.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "iconfont.tabler",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "webfonts": [
+                      {
+                        "comparisonString": "f104ecee",
+                        "defaultSize": 32,
+                        "name": "TablerIcons",
+                        "resources": [
+                          "iconfont/tabler/tabler-icons.woff2",
+                          "iconfont/tabler/tabler-icons.woff"
+                        ]
+                      }
+                    ]
+                  },
+                  "qx_versions": ">6.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": ">6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-20T17:32:47Z",
+              "title": "Initial Release",
+              "zip_url": "https://github.com/oposs/qx-iconfont-tabler/archive/0.1.0.zip"
+            }
+          },
+          "list": [
+            "0.1.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/oposs/qx-iconfont-tabler"
       },
       "qooxdoo/deprecated.qx.io.remote": {
         "description": "Qooxdoo's pre-v7 qx.io.remote namespace ",
@@ -26562,6 +26622,7 @@
       "oetiker/QxJqPlot",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
+      "oposs/qx-iconfont-tabler",
       "qooxdoo/deprecated.qx.io.remote",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
