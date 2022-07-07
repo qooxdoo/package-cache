@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 509,
+  "num_libraries": 508,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -3921,43 +3921,6 @@
               "title": "v1.3.3",
               "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.3.zip"
             },
-            "v1.3.4": {
-              "comment": "",
-              "id": 10531410,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
-                    "license": "LGPL/EPL",
-                    "name": "Dialog",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha",
-                    "summary": "Dialog Contribution",
-                    "version": "1.3.4"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "dialog",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "5.x - 6.0.0-alpha"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2018-04-13T09:25:30Z",
-              "title": "v1.3.4",
-              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.4.zip"
-            },
             "v1.3.5": {
               "comment": "",
               "id": 11529228,
@@ -4235,7 +4198,6 @@
             "v1.3.1",
             "v1.3.2",
             "v1.3.3",
-            "v1.3.4",
             "v1.3.5",
             "v1.3.6",
             "v1.4.0",
