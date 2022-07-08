@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 507,
+  "num_libraries": 509,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -1093,6 +1093,58 @@
               "published_at": "2019-07-25T11:41:33Z",
               "title": "qx packge upgrade",
               "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.1.5.zip"
+            },
+            "v0.1.7": {
+              "comment": "",
+              "id": 19943325,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.ethz.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "name": "qx-iconfont-material",
+                    "summary": "theme for the osparc web ui",
+                    "version": "0.1.7"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "iconfont.material",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "webfonts": [
+                      {
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "name": "MaterialIcons",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.eot",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.ttf"
+                        ]
+                      }
+                    ]
+                  },
+                  "qx_versions": "^6.0.0-beta-20190723-1841",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta.20190725-1034",
+                    "@qooxdoo/framework": "^6.0.0-beta-20190723-1841"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-09-12T13:29:27Z",
+              "title": "Remove qooxdoo.d.ts",
+              "zip_url": "https://github.com/ITISFoundation/qx-iconfont-material/archive/v0.1.7.zip"
             }
           },
           "list": [
@@ -1103,7 +1155,8 @@
             "v0.1.0",
             "v0.1.1",
             "v0.1.4",
-            "v0.1.5"
+            "v0.1.5",
+            "v0.1.7"
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-iconfont-material"
@@ -7576,6 +7629,44 @@
               "published_at": "2021-05-28T09:52:42Z",
               "title": "v1.0.4",
               "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "Update for Qx7",
+              "id": 69041141,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:01:40Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.5.zip"
             }
           },
           "list": [
@@ -7583,7 +7674,8 @@
             "v1.0.1",
             "v1.0.2",
             "v1.0.3",
-            "v1.0.4"
+            "v1.0.4",
+            "v1.0.5"
           ]
         },
         "url": "https://api.github.com/repos/oetiker/ComboTable"
