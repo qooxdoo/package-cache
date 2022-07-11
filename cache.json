@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 507,
+  "num_libraries": 509,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -4742,6 +4742,43 @@
               "title": "v1.0.12",
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.12.zip"
             },
+            "v1.0.13": {
+              "comment": "",
+              "id": 8627229,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "test",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x",
+                    "summary": "This is a qooxdoo test app",
+                    "version": "1.0.13"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "test",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "6.0.0-alpha - 6.x"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-11-22T21:46:59Z",
+              "title": "v1.0.13",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.13.zip"
+            },
             "v1.0.14": {
               "comment": "",
               "id": 8860580,
@@ -4889,6 +4926,43 @@
               "published_at": "2017-12-11T21:42:45Z",
               "title": "v1.0.27",
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.27.zip"
+            },
+            "v1.0.28": {
+              "comment": "",
+              "id": 8860940,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "test",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x",
+                    "summary": "This is a qooxdoo test app",
+                    "version": "1.0.28"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "test",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "6.0.0-alpha - 6.x"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-12-11T21:51:26Z",
+              "title": "v1.0.28",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.28.zip"
             },
             "v1.0.30": {
               "comment": "",
@@ -5352,10 +5426,12 @@
             "v1.0.10",
             "v1.0.11",
             "v1.0.12",
+            "v1.0.13",
             "v1.0.14",
             "v1.0.25",
             "v1.0.26",
             "v1.0.27",
+            "v1.0.28",
             "v1.0.30",
             "v1.0.31",
             "v1.0.33",
