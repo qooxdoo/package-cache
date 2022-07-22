@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 511,
+  "num_libraries": 512,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -18055,6 +18055,53 @@
               "title": "v0.4.0",
               "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.0.zip"
             },
+            "v0.4.1": {
+              "comment": "Use prereleases as well",
+              "id": 18867688,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ],
+                    "license": "MIT license",
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "version": "0.4.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.packagebrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-25T16:11:00Z",
+              "title": "v0.4.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.4.1.zip"
+            },
             "v0.4.2": {
               "comment": "include stderr",
               "id": 18874630,
@@ -18396,6 +18443,7 @@
             "v0.3.3",
             "v0.3.4",
             "v0.4.0",
+            "v0.4.1",
             "v0.4.2",
             "v0.5.0",
             "v0.5.1",
