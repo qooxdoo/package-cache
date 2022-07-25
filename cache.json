@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 512,
+  "num_libraries": 511,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -19275,65 +19275,6 @@
               "published_at": "2021-02-04T18:34:52Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v1.0.1.zip"
-            },
-            "v2.0.0": {
-              "comment": "move to v7",
-              "id": 60386128,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "martin DOT wittemann AT 1und1 DOT de",
-                        "name": "Martin Wittemann (martinwittemann)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "This application features a code editor and a live preview of the application.",
-                    "homepage": "http://demo.qooxdoo.org/current/playground",
-                    "keywords": [
-                    ],
-                    "license": "MIT",
-                    "name": "Playground",
-                    "summary": "A playground for application coding",
-                    "version": "2.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "bootPath": "source/boot",
-                      "class": "qxl.playground.Application",
-                      "exclude": [
-                        "qx.test.*",
-                        "qx.module.Blocker",
-                        "qx.module.Placement"
-                      ],
-                      "include": [
-                        "qx.*"
-                      ],
-                      "name": "playground",
-                      "theme": "qxl.playground.theme.Theme",
-                      "title": "Playground"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.playground",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2022-02-24T16:08:29Z",
-              "title": "v2.0.0",
-              "zip_url": "https://github.com/qooxdoo/qxl.playground/archive/v2.0.0.zip"
             }
           },
           "list": [
@@ -19350,8 +19291,7 @@
             "v1.0.0-beta.7",
             "v1.0.0-beta.8",
             "v1.0.0",
-            "v1.0.1",
-            "v2.0.0"
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.playground"
