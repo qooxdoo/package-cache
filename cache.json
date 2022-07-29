@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 511,
+  "num_libraries": 512,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -19360,6 +19360,42 @@
         "description": "Test contrib with single library (unlisted)",
         "releases": {
           "data": {
+            "v1.0.1": {
+              "comment": "Release v1.0.1",
+              "id": 16638618,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": "",
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "qxl.test1",
+                    "summary": "Test library 1",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.test1",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.test2C": "^1.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-04-09T06:38:53Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.1.zip"
+            },
             "v1.0.2": {
               "comment": "Release v1.0.2",
               "id": 16657818,
@@ -19780,6 +19816,7 @@
             }
           },
           "list": [
+            "v1.0.1",
             "v1.0.2",
             "v1.0.3",
             "v1.1.0",
