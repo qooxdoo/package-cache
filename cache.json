@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 512,
+  "num_libraries": 511,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -26194,59 +26194,8 @@
         "description": "Additional dark theme for qooxdoo 3.0 and above",
         "releases": {
           "data": {
-            "v2.0.0": {
-              "comment": "Release v2.0.0",
-              "id": 43490698,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "(scro34)",
-                        "name": "Norbert Schröder"
-                      }
-                    ],
-                    "description": "A dark theme for qx 6.0",
-                    "homepage": "https://github.com/scro34/Bernstein",
-                    "license": "MIT license",
-                    "name": "bernstein.demo",
-                    "summary": "Bernstein Theme Contribution",
-                    "version": "1.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "bernstein",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "webfonts": [
-                      {
-                        "defaultSize": 16,
-                        "mapping": "resource/bernstein/fonts/fontawesome.map",
-                        "name": "FontAwesome",
-                        "resources": [
-                          "resource/bernstein/fonts/fa-solid-900.ttf"
-                        ]
-                      }
-                    ]
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0",
-                    "qooxdoo/qxl.formdemo": "^1.0.2"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-05-24T22:55:26Z",
-              "title": "v2.0.0",
-              "zip_url": "https://github.com/scro34/Bernstein/archive/v2.0.0.zip"
-            }
           },
           "list": [
-            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/scro34/Bernstein"
