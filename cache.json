@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 511,
+  "num_libraries": 512,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7596,7 +7596,33 @@
               "id": 43755091,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
                 }
               ],
               "prerelease": false,
