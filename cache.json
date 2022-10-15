@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 512,
+  "num_libraries": 511,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8073,45 +8073,6 @@
         "description": "Use jqPlot from within qooxdoo.",
         "releases": {
           "data": {
-            "v1.0.0": {
-              "comment": "",
-              "id": 6304276,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "tobi@oetiker.ch",
-                        "name": "Tobi Oetiker (oetiker)"
-                      }
-                    ],
-                    "description": "Integrate jqPlot into qooxdoo.",
-                    "homepage": "http://contrib.qooxdoo.org/project/QxJqPlot",
-                    "license": "LGPL/EPL",
-                    "name": "QxJqPlot",
-                    "qooxdoo-versions": [
-                      "1.4 - 5.x"
-                    ],
-                    "summary": "QxJqPlot Contribution",
-                    "version": "trunk"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxjqplot",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "1.4 - 5.x"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2017-05-07T15:52:35Z",
-              "title": "",
-              "zip_url": "https://github.com/oetiker/QxJqPlot/archive/v1.0.0.zip"
-            },
             "v1.0.1": {
               "comment": "update for qx6",
               "id": 43774706,
@@ -8191,7 +8152,6 @@
             }
           },
           "list": [
-            "v1.0.0",
             "v1.0.1",
             "v1.0.2"
           ]
