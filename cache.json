@@ -6473,6 +6473,16 @@
         },
         "url": "https://api.github.com/repos/goldim/scro34-qxthemes"
       },
+      "goldim/ugpa.periodpicker": {
+        "description": "date-time period picker widget",
+        "releases": {
+          "data": {
+          },
+          "list": [
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/ugpa.periodpicker"
+      },
       "goldim/ugpa.timefield": {
         "description": "Time Field Widget",
         "releases": {
@@ -27806,6 +27816,7 @@
       "goldim/SilverBlueTheme",
       "goldim/darktheme",
       "goldim/scro34-qxthemes",
+      "goldim/ugpa.periodpicker",
       "goldim/ugpa.timefield",
       "gonicus/breadcrumbs",
       "gonicus/flat",
