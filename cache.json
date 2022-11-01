@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 516,
+  "num_libraries": 517,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6472,6 +6472,55 @@
           ]
         },
         "url": "https://api.github.com/repos/goldim/scro34-qxthemes"
+      },
+      "goldim/ugpa.timefield": {
+        "description": "Time Field Widget",
+        "releases": {
+          "data": {
+            "v0.1.0": {
+              "comment": "First version of package. Compatible with qooxdoo v7.",
+              "id": 81645950,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "select time with scroller",
+                    "homepage": "https://github.com/goldim/ugpa.timefield",
+                    "license": "MIT license",
+                    "name": "ugpa.timefield",
+                    "summary": "timefield widget",
+                    "version": "0.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ugpa.timefield",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.3.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.3.3"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2022-11-01T11:17:43Z",
+              "title": "v0.1.0",
+              "zip_url": "https://github.com/goldim/ugpa.timefield/archive/v0.1.0.zip"
+            }
+          },
+          "list": [
+            "v0.1.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/ugpa.timefield"
       },
       "gonicus/breadcrumbs": {
         "description": "Qooxdoo breadcrumb widget",
@@ -27757,6 +27806,7 @@
       "goldim/SilverBlueTheme",
       "goldim/darktheme",
       "goldim/scro34-qxthemes",
+      "goldim/ugpa.timefield",
       "gonicus/breadcrumbs",
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
