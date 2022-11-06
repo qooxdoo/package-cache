@@ -6523,6 +6523,16 @@
         },
         "url": "https://api.github.com/repos/goldim/ugpa.periodpicker"
       },
+      "goldim/ugpa.statusbutton": {
+        "description": "button with indicator",
+        "releases": {
+          "data": {
+          },
+          "list": [
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/ugpa.statusbutton"
+      },
       "goldim/ugpa.timefield": {
         "description": "Time Field Widget",
         "releases": {
@@ -27857,6 +27867,7 @@
       "goldim/darktheme",
       "goldim/scro34-qxthemes",
       "goldim/ugpa.periodpicker",
+      "goldim/ugpa.statusbutton",
       "goldim/ugpa.timefield",
       "gonicus/breadcrumbs",
       "gonicus/flat",
