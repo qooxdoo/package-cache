@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 518,
+  "num_libraries": 514,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -21560,119 +21560,6 @@
               "published_at": "2021-02-27T22:38:13Z",
               "title": "v2.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.test2/archive/v2.0.1.zip"
-            },
-            "v2.0.2": {
-              "comment": "fix qx dependency",
-              "id": 39009800,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "undefined",
-                    "homepage": "undefined",
-                    "license": "MIT license",
-                    "name": "qxl.test2A",
-                    "summary": "Test library 2A",
-                    "version": "2.0.2"
-                  },
-                  "path": "qxl.test2A/Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test2A",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.test2/qxl.test2B": "^1.0.0"
-                  }
-                },
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "undefined",
-                    "homepage": "undefined",
-                    "license": "MIT license",
-                    "name": "qxl.test2B",
-                    "summary": "Test library 2B",
-                    "version": "2.0.2"
-                  },
-                  "path": "qxl.test2B/Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test2B",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
-                  }
-                },
-                {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "undefined",
-                    "homepage": "undefined",
-                    "license": "MIT license",
-                    "name": "qxl.test2C",
-                    "summary": "Test library 2C",
-                    "version": "2.0.2"
-                  },
-                  "path": "qxl.test2C/Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test2C",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.test2/qxl.test2D": "^1.0.0"
-                  }
-                },
-                {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "undefined",
-                    "homepage": "undefined",
-                    "license": "MIT license",
-                    "name": "qxl.test2D",
-                    "summary": "Test library 2D",
-                    "version": "2.0.2"
-                  },
-                  "path": "qxl.test2D/Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test2D",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-02-28T08:22:53Z",
-              "title": "v2.0.2",
-              "zip_url": "https://github.com/qooxdoo/qxl.test2/archive/v2.0.2.zip"
             }
           },
           "list": [
@@ -21683,8 +21570,7 @@
             "v1.2.1",
             "v1.2.2",
             "v2.0.0",
-            "v2.0.1",
-            "v2.0.2"
+            "v2.0.1"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.test2"
