@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 519,
+  "num_libraries": 521,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -18965,6 +18965,47 @@
         "description": "A qooxdoo app to browse the available packages",
         "releases": {
           "data": {
+            "v0.2.0": {
+              "comment": "First release",
+              "id": 18640475,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "version": "0.2.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.packagebrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-16T10:19:20Z",
+              "title": "v0.2.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.packagebrowser/archive/v0.2.0.zip"
+            },
             "v0.2.1": {
               "comment": "Fix path issues",
               "id": 18645931,
@@ -19738,6 +19779,7 @@
             }
           },
           "list": [
+            "v0.2.0",
             "v0.2.1",
             "v0.2.2",
             "v0.2.3",
@@ -21312,7 +21354,30 @@
                   }
                 },
                 {
-                  "path": "qxl.test2C"
+                  "info": {
+                    "authors": "",
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "name": "qxl.test2C",
+                    "summary": "Test library 2C",
+                    "version": "1.0.2"
+                  },
+                  "path": "qxl.test2C/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.test2C",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-compiler": "^0.3.0-alpha",
+                    "qooxdoo-sdk": "^6.0.0-alpha",
+                    "qooxdoo/qxl.test2/qxl.test2D": "^1.0.0"
+                  }
                 },
                 {
                   "info": {
