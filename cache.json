@@ -28279,6 +28279,16 @@
         },
         "url": "https://api.github.com/repos/sqville/ville.GroupBox"
       },
+      "sqville/ville.Upload": {
+        "description": "A new control for the Qooxdoo JavaScript Framework",
+        "releases": {
+          "data": {
+          },
+          "list": [
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.Upload"
+      },
       "sqville/ville.Wax": {
         "description": null,
         "releases": {
@@ -28573,6 +28583,7 @@
       "sqville/ville.Clean",
       "sqville/ville.Embed",
       "sqville/ville.GroupBox",
+      "sqville/ville.Upload",
       "sqville/ville.Wax",
       "sqville/ville.Wireframe",
       "voger/qxDateSelect",
