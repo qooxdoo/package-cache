@@ -28060,7 +28060,7 @@
         "url": "https://api.github.com/repos/sqville/ville.Clean"
       },
       "sqville/ville.Embed": {
-        "description": "A new control for the Qooxdoo JavaScript Framework",
+        "description": "A control for the Qooxdoo JavaScript Framework",
         "releases": {
           "data": {
             "v0.9.0": {
@@ -28280,7 +28280,7 @@
         "url": "https://api.github.com/repos/sqville/ville.GroupBox"
       },
       "sqville/ville.Upload": {
-        "description": "A new control for the Qooxdoo JavaScript Framework",
+        "description": "A control for the Qooxdoo JavaScript Framework",
         "releases": {
           "data": {
           },
