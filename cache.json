@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 519,
+  "num_libraries": 522,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -18066,8 +18066,165 @@
         "description": "qooxdoo iconfont viewer",
         "releases": {
           "data": {
+            "v1.0.0": {
+              "comment": "first version",
+              "id": 34282992,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "https://github.com/qooxdoo/iconfontviewer",
+                    "license": "MIT license",
+                    "name": "iconfontviewer",
+                    "summary": "show all glyphs of registered iconfonts",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.iconfontviewer.Application",
+                      "include": [
+                        "qx.theme.iconfont.LoadMaterialIcons",
+                        "qx.theme.iconfont.LoadMaterialIconsOutlined",
+                        "qx.theme.iconfont.LoadMaterialIconsRound",
+                        "qx.theme.iconfont.LoadMaterialIconsSharp",
+                        "qx.theme.iconfont.LoadMaterialIconsTwoTone"
+                      ],
+                      "name": "Qooxdoo Icon Font Viewer",
+                      "theme": "qxl.iconfontviewer.theme.Theme"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.iconfontviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-11-22T17:22:53Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.iconfontviewer/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to 6.0.0",
+              "id": 37403390,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "https://github.com/qooxdoo/iconfontviewer",
+                    "license": "MIT license",
+                    "name": "iconfontviewer",
+                    "summary": "show all glyphs of registered iconfonts",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.iconfontviewer.Application",
+                      "include": [
+                        "qx.theme.iconfont.LoadMaterialIcons",
+                        "qx.theme.iconfont.LoadMaterialIconsOutlined",
+                        "qx.theme.iconfont.LoadMaterialIconsRound",
+                        "qx.theme.iconfont.LoadMaterialIconsSharp",
+                        "qx.theme.iconfont.LoadMaterialIconsTwoTone"
+                      ],
+                      "name": "iconfontviewer",
+                      "theme": "qxl.iconfontviewer.theme.Theme",
+                      "title": "Qooxdoo Icon Font Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.iconfontviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:28:57Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.iconfontviewer/archive/v1.0.1.zip"
+            },
+            "v2.0.0": {
+              "comment": "move to v7",
+              "id": 60383114,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "https://github.com/qooxdoo/iconfontviewer",
+                    "license": "MIT license",
+                    "name": "iconfontviewer",
+                    "summary": "show all glyphs of registered iconfonts",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.iconfontviewer.Application",
+                      "include": [
+                        "qx.theme.iconfont.LoadMaterialIcons",
+                        "qx.theme.iconfont.LoadMaterialIconsOutlined",
+                        "qx.theme.iconfont.LoadMaterialIconsRound",
+                        "qx.theme.iconfont.LoadMaterialIconsSharp",
+                        "qx.theme.iconfont.LoadMaterialIconsTwoTone"
+                      ],
+                      "name": "iconfontviewer",
+                      "theme": "qxl.iconfontviewer.theme.Theme",
+                      "title": "Qooxdoo Icon Font Viewer"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.iconfontviewer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-24T15:46:49Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.iconfontviewer/archive/v2.0.0.zip"
+            }
           },
           "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.iconfontviewer"
