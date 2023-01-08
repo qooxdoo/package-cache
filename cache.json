@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 523,
+  "num_libraries": 524,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6472,6 +6472,55 @@
           ]
         },
         "url": "https://api.github.com/repos/goldim/darktheme"
+      },
+      "goldim/minesweeper": {
+        "description": "Qooxdoo Miner",
+        "releases": {
+          "data": {
+            "v0.1.1": {
+              "comment": "v0.1.1",
+              "id": 88234489,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "Qooxdoo Minesweeper Game",
+                    "homepage": "https://github.com/goldim/minesweeper",
+                    "license": "MIT license",
+                    "name": "minesweeper",
+                    "summary": "Qooxdoo Minesweeper",
+                    "version": "0.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "minesweeper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "~7.3.3",
+                  "requires": {
+                    "@qooxdoo/framework": "~7.3.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-01-08T10:04:32Z",
+              "title": "v0.1.1",
+              "zip_url": "https://github.com/goldim/minesweeper/archive/v0.1.1.zip"
+            }
+          },
+          "list": [
+            "v0.1.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/minesweeper"
       },
       "goldim/scro34-qxthemes": {
         "description": "bundle of qooxdoo themes created by scro34",
@@ -28579,6 +28628,7 @@
       "goldim/GraydientTheme",
       "goldim/SilverBlueTheme",
       "goldim/darktheme",
+      "goldim/minesweeper",
       "goldim/scro34-qxthemes",
       "goldim/ugpa.periodpicker",
       "goldim/ugpa.statusbutton",
