@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 525,
+  "num_libraries": 524,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -21260,42 +21260,6 @@
               "title": "v1.0.2",
               "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.2.zip"
             },
-            "v1.0.3": {
-              "comment": "Added homepage",
-              "id": 16997872,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": "",
-                    "description": "",
-                    "homepage": "http://www.qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "qxl.test1",
-                    "summary": "Test library 1",
-                    "version": "1.0.3"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.test1",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "qooxdoo-compiler": "^0.3.0-alpha",
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-04-26T10:24:52Z",
-              "title": "v1.0.3",
-              "zip_url": "https://github.com/qooxdoo/qxl.test1/archive/v1.0.3.zip"
-            },
             "v1.1.0": {
               "comment": "Switched to scoped package names, bumbed versions",
               "id": 17301279,
@@ -21646,7 +21610,6 @@
           "list": [
             "v1.0.1",
             "v1.0.2",
-            "v1.0.3",
             "v1.1.0",
             "v1.2.0",
             "v1.2.1",
