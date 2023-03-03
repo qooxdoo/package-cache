@@ -28278,6 +28278,16 @@
         },
         "url": "https://api.github.com/repos/scro34/Bernstein"
       },
+      "sknick/qx-json-schema-ui": {
+        "description": "Qooxdoo package for generating a UI from a JSON schema",
+        "releases": {
+          "data": {
+          },
+          "list": [
+          ]
+        },
+        "url": "https://api.github.com/repos/sknick/qx-json-schema-ui"
+      },
       "sqville/sqv-qxthemes": {
         "description": "(deprecated) Themes for the qooxdoo javascript framework",
         "releases": {
@@ -29063,6 +29073,7 @@
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
       "scro34/Bernstein",
+      "sknick/qx-json-schema-ui",
       "sqville/sqv-qxthemes",
       "sqville/ville.Clean",
       "sqville/ville.Embed",
