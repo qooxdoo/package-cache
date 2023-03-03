@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 527,
+  "num_libraries": 526,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6851,43 +6851,6 @@
               "title": "v1.0.10",
               "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.10.zip"
             },
-            "v1.0.2": {
-              "comment": "Release v1.0.2",
-              "id": 14350090,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "Henner.Kollmann@gmx.de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "With this you have a grid layout in qx.mobile",
-                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
-                    "license": "MIT license",
-                    "name": "mobilegrid",
-                    "qooxdoo-range": "^6.0.0-alpha",
-                    "summary": "adds a grid  widget to qx mobile",
-                    "version": "1.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "mobilegrid",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2018-12-04T22:01:36Z",
-              "title": "v1.0.2",
-              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.2.zip"
-            },
             "v1.0.4": {
               "comment": "Release v1.0.4",
               "id": 14565199,
@@ -7162,7 +7125,6 @@
           "list": [
             "1.0.0",
             "v1.0.1",
-            "v1.0.2",
             "v1.0.4",
             "v1.0.5",
             "v1.0.6",
