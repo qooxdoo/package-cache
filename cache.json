@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 527,
+  "num_libraries": 526,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -16366,56 +16366,13 @@
               "published_at": "2021-02-04T16:21:09Z",
               "title": "v1.0.2",
               "zip_url": "https://github.com/qooxdoo/qxl.datademo/archive/v1.0.2.zip"
-            },
-            "v2.0.0": {
-              "comment": "move to v7",
-              "id": 60221262,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "martin DOT wittemann AT 1und1 DOT de",
-                        "name": "Martin Wittemann (martinwittemann)"
-                      },
-                      {
-                        "email": "Henner DOT Kollmann AT gmx DOT de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "This is a demo containing a container showing a data bound list.",
-                    "homepage": "http://qooxdoo.org/",
-                    "license": "MIT",
-                    "name": "datademo",
-                    "summary": "Common used data binding demo",
-                    "version": "2.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.datademo",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2022-02-23T12:17:40Z",
-              "title": "v2.0.0",
-              "zip_url": "https://github.com/qooxdoo/qxl.datademo/archive/v2.0.0.zip"
             }
           },
           "list": [
             "v1.0.0-beta.2",
             "v1.0.0",
             "v1.0.1",
-            "v1.0.2",
-            "v2.0.0"
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.datademo"
