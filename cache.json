@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 529,
+  "num_libraries": 530,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7799,6 +7799,49 @@
         "description": "Qx Selectbox with incermental search",
         "releases": {
           "data": {
+            "v1.0.0": {
+              "comment": "",
+              "id": 6304338,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      },
+                      {
+                        "email": "info@saksys.de",
+                        "name": "Mustafa Sak"
+                      }
+                    ],
+                    "description": "A selectbox using a qooxdoo table to show list of options supporting incremental search.",
+                    "homepage": "http://contrib.qooxdoo.org/project/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "qooxdoo-versions": [
+                      "4.x - 5.x"
+                    ],
+                    "summary": "A selectbox with incemental search",
+                    "version": "trunk"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "4.x - 5.x"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-05-07T16:07:10Z",
+              "title": "",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
+            },
             "v1.0.1": {
               "comment": "",
               "id": 17009977,
@@ -7995,6 +8038,7 @@
             }
           },
           "list": [
+            "v1.0.0",
             "v1.0.1",
             "v1.0.2",
             "v1.0.3",
