@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 529,
+  "num_libraries": 530,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -26952,7 +26952,36 @@
                   }
                 },
                 {
-                  "path": "tweets/step2"
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
                 },
                 {
                   "info": {
