@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 530,
+  "num_libraries": 527,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -3745,16 +3745,6 @@
           ]
         },
         "url": "https://api.github.com/repos/cboulanger/eventrecorder"
-      },
-      "cboulanger/qooxdoo-contrib-test": {
-        "description": "A test contrib library",
-        "releases": {
-          "data": {
-          },
-          "list": [
-          ]
-        },
-        "url": "https://api.github.com/repos/cboulanger/qooxdoo-contrib-test"
       },
       "cboulanger/qx-contrib-Dialog": {
         "description": "A set of often used dialog widgets for the qooxdoo framework (deprecated, use qooxdoo/qxl.dialog instead)",
@@ -8565,182 +8555,6 @@
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxJqPlot"
-      },
-      "oetiker/UploadWidget": {
-        "description": "An UploadWidget for Qooxdoo",
-        "releases": {
-          "data": {
-            "v1.0.0": {
-              "comment": "",
-              "id": 6304255,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "",
-                        "name": "Dietrich Streifert",
-                        "user": "level420"
-                      },
-                      {
-                        "email": "",
-                        "name": "Petr Kobalicek",
-                        "user": "e666e"
-                      },
-                      {
-                        "email": "tobi@oetiker.ch",
-                        "name": "Tobi Oetiker",
-                        "user": "oetiker"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "https://github.com/oetiker/UploadWidget",
-                    "keywords": [
-                      "qooxdoo",
-                      "widget",
-                      "cross-browser",
-                      "upload"
-                    ],
-                    "license": "LGPL/EPL",
-                    "name": "UploadWidget",
-                    "qooxdoo-versions": [
-                      "1.4 - 5.x"
-                    ],
-                    "summary": "Widget for HTTP file uploads.",
-                    "version": "trunk"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "uploadwidget",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "library"
-                  },
-                  "qx_versions": "1.4 - 5.x"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2017-05-07T15:46:39Z",
-              "title": "",
-              "zip_url": "https://github.com/oetiker/UploadWidget/archive/v1.0.0.zip"
-            },
-            "v1.0.1": {
-              "comment": "",
-              "id": 14183415,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "",
-                        "name": "Dietrich Streifert",
-                        "user": "level420"
-                      },
-                      {
-                        "email": "",
-                        "name": "Petr Kobalicek",
-                        "user": "e666e"
-                      },
-                      {
-                        "email": "tobi@oetiker.ch",
-                        "name": "Tobi Oetiker",
-                        "user": "oetiker"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "https://github.com/oetiker/UploadWidget",
-                    "keywords": [
-                      "qooxdoo",
-                      "widget",
-                      "cross-browser",
-                      "upload"
-                    ],
-                    "license": "MIT license",
-                    "name": "UploadWidget",
-                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x",
-                    "summary": "Widget for HTTP file uploads.",
-                    "version": "1.0.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "uploadwidget",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "6.0.0-alpha-20180529 - 6.x"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2018-11-26T12:53:45Z",
-              "title": "update to qx 6.0 contrib system",
-              "zip_url": "https://github.com/oetiker/UploadWidget/archive/v1.0.1.zip"
-            },
-            "v1.0.2": {
-              "comment": "",
-              "id": 18860788,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "",
-                        "name": "Dietrich Streifert"
-                      },
-                      {
-                        "email": "",
-                        "name": "Petr Kobalicek"
-                      },
-                      {
-                        "email": "tobi@oetiker.ch",
-                        "name": "Tobi Oetiker"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "https://github.com/oetiker/UploadWidget",
-                    "keywords": [
-                      "qooxdoo",
-                      "widget",
-                      "cross-browser",
-                      "upload"
-                    ],
-                    "license": "MIT license",
-                    "name": "UploadWidget",
-                    "summary": "Widget for HTTP file uploads.",
-                    "version": "1.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "uploadwidget",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta-20190723-1841",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta.20190725-1034",
-                    "@qooxdoo/framework": "^6.0.0-beta-20190723-1841"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-07-25T12:09:26Z",
-              "title": "upgrade to package system",
-              "zip_url": "https://github.com/oetiker/UploadWidget/archive/v1.0.2.zip"
-            }
-          },
-          "list": [
-            "v1.0.0",
-            "v1.0.1",
-            "v1.0.2"
-          ]
-        },
-        "url": "https://api.github.com/repos/oetiker/UploadWidget"
       },
       "oposs/headerpuppet": {
         "description": "Extra Headers for the Qooxdoo Table Widget",
@@ -29404,7 +29218,6 @@
       "bidefi-irhs/qxfileio",
       "cajus/capture",
       "cboulanger/eventrecorder",
-      "cboulanger/qooxdoo-contrib-test",
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
       "cboulanger/qx-contrib-test",
@@ -29433,7 +29246,6 @@
       "oetiker/QxD3",
       "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
-      "oetiker/UploadWidget",
       "oposs/headerpuppet",
       "oposs/qx-iconfont-tabler",
       "qooxdoo/deprecated.qx.io.remote",
