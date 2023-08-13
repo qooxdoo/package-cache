@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 530,
+  "num_libraries": 526,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2400,90 +2400,8 @@
         "description": "Additional GUI widgets and utilities for qooxdoo apps.",
         "releases": {
           "data": {
-            "v1.0.0": {
-              "comment": "Finished migration to the new qx compiler based toolchain #1.",
-              "id": 40197510,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "mail@adrian-haarbach.de",
-                        "name": "Adrian Haarbach (adrelino)"
-                      }
-                    ],
-                    "description": "Additional GUI widgets (in ui/*) and utilities (static/singleton Manager's in util/) for qooxdoo apps. These are extensions of core qooxdoo widgets, especially from the qx.ui.form and qx.ui.table packages.",
-                    "homepage": "adrelino.github.io/qxex",
-                    "license": "MIT license",
-                    "name": "qxex",
-                    "summary": "Additional GUI widgets and utilities for qooxdoo apps.",
-                    "version": "1.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxex",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0",
-                    "qooxdoo/qxl.apiviewer": "^1.0.18"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-03-23T02:36:04Z",
-              "title": "qooxdoo-extensions (qxex) initial package release",
-              "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.0.zip"
-            },
-            "v1.0.1": {
-              "comment": "Reactivated 3 old Meta themes as well as Oxygen Icon theme.\r\nSmall bugfixes, e.g. #2 and finishing up chores from #1 by deleting all things related to old toolchain.",
-              "id": 41372567,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "mail@adrian-haarbach.de",
-                        "name": "Adrian Haarbach (adrelino)"
-                      }
-                    ],
-                    "description": "Additional GUI widgets (in ui/*) and utilities (static/singleton Manager's in util/) for qooxdoo apps. These are extensions of core qooxdoo widgets, especially from the qx.ui.form and qx.ui.table packages.",
-                    "homepage": "adrelino.github.io/qxex",
-                    "license": "MIT license",
-                    "name": "qxex",
-                    "summary": "Additional GUI widgets and utilities for qooxdoo apps.",
-                    "version": "1.0.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxex",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0",
-                    "qooxdoo/qxl.apiviewer": "^1.0.18"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-04-13T18:31:26Z",
-              "title": "container.Scroll, 3 old Themes reactivated, small bugfixes and chore",
-              "zip_url": "https://github.com/adrelino/qxex/archive/v1.0.1.zip"
-            }
           },
           "list": [
-            "v1.0.0",
-            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/adrelino/qxex"
@@ -8135,32 +8053,7 @@
               "id": 69041182,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "tobi@oetiker.ch",
-                        "name": "Tobias Oetiker (oetiker)"
-                      }
-                    ],
-                    "description": "A widget that can attach itself to another widget and actives on mouse click.",
-                    "homepage": "http://contrib.qooxdoo.org/project/Cropper",
-                    "license": "LGPL/EPL",
-                    "name": "Cropper",
-                    "summary": "Visually select portion of a Widget",
-                    "version": "1.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cropper",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
@@ -8446,33 +8339,7 @@
               "id": 6304276,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "tobi@oetiker.ch",
-                        "name": "Tobi Oetiker (oetiker)"
-                      }
-                    ],
-                    "description": "Integrate jqPlot into qooxdoo.",
-                    "homepage": "http://contrib.qooxdoo.org/project/QxJqPlot",
-                    "license": "LGPL/EPL",
-                    "name": "QxJqPlot",
-                    "qooxdoo-versions": [
-                      "1.4 - 5.x"
-                    ],
-                    "summary": "QxJqPlot Contribution",
-                    "version": "trunk"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxjqplot",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "1.4 - 5.x"
+                  "path": "."
                 }
               ],
               "prerelease": false,
