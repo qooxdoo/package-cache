@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 530,
+  "num_libraries": 531,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2395,6 +2395,55 @@
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme"
+      },
+      "ZenesisUK/zx.ui.accordion": {
+        "description": "Accordion component set for Qooxdoo",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "release 1.0.0",
+              "id": 118229152,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(WillsterJohnson)",
+                        "name": "Will Johnson"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "zx",
+                    "summary": "",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "zx",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-08-22T15:29:08Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/ZenesisUK/zx.ui.accordion/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/ZenesisUK/zx.ui.accordion"
       },
       "adrelino/qxex": {
         "description": "Additional GUI widgets and utilities for qooxdoo apps.",
@@ -29400,6 +29449,7 @@
       "ITISFoundation/qx-iconfont-fontawesome5",
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
+      "ZenesisUK/zx.ui.accordion",
       "adrelino/qxex",
       "bidefi-irhs/qxfileio",
       "cajus/capture",
