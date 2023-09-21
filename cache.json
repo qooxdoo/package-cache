@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 532,
+  "num_libraries": 533,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2579,10 +2579,49 @@
               "published_at": "2020-04-29T07:44:39Z",
               "title": "New v0.4.1 release",
               "zip_url": "https://github.com/bidefi-irhs/qxfileio/archive/v0.4.1.zip"
+            },
+            "v0.4.2": {
+              "comment": "",
+              "id": 121987857,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sylvain.gaillard@inra.fr",
+                        "name": "Sylvain Gaillard (sgaillard)"
+                      }
+                    ],
+                    "description": "This application contains classes that allow reading and writing files to user file system using the W3C File API.",
+                    "homepage": "https://github.com/sgaillard/qxfileio",
+                    "license": "CeCILL",
+                    "name": "qxfileio",
+                    "summary": "Utilitary class to read and write file client side",
+                    "version": "0.4.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxfileio",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-09-21T07:30:34Z",
+              "title": "Move to Qooxdoo 7",
+              "zip_url": "https://github.com/bidefi-irhs/qxfileio/archive/v0.4.2.zip"
             }
           },
           "list": [
-            "v0.4.1"
+            "v0.4.1",
+            "v0.4.2"
           ]
         },
         "url": "https://api.github.com/repos/bidefi-irhs/qxfileio"
