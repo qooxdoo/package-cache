@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 533,
+  "num_libraries": 534,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -29082,13 +29082,138 @@
               "published_at": "2023-09-14T13:43:31Z",
               "title": "v1.0.5",
               "zip_url": "https://github.com/sqville/ville.Clean/archive/v1.0.5.zip"
+            },
+            "v2.0.0": {
+              "comment": "**Full Changelog**: https://github.com/sqville/ville.Clean/compare/v1.0.5...v2.0.0",
+              "id": 123257558,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Semantic UI designed to include more space (whitespace) and to be out of the way as much as possible",
+                    "homepage": "http://github.com/sqville/ville.Clean",
+                    "license": "MIT",
+                    "name": "ville.Clean",
+                    "summary": "a theme for qooxdoo desktop applications inspired by Semantic UI",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "ville.theme.CleanDark",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Clean",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "fonts": {
+                      "LatoWeb": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWeb",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Regular.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Regular.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Regular.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebBlack": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebBlack",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Black.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Black.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Black.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebBold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebBold",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Bold.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Bold.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Bold.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebSemibold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebSemibold",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Semibold.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Semibold.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Semibold.woff"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "ville.theme.Clean",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.1",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-10-01T17:50:01Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/sqville/ville.Clean/archive/v2.0.0.zip"
             }
           },
           "list": [
             "v1.0.2",
             "v1.0.3",
             "v1.0.4",
-            "v1.0.5"
+            "v1.0.5",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Clean"
