@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 534,
+  "num_libraries": 535,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -29336,6 +29336,72 @@
               "title": "v1.0.4",
               "zip_url": "https://github.com/sqville/ville.Clean/archive/v1.0.4.zip"
             },
+            "v1.0.5": {
+              "comment": "Changes include:\r\n\r\n- MenuButton appearance fix. Removed reference to a focused decorator that did not exists\r\n- Compiled with 7.6.1 qx compiler\r\n\r\n**Full Changelog**: https://github.com/sqville/ville.Clean/compare/v1.0.4...v1.0.5",
+              "id": 121143957,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Semantic UI designed to include more space (whitespace) and to be out of the way as much as possible",
+                    "homepage": "http://github.com/sqville/ville.Clean",
+                    "license": "MIT",
+                    "name": "ville.Clean",
+                    "summary": "a theme for qooxdoo desktop applications inspired by Semantic UI",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc",
+                        "widgetbrowser.pages.Extras"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Clean",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.theme.Clean",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.4.2",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.4.2",
+                    "qooxdoo/qxl.formdemo": "^1.0.2",
+                    "qooxdoo/qxl.versionlabel": "^1.0.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-09-14T13:43:31Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/sqville/ville.Clean/archive/v1.0.5.zip"
+            },
             "v2.0.0": {
               "comment": "**Full Changelog**: https://github.com/sqville/ville.Clean/compare/v1.0.5...v2.0.0",
               "id": 123257558,
@@ -29465,6 +29531,7 @@
             "v1.0.2",
             "v1.0.3",
             "v1.0.4",
+            "v1.0.5",
             "v2.0.0"
           ]
         },
