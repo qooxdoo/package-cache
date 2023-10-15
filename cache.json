@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 479,
+  "num_libraries": 535,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6921,6 +6921,447 @@
         },
         "url": "https://api.github.com/repos/gonicus/qooxdoo-svg"
       },
+      "hkollmann/hkollmann.mobilegrid": {
+        "description": "grid control for qooxdoo mobile",
+        "releases": {
+          "data": {
+            "1.0.0": {
+              "comment": "",
+              "id": 12898479,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-*"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-09-14T09:17:38Z",
+              "title": "",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "Release v1.0.1",
+              "id": 14290265,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "qooxdoo-range": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "6.0 || 6.0.0-* || 6.0.0-alpha || 6.0.0-alpha-* || 6.0.0-alpha-20181116-263f2cc9"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-11-30T20:48:38Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.1.zip"
+            },
+            "v1.0.10": {
+              "comment": "https://sass-lang.com/documentation/breaking-changes/slash-div",
+              "id": 51926274,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.10"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-10-24T08:36:50Z",
+              "title": "v1.0.10",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.10.zip"
+            },
+            "v1.0.2": {
+              "comment": "Release v1.0.2",
+              "id": 14350090,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-12-04T22:01:36Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.2.zip"
+            },
+            "v1.0.4": {
+              "comment": "Release v1.0.4",
+              "id": 14565199,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/qx-contrib-mobileGrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "gh.hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-12-17T09:11:59Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "Release v1.0.5",
+              "id": 15097650,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-01-21T21:16:09Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.5.zip"
+            },
+            "v1.0.6": {
+              "comment": "fixes to support new scss compiler, remove compiler hints",
+              "id": 18910484,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-28T08:44:37Z",
+              "title": "v1.0.6",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.6.zip"
+            },
+            "v1.0.7": {
+              "comment": "add  dummy file",
+              "id": 18911808,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.7"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-28T13:21:49Z",
+              "title": "v1.0.7",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.7.zip"
+            },
+            "v1.0.8": {
+              "comment": "fix documentation",
+              "id": 18914295,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.8"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-28T20:35:10Z",
+              "title": "v1.0.8",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.8.zip"
+            },
+            "v1.0.9": {
+              "comment": "syntax fix",
+              "id": 18914314,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "1.0.9"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-07-28T20:37:59Z",
+              "title": "v1.0.9",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v1.0.9.zip"
+            },
+            "v2.0.0": {
+              "comment": "move to v7",
+              "id": 60489060,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "With this you have a grid layout in qx.mobile",
+                    "homepage": "https://github.com/hkollmann/hkollmann.mobilegrid",
+                    "license": "MIT license",
+                    "name": "mobilegrid",
+                    "summary": "adds a grid  widget to qx mobile",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "hkollmann.mobilegrid",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-25T14:43:31Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/hkollmann/hkollmann.mobilegrid/archive/v2.0.0.zip"
+            }
+          },
+          "list": [
+            "1.0.0",
+            "v1.0.1",
+            "v1.0.2",
+            "v1.0.4",
+            "v1.0.5",
+            "v1.0.6",
+            "v1.0.7",
+            "v1.0.8",
+            "v1.0.9",
+            "v1.0.10",
+            "v2.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/hkollmann/hkollmann.mobilegrid"
+      },
       "johnspackman/UploadMgr": {
         "description": "Uploads files with background uploads and progress feedback on modern browsers",
         "releases": {
@@ -7220,6 +7661,227 @@
           ]
         },
         "url": "https://api.github.com/repos/maettu/qx-showdown"
+      },
+      "oetiker/CanvasCell": {
+        "description": "Embeddable Charts for Qooxdoo table widgets",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "",
+              "id": 6304052,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "qooxdoo-versions": [
+                      "1.x - 5.x"
+                    ],
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "trunk"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "1.x - 5.x"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-05-07T14:59:49Z",
+              "title": "",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.0.zip"
+            },
+            "v1.0.2": {
+              "comment": "Updated to Qooxdoo 6",
+              "id": 43752741,
+              "manifests": [
+                {
+                  "path": "."
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:10:00Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "fix manifest",
+              "id": 43753178,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:18:11Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "add missing schema",
+              "id": 43755022,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:51:40Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "Update Dependencies for Qx7",
+              "id": 69041074,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:00:54Z",
+              "title": "1.0.5",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.5.zip"
+            },
+            "v1.0.6": {
+              "comment": "Remove mention of non existent resources ... ",
+              "id": 104111306,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a custom cellrenderer for ccreating tiny plots inside table cells.",
+                    "homepage": "http://contrib.qooxdoo.org/project/CanvasCell",
+                    "license": "LGPL/EPL",
+                    "name": "CanvasCell",
+                    "summary": "canvas cell renderer for the qooxdoo table widget",
+                    "version": "1.0.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "canvascell",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-05-24T13:10:29Z",
+              "title": "Resource Fix",
+              "zip_url": "https://github.com/oetiker/CanvasCell/archive/v1.0.6.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v1.0.2",
+            "v1.0.3",
+            "v1.0.4",
+            "v1.0.5",
+            "v1.0.6"
+          ]
+        },
+        "url": "https://api.github.com/repos/oetiker/CanvasCell"
       },
       "oetiker/ComboTable": {
         "description": "Qx Selectbox with incermental search",
@@ -7733,6 +8395,135 @@
           ]
         },
         "url": "https://api.github.com/repos/oetiker/QxD3"
+      },
+      "oetiker/QxDyGraphs": {
+        "description": "QxDyGraphs Charting Library for time series data",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "",
+              "id": 6304290,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Makes Dan Vanderkams Dygraph charting library available in Qooxdoo",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxDyGraphs",
+                    "license": "LGPL/EPL",
+                    "name": "QxDyGraphs",
+                    "qooxdoo-versions": [
+                      "1.5 - 5.x"
+                    ],
+                    "summary": "QxDyGraphs Contribution",
+                    "version": "trunk"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxdygraphs",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "1.5 - 5.x"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-05-07T15:55:34Z",
+              "title": "",
+              "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "upgraded to qooxdoo 6 and dygraph 1.1.1",
+              "id": 43764118,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Makes Dan Vanderkams Dygraph charting library available in Qooxdoo",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxDyGraphs",
+                    "license": "LGPL/EPL",
+                    "name": "QxDyGraphs",
+                    "summary": "QxDyGraphs Contribution",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxdygraphs",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T12:49:24Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Update for Qx7",
+              "id": 69041284,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "Makes Dan Vanderkams Dygraph charting library available in Qooxdoo",
+                    "homepage": "http://contrib.qooxdoo.org/project/QxDyGraphs",
+                    "license": "LGPL/EPL",
+                    "name": "QxDyGraphs",
+                    "summary": "QxDyGraphs Contribution",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxdygraphs",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:03:35Z",
+              "title": "1.0.2",
+              "zip_url": "https://github.com/oetiker/QxDyGraphs/archive/v1.0.2.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v1.0.2"
+          ]
+        },
+        "url": "https://api.github.com/repos/oetiker/QxDyGraphs"
       },
       "oetiker/QxJqPlot": {
         "description": "Use jqPlot from within qooxdoo.",
@@ -19341,6 +20132,305 @@
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.logpane"
       },
+      "qooxdoo/qxl.mobileshowcase": {
+        "description": "qooxdoo showcase for mobile app",
+        "releases": {
+          "data": {
+            "v0.1.1": {
+              "comment": "new build with fixed compiler to get styles",
+              "id": 16872876,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "0.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-04-19T17:53:40Z",
+              "title": "v0.1.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v0.1.1.zip"
+            },
+            "v1.0.0": {
+              "comment": "release stable version",
+              "id": 25198073,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "bootPath": "source/boot",
+                      "class": "qxl.mobileshowcase.Application",
+                      "name": "mobileshowcase"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-04-04T13:26:06Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v1.0.0.zip"
+            },
+            "v1.0.0-beta.0": {
+              "comment": "publish first version",
+              "id": 18334408,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "1.0.0-beta.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "bootPath": "source/boot",
+                      "class": "qxl.mobileshowcase.Application",
+                      "name": "mobileshowcase",
+                      "theme": ""
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-01T14:54:01Z",
+              "title": "v1.0.0-beta.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v1.0.0-beta.0.zip"
+            },
+            "v1.0.0-beta.1": {
+              "comment": "fix compiler messages",
+              "id": 18907033,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "1.0.0-beta.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "bootPath": "source/boot",
+                      "class": "qxl.mobileshowcase.Application",
+                      "name": "mobileshowcase"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2019-07-27T17:59:08Z",
+              "title": "v1.0.0-beta.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v1.0.0-beta.1.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to v6.0.0",
+              "id": 37403642,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "bootPath": "source/boot",
+                      "class": "qxl.mobileshowcase.Application",
+                      "name": "mobileshowcase"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T11:35:49Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v1.0.1.zip"
+            },
+            "v2.0.0": {
+              "comment": "move to v7",
+              "id": 60221932,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tino DOT butz AT 1und1 DOT de",
+                        "name": "Tino Butz (tbtz)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a showcase for some mobile features of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/mobileshowcase",
+                    "license": "MIT license",
+                    "name": "mobileshowcase",
+                    "summary": "Mobile showcase",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "bootPath": "source/boot",
+                      "class": "qxl.mobileshowcase.Application",
+                      "name": "mobileshowcase"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobileshowcase",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-23T12:27:03Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.mobileshowcase/archive/v2.0.0.zip"
+            }
+          },
+          "list": [
+            "v0.1.1",
+            "v1.0.0-beta.0",
+            "v1.0.0-beta.1",
+            "v1.0.0",
+            "v1.0.1",
+            "v2.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/qxl.mobileshowcase"
+      },
       "qooxdoo/qxl.packagebrowser": {
         "description": "A qooxdoo app to browse the available packages",
         "releases": {
@@ -25673,6 +26763,1029 @@
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.tutorial"
       },
+      "qooxdoo/qxl.tweet-tutorial": {
+        "description": "The tweet tutorial moved to a seperate project",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "first version",
+              "id": 26516873,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.2.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.4/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.5/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "mobiletweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-14T15:10:16Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.tweet-tutorial/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to 6.0.0",
+              "id": 37424281,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step4.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step4.2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step4.2.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step4.3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step4.4/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "tweets/step4.5/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.1"
+                  },
+                  "path": "mobiletweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobiletweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-02-05T18:35:24Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/qxl.tweet-tutorial/archive/v1.0.1.zip"
+            },
+            "v2.0.0": {
+              "comment": "move to v7",
+              "id": 60418747,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step4.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step4.2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step4.2.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step4.3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step4.4/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "tweets/step4.5/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "2.0.0"
+                  },
+                  "path": "mobiletweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.mobiletweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-24T20:36:14Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.tweet-tutorial/archive/v2.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v2.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/qxl.tweet-tutorial"
+      },
       "qooxdoo/qxl.versionlabel": {
         "description": "versionlabel for qooxdoo demo apps",
         "releases": {
@@ -27830,6 +29943,56 @@
           ]
         },
         "url": "https://api.github.com/repos/voger/qxDateSelect"
+      },
+      "voger/qxgraphql": {
+        "description": null,
+        "releases": {
+          "data": {
+            "v0.0.2": {
+              "comment": "\"Create release 0.0.2\"",
+              "id": 21201412,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "",
+                        "name": "voger"
+                      }
+                    ],
+                    "description": "Simple GraphQL implementation for Qooxdoo",
+                    "homepage": "https://github.com/voger/qxgraphql",
+                    "license": "MIT license",
+                    "name": "qxgraphql",
+                    "summary": "GraphQL implementation for Qooxdoo",
+                    "version": "0.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxgraphql",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-11-04T19:19:31Z",
+              "title": "v0.0.2",
+              "zip_url": "https://github.com/voger/qxgraphql/archive/v0.0.2.zip"
+            }
+          },
+          "list": [
+            "v0.0.2"
+          ]
+        },
+        "url": "https://api.github.com/repos/voger/qxgraphql"
       }
     },
     "list": [
@@ -27860,12 +30023,15 @@
       "gonicus/breadcrumbs",
       "gonicus/flat",
       "gonicus/qooxdoo-svg",
+      "hkollmann/hkollmann.mobilegrid",
       "johnspackman/UploadMgr",
       "johnspackman/multi-column-tree",
       "maettu/qx-showdown",
+      "oetiker/CanvasCell",
       "oetiker/ComboTable",
       "oetiker/Cropper",
       "oetiker/QxD3",
+      "oetiker/QxDyGraphs",
       "oetiker/QxJqPlot",
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
@@ -27882,6 +30048,7 @@
       "qooxdoo/qxl.formdemo",
       "qooxdoo/qxl.iconfontviewer",
       "qooxdoo/qxl.logpane",
+      "qooxdoo/qxl.mobileshowcase",
       "qooxdoo/qxl.packagebrowser",
       "qooxdoo/qxl.playground",
       "qooxdoo/qxl.test1",
@@ -27890,6 +30057,7 @@
       "qooxdoo/qxl.testrunner",
       "qooxdoo/qxl.testtapper",
       "qooxdoo/qxl.tutorial",
+      "qooxdoo/qxl.tweet-tutorial",
       "qooxdoo/qxl.versionlabel",
       "qooxdoo/qxl.widgetbrowser",
       "scro34/Bernstein",
@@ -27901,7 +30069,8 @@
       "sqville/ville.Upload",
       "sqville/ville.Wax",
       "sqville/ville.Wireframe",
-      "voger/qxDateSelect"
+      "voger/qxDateSelect",
+      "voger/qxgraphql"
     ]
   },
   "version": "2.1.0"
