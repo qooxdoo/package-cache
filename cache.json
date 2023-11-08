@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 535,
+  "num_libraries": 534,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -28767,54 +28767,7 @@
               "id": 18191568,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                    ],
-                    "description": "This app demonstrates many widgets of qooxdoo.",
-                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
-                    "license": "MIT",
-                    "name": "widgetbrowser",
-                    "summary": "Widget browser",
-                    "version": "1.0.0-beta.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.widgetbrowser.Application",
-                      "include": [
-                        "qx.theme.Modern",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "qxl.widgetbrowser.pages.Tree",
-                        "qxl.widgetbrowser.pages.List",
-                        "qxl.widgetbrowser.pages.Table",
-                        "qxl.widgetbrowser.pages.Form",
-                        "qxl.widgetbrowser.pages.ToolBar",
-                        "qxl.widgetbrowser.pages.Window",
-                        "qxl.widgetbrowser.pages.Tab",
-                        "qxl.widgetbrowser.pages.Control",
-                        "qxl.widgetbrowser.pages.Embed",
-                        "qxl.widgetbrowser.pages.EmbedFrame",
-                        "qxl.widgetbrowser.pages.Basic",
-                        "qxl.widgetbrowser.pages.Misc"
-                      ],
-                      "name": "widgetbrowser",
-                      "theme": "qx.theme.Indigo",
-                      "title": "WidgetBrowser"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.widgetbrowser",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/qxl.formdemo": "^1.0.0-beta.0",
-                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": true,
