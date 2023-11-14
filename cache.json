@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 515,
+  "num_libraries": 535,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -3844,6 +3844,570 @@
         },
         "url": "https://api.github.com/repos/cboulanger/qooxdoo-contrib-test"
       },
+      "cboulanger/qx-contrib-Dialog": {
+        "description": "A set of often used dialog widgets for the qooxdoo framework (deprecated, use qooxdoo/qxl.dialog instead)",
+        "releases": {
+          "data": {
+            "v1.2.1": {
+              "comment": "Identical with v1.2 except updated qooxdoo version info",
+              "id": 6274762,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-versions": [
+                      "2.0",
+                      "2.1",
+                      "3.0",
+                      "3.5",
+                      "4.0",
+                      "5.0",
+                      "5.1"
+                    ],
+                    "summary": "Dialog Contribution",
+                    "version": "1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "2.0 || 2.1 || 3.0 || 3.5 || 4.0 || 5.0 || 5.1"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-05-04T06:37:43Z",
+              "title": "v1.2.1",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.2.1.zip"
+            },
+            "v1.3.0": {
+              "comment": "",
+              "id": 9322260,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-01-21T19:40:54Z",
+              "title": "v1.3.0",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0.zip"
+            },
+            "v1.3.0-beta.3": {
+              "comment": "Updated the manifest to make the contrib compatible with qooxdoo v6.0.0-alpha",
+              "id": 8031749,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "qooxdoo-versions": [
+                      "5.0",
+                      "6.0"
+                    ],
+                    "summary": "Dialog Contribution",
+                    "version": "1.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2017-10-06T22:36:50Z",
+              "title": "v1.3.0-beta.3",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.0-beta.3.zip"
+            },
+            "v1.3.1": {
+              "comment": "",
+              "id": 9322781,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-01-21T21:21:57Z",
+              "title": "v1.3.1",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.1.zip"
+            },
+            "v1.3.2": {
+              "comment": "",
+              "id": 9322815,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-01-21T21:29:49Z",
+              "title": "v1.3.2",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.2.zip"
+            },
+            "v1.3.3": {
+              "comment": "",
+              "id": 9372016,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-01-24T18:08:31Z",
+              "title": "v1.3.3",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.3.zip"
+            },
+            "v1.3.4": {
+              "comment": "",
+              "id": 10531410,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-04-13T09:25:30Z",
+              "title": "v1.3.4",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.4.zip"
+            },
+            "v1.3.5": {
+              "comment": "",
+              "id": 11529228,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x - 6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x - 6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-06-18T14:37:32Z",
+              "title": "v1.3.5",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.5.zip"
+            },
+            "v1.3.6": {
+              "comment": "Compatibility with current qx alpha version",
+              "id": 12076212,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "5.x | 6.0.0-* | 6.x || 6.0.0-alpha-20180529",
+                    "summary": "Dialog Contribution",
+                    "version": "1.3.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "5.x | 6.0.0-* | 6.x || 6.0.0-alpha-20180529"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-07-24T13:56:23Z",
+              "title": "v1.3.6",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.3.6.zip"
+            },
+            "v1.4.0": {
+              "comment": "- Added TestCafe UI Tests",
+              "id": 12085085,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "Dialog Contribution",
+                    "version": "1.4.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2018-07-24T21:32:30Z",
+              "title": "v1.4.0",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v1.4.0.zip"
+            },
+            "v2.0.0": {
+              "comment": "Dropped generator support, added qx object id support",
+              "id": 15693433,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha-20181204-f98112fe || 6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha-20181204-f98112fe || 6.0.0-alpha",
+                    "qooxdoo/qxl.apiviewer": "^0.1.12"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-02-21T13:27:44Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v2.0.0.zip"
+            },
+            "v2.0.1": {
+              "comment": "Remove apiviewer from dependencies",
+              "id": 16761810,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "version": "2.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha-20181204-f98112fe || 6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha-20181204-f98112fe || 6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-04-15T10:42:20Z",
+              "title": "v2.0.1",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v2.0.1.zip"
+            },
+            "v2.1.0": {
+              "comment": "Use new scoped qooxdoo NPM packages",
+              "id": 17471774,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "version": "2.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-05-20T19:55:38Z",
+              "title": "v2.1.0",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v2.1.0.zip"
+            },
+            "v2.1.1": {
+              "comment": "Update to newest compiler",
+              "id": 19019586,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/cboulanger/qx-contrib-Dialog",
+                    "license": "LGPL/EPL",
+                    "name": "Dialog",
+                    "summary": "Dialog Contribution",
+                    "version": "2.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-08-01T15:58:13Z",
+              "title": "v2.1.1",
+              "zip_url": "https://github.com/cboulanger/qx-contrib-Dialog/archive/v2.1.1.zip"
+            }
+          },
+          "list": [
+            "v1.2.1",
+            "v1.3.0-beta.3",
+            "v1.3.0",
+            "v1.3.1",
+            "v1.3.2",
+            "v1.3.3",
+            "v1.3.4",
+            "v1.3.5",
+            "v1.3.6",
+            "v1.4.0",
+            "v2.0.0",
+            "v2.0.1",
+            "v2.1.0",
+            "v2.1.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/cboulanger/qx-contrib-Dialog"
+      },
       "cboulanger/qx-contrib-TokenField": {
         "description": "A widget implementing the token field concept known from Mac OS X for the qooxdoo framework",
         "releases": {
@@ -7318,6 +7882,259 @@
           ]
         },
         "url": "https://api.github.com/repos/oetiker/CanvasCell"
+      },
+      "oetiker/ComboTable": {
+        "description": "Qx Selectbox with incermental search",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "",
+              "id": 6304338,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      },
+                      {
+                        "email": "info@saksys.de",
+                        "name": "Mustafa Sak"
+                      }
+                    ],
+                    "description": "A selectbox using a qooxdoo table to show list of options supporting incremental search.",
+                    "homepage": "http://contrib.qooxdoo.org/project/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "qooxdoo-versions": [
+                      "4.x - 5.x"
+                    ],
+                    "summary": "A selectbox with incemental search",
+                    "version": "trunk"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "4.x - 5.x"
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2017-05-07T16:07:10Z",
+              "title": "",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "",
+              "id": 17009977,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution"
+                  },
+                  "qx_versions": "^6.0.0-alpha",
+                  "requires": {
+                    "qooxdoo-sdk": "^6.0.0-alpha"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2019-04-26T19:32:07Z",
+              "title": "ready for qx6",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "",
+              "id": 26345666,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-05-09T19:41:54Z",
+              "title": "Fix Manifest",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "update for qx6",
+              "id": 43753116,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:17:00Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.3.zip"
+            },
+            "v1.0.4": {
+              "comment": "add missing schema",
+              "id": 43755091,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-05-28T09:52:42Z",
+              "title": "v1.0.4",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.4.zip"
+            },
+            "v1.0.5": {
+              "comment": "Update for Qx7",
+              "id": 69041141,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobi Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "A SelectBox using a qooxdoo table to show a list of options supporting incremental search.",
+                    "homepage": "http://github.com/oetiker/ComboTable",
+                    "license": "LGPL/EPL",
+                    "name": "ComboTable",
+                    "summary": "A qooxdoo SelectBox with incremental search",
+                    "version": "1.0.5"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "combotable",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-06-09T10:01:40Z",
+              "title": "v1.0.5",
+              "zip_url": "https://github.com/oetiker/ComboTable/archive/v1.0.5.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v1.0.2",
+            "v1.0.3",
+            "v1.0.4",
+            "v1.0.5"
+          ]
+        },
+        "url": "https://api.github.com/repos/oetiker/ComboTable"
       },
       "oetiker/Cropper": {
         "description": "Qx Widget to visually select part of another widget",
@@ -29190,6 +30007,7 @@
       "cajus/capture",
       "cboulanger/eventrecorder",
       "cboulanger/qooxdoo-contrib-test",
+      "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
       "cboulanger/qx-contrib-test",
       "cboulanger/qxl.taskmanager",
@@ -29212,6 +30030,7 @@
       "johnspackman/multi-column-tree",
       "maettu/qx-showdown",
       "oetiker/CanvasCell",
+      "oetiker/ComboTable",
       "oetiker/Cropper",
       "oetiker/QxD3",
       "oetiker/QxDyGraphs",
