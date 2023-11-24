@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 535,
+  "num_libraries": 536,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2444,6 +2444,157 @@
           ]
         },
         "url": "https://api.github.com/repos/ZenesisUK/zx.ui.accordion"
+      },
+      "ZenesisUK/zx.ui.theme.Avocado": {
+        "description": "A Qooxdoo Theme",
+        "releases": {
+          "data": {
+            "v1.0.1": {
+              "comment": "release",
+              "id": 130653383,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "name": "zx.ui.theme.avocado",
+                    "summary": "undefined",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "fonts": {
+                      "Avenir": {
+                        "fontFaces": [
+                          {
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_roman.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_roman.woff"
+                            ]
+                          },
+                          {
+                            "fontStyle": "italic",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_oblique.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_oblique.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "AvenirBlack": {
+                        "fontFaces": [
+                          {
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_black.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_black.woff"
+                            ]
+                          },
+                          {
+                            "fontStyle": "italic",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_blackoblique.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_blackoblique.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "AvenirBook": {
+                        "fontFaces": [
+                          {
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_book.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_book.woff"
+                            ]
+                          },
+                          {
+                            "fontStyle": "italic",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_bookoblique.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_bookoblique.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "AvenirHeavy": {
+                        "fontFaces": [
+                          {
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_heavy.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_heavy.woff"
+                            ]
+                          },
+                          {
+                            "fontStyle": "italic",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_heavyoblique.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_heavyoblique.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "AvenirLight": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "AvenirLight",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_light.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_light.woff"
+                            ]
+                          },
+                          {
+                            "fontFamily": "AvenirLight",
+                            "fontStyle": "italic",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_lightoblique.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_lightoblique.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "AvenirMedium": {
+                        "fontFaces": [
+                          {
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_medium.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_medium.woff"
+                            ]
+                          },
+                          {
+                            "fontStyle": "italic",
+                            "paths": [
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_mediumoblique.woff",
+                              "zx/ui/theme/avocado/fonts/avenir/avenir_mediumoblique.woff"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "zx.ui.theme.avocado",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.5.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.5.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2023-11-21T12:32:51Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/ZenesisUK/zx.ui.theme.Avocado/archive/v1.0.1.zip"
+            }
+          },
+          "list": [
+            "v1.0.1"
+          ]
+        },
+        "url": "https://api.github.com/repos/ZenesisUK/zx.ui.theme.Avocado"
       },
       "adrelino/qxex": {
         "description": "Additional GUI widgets and utilities for qooxdoo apps.",
@@ -30002,6 +30153,7 @@
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
       "ZenesisUK/zx.ui.accordion",
+      "ZenesisUK/zx.ui.theme.Avocado",
       "adrelino/qxex",
       "bidefi-irhs/qxfileio",
       "cajus/capture",
