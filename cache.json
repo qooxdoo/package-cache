@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 536,
+  "num_libraries": 533,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -3697,48 +3697,6 @@
               "title": "v0.9.0",
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.0.zip"
             },
-            "v0.9.1": {
-              "comment": "Fixes qookery version in Manifest.json",
-              "id": 16388390,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.9.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha* || 6.0.0-alpha",
-                  "requires": {
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "ergobyte/qookery/qookery": "^0.7.0-pre",
-                    "ergobyte/qookery/qookeryace": "^0.7.0-pre",
-                    "qooxdoo-sdk": "^6.0.0-alpha* || 6.0.0-alpha"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-03-27T16:35:50Z",
-              "title": "v0.9.1",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.1.zip"
-            },
             "v0.9.2": {
               "comment": "Updated qookery dependency",
               "id": 16396146,
@@ -3864,93 +3822,6 @@
               "published_at": "2019-04-02T08:07:44Z",
               "title": "v0.9.4",
               "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.4.zip"
-            },
-            "v0.9.5": {
-              "comment": "Disabling recording of \"tap\" and \"dbltap\" since it requires emulation of native events",
-              "id": 16547021,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.9.5"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "cboulanger/qookery/qookery": "^0.6.1",
-                    "cboulanger/qookery/qookeryace": "^0.6.1",
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-04-04T06:57:19Z",
-              "title": "v0.9.5",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.5.zip"
-            },
-            "v0.9.6": {
-              "comment": "Upgrade to new compiler version",
-              "id": 16787233,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.9.6"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "cboulanger/qx-contrib-Dialog": "^2.0.0",
-                    "ergobyte/qookery/qookery": "^0.6.0",
-                    "ergobyte/qookery/qookeryace": "^0.6.0",
-                    "qooxdoo-compiler": "^0.3.0-alpha.20190412-1250",
-                    "qooxdoo-sdk": "^6.0.0-alpha",
-                    "qooxdoo/qxl.apiviewer": "^0.1.13",
-                    "qooxdoo/qxl.widgetbrowser": "^0.1.6"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-04-16T07:56:11Z",
-              "title": "v0.9.6",
-              "zip_url": "https://github.com/cboulanger/eventrecorder/archive/v0.9.6.zip"
             }
           },
           "list": [
@@ -3965,12 +3836,9 @@
             "v0.7.0",
             "v0.8.0",
             "v0.9.0",
-            "v0.9.1",
             "v0.9.2",
             "v0.9.3",
             "v0.9.4",
-            "v0.9.5",
-            "v0.9.6",
             "v0.10.0",
             "v0.11.0",
             "v0.12.0",
