@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 537,
+  "num_libraries": 536,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -9653,46 +9653,6 @@
               "title": "",
               "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/0.1.1.zip"
             },
-            "v0.0.2": {
-              "comment": "first package version",
-              "id": 24607042,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      }
-                    ],
-                    "description": "Qooxdoo Remote Objects",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.io.remote",
-                    "summary": "Qooxdoo Remote (Incubator)",
-                    "version": "0.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.io.remote",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta",
-                    "qooxdoo/incubator.qx.io.persistence": "^0.0.3"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2020-03-17T18:38:33Z",
-              "title": "v0.0.2",
-              "zip_url": "https://github.com/qooxdoo/incubator.qx.io.remote/archive/v0.0.2.zip"
-            },
             "v0.0.3": {
               "comment": "release",
               "id": 27038598,
@@ -9735,7 +9695,6 @@
             }
           },
           "list": [
-            "v0.0.2",
             "v0.0.3",
             "0.1.1"
           ]
