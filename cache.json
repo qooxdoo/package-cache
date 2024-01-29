@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 531,
+  "num_libraries": 537,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -5758,6 +5758,56 @@
         },
         "url": "https://api.github.com/repos/cboulanger/qx-contrib-test"
       },
+      "cboulanger/qxl.taskmanager": {
+        "description": "A qooxdoo package providing a manager of objects that represent running background tasks",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First release",
+              "id": 28847519,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "This package provides a manager for objects representing real tasks which are running in the background of the application. The manager offers bindable properties and events that allow you to visualize the progress of the task(s) or to determine the busy/idle state of the application.",
+                    "homepage": "https://github.com/cboulanger/qxl.taskmanager",
+                    "license": "MIT license",
+                    "name": "qxl.taskmanager",
+                    "summary": "A manager for objects that represent background tasks",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.taskmanager",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta.20200613-2032",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2020-07-22T21:34:30Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/cboulanger/qxl.taskmanager/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/cboulanger/qxl.taskmanager"
+      },
       "ergobyte/qookery": {
         "description": "Declarative UI Building for Qooxdoo",
         "releases": {
@@ -6436,7 +6486,7 @@
         "url": "https://api.github.com/repos/ergobyte/qookery"
       },
       "goldim/Bernstein": {
-        "description": "Bernstein theme for qooxdoo 3.0 and above",
+        "description": "Bernstein theme for qooxdoo 6.0 and above",
         "releases": {
           "data": {
             "v2.0.1": {
@@ -6484,6 +6534,81 @@
           ]
         },
         "url": "https://api.github.com/repos/goldim/Bernstein"
+      },
+      "goldim/GraydientTheme": {
+        "description": "Another theme for qooxdoo applications",
+        "releases": {
+          "data": {
+            "v2.0.0": {
+              "comment": "GraydientTheme for qooxdoo v6.0",
+              "id": 41545858,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      }
+                    ],
+                    "description": "A graydient theme for qx 6.0.",
+                    "homepage": "https://github.com/goldim/GraydientTheme",
+                    "license": "MIT license",
+                    "name": "GraydientTheme",
+                    "summary": "Graydient Theme Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "graydienttheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "graydienttheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-16T14:10:22Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/goldim/GraydientTheme/archive/v2.0.0.zip"
+            }
+          },
+          "list": [
+            "v2.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/GraydientTheme"
       },
       "goldim/SilverBlueTheme": {
         "description": "A slightly coloured theme for qooxdoo",
@@ -6563,7 +6688,7 @@
         "url": "https://api.github.com/repos/goldim/SilverBlueTheme"
       },
       "goldim/darktheme": {
-        "description": "Dark theme for qooxdoo v6.0",
+        "description": "Dark theme for qooxdoo v6 and higher",
         "releases": {
           "data": {
             "v1.0.0": {
@@ -6629,10 +6754,75 @@
               "published_at": "2021-04-13T16:26:39Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/goldim/darktheme/archive/v1.0.0.zip"
+            },
+            "v2.0.0": {
+              "comment": "Released new version of theme: 2.0.0.\r\n\r\n1. Flash depended parts are removed\r\n2. Updated dependencies to newer qooxdoo version 7.0.0",
+              "id": 137709808,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0 and greater.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-01-19T12:41:37Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/goldim/darktheme/archive/v2.0.0.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/goldim/darktheme"
@@ -9135,6 +9325,118 @@
           ]
         },
         "url": "https://api.github.com/repos/oposs/qx-iconfont-tabler"
+      },
+      "qooxdoo/deprecated.qx.io.remote": {
+        "description": "Qooxdoo's pre-v7 qx.io.remote namespace ",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "initial release",
+              "id": 56491616,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0-beta || ^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0-beta || ^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-01-05T20:39:41Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "move to v7",
+              "id": 60161042,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-22T18:54:43Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Release v1.0.2",
+              "id": 60205269,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2022-02-23T08:52:49Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.io.remote/archive/v1.0.2.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v1.0.1",
+            "v1.0.2"
+          ]
+        },
+        "url": "https://api.github.com/repos/qooxdoo/deprecated.qx.io.remote"
       },
       "qooxdoo/incubator.qx.io.persistence": {
         "description": "Qooxdoo Persistence (Incubator)",
@@ -30050,8 +30352,10 @@
       "cboulanger/qx-contrib-Dialog",
       "cboulanger/qx-contrib-TokenField",
       "cboulanger/qx-contrib-test",
+      "cboulanger/qxl.taskmanager",
       "ergobyte/qookery",
       "goldim/Bernstein",
+      "goldim/GraydientTheme",
       "goldim/SilverBlueTheme",
       "goldim/darktheme",
       "goldim/minesweeper",
@@ -30076,6 +30380,7 @@
       "oetiker/UploadWidget",
       "oposs/headerpuppet",
       "oposs/qx-iconfont-tabler",
+      "qooxdoo/deprecated.qx.io.remote",
       "qooxdoo/incubator.qx.io.persistence",
       "qooxdoo/incubator.qx.io.remote",
       "qooxdoo/incubator.qx.util",
