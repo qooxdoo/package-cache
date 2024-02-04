@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 537,
+  "num_libraries": 536,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -4991,19 +4991,6 @@
         "description": "This is a test contribution for the qooxdoo contrib system (unlisted)",
         "releases": {
           "data": {
-            "v1.0.10": {
-              "comment": "",
-              "id": 8623527,
-              "manifests": [
-                {
-                  "path": "."
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2017-11-22T17:10:50Z",
-              "title": "v1.0.10",
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.10.zip"
-            },
             "v1.0.11": {
               "comment": "",
               "id": 8623557,
@@ -5164,43 +5151,6 @@
               "published_at": "2017-12-11T21:28:42Z",
               "title": "v1.0.25",
               "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.25.zip"
-            },
-            "v1.0.26": {
-              "comment": "",
-              "id": 8860715,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "test",
-                    "qooxdoo-range": "6.0.0-alpha - 6.x",
-                    "summary": "This is a qooxdoo test app",
-                    "version": "1.0.26"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "test",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "application"
-                  },
-                  "qx_versions": "6.0.0-alpha - 6.x"
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2017-12-11T21:35:57Z",
-              "title": "v1.0.26",
-              "zip_url": "https://github.com/cboulanger/qx-contrib-test/archive/v1.0.26.zip"
             },
             "v1.0.27": {
               "comment": "",
@@ -5735,13 +5685,11 @@
             }
           },
           "list": [
-            "v1.0.10",
             "v1.0.11",
             "v1.0.12",
             "v1.0.13",
             "v1.0.14",
             "v1.0.25",
-            "v1.0.26",
             "v1.0.27",
             "v1.0.28",
             "v1.0.30",
