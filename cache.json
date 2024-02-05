@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 537,
+  "num_libraries": 538,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -29334,6 +29334,68 @@
               "published_at": "2022-03-14T20:39:02Z",
               "title": "v2.0.1",
               "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v2.0.1.zip"
+            },
+            "v2.0.2": {
+              "comment": "Release v2.0.2",
+              "id": 139825012,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "name": "widgetbrowser",
+                    "summary": "Widget browser",
+                    "version": "2.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "include": [
+                        "qx.theme.IndigoDark",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qx.theme.TangibleLight",
+                        "qx.theme.TangibleDark",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "qx.theme.Indigo",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.widgetbrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.5.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.5.0",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-02-04T20:10:26Z",
+              "title": "v2.0.2",
+              "zip_url": "https://github.com/qooxdoo/qxl.widgetbrowser/archive/v2.0.2.zip"
             }
           },
           "list": [
@@ -29348,7 +29410,8 @@
             "v1.0.0",
             "v1.0.1",
             "v2.0.0",
-            "v2.0.1"
+            "v2.0.1",
+            "v2.0.2"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.widgetbrowser"
