@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 538,
+  "num_libraries": 539,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6527,10 +6527,50 @@
               "published_at": "2023-05-10T11:24:27Z",
               "title": "v2.0.1",
               "zip_url": "https://github.com/goldim/Bernstein/archive/v2.0.1.zip"
+            },
+            "v2.0.2": {
+              "comment": "Changed icons for checkbox and radiobutton states",
+              "id": 142335565,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(scro34)",
+                        "name": "Norbert Schröder"
+                      }
+                    ],
+                    "description": "A bernstein theme for qx 7.0",
+                    "homepage": "https://github.com/scro34/Bernstein",
+                    "license": "MIT license",
+                    "name": "bernstein.demo",
+                    "summary": "Bernstein Theme Contribution",
+                    "version": "2.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "bernstein",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-02-16T14:28:11Z",
+              "title": "v2.0.2",
+              "zip_url": "https://github.com/goldim/Bernstein/archive/v2.0.2.zip"
             }
           },
           "list": [
-            "v2.0.1"
+            "v2.0.1",
+            "v2.0.2"
           ]
         },
         "url": "https://api.github.com/repos/goldim/Bernstein"
