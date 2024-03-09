@@ -6916,13 +6916,13 @@
         },
         "url": "https://api.github.com/repos/goldim/minesweeper"
       },
-      "goldim/scro34-qxthemes": {
-        "description": "bundle of qooxdoo themes created by scro34",
+      "goldim/scro34.themedemo": {
+        "description": "Theme Demo Browser",
         "releases": {
           "data": {
             "v1.0.0": {
-              "comment": "First version",
-              "id": 41489219,
+              "comment": "Release first version",
+              "id": 145560327,
               "manifests": [
                 {
                   "info": {
@@ -6930,64 +6930,73 @@
                       {
                         "email": "schroeder@scro34.de",
                         "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
                       }
                     ],
-                    "description": "a bunch of themes: Dark, SilverBlue, Gradient and etc.",
-                    "homepage": "https://github.com/goldim/scro34-themes",
+                    "description": "This is a demo containing a different widgets to show theme features.",
+                    "homepage": "",
                     "license": "MIT license",
-                    "name": "scro34-qxthemes",
-                    "summary": "bunch of themes",
+                    "name": "themedemo",
+                    "summary": "Common used from demo",
                     "version": "1.0.0"
                   },
                   "path": "Manifest.json",
                   "provides": {
-                    "application": {
-                      "class": "widgetbrowser.Application",
-                      "include": [
-                        "scro34.theme.Dark",
-                        "scro34.theme.Graydient",
-                        "scro34.theme.SilverBlue",
-                        "widgetbrowser.pages.Tree",
-                        "widgetbrowser.pages.List",
-                        "widgetbrowser.pages.Table",
-                        "widgetbrowser.pages.Form",
-                        "widgetbrowser.pages.ToolBar",
-                        "widgetbrowser.pages.Window",
-                        "widgetbrowser.pages.Tab",
-                        "widgetbrowser.pages.Control",
-                        "widgetbrowser.pages.Embed",
-                        "widgetbrowser.pages.EmbedFrame",
-                        "widgetbrowser.pages.Basic",
-                        "widgetbrowser.pages.Misc"
-                      ],
-                      "name": "widgetbrowser",
-                      "theme": "scro34.theme.Dark",
-                      "title": "WidgetBrowser"
-                    },
                     "class": "source/class",
                     "encoding": "utf-8",
-                    "namespace": "scro34.theme",
+                    "fonts": {
+                      "JosefinSlabBold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "JosefinSlab Bold",
+                            "fontStyle": "normal",
+                            "fontWeight": "bold",
+                            "paths": [
+                              "scro34/themedemo/font/JosefinSlab-Bold.ttf"
+                            ]
+                          }
+                        ]
+                      },
+                      "JosefinSlabRegular": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "JosefinSlab Regular",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "scro34/themedemo/font/JosefinSlab-Regular.ttf"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "scro34.themedemo",
                     "resource": "source/resource",
                     "translation": "source/translation"
                   },
-                  "qx_versions": "^6.0.0",
+                  "qx_versions": "^7.6.3",
                   "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0"
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0",
+                    "qooxdoo/qxl.widgetbrowser": "^2.0.0"
                   }
                 }
               ],
               "prerelease": false,
-              "published_at": "2021-04-15T15:02:34Z",
+              "published_at": "2024-03-08T20:34:42Z",
               "title": "v1.0.0",
-              "zip_url": "https://github.com/goldim/scro34-qxthemes/archive/v1.0.0.zip"
+              "zip_url": "https://github.com/goldim/scro34.themedemo/archive/v1.0.0.zip"
             }
           },
           "list": [
             "v1.0.0"
           ]
         },
-        "url": "https://api.github.com/repos/goldim/scro34-qxthemes"
+        "url": "https://api.github.com/repos/goldim/scro34.themedemo"
       },
       "goldim/ugpa.completer": {
         "description": "The Completer class provides completions based on an item model",
@@ -30462,7 +30471,7 @@
       "goldim/SilverBlueTheme",
       "goldim/darktheme",
       "goldim/minesweeper",
-      "goldim/scro34-qxthemes",
+      "goldim/scro34.themedemo",
       "goldim/ugpa.completer",
       "goldim/ugpa.periodpicker",
       "goldim/ugpa.statusbutton",
