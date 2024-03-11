@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 542,
+  "num_libraries": 543,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6938,11 +6938,76 @@
               "published_at": "2024-01-19T12:41:37Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/goldim/darktheme/archive/v2.0.0.zip"
+            },
+            "v2.1.0": {
+              "comment": "Released 2.1.0.",
+              "id": 145782038,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0 and greater.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "2.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-11T08:58:45Z",
+              "title": "v2.1.0",
+              "zip_url": "https://github.com/goldim/darktheme/archive/v2.1.0.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v2.0.0"
+            "v2.0.0",
+            "v2.1.0"
           ]
         },
         "url": "https://api.github.com/repos/goldim/darktheme"
