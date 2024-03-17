@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 544,
+  "num_libraries": 545,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -29036,7 +29036,109 @@
               "id": 14632613,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tristan DOT koch AT 1und1 DOT de",
+                        "name": "Tristan Koch (tristankoch)"
+                      }
+                    ],
+                    "description": "This app demonstrates many widgets of qooxdoo.",
+                    "homepage": "http://demo.qooxdoo.org/current/widgetbrowser",
+                    "license": "MIT",
+                    "name": "widgetbrowser",
+                    "qooxdoo-range": "^6.0.0-alpha",
+                    "summary": "Widget browser",
+                    "version": "0.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "include": [
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ],
+                      "name": "widgetbrowser",
+                      "parts": {
+                        "basic": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Basic"
+                          ]
+                        },
+                        "boot": {
+                          "include": [
+                            "qxl.widgetbrowser.Application"
+                          ]
+                        },
+                        "control": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Control"
+                          ]
+                        },
+                        "embed": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Embed"
+                          ]
+                        },
+                        "embedframe": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.EmbedFrame"
+                          ]
+                        },
+                        "form": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Form"
+                          ]
+                        },
+                        "list": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.List"
+                          ]
+                        },
+                        "misc": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Misc"
+                          ]
+                        },
+                        "tab": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Tab"
+                          ]
+                        },
+                        "table": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Table"
+                          ]
+                        },
+                        "toolbar": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.ToolBar"
+                          ]
+                        },
+                        "tree": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Tree"
+                          ]
+                        },
+                        "window": {
+                          "include": [
+                            "qxl.widgetbrowser.pages.Window"
+                          ]
+                        }
+                      },
+                      "theme": "qx.theme.Indigo",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.widgetbrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "^6.0.0-alpha"
                 }
               ],
               "prerelease": false,
