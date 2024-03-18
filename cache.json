@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 545,
+  "num_libraries": 546,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7286,11 +7286,83 @@
               "published_at": "2024-03-10T12:57:22Z",
               "title": "v1.0.1",
               "zip_url": "https://github.com/goldim/scro34.themedemo/archive/v1.0.1.zip"
+            },
+            "v1.0.2": {
+              "comment": "Released 1.0.2",
+              "id": 146987937,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "This is a demo containing a different widgets to show theme features.",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "themedemo",
+                    "summary": "Common used from demo",
+                    "version": "1.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "fonts": {
+                      "JosefinSlabBold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "JosefinSlab Bold",
+                            "fontStyle": "normal",
+                            "fontWeight": "bold",
+                            "paths": [
+                              "scro34/themedemo/font/JosefinSlab-Bold.ttf"
+                            ]
+                          }
+                        ]
+                      },
+                      "JosefinSlabRegular": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "JosefinSlab Regular",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "scro34/themedemo/font/JosefinSlab-Regular.ttf"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "scro34.themedemo",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0",
+                    "qooxdoo/qxl.widgetbrowser": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-18T08:53:43Z",
+              "title": "v1.0.2",
+              "zip_url": "https://github.com/goldim/scro34.themedemo/archive/v1.0.2.zip"
             }
           },
           "list": [
             "v1.0.0",
-            "v1.0.1"
+            "v1.0.1",
+            "v1.0.2"
           ]
         },
         "url": "https://api.github.com/repos/goldim/scro34.themedemo"
