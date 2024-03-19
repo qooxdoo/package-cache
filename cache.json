@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 546,
+  "num_libraries": 547,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6802,10 +6802,54 @@
               "published_at": "2021-04-16T14:10:22Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/goldim/GraydientTheme/archive/v2.0.0.zip"
+            },
+            "v2.1.0": {
+              "comment": "Released 2.1.0",
+              "id": 147136665,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov"
+                      }
+                    ],
+                    "description": "A graydient theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/GraydientTheme",
+                    "license": "MIT license",
+                    "name": "GraydientTheme",
+                    "summary": "Graydient Theme Contribution",
+                    "version": "2.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "graydienttheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-18T22:14:53Z",
+              "title": "v2.1.0",
+              "zip_url": "https://github.com/goldim/GraydientTheme/archive/v2.1.0.zip"
             }
           },
           "list": [
-            "v2.0.0"
+            "v2.0.0",
+            "v2.1.0"
           ]
         },
         "url": "https://api.github.com/repos/goldim/GraydientTheme"
