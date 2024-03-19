@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 547,
+  "num_libraries": 549,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6485,6 +6485,60 @@
         },
         "url": "https://api.github.com/repos/ergobyte/qookery"
       },
+      "goldim/Bamboo": {
+        "description": "A \"wooden\" theme for applications written in qooxdoo v3.0 or above",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "Released 1.0.0",
+              "id": 147203999,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A bamboo theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/Bamboo",
+                    "license": "MIT license",
+                    "name": "BambooTheme",
+                    "summary": "Bamboo Theme Contribution",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "bamboo",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-19T10:06:05Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/goldim/Bamboo/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/Bamboo"
+      },
       "goldim/Bernstein": {
         "description": "Bernstein theme for qooxdoo 6.0 and above",
         "releases": {
@@ -6735,6 +6789,211 @@
         },
         "url": "https://api.github.com/repos/goldim/Bernstein"
       },
+      "goldim/DarkTheme": {
+        "description": "Dark theme for qooxdoo v6 and higher",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "qooxdoo dark theme first release v6.0",
+              "id": 41366419,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-13T16:26:39Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/goldim/DarkTheme/archive/v1.0.0.zip"
+            },
+            "v2.0.0": {
+              "comment": "Released new version of theme: 2.0.0.\r\n\r\n1. Flash depended parts are removed\r\n2. Updated dependencies to newer qooxdoo version 7.0.0",
+              "id": 137709808,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0 and greater.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-01-19T12:41:37Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/goldim/DarkTheme/archive/v2.0.0.zip"
+            },
+            "v2.1.0": {
+              "comment": "Released 2.1.0.",
+              "id": 145782038,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0 and greater.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "2.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-11T08:58:45Z",
+              "title": "v2.1.0",
+              "zip_url": "https://github.com/goldim/DarkTheme/archive/v2.1.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0",
+            "v2.0.0",
+            "v2.1.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/DarkTheme"
+      },
       "goldim/GraydientTheme": {
         "description": "Another theme for qooxdoo applications",
         "releases": {
@@ -6923,218 +7182,57 @@
               "published_at": "2021-04-16T10:10:09Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.0.0.zip"
-            }
-          },
-          "list": [
-            "v2.0.0"
-          ]
-        },
-        "url": "https://api.github.com/repos/goldim/SilverBlueTheme"
-      },
-      "goldim/darktheme": {
-        "description": "Dark theme for qooxdoo v6 and higher",
-        "releases": {
-          "data": {
-            "v1.0.0": {
-              "comment": "qooxdoo dark theme first release v6.0",
-              "id": 41366419,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "schroeder@scro34.de",
-                        "name": "scro34"
-                      }
-                    ],
-                    "description": "A dark theme for qx 6.0.",
-                    "homepage": "https://github.com/goldim/DarkTheme",
-                    "license": "MIT",
-                    "name": "DarkTheme",
-                    "summary": "Dark Theme Contribution",
-                    "version": "1.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "widgetbrowser.Application",
-                      "exclude": [
-                        "qx.theme.Modern"
-                      ],
-                      "include": [
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "widgetbrowser.pages.Tree",
-                        "widgetbrowser.pages.List",
-                        "widgetbrowser.pages.Table",
-                        "widgetbrowser.pages.Form",
-                        "widgetbrowser.pages.ToolBar",
-                        "widgetbrowser.pages.Window",
-                        "widgetbrowser.pages.Tab",
-                        "widgetbrowser.pages.Control",
-                        "widgetbrowser.pages.Embed",
-                        "widgetbrowser.pages.EmbedFrame",
-                        "widgetbrowser.pages.Basic",
-                        "widgetbrowser.pages.Misc"
-                      ],
-                      "name": "widgetbrowser",
-                      "theme": "darktheme.theme.Theme",
-                      "title": "WidgetBrowser"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "darktheme",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2021-04-13T16:26:39Z",
-              "title": "v1.0.0",
-              "zip_url": "https://github.com/goldim/darktheme/archive/v1.0.0.zip"
-            },
-            "v2.0.0": {
-              "comment": "Released new version of theme: 2.0.0.\r\n\r\n1. Flash depended parts are removed\r\n2. Updated dependencies to newer qooxdoo version 7.0.0",
-              "id": 137709808,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "schroeder@scro34.de",
-                        "name": "scro34"
-                      }
-                    ],
-                    "description": "A dark theme for qx 6.0 and greater.",
-                    "homepage": "https://github.com/goldim/DarkTheme",
-                    "license": "MIT",
-                    "name": "DarkTheme",
-                    "summary": "Dark Theme Contribution",
-                    "version": "2.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "widgetbrowser.Application",
-                      "exclude": [
-                        "qx.theme.Modern"
-                      ],
-                      "include": [
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "widgetbrowser.pages.Tree",
-                        "widgetbrowser.pages.List",
-                        "widgetbrowser.pages.Table",
-                        "widgetbrowser.pages.Form",
-                        "widgetbrowser.pages.ToolBar",
-                        "widgetbrowser.pages.Window",
-                        "widgetbrowser.pages.Tab",
-                        "widgetbrowser.pages.Control",
-                        "widgetbrowser.pages.EmbedFrame",
-                        "widgetbrowser.pages.Basic",
-                        "widgetbrowser.pages.Misc"
-                      ],
-                      "name": "widgetbrowser",
-                      "theme": "darktheme.theme.Theme",
-                      "title": "WidgetBrowser"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "darktheme",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0",
-                    "qooxdoo/qxl.formdemo": "^2.0.0",
-                    "qooxdoo/qxl.versionlabel": "^2.0.0"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2024-01-19T12:41:37Z",
-              "title": "v2.0.0",
-              "zip_url": "https://github.com/goldim/darktheme/archive/v2.0.0.zip"
             },
             "v2.1.0": {
-              "comment": "Released 2.1.0.",
-              "id": 145782038,
+              "comment": "Released 2.1.0",
+              "id": 147206620,
               "manifests": [
                 {
                   "info": {
                     "authors": [
                       {
-                        "email": "schroeder@scro34.de",
-                        "name": "scro34"
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
                       }
                     ],
-                    "description": "A dark theme for qx 6.0 and greater.",
-                    "homepage": "https://github.com/goldim/DarkTheme",
-                    "license": "MIT",
-                    "name": "DarkTheme",
-                    "summary": "Dark Theme Contribution",
+                    "description": "A silverblue theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
                     "version": "2.1.0"
                   },
                   "path": "Manifest.json",
                   "provides": {
-                    "application": {
-                      "class": "widgetbrowser.Application",
-                      "exclude": [
-                        "qx.theme.Modern"
-                      ],
-                      "include": [
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "widgetbrowser.pages.Tree",
-                        "widgetbrowser.pages.List",
-                        "widgetbrowser.pages.Table",
-                        "widgetbrowser.pages.Form",
-                        "widgetbrowser.pages.ToolBar",
-                        "widgetbrowser.pages.Window",
-                        "widgetbrowser.pages.Tab",
-                        "widgetbrowser.pages.Control",
-                        "widgetbrowser.pages.EmbedFrame",
-                        "widgetbrowser.pages.Basic",
-                        "widgetbrowser.pages.Misc"
-                      ],
-                      "name": "widgetbrowser",
-                      "theme": "darktheme.theme.Theme",
-                      "title": "WidgetBrowser"
-                    },
                     "class": "source/class",
                     "encoding": "utf-8",
-                    "namespace": "darktheme",
+                    "namespace": "silverbluetheme",
                     "resource": "source/resource",
                     "translation": "source/translation"
                   },
                   "qx_versions": "^7.6.3",
                   "requires": {
                     "@qooxdoo/framework": "^7.6.3",
-                    "qooxdoo/qxl.formdemo": "^2.0.0",
-                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
                   }
                 }
               ],
               "prerelease": false,
-              "published_at": "2024-03-11T08:58:45Z",
+              "published_at": "2024-03-19T10:21:38Z",
               "title": "v2.1.0",
-              "zip_url": "https://github.com/goldim/darktheme/archive/v2.1.0.zip"
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.1.0.zip"
             }
           },
           "list": [
-            "v1.0.0",
             "v2.0.0",
             "v2.1.0"
           ]
         },
-        "url": "https://api.github.com/repos/goldim/darktheme"
+        "url": "https://api.github.com/repos/goldim/SilverBlueTheme"
       },
       "goldim/minesweeper": {
         "description": "Qooxdoo Miner",
@@ -30879,10 +30977,11 @@
       "cboulanger/qx-contrib-test",
       "cboulanger/qxl.taskmanager",
       "ergobyte/qookery",
+      "goldim/Bamboo",
       "goldim/Bernstein",
+      "goldim/DarkTheme",
       "goldim/GraydientTheme",
       "goldim/SilverBlueTheme",
-      "goldim/darktheme",
       "goldim/minesweeper",
       "goldim/scro34.themedemo",
       "goldim/ugpa.completer",
