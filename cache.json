@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 550,
+  "num_libraries": 555,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6531,10 +6531,54 @@
               "published_at": "2024-03-19T10:06:05Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/goldim/Bamboo/archive/v1.0.0.zip"
+            },
+            "v1.0.1": {
+              "comment": "Upgraded deps",
+              "id": 147666761,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A bamboo theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/Bamboo",
+                    "license": "MIT license",
+                    "name": "BambooTheme",
+                    "summary": "Bamboo Theme Contribution",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "bamboo",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-21T08:47:34Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/goldim/Bamboo/archive/v1.0.1.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/goldim/Bamboo"
@@ -6776,6 +6820,49 @@
               "published_at": "2024-03-17T09:51:15Z",
               "title": "v2.1.3",
               "zip_url": "https://github.com/goldim/Bernstein/archive/v2.1.3.zip"
+            },
+            "v2.1.4": {
+              "comment": "Upgraded themedemo",
+              "id": 147666496,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A bernstein theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/Bernstein",
+                    "license": "MIT license",
+                    "name": "BernsteinTheme",
+                    "summary": "Bernstein Theme Contribution",
+                    "version": "2.1.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "bernstein",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-21T08:45:56Z",
+              "title": "v2.1.4",
+              "zip_url": "https://github.com/goldim/Bernstein/archive/v2.1.4.zip"
             }
           },
           "list": [
@@ -6784,7 +6871,8 @@
             "v2.1.0",
             "v2.1.1",
             "v2.1.2",
-            "v2.1.3"
+            "v2.1.3",
+            "v2.1.4"
           ]
         },
         "url": "https://api.github.com/repos/goldim/Bernstein"
@@ -6984,12 +7072,77 @@
               "published_at": "2024-03-11T08:58:45Z",
               "title": "v2.1.0",
               "zip_url": "https://github.com/goldim/DarkTheme/archive/v2.1.0.zip"
+            },
+            "v2.1.1": {
+              "comment": "Upgraded deps",
+              "id": 147667365,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "scro34"
+                      }
+                    ],
+                    "description": "A dark theme for qx 6.0 and greater.",
+                    "homepage": "https://github.com/goldim/DarkTheme",
+                    "license": "MIT",
+                    "name": "DarkTheme",
+                    "summary": "Dark Theme Contribution",
+                    "version": "2.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "darktheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "darktheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-21T08:51:57Z",
+              "title": "v2.1.1",
+              "zip_url": "https://github.com/goldim/DarkTheme/archive/v2.1.1.zip"
             }
           },
           "list": [
             "v1.0.0",
             "v2.0.0",
-            "v2.1.0"
+            "v2.1.0",
+            "v2.1.1"
           ]
         },
         "url": "https://api.github.com/repos/goldim/DarkTheme"
@@ -7104,11 +7257,55 @@
               "published_at": "2024-03-18T22:14:53Z",
               "title": "v2.1.0",
               "zip_url": "https://github.com/goldim/GraydientTheme/archive/v2.1.0.zip"
+            },
+            "v2.1.1": {
+              "comment": "Upgraded deps",
+              "id": 147667013,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov"
+                      }
+                    ],
+                    "description": "A graydient theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/GraydientTheme",
+                    "license": "MIT license",
+                    "name": "GraydientTheme",
+                    "summary": "Graydient Theme Contribution",
+                    "version": "2.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "graydienttheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-21T08:49:13Z",
+              "title": "v2.1.1",
+              "zip_url": "https://github.com/goldim/GraydientTheme/archive/v2.1.1.zip"
             }
           },
           "list": [
             "v2.0.0",
-            "v2.1.0"
+            "v2.1.0",
+            "v2.1.1"
           ]
         },
         "url": "https://api.github.com/repos/goldim/GraydientTheme"
@@ -7225,11 +7422,55 @@
               "published_at": "2024-03-19T10:21:38Z",
               "title": "v2.1.0",
               "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.1.0.zip"
+            },
+            "v2.1.1": {
+              "comment": "Upgraded deps",
+              "id": 147667220,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A silverblue theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
+                    "version": "2.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "silverbluetheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-21T08:50:41Z",
+              "title": "v2.1.1",
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.1.1.zip"
             }
           },
           "list": [
             "v2.0.0",
-            "v2.1.0"
+            "v2.1.0",
+            "v2.1.1"
           ]
         },
         "url": "https://api.github.com/repos/goldim/SilverBlueTheme"
