@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 555,
+  "num_libraries": 558,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -30816,6 +30816,95 @@
         },
         "url": "https://api.github.com/repos/sqville/ville.Clean"
       },
+      "sqville/ville.Connect": {
+        "description": "a Qooxdoo desktop control that connects widgets displayed on a canvas layout",
+        "releases": {
+          "data": {
+            "v0.1.0": {
+              "comment": "",
+              "id": 38034064,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "chris.eskew@sqville.com",
+                        "name": "Chris Eskew (sqville)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Connect",
+                    "summary": "a Qooxdoo desktop control that connects widgets displayed on a canvas layout",
+                    "version": "v0.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.connect",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
+                }
+              ],
+              "prerelease": true,
+              "published_at": "2021-02-14T18:59:56Z",
+              "title": "v0.1.0",
+              "zip_url": "https://github.com/sqville/ville.Connect/archive/v0.1.0.zip"
+            },
+            "v0.9.0": {
+              "comment": "Near complete release.",
+              "id": 148119926,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew (sqville)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Connect",
+                    "summary": "a Qooxdoo desktop control that connects widgets displayed on a canvas layout",
+                    "version": "v0.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.connect",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.4.2",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.4.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-24T21:36:47Z",
+              "title": "v0.9.0",
+              "zip_url": "https://github.com/sqville/ville.Connect/archive/v0.9.0.zip"
+            }
+          },
+          "list": [
+            "v0.1.0",
+            "v0.9.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.Connect"
+      },
       "sqville/ville.Embed": {
         "description": "A control for the Qooxdoo JavaScript Framework",
         "releases": {
@@ -30905,6 +30994,83 @@
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Embed"
+      },
+      "sqville/ville.Fluent": {
+        "description": "Theme for the Qooxdoo JavaScript Framework ",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First release of the ville.Fluent theme",
+              "id": 148119430,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Microsofts Fluent UI",
+                    "homepage": "http://github.com/sqville/ville.Fluent",
+                    "license": "MIT",
+                    "name": "ville.Fluent",
+                    "summary": "a theme for Qooxdoo desktop applications inspired by Microsofts Fluent UI",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "ville.theme.FluentDark",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Fluent",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.theme.Fluent",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.1",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-24T21:19:55Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/sqville/ville.Fluent/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.Fluent"
       },
       "sqville/ville.GroupBox": {
         "description": "A groupbox desktop control for the Qooxdoo JavaScript Framework",
@@ -31345,7 +31511,9 @@
       "sknick/qx-json-schema-ui",
       "sqville/sqv-qxthemes",
       "sqville/ville.Clean",
+      "sqville/ville.Connect",
       "sqville/ville.Embed",
+      "sqville/ville.Fluent",
       "sqville/ville.GroupBox",
       "sqville/ville.Upload",
       "sqville/ville.Wax",
