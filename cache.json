@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 558,
+  "num_libraries": 559,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -30986,11 +30986,50 @@
               "published_at": "2021-02-10T19:27:08Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/sqville/ville.Embed/archive/v1.0.0.zip"
+            },
+            "v2.0.0": {
+              "comment": "Built with qooxdoo framework v7.6.3.\r\nFinal design is qx object based.\r\nNew objects are widgets so they can be used alone.\r\nMixin, ville.embed.MEmbed, provided for using new objects in qx.ui.basic.Atom based objects.\r\nMixin, ville.embed.MImage, provided for adding markup content to qx.ui.basic.Image objects.",
+              "id": 150431384,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Embed",
+                    "summary": "A new desktop ui control for the Qooxdoo JavaScript Framework",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.embed",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.4.2",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.4.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-04-09T16:07:43Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/sqville/ville.Embed/archive/v2.0.0.zip"
             }
           },
           "list": [
             "v0.9.0",
-            "v1.0.0"
+            "v1.0.0",
+            "v2.0.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Embed"
