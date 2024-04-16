@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 561,
+  "num_libraries": 562,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7516,10 +7516,49 @@
               "published_at": "2023-01-08T10:04:32Z",
               "title": "v0.1.1",
               "zip_url": "https://github.com/goldim/minesweeper/archive/v0.1.1.zip"
+            },
+            "v0.1.2": {
+              "comment": "Updated qooxdoo version",
+              "id": 151249806,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "Qooxdoo Minesweeper Game",
+                    "homepage": "https://github.com/goldim/minesweeper",
+                    "license": "MIT license",
+                    "name": "minesweeper",
+                    "summary": "Qooxdoo Minesweeper",
+                    "version": "0.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "minesweeper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-04-15T20:44:55Z",
+              "title": "v0.1.2",
+              "zip_url": "https://github.com/goldim/minesweeper/archive/v0.1.2.zip"
             }
           },
           "list": [
-            "v0.1.1"
+            "v0.1.1",
+            "v0.1.2"
           ]
         },
         "url": "https://api.github.com/repos/goldim/minesweeper"
