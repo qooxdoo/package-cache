@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 562,
+  "num_libraries": 563,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -31341,10 +31341,77 @@
               "published_at": "2024-03-24T21:19:55Z",
               "title": "v1.0.0",
               "zip_url": "https://github.com/sqville/ville.Fluent/archive/v1.0.0.zip"
+            },
+            "v1.1.0": {
+              "comment": "- Addressed logged bugs\r\n- Included ville.theme.MImage and ville.theme.MEmbed using the boot function in the theme's Appearance.js file to add markup based (SVG and HTML) images to the qx.ui.basic.Image widget. And to give the qx.ui.basic.Atom widget the ability to modify it's image using the appearance theme. ",
+              "id": 151844064,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Microsofts Fluent UI",
+                    "homepage": "http://github.com/sqville/ville.Fluent",
+                    "license": "MIT",
+                    "name": "ville.Fluent",
+                    "summary": "a theme for Qooxdoo desktop applications inspired by Microsofts Fluent UI",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "ville.theme.FluentDark",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "qxl.widgetbrowser.pages.Tree",
+                        "qxl.widgetbrowser.pages.List",
+                        "qxl.widgetbrowser.pages.Table",
+                        "qxl.widgetbrowser.pages.Form",
+                        "qxl.widgetbrowser.pages.ToolBar",
+                        "qxl.widgetbrowser.pages.Window",
+                        "qxl.widgetbrowser.pages.Tab",
+                        "qxl.widgetbrowser.pages.Control",
+                        "qxl.widgetbrowser.pages.Embed",
+                        "qxl.widgetbrowser.pages.EmbedFrame",
+                        "qxl.widgetbrowser.pages.Basic",
+                        "qxl.widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Fluent",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.theme.Fluent",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.1",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-04-19T00:25:46Z",
+              "title": "v1.1.0",
+              "zip_url": "https://github.com/sqville/ville.Fluent/archive/v1.1.0.zip"
             }
           },
           "list": [
-            "v1.0.0"
+            "v1.0.0",
+            "v1.1.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Fluent"
