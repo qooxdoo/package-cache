@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 567,
+  "num_libraries": 568,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -8237,8 +8237,89 @@
         "description": "A bootstrap like theme for qooxdoo",
         "releases": {
           "data": {
+            "v1.0.0": {
+              "comment": "## What's Changed\r\n* Qooxdoo 7.0.0 support\r\n\r\n**Full Changelog**: https://github.com/gonicus/flat/commits/v1.0.0",
+              "id": 153964958,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "pollmeier@gonicus.de",
+                        "name": "Cajus Pollmeier"
+                      },
+                      {
+                        "email": "bader@gonicus.de",
+                        "name": "Markus Bader"
+                      },
+                      {
+                        "email": "neuendorf@gonicus.de",
+                        "name": "Michael Neuendorf"
+                      }
+                    ],
+                    "description": "A standard theme for qooxdoo based on flat ui. (unlisted)",
+                    "homepage": "http://gonicus.de/",
+                    "license": "MIT license",
+                    "name": "flat",
+                    "summary": "Flat UI theme",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "fonts": {
+                      "Ligature": {
+                        "defaultSize": 40,
+                        "fontFaces": [
+                          {
+                            "paths": [
+                              "flat/font/LigatureSymbols-2.11.eot",
+                              "flat/font/LigatureSymbols-2.11.woff",
+                              "flat/font/LigatureSymbols-2.11.ttf"
+                            ]
+                          }
+                        ],
+                        "glyphs": "flat/font/LigatureSymbols-2.11.json"
+                      },
+                      "Roboto": {
+                        "defaultSize": 14,
+                        "fontFaces": [
+                          {
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "flat/font/Roboto-Regular.ttf"
+                            ]
+                          },
+                          {
+                            "fontStyle": "normal",
+                            "fontWeight": "bold",
+                            "paths": [
+                              "flat/font/Roboto-Bold.ttf"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "flat",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-05-03T09:50:02Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/gonicus/flat/archive/v1.0.0.zip"
+            }
           },
           "list": [
+            "v1.0.0"
           ]
         },
         "url": "https://api.github.com/repos/gonicus/flat"
