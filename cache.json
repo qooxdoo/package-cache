@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 569,
+  "num_libraries": 570,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -31960,12 +31960,51 @@
               "published_at": "2021-02-10T19:36:29Z",
               "title": "v1.0.2",
               "zip_url": "https://github.com/sqville/ville.GroupBox/archive/v1.0.2.zip"
+            },
+            "v1.0.3": {
+              "comment": "v1.0.3 release: Removed published folder files from release.",
+              "id": 154263735,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.GroupBox",
+                    "summary": "A Qooxdoo desktop, collapsable GroupBox control",
+                    "version": "1.0.3"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.groupbox.GroupBox",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.2",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-05-04T14:58:57Z",
+              "title": "v1.0.3",
+              "zip_url": "https://github.com/sqville/ville.GroupBox/archive/v1.0.3.zip"
             }
           },
           "list": [
             "v1.0.0",
             "v1.0.1",
-            "v1.0.2"
+            "v1.0.2",
+            "v1.0.3"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.GroupBox"
