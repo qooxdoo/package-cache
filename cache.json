@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 568,
+  "num_libraries": 569,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -31974,8 +31974,48 @@
         "description": "A control for the Qooxdoo JavaScript Framework",
         "releases": {
           "data": {
+            "v1.0.1": {
+              "comment": "Fixed typos and removed published demo from release",
+              "id": 154090157,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville",
+                        "name": ""
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Upload",
+                    "summary": "",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.Upload",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.2.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.4",
+                    "@qooxdoo/framework": "^7.2.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-05-03T19:06:10Z",
+              "title": "v1.0.1",
+              "zip_url": "https://github.com/sqville/ville.Upload/archive/v1.0.1.zip"
+            }
           },
           "list": [
+            "v1.0.1"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Upload"
