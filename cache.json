@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 570,
+  "num_libraries": 571,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7694,6 +7694,59 @@
           ]
         },
         "url": "https://api.github.com/repos/goldim/minesweeper"
+      },
+      "goldim/scro34.audioplayer": {
+        "description": "Audio Player written on qooxdoo",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First version",
+              "id": 155401430,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "Qooxdoo Music Player developed by Norbert Schröder",
+                    "homepage": "https://github.com/goldim/scro34.audioplayer",
+                    "license": "MIT license",
+                    "name": "scro34.audioplayer",
+                    "summary": "Music Player",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "scro34.audioplayer",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.7.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.7.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-05-12T15:16:30Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/goldim/scro34.audioplayer/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/goldim/scro34.audioplayer"
       },
       "goldim/scro34.themedemo": {
         "description": "Theme Demo Browser",
@@ -32309,6 +32362,7 @@
       "goldim/GraydientTheme",
       "goldim/SilverBlueTheme",
       "goldim/minesweeper",
+      "goldim/scro34.audioplayer",
       "goldim/scro34.themedemo",
       "goldim/ugpa.completer",
       "goldim/ugpa.periodpicker",
