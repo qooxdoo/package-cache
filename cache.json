@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 570,
+  "num_libraries": 571,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6670,7 +6670,33 @@
               "id": 145737907,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(scro34)",
+                        "name": "Norbert Schröder"
+                      }
+                    ],
+                    "description": "A bernstein theme for qx 7.0",
+                    "homepage": "https://github.com/scro34/Bernstein",
+                    "license": "MIT license",
+                    "name": "bernstein.demo",
+                    "summary": "Bernstein Theme Contribution",
+                    "version": "2.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "bernstein",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
                 }
               ],
               "prerelease": false,
