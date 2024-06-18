@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 571,
+  "num_libraries": 572,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -31739,12 +31739,51 @@
               "published_at": "2024-04-09T16:07:43Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/sqville/ville.Embed/archive/v2.0.0.zip"
+            },
+            "v3.0.0": {
+              "comment": "Full featured release of SVG based icons for the Fluent UI icon set. This release contains over 2300 icons",
+              "id": 160932813,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Embed",
+                    "summary": "A new desktop ui control for the Qooxdoo JavaScript Framework",
+                    "version": "3.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.embed",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.4.2",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.4.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-06-17T19:47:02Z",
+              "title": "v3.0.0",
+              "zip_url": "https://github.com/sqville/ville.Embed/archive/v3.0.0.zip"
             }
           },
           "list": [
             "v0.9.0",
             "v1.0.0",
-            "v2.0.0"
+            "v2.0.0",
+            "v3.0.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Embed"
