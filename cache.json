@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 572,
+  "num_libraries": 573,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -31902,13 +31902,52 @@
               "published_at": "2024-06-17T19:47:02Z",
               "title": "v3.0.0",
               "zip_url": "https://github.com/sqville/ville.Embed/archive/v3.0.0.zip"
+            },
+            "v4.0.0": {
+              "comment": "Material Design Icons (MDI) - Added over 5000 icons\r\nFluent UI Icons - Added language specific icons",
+              "id": 166604504,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "Use SVG/HTML/CSS instead of static images. Add Embed objects to other controls.",
+                    "homepage": "https://github.com/sqville/ville.Embed",
+                    "license": "MIT license",
+                    "name": "ville.Embed",
+                    "summary": "Embeded icons for the Qooxdoo JavaScript Framework",
+                    "version": "4.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.embed",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.4.2",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.4.2"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-07-22T23:21:56Z",
+              "title": "v4.0.0",
+              "zip_url": "https://github.com/sqville/ville.Embed/archive/v4.0.0.zip"
             }
           },
           "list": [
             "v0.9.0",
             "v1.0.0",
             "v2.0.0",
-            "v3.0.0"
+            "v3.0.0",
+            "v4.0.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Embed"
