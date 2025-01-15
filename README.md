@@ -17,3 +17,6 @@ team. One review is sufficient to merge the PR.
 
 Please **do not rely** on the structure of this data, as it can change any time.
 If you need package metadata, use `qx package list --json`.
+
+List of all packages are found here: 
+http://qooxdoo.org/package-cache/
