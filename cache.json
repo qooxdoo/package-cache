@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 573,
+  "num_libraries": 574,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -31986,6 +31986,131 @@
               "published_at": "2023-10-01T17:50:01Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/sqville/ville.Clean/archive/v2.0.0.zip"
+            },
+            "v3.0.0": {
+              "comment": "Release v3.0.0\r\n\r\n- Requires qx framework 7.8.0\r\n- Removed all references to external image files (exception: legacy TreeVirtual)\r\n- New widget mixins, loaded by the theme itself, to enable dynamic theming features\r\n   - MBackgroundImageInline: Include dataUrl images (svg+xml only)\r\n   - MButton: Gives button widget access to icon's decorator property\r\n   - MHeaderCell: Gives table header cell access to sort icon's decorator property\r\n   - MImage: Adds backgroundColor and clipPath properties to image widgets\r\n   - MTreeItem: Gives tree item access to icon's decorator property",
+              "id": 205071728,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Semantic UI designed to include more space (whitespace) and to be out of the way as much as possible",
+                    "homepage": "http://github.com/sqville/ville.Clean",
+                    "license": "MIT",
+                    "name": "ville.Clean",
+                    "summary": "a theme for qooxdoo desktop applications inspired by Semantic UI",
+                    "version": "3.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "ville.theme.CleanDark",
+                        "qx.theme.Simple",
+                        "ville.theme.clean.Image",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Clean",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "fonts": {
+                      "LatoWeb": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWeb",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Regular.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Regular.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Regular.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebBlack": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebBlack",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Black.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Black.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Black.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebBold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebBold",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Bold.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Bold.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Bold.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebSemibold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebSemibold",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Semibold.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Semibold.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Semibold.woff"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "ville.theme.Clean",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.8.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.8.0",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2025-03-11T16:15:38Z",
+              "title": "v3.0.0",
+              "zip_url": "https://github.com/sqville/ville.Clean/archive/v3.0.0.zip"
             }
           },
           "list": [
@@ -31993,7 +32118,8 @@
             "v1.0.3",
             "v1.0.4",
             "v1.0.5",
-            "v2.0.0"
+            "v2.0.0",
+            "v3.0.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Clean"
