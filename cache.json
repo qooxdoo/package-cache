@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 573,
+  "num_libraries": 574,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -32261,7 +32261,33 @@
               "id": 37881580,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "(sqville)",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Embed",
+                    "summary": "A new desktop ui control for the Qooxdoo JavaScript Framework",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.embed",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
                 }
               ],
               "prerelease": false,
