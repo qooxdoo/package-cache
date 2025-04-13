@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 573,
+  "num_libraries": 574,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -1023,7 +1023,43 @@
               "id": 14591323,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.ethz.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "name": "qx-iconfont-material",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x",
+                    "summary": "theme for the osparc web ui",
+                    "version": "0.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "iconfont.material",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "name": "MaterialIcons",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2"
+                        ]
+                      }
+                    ]
+                  },
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x"
                 }
               ],
               "prerelease": false,
