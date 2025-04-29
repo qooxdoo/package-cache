@@ -32531,6 +32531,16 @@
         },
         "url": "https://api.github.com/repos/sqville/ville.Connect"
       },
+      "sqville/ville.CssUtilityClasses": {
+        "description": "Demo applications to show how qooxdoo and CSS utility class frameworks can work together.",
+        "releases": {
+          "data": {
+          },
+          "list": [
+          ]
+        },
+        "url": "https://api.github.com/repos/sqville/ville.CssUtilityClasses"
+      },
       "sqville/ville.Embed": {
         "description": "A control for the Qooxdoo JavaScript Framework",
         "releases": {
@@ -33402,6 +33412,7 @@
       "sqville/sqv-qxthemes",
       "sqville/ville.Clean",
       "sqville/ville.Connect",
+      "sqville/ville.CssUtilityClasses",
       "sqville/ville.Embed",
       "sqville/ville.Fluent",
       "sqville/ville.GroupBox",
