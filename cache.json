@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 570,
+  "num_libraries": 573,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -7402,8 +7402,207 @@
         "description": "A slightly coloured theme for qooxdoo",
         "releases": {
           "data": {
+            "v2.0.0": {
+              "comment": "SilverBlue theme for qooxdoo v6.0",
+              "id": 41533529,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      }
+                    ],
+                    "description": "A silverblue theme for qx 6.0.",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "silverbluetheme.theme.Theme",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "silverbluetheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0",
+                    "qooxdoo/qxl.formdemo": "^1.0.2",
+                    "qooxdoo/qxl.versionlabel": "^1.0.5"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2021-04-16T10:10:09Z",
+              "title": "v2.0.0",
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.0.0.zip"
+            },
+            "v2.1.0": {
+              "comment": "Released 2.1.0",
+              "id": 147206620,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A silverblue theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
+                    "version": "2.1.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "silverbluetheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-19T10:21:38Z",
+              "title": "v2.1.0",
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.1.0.zip"
+            },
+            "v2.1.1": {
+              "comment": "Upgraded deps",
+              "id": 147667220,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A silverblue theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
+                    "version": "2.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "silverbluetheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-03-21T08:50:41Z",
+              "title": "v2.1.1",
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.1.1.zip"
+            },
+            "v2.1.2": {
+              "comment": "Some small changes",
+              "id": 152567964,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A silverblue theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/SilverBlueTheme",
+                    "license": "MIT license",
+                    "name": "SilverBlueTheme",
+                    "summary": "SilverBlue Theme Contribution",
+                    "version": "2.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "silverbluetheme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2024-04-24T09:30:12Z",
+              "title": "v2.1.2",
+              "zip_url": "https://github.com/goldim/SilverBlueTheme/archive/v2.1.2.zip"
+            }
           },
           "list": [
+            "v2.0.0",
+            "v2.1.0",
+            "v2.1.1",
+            "v2.1.2"
           ]
         },
         "url": "https://api.github.com/repos/goldim/SilverBlueTheme"
@@ -27303,54 +27502,7 @@
               "id": 36819789,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "Henner.Kollmann@gmx.de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "qxl.testnode",
-                    "summary": "Run qooxdoo tests with qx test in an node enviroment",
-                    "version": "1.0.9"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "qxl.testnode.Application",
-                      "environment": {
-                        "testnode.testNameSpace": "qxl.testnode.test"
-                      },
-                      "exclude": [
-                        "qx.bom.Selector",
-                        "qx.bom.client.Html",
-                        "qx.bom.client.Plugin",
-                        "qx.event.handler.Pointer",
-                        "qx.event.handler.Gesture",
-                        "qx.event.handler.PointerCore"
-                      ],
-                      "include": [
-                        "qx.core.BaseInit",
-                        "myapp.test.*"
-                      ],
-                      "name": "testnode",
-                      "title": "Qooxdoo Testnode",
-                      "type": "node"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.testnode",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
