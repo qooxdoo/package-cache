@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 568,
+  "num_libraries": 578,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -29984,7 +29984,334 @@
               "id": 26516873,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.2/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.2.1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.3/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.4/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "tweets/step4.5/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
+                },
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "This is a demo app for tweets using a twitter-like service.",
+                    "homepage": "http://qooxdoo.org/",
+                    "license": "MIT",
+                    "name": "tweets",
+                    "summary": "tweets tutorial app",
+                    "version": "1.0.0"
+                  },
+                  "path": "mobiletweets/step1/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.tweets",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
                 }
               ],
               "prerelease": false,
