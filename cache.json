@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 579,
+  "num_libraries": 580,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -21462,6 +21462,72 @@
               "published_at": "2022-02-23T19:28:09Z",
               "title": "v2.0.0",
               "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v2.0.0.zip"
+            },
+            "v3.0.0": {
+              "comment": "8.0.beta compatible version",
+              "id": 256959318,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "thron7 AT users DOT sourceforge DOT net",
+                        "name": "Thomas Herchenroeder (thron7)"
+                      },
+                      {
+                        "email": "daniel DOT wagner AT 1und1 DOT de",
+                        "name": "Daniel Wagner (d_wagner)"
+                      },
+                      {
+                        "email": "martin DOT wittemann AT 1und1 DOT de",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "Henner DOT Kollmann AT gmx DOT de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The DemoBrowser provides a run environment for qooxdoo samples and demo apps that features tree and forward/backward navigation, profiling and code inspection.",
+                    "homepage": "http://demo.qooxdoo.org/current/demobrowser",
+                    "keywords": [
+                      "demos",
+                      "run frame"
+                    ],
+                    "license": "MIT",
+                    "name": "DemoBrowser",
+                    "summary": "A GUI framework application for qooxdoo demos",
+                    "version": "3.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.demobrowser.Application",
+                      "include": [
+                        "qxl.demobrowser.*",
+                        "qx.theme.Modern",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic"
+                      ],
+                      "name": "demobrowser",
+                      "theme": "qxl.demobrowser.Theme",
+                      "title": "DemoBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.demobrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^8.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/framework": "^8.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2025-10-24T10:31:50Z",
+              "title": "v3.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.demobrowser/archive/v3.0.0.zip"
             }
           },
           "list": [
@@ -21487,7 +21553,8 @@
             "v1.0.0-beta.15",
             "v1.0.0",
             "v1.0.1",
-            "v2.0.0"
+            "v2.0.0",
+            "v3.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.demobrowser"
