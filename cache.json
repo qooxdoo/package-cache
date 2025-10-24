@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 578,
+  "num_libraries": 579,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -22033,6 +22033,50 @@
               "published_at": "2023-01-01T20:16:27Z",
               "title": "v5.1.0",
               "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v5.1.0.zip"
+            },
+            "v6.0.0": {
+              "comment": "version for 8.0.beta",
+              "id": 256821753,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "6.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^8.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/framework": "^8.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2025-10-23T20:19:20Z",
+              "title": "v6.0.0",
+              "zip_url": "https://github.com/qooxdoo/qxl.dialog/archive/v6.0.0.zip"
             }
           },
           "list": [
@@ -22047,7 +22091,8 @@
             "v3.1.3",
             "v3.2.0",
             "v5.0.0",
-            "v5.1.0"
+            "v5.1.0",
+            "v6.0.0"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/qxl.dialog"
