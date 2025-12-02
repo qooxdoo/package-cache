@@ -1317,31 +1317,7 @@
               "id": 10706540,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "tobi@itis.ethz.ch",
-                        "name": "Tobias Oetiker (oetiker)"
-                      }
-                    ],
-                    "description": "a material design ispired dark theme for osparc",
-                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
-                    "license": "MIT license",
-                    "name": "qx-osparc-theme",
-                    "qooxdoo-range": "5.x - 6.0.0-alpha",
-                    "summary": "theme for the osparc web ui",
-                    "version": "0.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "osparc.theme",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "5.x - 6.0.0-alpha"
+                  "path": "."
                 }
               ],
               "prerelease": true,
@@ -21883,7 +21859,39 @@
               "id": 40922833,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "3.1.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
                 }
               ],
               "prerelease": false,
