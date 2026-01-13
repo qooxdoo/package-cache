@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 580,
+  "num_libraries": 581,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2395,6 +2395,54 @@
           ]
         },
         "url": "https://api.github.com/repos/ITISFoundation/qx-osparc-theme"
+      },
+      "Ville-Software/qxtabris": {
+        "description": "A Qooxdoo server application that illustrates how Qooxdoo and Tabris.js work together",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First release. Contains everything needed to build a tabris mobile application using qooxdoo classes to structure the application.",
+              "id": 276187118,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "",
+                        "name": ""
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "qxtabris",
+                    "summary": "",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxtabris",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.9.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.9.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2026-01-13T00:00:22Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/Ville-Software/qxtabris/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/Ville-Software/qxtabris"
       },
       "ZenesisUK/zx.ui.accordion": {
         "description": "Accordion component set for Qooxdoo",
@@ -34170,6 +34218,7 @@
       "ITISFoundation/qx-iconfont-fontawesome5",
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
+      "Ville-Software/qxtabris",
       "ZenesisUK/zx.ui.accordion",
       "ZenesisUK/zx.ui.theme.Avocado",
       "adrelino/qxex",
