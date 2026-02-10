@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 581,
+  "num_libraries": 582,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -2443,6 +2443,53 @@
           ]
         },
         "url": "https://api.github.com/repos/Ville-Software/qxtabris"
+      },
+      "Ville-Software/ville.cssuc": {
+        "description": "Qooxdoo package for enabling native CSS handling of qooxdoo application UI/UX",
+        "releases": {
+          "data": {
+            "v1.0.0": {
+              "comment": "First package release.",
+              "id": 284525626,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "Qooxdoo package/library for enabling CSS driven UI/UX.",
+                    "homepage": "villesoftware.com",
+                    "license": "MIT license",
+                    "name": "ville.cssuc",
+                    "summary": "Qooxdoo package/library for enabling CSS driven UI/UX.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.cssuc"
+                  },
+                  "qx_versions": "^7.9.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.9.1"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2026-02-09T18:47:27Z",
+              "title": "v1.0.0",
+              "zip_url": "https://github.com/Ville-Software/ville.cssuc/archive/v1.0.0.zip"
+            }
+          },
+          "list": [
+            "v1.0.0"
+          ]
+        },
+        "url": "https://api.github.com/repos/Ville-Software/ville.cssuc"
       },
       "ZenesisUK/zx.ui.accordion": {
         "description": "Accordion component set for Qooxdoo",
@@ -34344,6 +34391,7 @@
       "ITISFoundation/qx-iconfont-material",
       "ITISFoundation/qx-osparc-theme",
       "Ville-Software/qxtabris",
+      "Ville-Software/ville.cssuc",
       "ZenesisUK/zx.ui.accordion",
       "ZenesisUK/zx.ui.theme.Avocado",
       "adrelino/qxex",
