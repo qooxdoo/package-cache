@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 582,
+  "num_libraries": 581,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -34334,56 +34334,6 @@
           ]
         },
         "url": "https://api.github.com/repos/voger/qxDateSelect"
-      },
-      "voger/qxgraphql": {
-        "description": null,
-        "releases": {
-          "data": {
-            "v0.0.2": {
-              "comment": "\"Create release 0.0.2\"",
-              "id": 21201412,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "",
-                        "name": "voger"
-                      }
-                    ],
-                    "description": "Simple GraphQL implementation for Qooxdoo",
-                    "homepage": "https://github.com/voger/qxgraphql",
-                    "license": "MIT license",
-                    "name": "qxgraphql",
-                    "summary": "GraphQL implementation for Qooxdoo",
-                    "version": "0.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxgraphql",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2019-11-04T19:19:31Z",
-              "title": "v0.0.2",
-              "zip_url": "https://github.com/voger/qxgraphql/archive/v0.0.2.zip"
-            }
-          },
-          "list": [
-            "v0.0.2"
-          ]
-        },
-        "url": "https://api.github.com/repos/voger/qxgraphql"
       }
     },
     "list": [
@@ -34468,8 +34418,7 @@
       "sqville/ville.Upload",
       "sqville/ville.Wax",
       "sqville/ville.Wireframe",
-      "voger/qxDateSelect",
-      "voger/qxgraphql"
+      "voger/qxDateSelect"
     ]
   },
   "version": "2.1.0"
