@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 582,
+  "num_libraries": 583,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -5117,7 +5117,31 @@
               "id": 8625950,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "test",
+                    "qooxdoo-range": "6.0.0-alpha - 6.x",
+                    "summary": "This is a qooxdoo test app",
+                    "version": "1.0.12"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "test",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "application"
+                  },
+                  "qx_versions": "6.0.0-alpha - 6.x"
                 }
               ],
               "prerelease": false,
