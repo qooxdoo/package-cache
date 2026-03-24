@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 583,
+  "num_libraries": 582,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -3716,33 +3716,7 @@
               "id": 15392397,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "UI Event Recorder",
-                    "summary": "",
-                    "version": "0.8.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "cboulanger.eventrecorder",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "^6.0.0-alpha",
-                  "requires": {
-                    "qooxdoo-sdk": "^6.0.0-alpha"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
