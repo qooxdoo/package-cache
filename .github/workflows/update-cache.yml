@@ -14,8 +14,8 @@ jobs:
   update-cache:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
       - name: Update package cache
         run: |
           mv cache.json cache-old.json
@@ -28,10 +28,19 @@ jobs:
             echo "Changes found"
             NUM_REPOS_OLD=$(jq -r ".repos.list | length" cache-old.json)
             NUM_REPOS_NEW=$(jq -r ".repos.list | length" cache.json) 
-            if [[ $NUM_REPOS_NEW > $NUM_REPOS_OLD ]]; then 
+            if [[ $NUM_REPOS_NEW > $NUM_REPOS_OLD ]]; then
               echo "CREATE_PR=1" >> $GITHUB_ENV
               echo "At least one new repository detected, creating PR"
-            else 
+              NEW_REPOS=$(jq -r --slurpfile old cache-old.json '.repos.list - $old[0].repos.list | .[]' cache.json)
+              {
+                echo "PR_BODY<<EOF"
+                echo "This is an auto-generated PR with updates to the package cache."
+                echo ""
+                echo "### New packages"
+                echo "$NEW_REPOS" | sed 's/^/- /'
+                echo "EOF"
+              } >> $GITHUB_ENV
+            else
               echo "COMMIT_UPDATE=1" >> $GITHUB_ENV
               echo "Committing changes"
             fi
@@ -49,5 +58,5 @@ jobs:
           commit-message: Update package cache
           token: ${{ secrets.PAT }}
           title: Automated Cache Updates
-          body: This is an auto-generated PR with updates to the package cache
+          body: ${{ env.PR_BODY }}
           branch: update-cache
