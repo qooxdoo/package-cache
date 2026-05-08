@@ -14,8 +14,8 @@ jobs:
   update-cache:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
       - name: Update package cache
         run: |
           npm --no-save --no-package-json install @qooxdoo/compiler
@@ -81,12 +81,12 @@ jobs:
           fi
       - name: Commit updated cache
         if: ${{ env.COMMIT_UPDATE }}
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Commit cache update
       - name: Create Pull Request
         if: ${{ env.CREATE_PR }}
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: Update package cache
           token: ${{ secrets.PAT }}
