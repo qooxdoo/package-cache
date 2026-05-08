@@ -4,12 +4,12 @@ on:
     branches:
       - master
     paths-ignore:
-      - 'docs/**' 
+      - 'docs/**'
   schedule:
     - cron:  '0 0/6 * * *'
   repository_dispatch:
     types: rebuild-cache
-  workflow_dispatch:  
+  workflow_dispatch:
 jobs:
   update-cache:
     runs-on: ubuntu-latest
@@ -18,34 +18,67 @@ jobs:
       - uses: actions/setup-node@v4
       - name: Update package cache
         run: |
-          mv cache.json cache-old.json
           npm --no-save --no-package-json install @qooxdoo/compiler
           npx qx config set github.token "${{ secrets.PAT }}"
           npx qx package update --verbose --search --all-versions --file cache.json
-          if git diff --quiet --exit-code; then
+          if git diff --quiet --exit-code -- cache.json; then
             echo "No changes"
-          else
-            echo "Changes found"
-            NUM_REPOS_OLD=$(jq -r ".repos.list | length" cache-old.json)
-            NUM_REPOS_NEW=$(jq -r ".repos.list | length" cache.json) 
-            if [[ $NUM_REPOS_NEW > $NUM_REPOS_OLD ]]; then
-              echo "CREATE_PR=1" >> $GITHUB_ENV
-              echo "At least one new repository detected, creating PR"
-              NEW_REPOS=$(jq -r --slurpfile old cache-old.json '.repos.list - $old[0].repos.list | .[]' cache.json)
-              {
-                echo "PR_BODY<<EOF"
-                echo "This is an auto-generated PR with updates to the package cache."
-                echo ""
-                echo "### New packages"
-                echo "$NEW_REPOS" | sed 's/^/- /'
-                echo "EOF"
-              } >> $GITHUB_ENV
-            else
-              echo "COMMIT_UPDATE=1" >> $GITHUB_ENV
-              echo "Committing changes"
-            fi
+            exit 0
           fi
-          rm cache-old.json
+          echo "Changes found"
+
+          NUM_KNOWN=$(jq -r '.repos | length' known-repos.json)
+          NUM_CRAWLED=$(jq -r '.repos.list | length' cache.json)
+          echo "known=$NUM_KNOWN crawled=$NUM_CRAWLED"
+
+          # Sanity: abort if crawl returned drastically fewer repos than known
+          # (likely a partial/failed crawl — don't commit a regressed cache)
+          if (( NUM_CRAWLED * 2 < NUM_KNOWN )); then
+            echo "Crawl returned $NUM_CRAWLED repos but known has $NUM_KNOWN — likely partial. Aborting."
+            git checkout -- cache.json
+            exit 0
+          fi
+
+          # Determine repos that are in the fresh crawl but not yet in known-repos.json
+          NEW_REPOS=$(jq -r --slurpfile known known-repos.json \
+            '.repos.list - $known[0].repos | .[]' cache.json)
+
+          if [[ -n "$NEW_REPOS" ]]; then
+            echo "New repos detected:"
+            echo "$NEW_REPOS"
+
+            # Update known-repos.json (union with current crawl, sorted)
+            jq --slurpfile cache cache.json \
+              '.repos = ((.repos + $cache[0].repos.list) | unique)' \
+              known-repos.json > known-repos.json.tmp
+            mv known-repos.json.tmp known-repos.json
+
+            # Build PR body: enriched metadata per new repo
+            BODY_ITEMS=$(jq -r --argjson newrepos "$(echo "$NEW_REPOS" | jq -R . | jq -s .)" '
+              .repos.data as $data
+              | $newrepos[]
+              | . as $r
+              | $data[$r] as $d
+              | ($d.releases.list // []) as $rels
+              | ($rels | last) as $latest
+              | ($d.releases.data[$latest].published_at // "n/a") as $pub
+              | ($rels | length) as $count
+              | "- **[\($r)](https://github.com/\($r))** — \($d.description // "_(no description)_")\n  Latest: `\($latest // "n/a")` · Published: `\($pub)` · Releases: \($count)"
+            ' cache.json)
+
+            {
+              echo "PR_BODY<<EOF"
+              echo "This is an auto-generated PR with updates to the package cache."
+              echo ""
+              echo "### New packages"
+              echo "$BODY_ITEMS"
+              echo "EOF"
+            } >> $GITHUB_ENV
+            echo "CREATE_PR=1" >> $GITHUB_ENV
+          else
+            echo "No new repos — committing cache update directly"
+            echo "COMMIT_UPDATE=1" >> $GITHUB_ENV
+          fi
       - name: Commit updated cache
         if: ${{ env.COMMIT_UPDATE }}
         uses: stefanzweifel/git-auto-commit-action@v4

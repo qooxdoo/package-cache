@@ -37,6 +37,7 @@ npx qx package update --verbose --search --all-versions --file cache.json
 | File | Purpose |
 |------|---------|
 | `cache.json` | Auto-generated data file — **do not edit manually** |
+| `known-repos.json` | High-watermark list of all repos ever indexed. Used to detect genuinely new repos in PR generation. Auto-maintained — only edit manually to remove repos that have been permanently deleted upstream. |
 | `.github/workflows/update-cache.yml` | CI pipeline controlling how/when the cache updates |
 | `trigger-update` | Bash script for manually triggering a cache rebuild via repository dispatch |
 | `docs/index.md` | GitHub Pages frontend (JavaScript) for the Package Browser |
