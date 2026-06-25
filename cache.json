@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 585,
+  "num_libraries": 584,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -11135,33 +11135,7 @@
               "id": 24570863,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      }
-                    ],
-                    "description": "Qooxdoo Tools for Server Development (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.util",
-                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
-                    "version": "0.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.util",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
