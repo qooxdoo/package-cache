@@ -6632,37 +6632,7 @@
               "id": 147666761,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "n.schroeder@scro34.de",
-                        "name": "Norbert Schröder (scro34)"
-                      },
-                      {
-                        "email": "zolotovdy@yandex.ru",
-                        "name": "Dmitrii Zolotov (goldim)"
-                      }
-                    ],
-                    "description": "A bamboo theme for qx 7.0",
-                    "homepage": "https://github.com/goldim/Bamboo",
-                    "license": "MIT license",
-                    "name": "BambooTheme",
-                    "summary": "Bamboo Theme Contribution",
-                    "version": "1.0.1"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "bamboo",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.6.3",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.6.3",
-                    "qooxdoo/qxl.formdemo": "^2.0.0"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
@@ -28660,7 +28630,53 @@
               "id": 240378125,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "qxl.testnode",
+                    "summary": "Run qooxdoo tests with qx test in an node enviroment",
+                    "version": "2.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testnode.Application",
+                      "environment": {
+                        "testnode.testNameSpace": "qxl.testnode.test"
+                      },
+                      "exclude": [
+                        "qx.bom.Selector",
+                        "qx.bom.client.Html",
+                        "qx.bom.client.Plugin",
+                        "qx.event.handler.Pointer",
+                        "qx.event.handler.Gesture",
+                        "qx.event.handler.PointerCore"
+                      ],
+                      "include": [
+                        "qx.core.BaseInit",
+                        "myapp.test.*"
+                      ],
+                      "name": "testnode",
+                      "title": "Qooxdoo Testnode",
+                      "type": "node"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testnode",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^8.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/framework": "^8.0.0-beta"
+                  }
                 }
               ],
               "prerelease": false,
