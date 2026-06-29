@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 584,
+  "num_libraries": 585,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -6632,7 +6632,37 @@
               "id": 147666761,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "n.schroeder@scro34.de",
+                        "name": "Norbert Schröder (scro34)"
+                      },
+                      {
+                        "email": "zolotovdy@yandex.ru",
+                        "name": "Dmitrii Zolotov (goldim)"
+                      }
+                    ],
+                    "description": "A bamboo theme for qx 7.0",
+                    "homepage": "https://github.com/goldim/Bamboo",
+                    "license": "MIT license",
+                    "name": "BambooTheme",
+                    "summary": "Bamboo Theme Contribution",
+                    "version": "1.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "bamboo",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.3",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.3",
+                    "qooxdoo/qxl.formdemo": "^2.0.0"
+                  }
                 }
               ],
               "prerelease": false,
