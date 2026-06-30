@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 585,
+  "num_libraries": 586,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -27227,7 +27227,29 @@
                   }
                 },
                 {
-                  "path": "qxl.test2D"
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "name": "qxl.test2D",
+                    "summary": "Test library 2D",
+                    "version": "1.2.0"
+                  },
+                  "path": "qxl.test2D/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.test2D",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-alpha || ^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-alpha || ^6.0.0-beta"
+                  }
                 }
               ],
               "prerelease": false,
