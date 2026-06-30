@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 583,
+  "num_libraries": 585,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -22401,7 +22401,39 @@
               "id": 19763263,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "3.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
                 }
               ],
               "prerelease": false,
@@ -24817,7 +24849,41 @@
               "id": 18867688,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "keywords": [
+                      "packages",
+                      "extension",
+                      "development"
+                    ],
+                    "license": "MIT license",
+                    "name": "Qooxdoo Package Browser",
+                    "summary": "This qooxdoo application lets you browse the available packages",
+                    "version": "0.4.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.packagebrowser",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^1.0.0-beta.0",
+                    "qooxdoo/qxl.versionlabel": "^1.0.0-beta.0"
+                  }
                 }
               ],
               "prerelease": false,
