@@ -46,6 +46,7 @@
     "oposs/headerpuppet",
     "oposs/qx-iconfont-tabler",
     "qooxdoo/deprecated.qx.io.remote",
+    "qooxdoo/deprecated.qx.ui.list",
     "qooxdoo/incubator.qx.io.persistence",
     "qooxdoo/incubator.qx.io.remote",
     "qooxdoo/incubator.qx.util",
