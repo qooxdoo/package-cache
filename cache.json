@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 586,
+  "num_libraries": 583,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -11180,33 +11180,7 @@
               "id": 24570863,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "john.spackman@zenesis.com",
-                        "name": "John Spackman (johnspackman)"
-                      }
-                    ],
-                    "description": "Qooxdoo Tools for Server Development (Incubator)",
-                    "homepage": "https://qooxdoo.org",
-                    "license": "MIT license",
-                    "name": "incubator.qx.util",
-                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
-                    "version": "0.0.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qx.util",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
@@ -34087,118 +34061,7 @@
               "id": 123257558,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "sqville@gmail.com",
-                        "name": "Chris Eskew"
-                      }
-                    ],
-                    "description": "A theme inspired by Semantic UI designed to include more space (whitespace) and to be out of the way as much as possible",
-                    "homepage": "http://github.com/sqville/ville.Clean",
-                    "license": "MIT",
-                    "name": "ville.Clean",
-                    "summary": "a theme for qooxdoo desktop applications inspired by Semantic UI",
-                    "version": "2.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "application": {
-                      "class": "widgetbrowser.Application",
-                      "exclude": [
-                        "qx.theme.Modern"
-                      ],
-                      "include": [
-                        "ville.theme.CleanDark",
-                        "qx.theme.Simple",
-                        "qx.theme.Classic",
-                        "widgetbrowser.pages.Tree",
-                        "widgetbrowser.pages.List",
-                        "widgetbrowser.pages.Table",
-                        "widgetbrowser.pages.Form",
-                        "widgetbrowser.pages.ToolBar",
-                        "widgetbrowser.pages.Window",
-                        "widgetbrowser.pages.Tab",
-                        "widgetbrowser.pages.Control",
-                        "widgetbrowser.pages.Embed",
-                        "widgetbrowser.pages.EmbedFrame",
-                        "widgetbrowser.pages.Basic",
-                        "widgetbrowser.pages.Misc"
-                      ],
-                      "name": "widgetbrowser",
-                      "theme": "ville.theme.Clean",
-                      "title": "WidgetBrowser"
-                    },
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "fonts": {
-                      "LatoWeb": {
-                        "fontFaces": [
-                          {
-                            "fontFamily": "LatoWeb",
-                            "fontStyle": "normal",
-                            "fontWeight": "normal",
-                            "paths": [
-                              "ville/theme/clean/font/Lato/Lato-Regular.ttf",
-                              "ville/theme/clean/font/Lato/Lato-Regular.woff2",
-                              "ville/theme/clean/font/Lato/Lato-Regular.woff"
-                            ]
-                          }
-                        ]
-                      },
-                      "LatoWebBlack": {
-                        "fontFaces": [
-                          {
-                            "fontFamily": "LatoWebBlack",
-                            "fontStyle": "normal",
-                            "fontWeight": "normal",
-                            "paths": [
-                              "ville/theme/clean/font/Lato/Lato-Black.ttf",
-                              "ville/theme/clean/font/Lato/Lato-Black.woff2",
-                              "ville/theme/clean/font/Lato/Lato-Black.woff"
-                            ]
-                          }
-                        ]
-                      },
-                      "LatoWebBold": {
-                        "fontFaces": [
-                          {
-                            "fontFamily": "LatoWebBold",
-                            "fontStyle": "normal",
-                            "fontWeight": "normal",
-                            "paths": [
-                              "ville/theme/clean/font/Lato/Lato-Bold.ttf",
-                              "ville/theme/clean/font/Lato/Lato-Bold.woff2",
-                              "ville/theme/clean/font/Lato/Lato-Bold.woff"
-                            ]
-                          }
-                        ]
-                      },
-                      "LatoWebSemibold": {
-                        "fontFaces": [
-                          {
-                            "fontFamily": "LatoWebSemibold",
-                            "fontStyle": "normal",
-                            "fontWeight": "normal",
-                            "paths": [
-                              "ville/theme/clean/font/Lato/Lato-Semibold.ttf",
-                              "ville/theme/clean/font/Lato/Lato-Semibold.woff2",
-                              "ville/theme/clean/font/Lato/Lato-Semibold.woff"
-                            ]
-                          }
-                        ]
-                      }
-                    },
-                    "namespace": "ville.theme.Clean",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.6.1",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.6.1",
-                    "qooxdoo/qxl.formdemo": "^2.0.0",
-                    "qooxdoo/qxl.versionlabel": "^2.0.0"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
@@ -35021,33 +34884,7 @@
               "id": 56500722,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "chris.eskew@sqville.com",
-                        "name": "Chris Eskew (sqville)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "ville.Wax",
-                    "summary": "one code base all platforms for the Qooxdoo Javascript Framework",
-                    "version": "1.0.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "ville.wax",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
