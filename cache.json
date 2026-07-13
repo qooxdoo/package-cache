@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 584,
+  "num_libraries": 586,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -874,7 +874,44 @@
               "id": 11585811,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.ethz.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a material design ispired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "name": "qx-iconfont-material",
+                    "qooxdoo-range": "6.0.0-alpha-20180529 - 6.x",
+                    "summary": "theme for the osparc web ui",
+                    "version": "0.0.4"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "iconfont",
+                    "resource": "source/resource",
+                    "translation": "source/translation",
+                    "type": "contribution",
+                    "webfonts": [
+                      {
+                        "defaultSize": 32,
+                        "mapping": "iconfont/material/MaterialIcons-Regular.json",
+                        "name": "MaterialIcons",
+                        "resources": [
+                          "iconfont/material/MaterialIcons-Regular.ttf",
+                          "iconfont/material/MaterialIcons-Regular.woff",
+                          "iconfont/material/MaterialIcons-Regular.woff2",
+                          "iconfont/material/MaterialIcons-Regular.eot"
+                        ]
+                      }
+                    ]
+                  },
+                  "qx_versions": "6.0.0-alpha-20180529 - 6.x"
                 }
               ],
               "prerelease": false,
@@ -27390,7 +27427,33 @@
                   }
                 },
                 {
-                  "path": "qxl.test2B"
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "name": "Christian Boulanger (cboulanger)"
+                      }
+                    ],
+                    "description": "undefined",
+                    "homepage": "undefined",
+                    "license": "MIT license",
+                    "name": "qxl.test2B",
+                    "summary": "Test library 2B",
+                    "version": "2.0.1"
+                  },
+                  "path": "qxl.test2B/Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.test2B",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.0.0 || ^6.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0 || ^6.0.0",
+                    "qooxdoo/qxl.test2/qxl.test2C": "^1.0.0"
+                  }
                 },
                 {
                   "info": {
