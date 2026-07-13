@@ -11180,7 +11180,33 @@
               "id": 24570863,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "john.spackman@zenesis.com",
+                        "name": "John Spackman (johnspackman)"
+                      }
+                    ],
+                    "description": "Qooxdoo Tools for Server Development (Incubator)",
+                    "homepage": "https://qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "incubator.qx.util",
+                    "summary": "Qooxdoo Tools for Server Development (Incubator)",
+                    "version": "0.0.2"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.util",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta"
+                  }
                 }
               ],
               "prerelease": false,
@@ -22555,39 +22581,7 @@
               "id": 32808350,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "info@bibliograph.org",
-                        "githubUser": "cboulanger",
-                        "name": "Christian Boulanger"
-                      },
-                      {
-                        "email": "derrell.lipman@unwireduniverse.com",
-                        "githubUser": "derrell",
-                        "name": "Derrell Lipman"
-                      }
-                    ],
-                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
-                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
-                    "license": "LGPL/EPL",
-                    "name": "qxl.dialog",
-                    "summary": "Collection of dialog widgets",
-                    "version": "3.0.4"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.dialog",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0-beta",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0-beta",
-                    "@qooxdoo/framework": "^6.0.0-beta"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
@@ -31926,37 +31920,7 @@
                   }
                 },
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "martin DOT wittemann AT 1und1 DOT de",
-                        "name": "Martin Wittemann (martinwittemann)"
-                      },
-                      {
-                        "email": "Henner.Kollmann@gmx.de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "This is a demo app for tweets using a twitter-like service.",
-                    "homepage": "http://qooxdoo.org/",
-                    "license": "MIT",
-                    "name": "tweets",
-                    "summary": "tweets tutorial app",
-                    "version": "1.0.1"
-                  },
-                  "path": "mobiletweets/step1/Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.mobiletweets",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0"
-                  }
+                  "path": "mobiletweets/step1"
                 }
               ],
               "prerelease": false,
@@ -32225,36 +32189,7 @@
                   }
                 },
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "martin DOT wittemann AT 1und1 DOT de",
-                        "name": "Martin Wittemann (martinwittemann)"
-                      },
-                      {
-                        "email": "Henner.Kollmann@gmx.de",
-                        "name": "Henner Kollmann (hkollmann)"
-                      }
-                    ],
-                    "description": "This is a demo app for tweets using a twitter-like service.",
-                    "homepage": "http://qooxdoo.org/",
-                    "license": "MIT",
-                    "name": "tweets",
-                    "summary": "tweets tutorial app",
-                    "version": "2.0.0"
-                  },
-                  "path": "tweets/step4.5/Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "qxl.tweets",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.0.0",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.0.0"
-                  }
+                  "path": "tweets/step4.5"
                 },
                 {
                   "info": {
@@ -34061,7 +33996,118 @@
               "id": 123257558,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "A theme inspired by Semantic UI designed to include more space (whitespace) and to be out of the way as much as possible",
+                    "homepage": "http://github.com/sqville/ville.Clean",
+                    "license": "MIT",
+                    "name": "ville.Clean",
+                    "summary": "a theme for qooxdoo desktop applications inspired by Semantic UI",
+                    "version": "2.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "widgetbrowser.Application",
+                      "exclude": [
+                        "qx.theme.Modern"
+                      ],
+                      "include": [
+                        "ville.theme.CleanDark",
+                        "qx.theme.Simple",
+                        "qx.theme.Classic",
+                        "widgetbrowser.pages.Tree",
+                        "widgetbrowser.pages.List",
+                        "widgetbrowser.pages.Table",
+                        "widgetbrowser.pages.Form",
+                        "widgetbrowser.pages.ToolBar",
+                        "widgetbrowser.pages.Window",
+                        "widgetbrowser.pages.Tab",
+                        "widgetbrowser.pages.Control",
+                        "widgetbrowser.pages.Embed",
+                        "widgetbrowser.pages.EmbedFrame",
+                        "widgetbrowser.pages.Basic",
+                        "widgetbrowser.pages.Misc"
+                      ],
+                      "name": "widgetbrowser",
+                      "theme": "ville.theme.Clean",
+                      "title": "WidgetBrowser"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "fonts": {
+                      "LatoWeb": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWeb",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Regular.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Regular.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Regular.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebBlack": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebBlack",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Black.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Black.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Black.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebBold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebBold",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Bold.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Bold.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Bold.woff"
+                            ]
+                          }
+                        ]
+                      },
+                      "LatoWebSemibold": {
+                        "fontFaces": [
+                          {
+                            "fontFamily": "LatoWebSemibold",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                            "paths": [
+                              "ville/theme/clean/font/Lato/Lato-Semibold.ttf",
+                              "ville/theme/clean/font/Lato/Lato-Semibold.woff2",
+                              "ville/theme/clean/font/Lato/Lato-Semibold.woff"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "namespace": "ville.theme.Clean",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.6.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.6.1",
+                    "qooxdoo/qxl.formdemo": "^2.0.0",
+                    "qooxdoo/qxl.versionlabel": "^2.0.0"
+                  }
                 }
               ],
               "prerelease": false,
@@ -34884,7 +34930,33 @@
               "id": 56500722,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "chris.eskew@sqville.com",
+                        "name": "Chris Eskew (sqville)"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "",
+                    "license": "MIT license",
+                    "name": "ville.Wax",
+                    "summary": "one code base all platforms for the Qooxdoo Javascript Framework",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.wax",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
                 }
               ],
               "prerelease": false,
