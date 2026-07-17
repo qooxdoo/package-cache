@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 581,
+  "num_libraries": 586,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -1804,7 +1804,34 @@
               "id": 20511672,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@itis.swiss",
+                        "name": "Tobias Oetiker (oetiker)"
+                      }
+                    ],
+                    "description": "a material design inspired dark theme for osparc",
+                    "homepage": "https://github.com/ITISFoundation/qx-osparc-theme",
+                    "license": "MIT license",
+                    "name": "qx-osparc-theme",
+                    "summary": "theme for the osparc web ui",
+                    "version": "0.4.12"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "osparc.theme",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0-beta",
+                    "@qooxdoo/framework": "^6.0.0-beta",
+                    "ITISFoundation/qx-iconfont-material": "^0.1.4"
+                  }
                 }
               ],
               "prerelease": false,
@@ -2426,7 +2453,30 @@
               "id": 284525626,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "sqville@gmail.com",
+                        "name": "Chris Eskew"
+                      }
+                    ],
+                    "description": "Qooxdoo package/library for enabling CSS driven UI/UX.",
+                    "homepage": "villesoftware.com",
+                    "license": "MIT license",
+                    "name": "ville.cssuc",
+                    "summary": "Qooxdoo package/library for enabling CSS driven UI/UX.",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "ville.cssuc"
+                  },
+                  "qx_versions": "^7.9.1",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.9.1"
+                  }
                 }
               ],
               "prerelease": false,
@@ -10630,7 +10680,27 @@
               "id": 56491616,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.io.remote",
+                    "summary": "The qx.io.remote namespace (<v7.0)",
+                    "version": "1.0.0"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.io.remote",
+                    "resource": "source/resource"
+                  },
+                  "qx_versions": "^7.0.0-beta || ^7.0.0",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.0.0-beta || ^7.0.0"
+                  }
                 }
               ],
               "prerelease": false,
@@ -22601,7 +22671,39 @@
               "id": 37403247,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@bibliograph.org",
+                        "githubUser": "cboulanger",
+                        "name": "Christian Boulanger"
+                      },
+                      {
+                        "email": "derrell.lipman@unwireduniverse.com",
+                        "githubUser": "derrell",
+                        "name": "Derrell Lipman"
+                      }
+                    ],
+                    "description": "The dialog package provides many often-used widgets required in user interaction, such as alert, confirm, prompt, and others that simplify the web developer's daily work.",
+                    "homepage": "https://github.com/qooxdoo/qxl.dialog",
+                    "license": "LGPL/EPL",
+                    "name": "qxl.dialog",
+                    "summary": "Collection of dialog widgets",
+                    "version": "3.1.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.dialog",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^6.0.0",
+                  "requires": {
+                    "@qooxdoo/compiler": "^1.0.0",
+                    "@qooxdoo/framework": "^6.0.0"
+                  }
                 }
               ],
               "prerelease": false,
@@ -30414,7 +30516,57 @@
               "id": 240376672,
               "manifests": [
                 {
-                  "path": "."
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "tobi@oetiker.ch",
+                        "name": "Tobias Oetiker (oetiker)"
+                      },
+                      {
+                        "email": "Henner.Kollmann@gmx.de",
+                        "name": "Henner Kollmann (hkollmann)"
+                      }
+                    ],
+                    "description": "The Testrunner looks for *.test classes in your application and runns all the tests contained therin. It follows the standard qooxdoo testing framework. You can continue using all the tests you wrote for qooxdoo 5.x.",
+                    "homepage": "https://github.com/qooxdoo/qxl.testtapper",
+                    "keywords": [
+                      "test runner",
+                      "TAP"
+                    ],
+                    "license": "MIT",
+                    "name": "Commandline Testrunner for Qooxdoo Apps",
+                    "sourceViewUri": "https://github.com/qooxdoo/qxl.testtapper/blob/%{qxGitBranch}/source/class/%{classFilePath}#L%{lineNumber}",
+                    "summary": "A node based testrunner for qooxdoo unit tests. It uses a headles instance of chrome to execute tests. It uses the TAP protocol to communicate between the browserbased tests and the nodebased testruner.",
+                    "version": "4.0.1"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "application": {
+                      "class": "qxl.testtapper.Application",
+                      "environment": {
+                        "qx.icontheme": "Tango",
+                        "qxl.testtapper.testNameSpace": "qx.test"
+                      },
+                      "exclude": [
+                      ],
+                      "include": [
+                        "qx.test.*"
+                      ],
+                      "name": "testtapper",
+                      "theme": "qx.theme.Simple",
+                      "title": "Qooxdoo TestTAPper"
+                    },
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qxl.testtapper",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^8.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/framework": "^8.0.0-beta",
+                    "qooxdoo/qxl.logpane": "^2.0.0"
+                  }
                 }
               ],
               "prerelease": false,
