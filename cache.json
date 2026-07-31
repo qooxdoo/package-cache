@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 586,
+  "num_libraries": 585,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -4984,44 +4984,7 @@
               "id": 16554277,
               "manifests": [
                 {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "gradinf AT gmail DOT com",
-                        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)"
-                      },
-                      {
-                        "email": "info AT bibliograph DOT org",
-                        "name": "Christian Boulanger (cboulanger)"
-                      },
-                      {
-                        "name": "Tobias Bräutigam (peuter)"
-                      }
-                    ],
-                    "category": [
-                      "form",
-                      "autocomplete"
-                    ],
-                    "description": "A widget implementing the token field concept",
-                    "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
-                    "license": "LGPL/EPL",
-                    "name": "TokenField",
-                    "summary": "TokenField Contribution",
-                    "version": "1.2.2"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "tokenfield",
-                    "resource": "source/resource",
-                    "translation": "source/translation",
-                    "type": "contribution"
-                  },
-                  "qx_versions": "5.x || ^6.0.0-alpha",
-                  "requires": {
-                    "qooxdoo-sdk": "5.x || ^6.0.0-alpha"
-                  }
+                  "path": "."
                 }
               ],
               "prerelease": false,
