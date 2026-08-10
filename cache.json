@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 586,
+  "num_libraries": 584,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -34347,87 +34347,8 @@
         "description": "a Qooxdoo desktop control that connects widgets displayed on a canvas layout",
         "releases": {
           "data": {
-            "v0.1.0": {
-              "comment": "",
-              "id": 38034064,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "chris.eskew@sqville.com",
-                        "name": "Chris Eskew (sqville)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "ville.Connect",
-                    "summary": "a Qooxdoo desktop control that connects widgets displayed on a canvas layout",
-                    "version": "v0.1.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "ville.connect",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^6.0.0",
-                  "requires": {
-                    "@qooxdoo/compiler": "^1.0.0",
-                    "@qooxdoo/framework": "^6.0.0"
-                  }
-                }
-              ],
-              "prerelease": true,
-              "published_at": "2021-02-14T18:59:56Z",
-              "title": "v0.1.0",
-              "zip_url": "https://github.com/sqville/ville.Connect/archive/v0.1.0.zip"
-            },
-            "v0.9.0": {
-              "comment": "Near complete release.",
-              "id": 148119926,
-              "manifests": [
-                {
-                  "info": {
-                    "authors": [
-                      {
-                        "email": "sqville@gmail.com",
-                        "name": "Chris Eskew (sqville)"
-                      }
-                    ],
-                    "description": "",
-                    "homepage": "",
-                    "license": "MIT license",
-                    "name": "ville.Connect",
-                    "summary": "a Qooxdoo desktop control that connects widgets displayed on a canvas layout",
-                    "version": "v0.1.0"
-                  },
-                  "path": "Manifest.json",
-                  "provides": {
-                    "class": "source/class",
-                    "encoding": "utf-8",
-                    "namespace": "ville.connect",
-                    "resource": "source/resource",
-                    "translation": "source/translation"
-                  },
-                  "qx_versions": "^7.4.2",
-                  "requires": {
-                    "@qooxdoo/framework": "^7.4.2"
-                  }
-                }
-              ],
-              "prerelease": false,
-              "published_at": "2024-03-24T21:36:47Z",
-              "title": "v0.9.0",
-              "zip_url": "https://github.com/sqville/ville.Connect/archive/v0.9.0.zip"
-            }
           },
           "list": [
-            "v0.1.0",
-            "v0.9.0"
           ]
         },
         "url": "https://api.github.com/repos/sqville/ville.Connect"
