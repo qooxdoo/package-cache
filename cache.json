@@ -1,7 +1,7 @@
 {
   "compat": {
   },
-  "num_libraries": 589,
+  "num_libraries": 590,
   "repos": {
     "data": {
       "ITISFoundation/qx-iconfont-fontawesome5": {
@@ -10928,12 +10928,67 @@
               "published_at": "2026-10-07T19:31:10Z",
               "title": "v1.0.5",
               "zip_url": "https://github.com/qooxdoo/deprecated.qx.ui.list/archive/v1.0.5.zip"
+            },
+            "v1.0.6": {
+              "comment": "Release v1.0.6",
+              "id": 406115648,
+              "manifests": [
+                {
+                  "info": {
+                    "authors": [
+                      {
+                        "email": "info@qooxdoo.org",
+                        "name": "Daniel Wagner (d_wagner)"
+                      },
+                      {
+                        "email": "info@qooxdoo.org",
+                        "name": "Christian Hagendorn (chris_schmidt)"
+                      },
+                      {
+                        "email": "info@qooxdoo.org",
+                        "name": "Martin Wittemann (martinwittemann)"
+                      },
+                      {
+                        "email": "info@qooxdoo.org",
+                        "name": "Fabian Jakobs (fjakobs)"
+                      },
+                      {
+                        "email": "info@qooxdoo.org",
+                        "name": "Others"
+                      }
+                    ],
+                    "description": "",
+                    "homepage": "http://www.qooxdoo.org",
+                    "license": "MIT license",
+                    "name": "deprecated.qx.ui.list",
+                    "summary": "The qx.ui.list namespace (<v8.0)",
+                    "version": "1.0.6"
+                  },
+                  "path": "Manifest.json",
+                  "provides": {
+                    "class": "source/class",
+                    "encoding": "utf-8",
+                    "namespace": "qx.ui.list",
+                    "resource": "source/resource",
+                    "translation": "source/translation"
+                  },
+                  "qx_versions": "^7.9.0 || ^8.0.0-beta",
+                  "requires": {
+                    "@qooxdoo/framework": "^7.9.0 || ^8.0.0-beta"
+                  }
+                }
+              ],
+              "prerelease": false,
+              "published_at": "2026-10-07T19:59:20Z",
+              "title": "v1.0.6",
+              "zip_url": "https://github.com/qooxdoo/deprecated.qx.ui.list/archive/v1.0.6.zip"
             }
           },
           "list": [
             "v1.0.1",
             "v1.0.4",
-            "v1.0.5"
+            "v1.0.5",
+            "v1.0.6"
           ]
         },
         "url": "https://api.github.com/repos/qooxdoo/deprecated.qx.ui.list"
